@@ -1,0 +1,86 @@
+## Classique
+{p}, confesse au groupe le plus gros mensonge que tu as raconté à tes parents.
+{p}, avoue à {q} ce que tu as tapé de plus gênant dans un moteur de recherche cette semaine.
+{p}, confesse au groupe l'habitude bizarre que tu as quand tu es seul(e) chez toi.
+{p}, avoue à {q} le dernier truc que tu as fait semblant d'aimer.
+{p}, confesse au groupe qui ici t'a déjà énervé(e) sans le savoir.
+{p}, avoue à {q} le secret que tu as révélé par accident.
+{p}, confesse au groupe ta plus grosse dépense regrettée.
+{p}, avoue à {q} si tu as déjà lu les messages de quelqu'un sans permission.
+{p}, confie à {q} ton plus grand complexe.
+{p}, confesse au groupe ce que tu n'avoueras jamais à ton patron.
+{p}, avoue à {q} si tu as déjà fait semblant d'être malade pour l'éviter.
+{p}, confesse au groupe la chose la plus égoïste que tu as faite.
+{p}, confie à {q} ta plus grande peur irrationnelle.
+{p}, avoue au groupe si tu as déjà triché à un examen, et comment.
+{p}, avoue à {q} le pire cadeau que tu as revendu.
+{p}, confesse au groupe un objet emprunté que tu as gardé exprès.
+{p}, dis à {q} ce que tu penses vraiment de ton dernier ex.
+{p}, confesse au groupe la rumeur sur toi qui était vraie.
+{p}, raconte au groupe ton plus gros fou rire à un moment inapproprié.
+{p}, avoue à {q} un compliment que tu fais sans le penser.
+{p}, confesse au groupe ce qui te rend jaloux ou jalouse chez tes amis.
+{p}, confie à {q} la chose dont tu as le plus honte cette année.
+{p}, avoue au groupe si tu as déjà volé quelque chose.
+{p}, avoue à {q} ton plaisir coupable le plus inavouable.
+{p}, confesse au groupe si tu as déjà menti dans ce jeu.
+{p}, avoue à {q} ce que tu as pensé de lui/elle la première fois.
+## Coquin
+{p}, confesse au groupe qui ici tu trouves le plus attirant, honnêtement.
+{p}, avoue à {q} si tu as déjà embrassé quelqu'un rencontré moins d'une heure avant.
+{p}, avoue à {q} le message que tu n'as jamais osé envoyer à ton crush.
+{p}, confesse au groupe si tu as déjà eu des sentiments pour quelqu'un en couple.
+{p}, avoue à {q} la chose la plus gênante que tu as faite pour plaire.
+{p}, confesse au groupe si tu as déjà stalké un crush jusqu'à ses vieilles photos.
+{p}, raconte à {q} ton pire date et pourquoi.
+{p}, confesse au groupe si tu as déjà été le second choix de quelqu'un.
+{p}, avoue à {q} si tu as déjà menti sur ton nombre d'ex.
+{p}, confie à {q} le prénom qui te fait encore quelque chose.
+{p}, confesse au groupe si tu as déjà dragué deux personnes de la même bande.
+{p}, confie à {q} le geste qui t'a fait tomber amoureux ou amoureuse.
+{p}, confesse au groupe si tu as déjà ghosté quelqu'un qui ne le méritait pas.
+{p}, avoue à {q} ta plus grosse erreur sur une appli de rencontre.
+{p}, avoue à {q} si tu as déjà été jaloux ou jalouse de lui/elle.
+{p}, montre ou résume au groupe le dernier message que tu as envoyé à ton crush.
+{p}, avoue à {q} si tu as déjà été amoureux ou amoureuse de deux personnes à la fois.
+{p}, confesse au groupe ta plus grosse honte en date.
+{p}, avoue au groupe qui dans ton répertoire t'écrirait si tu postais une photo sexy.
+{p}, confie à {q} le prénom de ton premier amour.
+{p}, avoue à {q} si tu as déjà eu un crush sur quelqu'un de ce groupe.
+{p}, confesse au groupe qui était ton fantasme d'adolescence.
+{p}, avoue à {q} si tu as déjà été en couple en secret.
+{p}, raconte au groupe le pire baiser de ta vie.
+{p}, confesse à {q} si tu as déjà lu les messages de ton/ta partenaire.
+{p}, avoue au groupe quel ex tu recontacterais ce soir si tu devais choisir.
+{p}, confie à {q} combien de personnes tu as embrassées l'année dernière.
+{p}, confesse au groupe le plus gros mensonge que tu aies dit à un crush.
+## Hot
+{p}, confesse au groupe un plan d'un soir que tu regrettes.
+{p}, avoue à {q} le fantasme que tu as eu sur quelqu'un d'interdit.
+{p}, avoue à {q} si tu as déjà envoyé une photo osée.
+{p}, raconte au groupe la fois où tu as été pris(e) en flagrant délit.
+{p}, confie à {q} ton nombre de partenaires, à peu près.
+{p}, avoue au groupe si tu as déjà simulé pour finir plus vite.
+{p}, avoue à {q} l'endroit le plus risqué où tu as fait l'amour.
+{p}, confesse au groupe si tu as déjà trompé quelqu'un.
+{p}, avoue à {q} s'il/si elle pourrait te tenter dans une autre vie.
+{p}, confie à {q} ton secret le plus chaud.
+{p}, confesse au groupe si tu as déjà couché avec un ex après la rupture.
+{p}, avoue au groupe si tu as déjà fait quelque chose d'osé pour obtenir un avantage.
+{p}, lis ou résume à {q} le message le plus hot de ton téléphone.
+{p}, avoue à {q} si tu as déjà rêvé de lui/elle de façon pas très sage.
+{p}, confesse au groupe la limite que tu as déjà franchie.
+{p}, avoue à {q} la dernière fois que tu as fait l'amour, et où.
+{p}, confie à {q} le fantasme que tu n'as jamais réalisé.
+{p}, confesse au groupe si tu as déjà eu des envies pour quelqu'un ici, et qui.
+{p}, avoue à {q} la chose la plus osée sur ton téléphone.
+{p}, confesse au groupe ton plus grand turn-off.
+{p}, raconte à {q} la fois où tu as fait l'amour en étant pressé(e) par le temps.
+{p}, confesse au groupe le lieu le plus insolite où tu l'as fait.
+{p}, avoue à {q} si tu as déjà eu un sex friend, et combien de temps.
+{p}, confesse au groupe si tu as déjà envoyé un nude (sans prénom).
+{p}, confie à {q} la partie de ton corps la plus sensible.
+{p}, raconte au groupe ton rêve érotique le plus gênant.
+{p}, avoue à {q} ce que ton dernier partenaire faisait le mieux.
+{p}, confesse au groupe si tu as déjà été le/la partenaire secret(e) de quelqu'un en couple.
+{p}, avoue à {q} si tu préfères dominer ou être dominé(e).
