@@ -1,0 +1,12 @@
+{p}, décris à {q} ce que tu ferais avec une écharpe en soie.
+{p}, dis à {q} la tenue de sport de lui/elle qui te plairait.
+{p} et {q} : chacun dit le moment le plus gênant et chaud qu'il imagine avec l'autre.
+{p}, décris à {q} un baiser au réveil, encore à moitié endormi(e).
+{p}, dis à {q} ce que tu ferais dans un sauna avec lui/elle.
+{p} et {q} : chacun dit s'il préfère les câlins sur le canapé ou dans le lit.
+{p}, décris à {q} une soirée où il/elle n'a pas le droit de te toucher.
+{p}, dis à {q} quel son de lui/elle tu aimerais entendre.
+{p} et {q} : chacun dit l'heure idéale pour un rendez-vous coquin.
+{p}, décris à {q} ce que tu ferais dans une piscine la nuit.
+{p}, dis à {q} ce qui te rend faible chez lui/elle.
+{p} et {q} : chacun décrit un baiser volé dans un endroit public.

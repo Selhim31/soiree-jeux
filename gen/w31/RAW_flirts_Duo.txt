@@ -1,0 +1,144 @@
+{p}, fais à {q} ta meilleure phrase d'accroche, les yeux dans la caméra.
+{p}, décris {q} en trois adjectifs flatteurs.
+{p} et {q} : faites-vous un clin d'œil en même temps face caméra.
+{p}, invente un poème de quatre vers pour {q}.
+{p} et {q} : chacun choisit la chanson qui irait avec l'autre.
+{p}, dis à {q} quel acteur ou actrice jouerait son rôle dans votre film d'amour.
+{p} et {q} : envoyez-vous un bisou à la caméra au même moment.
+{p}, fais deviner à {q} un compliment en le mimant.
+{p}, décris à {q} votre premier week-end imaginaire en amoureux.
+{p} et {q} : chacun dit ce qu'il commanderait pour l'autre au restaurant.
+{p}, chante le refrain d'une chanson d'amour en regardant {q}.
+{p}, dis à {q} ce que tu trouves le plus mignon chez lui/elle.
+{p} et {q} : inventez ensemble le nom de votre couple.
+{p}, fais une sérénade improvisée de 15 secondes à {q}.
+{p}, avoue à {q} un détail de son style que tu adores.
+{p} et {q} : décrivez en un mot votre alchimie.
+{p}, propose à {q} un rendez-vous original en une phrase.
+{p}, raconte à {q} comment tu le/la draguerais dans un bar.
+{p} et {q} : faites le cœur avec vos mains face caméra.
+{p}, imite {q} quand il/elle est charmeur/charmeuse.
+{p}, dis à {q} quelle est sa plus belle photo selon toi.
+{p} et {q} : chacun décrit la tenue de l'autre pour un gala.
+{p}, fais un compliment à {q} avec un accent italien.
+{p}, déclare ta flamme à {q} comme un chevalier du Moyen Âge.
+{p} et {q} : regardez-vous 20 secondes en vous souriant sans parler.
+{p}, dis à {q} le surnom que tu lui donnerais s'il/elle était à toi.
+{p}, raconte à {q} un rêve mignon que tu pourrais faire de lui/elle.
+{p} et {q} : imaginez votre première dispute et réconciliez-vous en 30 secondes.
+{p}, fais à {q} une déclaration en emojis à l'oral.
+{p}, choisis un film à regarder blotti(e) contre {q}.
+{p} et {q} : chacun dit ce qu'il apporterait pour un pique-nique à deux.
+{p}, complimente la voix de {q}.
+{p}, dis à {q} ce qui ferait de lui/elle ton crush idéal.
+{p} et {q} : faites un slow imaginaire chacun devant votre caméra.
+{p}, présente {q} à tes parents imaginaires en 20 secondes.
+{p}, fais à {q} une drague façon présentateur météo.
+{p} et {q} : chacun décrit le premier baiser idéal entre vous.
+{p}, dis à {q} ce que tu lui cuisinerais pour le séduire.
+{p}, fais une déclaration à {q} en chuchotant.
+{p} et {q} : jouez une scène de rencontre dans un train.
+{p}, dis à {q} quelle saison lui ressemble et pourquoi.
+{p}, regarde {q} dans la caméra et dis-lui « tu me plais » le plus sérieusement possible.
+{p} et {q} : inventez votre premier message de couple.
+{p}, fais deviner à {q} ce qui te plaît chez lui/elle en trois indices.
+{p}, propose à {q} une destination de voyage à deux.
+{p} et {q} : chacun dit sa plus grosse qualité de séducteur ou séductrice.
+{p}, drague {q} façon poète romantique.
+{p}, drague {q} façon commercial très insistant (gentiment).
+{p} et {q} : chacun envoie un baiser imaginaire et l'autre le « rattrape ».
+{p}, dis à {q} quel parfum lui irait.
+{p}, raconte à {q} ce que tu ferais pour votre premier anniversaire.
+{p} et {q} : jouez la scène du balcon de Roméo et Juliette, version improvisée.
+{p}, fais une liste de trois activités à faire avec {q} un dimanche.
+{p}, complimente le sourire de {q} de la façon la plus originale possible.
+{p} et {q} : chacun dit ce qu'il trouverait mignon dans une lettre d'amour.
+{p}, dis à {q} quelle chanson tu lui dédierais à la radio.
+{p}, fais semblant de croiser {q} par hasard et de tomber sous le charme.
+{p} et {q} : imaginez votre maison de rêve à deux en 30 secondes.
+{p}, décris à {q} ton date idéal sous la pluie.
+{p}, fais un compliment à {q} uniquement en rimes.
+{p} et {q} : faites-vous rire en moins de 20 secondes.
+{p}, dis à {q} quel est son meilleur angle face caméra.
+{p}, invente un slogan publicitaire pour {q}.
+{p} et {q} : chacun décrit ce qu'il aime dans les yeux de l'autre.
+{p}, propose un toast romantique à {q}.
+{p}, imagine et raconte la première rencontre entre toi et {q} dans un film.
+{p} et {q} : chacun choisit un plat à partager en amoureux.
+{p}, joue l'amoureux/l'amoureuse transi(e) devant {q} pendant 20 secondes.
+{p}, dis à {q} quelle superpuissance de séduction il/elle a.
+{p} et {q} : inventez une poignée de main secrète devant la caméra.
+{p}, fais à {q} la révérence et une demande de danse.
+{p}, dis à {q} ce que tu aimerais apprendre de lui/elle.
+{p} et {q} : chacun dit à quel moment l'autre est le plus charmant.
+{p}, écris le prénom de {q} dans un cœur et montre-le à la caméra.
+{p}, raconte à {q} ce que tu lui offrirais pour la Saint-Valentin.
+{p} et {q} : imitez un vieux couple qui se chamaille tendrement.
+{p}, dis à {q} pourquoi il/elle serait un bon date.
+{p}, fais à {q} une demande de rendez-vous très formelle.
+{p} et {q} : chacun décrit le pyjama idéal de l'autre.
+{p}, chante « joyeux anniversaire » à {q} façon Marilyn.
+{p}, dis à {q} le geste romantique qui te ferait fondre de sa part.
+{p} et {q} : jouez une scène de demande en mariage ratée.
+{p}, fais un compliment à {q} sans utiliser le mot « beau » ni « belle ».
+{p}, décris à {q} la carte postale que tu lui écrirais de vacances.
+{p} et {q} : regardez-vous et le premier qui détourne les yeux fait un compliment.
+{p}, avoue à {q} une chose qui te rend timide avec lui/elle.
+{p}, dis à {q} un mot doux dans une autre langue.
+{p} et {q} : faites un selfie imaginaire en prenant la pose de couple.
+{p}, dis à {q} quel animal mignon il/elle te rappelle.
+{p}, propose à {q} un jeu à deux pour une soirée en amoureux.
+{p} et {q} : chacun dit ce qu'il ferait pour impressionner l'autre.
+{p}, mime à {q} ton cœur qui bat la chamade.
+{p}, raconte à {q} une rencontre parfaite dans une librairie.
+{p} et {q} : chacun choisit une étoile et la dédie à l'autre.
+{p}, dis à {q} la qualité de lui/elle qui te rassure.
+{p}, fais un discours de 15 secondes sur pourquoi {q} est irrésistible.
+{p} et {q} : inventez votre chanson de couple en deux phrases.
+{p}, décris à {q} votre premier café ensemble.
+{p}, dis à {q} ce qui te fait sourire quand tu penses à lui/elle.
+{p} et {q} : chacun complète « avec toi, j'aimerais… ».
+{p}, fais à {q} un compliment à la manière d'un critique gastronomique.
+{p}, avoue à {q} si tu as déjà pensé à lui/elle avant de dormir.
+{p} et {q} : chacun nomme la tenue de l'autre qu'il préfère.
+{p}, drague {q} en ne parlant que de fromages.
+{p}, dis à {q} une chose que tu ferais pour le/la faire rire un jour de déprime.
+{p} et {q} : rejouez la scène d'un film romantique célèbre.
+{p}, décris à {q} sa démarche de façon flatteuse.
+{p}, propose à {q} de partager un dessert imaginaire et décris-le.
+{p} et {q} : décrivez votre couple en tant que duo de super-héros.
+{p}, dis à {q} ce que tu aimerais qu'il/elle t'écrive dans un mot doux.
+{p}, joue la scène où tu attends {q} à la gare avec des fleurs.
+{p} et {q} : chacun dit ce qu'il emmènerait sur une île déserte avec l'autre.
+{p}, dis à {q} une chose qu'il/elle fait et qui te donne des papillons.
+{p}, fais à {q} une déclaration façon slam.
+{p} et {q} : chacun dit une chose qu'il aimerait faire pour la première fois avec l'autre.
+{p}, décris la soirée parfaite chez {q}.
+{p}, regarde {q} et dis « bonne nuit » de la voix la plus douce possible.
+{p} et {q} : imitez un couple de télé-réalité qui se retrouve.
+{p}, dis à {q} quel prénom vous donneriez à votre chat commun.
+{p}, fais à {q} un compliment en langage de pirate.
+{p} et {q} : chacun dit le date qu'il refuserait absolument.
+{p}, dis à {q} quelle odeur te fait penser à l'amour.
+{p}, joue un serveur qui drague {q} en prenant sa commande.
+{p} et {q} : faites un concours du regard le plus charmeur.
+{p}, dis à {q} ce qui te donnerait envie de lui tenir la main.
+{p}, imagine le premier texto que tu enverrais à {q} après un date et lis-le à voix haute.
+{p} et {q} : chacun décrit son souvenir le plus romantique (avec n'importe qui).
+{p}, dis à {q} quel personnage de dessin animé il/elle serait en amoureux.
+{p}, fais une offre de colocation amoureuse à {q} façon agent immobilier.
+{p} et {q} : chacun dit ce qu'il trouverait sexy dans un message de l'autre.
+{p}, dis à {q} un compliment que personne ne lui a sûrement jamais fait.
+{p}, raconte à {q} le scénario de votre comédie romantique.
+{p} et {q} : chacun choisit une ville pour un premier date.
+{p}, fais à {q} une déclaration en ne mettant que des verbes.
+{p}, imagine que tu offres une rose à {q} et fais la scène.
+{p} et {q} : décrivez votre petit-déjeuner idéal à deux.
+{p}, dis à {q} le moment où il/elle t'a fait le plus rire.
+{p}, joue un DJ qui dédie un slow à {q}.
+{p} et {q} : chacun dit un défaut mignon de l'autre.
+{p}, dis à {q} comment tu l'appellerais dans ton téléphone.
+{p}, propose à {q} un rendez-vous en trois emojis et explique-les.
+{p} et {q} : faites ensemble un compte à rebours puis un bisou à la caméra.
+{p}, dis à {q} ce que tu trouves charmant dans sa façon de parler.
+{p}, imite le premier regard que tu lancerais à {q} dans une soirée.

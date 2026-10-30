@@ -1,0 +1,25 @@
+raconte la première conversation que tu as eue avec {q}.
+quel vêtement de {q} voudrais-tu emprunter ?
+quelle mission secrète confierais-tu à {q} ?
+si {q} était un parfum de glace, lequel serait-il ?
+quel jeu de société gagnerait {q} à coup sûr ?
+quelle serait la première chose que {q} ferait en gagnant au loto ?
+quel rôle {q} jouerait dans un film de braquage ?
+quel pays {q} devrait absolument visiter ?
+dans quelle émission de télé verrais-tu {q} ?
+quelle serait la devise de {q} ?
+quel plat {q} devrait apprendre à cuisiner ?
+quelle chanson {q} chanterait au karaoké ?
+quel serait le nom du podcast de {q} ?
+quel métier improbable irait à {q} ?
+quel est le meilleur fou rire que tu aies partagé avec {q} ?
+quel objet symbolise le mieux {q} ?
+quelle tradition de groupe devrait-on créer ?
+quel serait le thème de la prochaine soirée du groupe ?
+quelle anecdote du groupe raconterais-tu à un inconnu ?
+quel voyage en groupe rêves-tu d'organiser ?
+quel est le moment où {q} a été le plus héroïque ?
+quelle couleur représente {q} ?
+quel serait le nom du groupe s'il était un groupe de musique ?
+quel serait le titre du film sur l'amitié du groupe ?
+qu'est-ce que {q} devrait faire plus souvent ?
