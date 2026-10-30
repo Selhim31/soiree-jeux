@@ -14,4 +14,4 @@ io.on('connection',so=>{let r=null;so.emit('cats',cats);
  so.on('next',()=>{if(r&&r.host===so.id){draw(r);pub(r);}});
  so.on('vote',v=>{if(r&&r.card&&r.card.vote){r.votes[so.id]=v;pub(r);}});
  so.on('disconnect',()=>{if(!r)return;r.players=r.players.filter(p=>p.id!==so.id);if(!r.players.length)return delete rooms[r.code];if(r.host===so.id)r.host=r.players[0].id;pub(r);});});
-s.listen(3000,()=>console.log('ok'));
+s.listen(process.env.PORT||3000,()=>console.log('ok'));
