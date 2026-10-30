@@ -8,7 +8,7 @@ function ans(v){so.emit('answer',v)}
 let tmr=null;
 function render(){const s=S,h=s.host===so.id,g=GAMES.find(x=>x.id===s.game);if(!g)return;
 $('r-code').textContent=s.code;$('r-players').innerHTML=s.players.map(p=>`<span>${p.id===s.host?'👑 ':''}${s.card&&s.card.target===p.id?'🎯 ':''}${esc(p.name)}${p.id===so.id?' (toi)':''}${s.teams&&s.teams[p.id]?(s.teams[p.id]==='Bleue'?' 🔵':' 🔴'):''}</span>`).join('');
-$('r-meta').textContent=`${g.name} · ${s.levels.join(', ')} · ${s.format} · ${MODES[s.mode]} · ${s.count} carte(s)`;
+$('r-meta').textContent=`${g.name} · ${s.levels.join(', ')} · ${s.players.length} joueur(s) · ${MODES[s.mode]} · ${s.count} carte(s)`;
 $('r-next').classList.toggle('hide',!h);$('r-settings').classList.toggle('hide',!h);$('r-joker').classList.toggle('hide',!s.card);
 if(h){renderSel('s');$('s-game').innerHTML=GAMES.map(x=>`<option value=${x.id} ${x.id===s.game?'selected':''}>${esc(x.name)}</option>`).join('');$('s-mode').innerHTML=Object.entries(MODES).map(([k,v])=>`<button class="chip ${s.mode===k?'on':''}" onclick="so.emit('settings',{mode:'${k}'})">${v}</button>`).join('');$('s-pick').innerHTML=Object.entries(PICKS).map(([k,v])=>`<button class="chip ${s.pick===k?'on':''}" onclick="so.emit('settings',{pick:'${k}'})">${v}</button>`).join('');$('s-pickbox').classList.toggle('hide',s.mode!=='turn')}
 $('r-next').textContent=s.card?'Carte suivante ▶':'Lancer la partie ▶';{const c=s.card,lock=c&&!c.done&&!s.ended;$('r-next').disabled=!!lock;$('r-next').style.opacity=lock?.4:1;

@@ -26,7 +26,7 @@ function checkAll(r){const e=expected(r);if(e.length&&e.every(id=>id in r.ans)&&
 function roundDone(r){const c=r.card;if(!c||r.ended)return true;if(['timer','team','circle'].includes(c.kind))return true;return !!c.revealed}
 function nextTarget(r){const ids=r.players.map(p=>p.id);if(r.mode==='turn'){if(!r.turn||!ids.includes(r.turn))r.turn=rnd(ids);return r.turn}return rnd(ids)}
 function draw(r){const g=G[r.game],kind=kindOf(r.game);r.ans={};const lv=r.levels.filter(l=>g.levels[l]);if(!lv.length)lv.push(Object.keys(g.levels)[0]);const l=rnd(lv);
- let pool=g.levels[l];if(r.format==='Solo'){const f=pool.filter(x=>!x.includes('{q}'));if(f.length)pool=f}
+ let pool=g.levels[l];if(r.players.length<2){const f=pool.filter(x=>!x.includes('{q}'));if(f.length)pool=f}
  const key=r.game+l;r.used[key]=r.used[key]||new Set();if(r.used[key].size>=pool.length)r.used[key].clear();let t;do t=rnd(pool);while(r.used[key].has(t)&&r.used[key].size<pool.length);r.used[key].add(t);
  const ids=r.players.map(p=>p.id);let target;
  if(kind==='circle'||kind==='rnp'){r.ci=((r.ci??-1)+1)%ids.length;target=ids[r.ci]}else target=nextTarget(r);

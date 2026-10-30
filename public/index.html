@@ -9,7 +9,7 @@
  <button class=back onclick="show('home')">← Retour</button>
  <div class=gh><img id=g-img alt=""><div><h2 id=g-name></h2><p id=g-desc></p></div></div>
  <h3 class=sec>Niveaux <small>(plusieurs possibles)</small></h3><div class=chips id=g-levels></div>
- <h3 class=sec>Format</h3><div class="chips seg" id=g-format></div>
+ 
  <button class="btn big" onclick="createRoom()">Créer la salle ▶</button>
 </section>
 <section id=v-room class="view hide">
@@ -21,7 +21,7 @@
  <div class=actions><button class=btn2 id=r-joker onclick="so.emit('joker')">🃏 Joker</button><button class="btn" id=r-next onclick="so.emit('next')">Carte suivante ▶</button></div>
  <p class=wait id=r-wait>L'hôte tire les cartes…</p>
  <div id=r-extra></div>
- <details id=r-settings class=glass><summary>⚙️ Réglages de la partie (hôte)</summary><p class=lbl2>Jeu</p><select id=s-game onchange="so.emit('settings',{game:this.value})"></select><p class=lbl2>Niveaux</p><div class=chips id=s-levels></div><p class=lbl2>Format</p><div class="chips seg" id=s-format></div><p class=lbl2>Questions</p><div class="chips seg" id=s-mode></div><div id=s-pickbox><p class=lbl2>Joueur suivant choisi par</p><div class="chips seg" id=s-pick></div></div></details>
+ <details id=r-settings class=glass><summary>⚙️ Réglages de la partie (hôte)</summary><p class=lbl2>Jeu</p><select id=s-game onchange="so.emit('settings',{game:this.value})"></select><p class=lbl2>Niveaux</p><div class=chips id=s-levels></div><p class=lbl2>Questions</p><div class="chips seg" id=s-mode></div><div id=s-pickbox><p class=lbl2>Joueur suivant choisi par</p><div class="chips seg" id=s-pick></div></div></details>
 </section>
 </main>
 <div id=gate class="modal hide"><div class=glass><h2>🔞 Contenu adulte</h2><p>Ce niveau contient des contenus pour adultes consentants. Tous les joueurs ont-ils 18 ans ou plus ?</p><button class=btn onclick="gateOk()">Oui, on a tous 18+</button><button class=btn2 onclick="gateNo()">Non</button></div></div>

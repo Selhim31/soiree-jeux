@@ -11,7 +11,7 @@ fetch('/api/games').then(r=>r.json()).then(g=>{GAMES=g;$('games').innerHTML=g.ma
 function openGame(id){const g=GAMES.find(x=>x.id===id);const go=()=>{cur=g;selLv=[Object.keys(g.levels)[0]];$('g-img').src=g.img;$('g-name').textContent=g.name;$('g-desc').textContent=g.desc;renderSel('g');show('game')};g.adult?gate(go):go()}
 function renderSel(p){const g=p==='g'?cur:GAMES.find(x=>x.id===S.game);const lv=p==='g'?selLv:S.levels,fm=p==='g'?selFmt:S.format;
 $(p+'-levels').innerHTML=Object.entries(g.levels).map(([l,n])=>`<button class="chip ${lv.includes(l)?'on':''}" onclick="tl('${p}','${l}')">${SAFE.includes(l)?'':'🔥 '}${l}<small>${n}</small></button>`).join('');
-$(p+'-format').innerHTML=FMTS.map(f=>`<button class="chip ${fm===f?'on':''}" onclick="tf('${p}','${f}')">${{Solo:'🙋',Couple:'💑',Trio:'👥',Groupe:'🎉'}[f]} ${f}</button>`).join('')}
+if(0)$(p+'-format').innerHTML=FMTS.map(f=>`<button class="chip ${fm===f?'on':''}" onclick="tf('${p}','${f}')">${{Solo:'🙋',Couple:'💑',Trio:'👥',Groupe:'🎉'}[f]} ${f}</button>`).join('')}
 function tl(p,l){const doIt=()=>{let a=[...(p==='g'?selLv:S.levels)];a=a.includes(l)?a.filter(x=>x!==l):[...a,l];if(!a.length)return;if(p==='g'){selLv=a;renderSel('g')}else so.emit('settings',{levels:a})};SAFE.includes(l)?doIt():gate(doIt)}
 function tf(p,f){if(p==='g'){selFmt=f;renderSel('g')}else so.emit('settings',{format:f})}
 function pseudo(){const n=$('name').value.trim();if(!n){show('home');$('err').textContent='Entre ton pseudo d\'abord 🙂';$('name').focus();return null}localStorage.pseudo=n;return n}
