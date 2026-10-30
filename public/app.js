@@ -24,15 +24,4 @@ function toggleInvite(){$('invite').classList.toggle('hide')}
 function copyLink(){navigator.clipboard.writeText($('r-link').value);$('r-link').value='✓ Copié !';setTimeout(()=>$('r-link').value=location.origin+'/?r='+S.code,1200)}
 function shareLink(){navigator.share?navigator.share({title:'Soirée Jeux',text:'Rejoins ma partie !',url:$('r-link').value}):copyLink()}
 function leave(){location.href='/'}
-so.on('state',s=>{const first=!S;S=s;const h=s.host===so.id,g=GAMES.find(x=>x.id===s.game);if(!g)return;
-$('r-code').textContent=s.code;$('r-players').innerHTML=s.players.map(p=>`<span>${p.id===s.host?'👑 ':''}${esc(p.name)}${p.id===so.id?' (toi)':''}</span>`).join('');
-$('r-meta').textContent=`${g.name} · ${s.levels.join(', ')} · ${s.format} · ${s.count} carte(s)`;
-$('r-next').classList.toggle('hide',!h);$('r-wait').classList.toggle('hide',h);$('r-settings').classList.toggle('hide',!h);$('r-joker').classList.toggle('hide',!s.card);if(h)renderSel('s');
-$('r-next').textContent=s.card?'Carte suivante ▶':'Lancer la partie ▶';if(first&&h)$('invite').classList.remove('hide');
-const c=s.card,box=$('r-card');if(!c){box.innerHTML=`<div class="card intro"><img src="${g.img}" alt=""><div>${h?'Invite tes amis avec le lien ou le QR code, puis lance la partie !':'En attente du lancement…'}</div></div>`;return}
-const vs=Object.entries(s.votes),mine=s.votes[so.id];let opts='';
-const list=c.vote==='players'?s.players.map(p=>p.name):c.vote==='ab'?c.opts:null;
-if(list){const n=vs.length||1;opts='<div class=opts>'+list.map(o=>{const k=vs.filter(([,v])=>v===o).length;return `<button class="opt ${mine===o?'me':''}" data-v="${esc(o)}"><i style="width:${100*k/n}%"></i><span>${esc(o)} · <b>${k}</b></span></button>`}).join('')+'</div>'}
-const html=`<div class=lv>${esc(g.name)} · ${esc(c.level)}</div><div>${esc(c.text)}</div>${opts}`;
-if(box.dataset.id!=c.id){box.dataset.id=c.id;box.innerHTML=`<div class=card>${html}</div>`}else box.firstChild.innerHTML=html;
-box.querySelectorAll('.opt').forEach(b=>b.onclick=()=>so.emit('vote',b.dataset.v))});
+so.on('state',s=>{const first=!S;S=s;if(first&&s.host===so.id)$('invite').classList.remove('hide');render()});
