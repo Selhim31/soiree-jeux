@@ -1,0 +1,14 @@
+Tu as déjà fait pousser un potager ? ||| Oui ||| Non
+Tu sais réciter l'alphabet à l'envers ? ||| Oui ||| Non
+Tu as déjà mangé du durian ? ||| Oui ||| Non
+Tu as déjà fait un bonhomme de neige cette décennie ? ||| Oui ||| Non
+Tu as un livre de chevet en ce moment ? ||| Oui ||| Non
+Tu as déjà fait de la plongée sous-marine ? ||| Oui ||| Non
+Tu as déjà assisté à un match en stade ? ||| Oui ||| Non
+Tu connais par cœur une chanson entière en anglais ? ||| Oui ||| Non
+Tu as déjà fait du bénévolat ? ||| Oui ||| Non
+Tu as déjà dormi dans un igloo ou une cabane ? ||| Oui ||| Non
+Tu as déjà cuisiné un gâteau sans recette ? ||| Oui ||| Non
+Tu sais faire un nœud de cravate ? ||| Oui ||| Non
+Tu as déjà fait du roller en ville ? ||| Oui ||| Non
+Tu as déjà fait un puzzle de 1000 pièces ? ||| Oui ||| Non

@@ -1,0 +1,117 @@
+Tu as déjà dragué sur une appli cette année ? ||| Oui ||| Non
+Tu as déjà embrassé un(e) inconnu(e) ? ||| Oui ||| Non
+Tu as déjà eu un coup de foudre ? ||| Oui ||| Non
+Tu crois au grand amour ? ||| Oui ||| Non
+Tu as déjà dit « je t'aime » en premier ? ||| Oui ||| Non
+Tu as déjà été jaloux ou jalouse d'un(e) ami(e) ? ||| Oui ||| Non
+Tu as déjà stalké un ex ? ||| Oui ||| Non
+Tu as encore des photos de ton ex ? ||| Oui ||| Non
+Tu as déjà recontacté un ex ? ||| Oui ||| Non
+Tu as déjà eu un crush sur un(e) collègue ? ||| Oui ||| Non
+Tu as déjà eu une histoire de vacances ? ||| Oui ||| Non
+Tu as déjà ghosté quelqu'un ? ||| Oui ||| Non
+Tu as déjà été ghosté(e) ? ||| Oui ||| Non
+Tu as déjà envoyé un message coquin ? ||| Oui ||| Non
+Tu as déjà reçu une déclaration d'amour ? ||| Oui ||| Non
+Tu as déjà fait une déclaration d'amour ? ||| Oui ||| Non
+Tu préfères faire le premier pas ? ||| Oui ||| Non
+Tu as déjà embrassé quelqu'un au premier rendez-vous ? ||| Oui ||| Non
+Tu as déjà eu un rendez-vous catastrophique ? ||| Oui ||| Non
+Tu as déjà menti à un date ? ||| Oui ||| Non
+Tu as déjà été en couple plus de 5 ans ? ||| Oui ||| Non
+Tu as déjà eu une relation à distance ? ||| Oui ||| Non
+Tu as déjà été amoureux ou amoureuse en secret ? ||| Oui ||| Non
+Tu as déjà eu un crush sur quelqu'un ici ? ||| Oui ||| Non
+Tu as déjà rêvé de quelqu'un ici ? ||| Oui ||| Non
+Tu trouves quelqu'un ici attirant ? ||| Oui ||| Non
+Tu as déjà embrassé quelqu'un sous la pluie ? ||| Oui ||| Non
+Tu as déjà fait un slow ? ||| Oui ||| Non
+Tu as déjà embrassé quelqu'un du même sexe ? ||| Oui ||| Non
+Tu as déjà flirté pour avoir un avantage ? ||| Oui ||| Non
+Tu as déjà dragué un(e) serveur(se) ? ||| Oui ||| Non
+Tu as déjà donné ton numéro à un(e) inconnu(e) ? ||| Oui ||| Non
+Tu as déjà donné un faux numéro ? ||| Oui ||| Non
+Tu as déjà eu deux dates le même jour ? ||| Oui ||| Non
+Tu as déjà été dragué(e) par quelqu'un en couple ? ||| Oui ||| Non
+Tu as déjà été infidèle ? ||| Oui ||| Non
+Tu pourrais pardonner une infidélité ? ||| Oui ||| Non
+Tu crois à l'amitié homme-femme ? ||| Oui ||| Non
+Tu pourrais sortir avec l'ex d'un(e) ami(e) ? ||| Oui ||| Non
+Tu pourrais sortir avec un(e) collègue ? ||| Oui ||| Non
+Tu pourrais vivre une relation libre ? ||| Oui ||| Non
+Tu as déjà fait un plan d'un soir ? ||| Oui ||| Non
+Tu as déjà dormi chez quelqu'un au premier date ? ||| Oui ||| Non
+Tu as déjà offert de la lingerie ? ||| Oui ||| Non
+Tu as déjà reçu de la lingerie ? ||| Oui ||| Non
+Tu portes des sous-vêtements assortis aujourd'hui ? ||| Oui ||| Non
+Tu as déjà envoyé une photo osée ? ||| Oui ||| Non
+Tu as déjà fait un suçon ? ||| Oui ||| Non
+Tu as déjà eu un suçon à cacher ? ||| Oui ||| Non
+Tu aimes les bisous dans le cou ? ||| Oui ||| Non
+Tu préfères les câlins aux bisous ? ||| Oui ||| Non
+Tu as déjà fait un rencard au cinéma ? ||| Oui ||| Non
+Tu as déjà fait un pique-nique romantique ? ||| Oui ||| Non
+Tu as déjà fait une surprise romantique ? ||| Oui ||| Non
+Tu as déjà pleuré après une rupture ? ||| Oui ||| Non
+Tu as déjà rompu par message ? ||| Oui ||| Non
+Tu as déjà été largué(e) par message ? ||| Oui ||| Non
+Tu as déjà été fiancé(e) ? ||| Oui ||| Non
+Tu veux te marier un jour ? ||| Oui ||| Non
+Tu crois au coup de foudre ? ||| Oui ||| Non
+Tu trouves les tatouages sexy ? ||| Oui ||| Non
+Tu trouves les lunettes sexy ? ||| Oui ||| Non
+Tu craques pour les accents ? ||| Oui ||| Non
+Tu as déjà flirté en langue étrangère ? ||| Oui ||| Non
+Tu as déjà eu un crush sur une célébrité plus âgée ? ||| Oui ||| Non
+Tu as déjà écrit une lettre d'amour ? ||| Oui ||| Non
+Tu as déjà gardé une lettre d'amour ? ||| Oui ||| Non
+Tu as déjà fait une playlist pour quelqu'un ? ||| Oui ||| Non
+Tu as déjà dansé collé-serré en soirée ? ||| Oui ||| Non
+Tu as déjà joué à la bouteille ? ||| Oui ||| Non
+Tu as déjà fait un action ou vérité qui a dérapé ? ||| Oui ||| Non
+Tu as déjà embrassé pour un gage ? ||| Oui ||| Non
+Tu as déjà fait un date en ligne ? ||| Oui ||| Non
+Tu as déjà fait semblant d'aimer un cadeau d'un(e) partenaire ? ||| Oui ||| Non
+Tu as déjà fouillé le téléphone d'un(e) partenaire ? ||| Oui ||| Non
+Tu as déjà changé de look pour quelqu'un ? ||| Oui ||| Non
+Tu as déjà été amoureux ou amoureuse de deux personnes ? ||| Oui ||| Non
+Tu as déjà été la troisième roue du carrosse ? ||| Oui ||| Non
+Tu as déjà eu un crush sur un(e) voisin(e) ? ||| Oui ||| Non
+Tu as déjà flirté dans les transports ? ||| Oui ||| Non
+Tu as déjà reçu des fleurs ? ||| Oui ||| Non
+Tu as déjà offert des fleurs ? ||| Oui ||| Non
+Tu as un crush secret en ce moment ? ||| Oui ||| Non
+Tu as déjà été dragué(e) dans une file d'attente ? ||| Oui ||| Non
+Tu dors nu(e) ? ||| Oui ||| Non
+Tu as déjà fait un bain à deux ? ||| Oui ||| Non
+Tu as déjà fait un massage à quelqu'un ? ||| Oui ||| Non
+Tu as déjà eu un rendez-vous à l'aveugle ? ||| Oui ||| Non
+Tu as déjà embrassé quelqu'un à un mariage ? ||| Oui ||| Non
+Tu as déjà été jaloux ou jalouse d'un ex de ton partenaire ? ||| Oui ||| Non
+Tu as déjà lu les messages d'un(e) partenaire ? ||| Oui ||| Non
+Tu préfères être dragué(e) que draguer ? ||| Oui ||| Non
+Tu trouves la jalousie mignonne ? ||| Oui ||| Non
+Tu as déjà regretté un baiser ? ||| Oui ||| Non
+Tu as déjà embrassé quelqu'un dans une voiture ? ||| Oui ||| Non
+Tu as déjà eu un crush sur un(e) prof ? ||| Oui ||| Non
+Tu as déjà utilisé une phrase de drague ? ||| Oui ||| Non
+Tu as déjà été embrassé(e) par surprise ? ||| Oui ||| Non
+Tu as déjà fait le mur pour voir quelqu'un ? ||| Oui ||| Non
+Tu as déjà flirté avec un(e) ami(e) de longue date ? ||| Oui ||| Non
+Tu as déjà été friendzoné(e) ? ||| Oui ||| Non
+Tu as déjà friendzoné quelqu'un ? ||| Oui ||| Non
+Tu as déjà été en couple en secret ? ||| Oui ||| Non
+Tu pourrais tomber amoureux ou amoureuse d'un(e) ami(e) ? ||| Oui ||| Non
+Tu aimes qu'on te joue avec les cheveux ? ||| Oui ||| Non
+Tu as déjà dit le mauvais prénom ? ||| Oui ||| Non
+Tu as déjà embrassé quelqu'un dont tu ignorais le prénom ? ||| Oui ||| Non
+Tu as déjà quitté une soirée avec quelqu'un ? ||| Oui ||| Non
+Tu as déjà fait la marche de la honte ? ||| Oui ||| Non
+Tu as déjà eu un rêve érotique cette semaine ? ||| Oui ||| Non
+Tu as déjà fait une soirée en amoureux à la maison ? ||| Oui ||| Non
+Tu as déjà fait un week-end en amoureux ? ||| Oui ||| Non
+Tu as déjà fêté la Saint-Valentin ? ||| Oui ||| Non
+Tu détestes la Saint-Valentin ? ||| Oui ||| Non
+Tu as déjà fait semblant d'être en couple ? ||| Oui ||| Non
+Tu as déjà été dragué(e) au travail ? ||| Oui ||| Non
+Tu as déjà eu un coup de cœur en boîte ? ||| Oui ||| Non

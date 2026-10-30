@@ -1,0 +1,106 @@
+Tu as déjà dormi dans une voiture ? ||| Oui ||| Non
+Tu sais faire un créneau du premier coup ? ||| Oui ||| Non
+Tu as déjà chanté au karaoké ? ||| Oui ||| Non
+Tu manges les croûtes de pizza ? ||| Oui ||| Non
+Tu as peur des araignées ? ||| Oui ||| Non
+Tu as déjà vu un fantôme ? ||| Oui ||| Non
+Tu sais nager le papillon ? ||| Oui ||| Non
+Tu as déjà raté un avion ? ||| Oui ||| Non
+Tu pourrais devenir végétarien ? ||| Oui ||| Non
+Tu as déjà fait du camping ? ||| Oui ||| Non
+Tu lis l'horoscope ? ||| Oui ||| Non
+Tu crois aux extraterrestres ? ||| Oui ||| Non
+Tu ranges ta chambre chaque semaine ? ||| Oui ||| Non
+Tu as un tatouage ? ||| Oui ||| Non
+Tu voudrais un tatouage ? ||| Oui ||| Non
+Tu as déjà fait du stop ? ||| Oui ||| Non
+Tu es plutôt du matin ? ||| Oui ||| Non
+Tu fais ton lit tous les jours ? ||| Oui ||| Non
+Tu sais cuisiner un vrai repas ? ||| Oui ||| Non
+Tu as déjà pleuré au cinéma ? ||| Oui ||| Non
+Tu as déjà menti sur ton âge ? ||| Oui ||| Non
+Tu as déjà gagné un concours ? ||| Oui ||| Non
+Tu parles plus de deux langues ? ||| Oui ||| Non
+Tu as déjà vécu à l'étranger ? ||| Oui ||| Non
+Tu te lèves dès le premier réveil ? ||| Oui ||| Non
+Tu as déjà cassé un os ? ||| Oui ||| Non
+Tu sais siffler avec les doigts ? ||| Oui ||| Non
+Tu as déjà vu un concert en plein air ? ||| Oui ||| Non
+Tu aimes les films d'horreur ? ||| Oui ||| Non
+Tu préfères l'été à l'hiver ? ||| Oui ||| Non
+Tu es déjà monté(e) à cheval ? ||| Oui ||| Non
+Tu as déjà fait du ski ? ||| Oui ||| Non
+Tu sais jongler ? ||| Oui ||| Non
+Tu as déjà oublié un anniversaire important ? ||| Oui ||| Non
+Tu as déjà été dans un journal ou à la télé ? ||| Oui ||| Non
+Tu as un talent caché ? ||| Oui ||| Non
+Tu fais du sport chaque semaine ? ||| Oui ||| Non
+Tu as déjà fait un marathon ? ||| Oui ||| Non
+Tu manges épicé ? ||| Oui ||| Non
+Tu bois ton café sans sucre ? ||| Oui ||| Non
+Tu as déjà mangé des escargots ? ||| Oui ||| Non
+Tu as déjà mangé des grenouilles ? ||| Oui ||| Non
+Tu aimes les huîtres ? ||| Oui ||| Non
+Tu as déjà dormi à la belle étoile ? ||| Oui ||| Non
+Tu as déjà fait un road trip ? ||| Oui ||| Non
+Tu as plus de 1000 photos dans ton téléphone ? ||| Oui ||| Non
+Tu supprimes tes notifications non lues ? ||| Oui ||| Non
+Tu as déjà été bloqué(e) dans un ascenseur ? ||| Oui ||| Non
+Tu as déjà perdu ton portefeuille ? ||| Oui ||| Non
+Tu as un surnom depuis l'enfance ? ||| Oui ||| Non
+Tu sais faire le poirier ? ||| Oui ||| Non
+Tu pourrais vivre sur une île déserte un mois ? ||| Oui ||| Non
+Tu as déjà adopté un animal ? ||| Oui ||| Non
+Tu parles à tes animaux ? ||| Oui ||| Non
+Tu dors avec une peluche ? ||| Oui ||| Non
+Tu as déjà fait une nuit blanche cette année ? ||| Oui ||| Non
+Tu as déjà fait une teinture flashy ? ||| Oui ||| Non
+Tu as déjà raté un examen ? ||| Oui ||| Non
+Tu as déjà triché à un jeu ? ||| Oui ||| Non
+Tu sais garder un secret ? ||| Oui ||| Non
+Tu as déjà regardé une série en une nuit ? ||| Oui ||| Non
+Tu es déjà allé(e) en Asie ? ||| Oui ||| Non
+Tu es déjà allé(e) en Amérique ? ||| Oui ||| Non
+Tu as déjà pris un bateau de croisière ? ||| Oui ||| Non
+Tu as peur en avion ? ||| Oui ||| Non
+Tu as déjà fait du parapente ? ||| Oui ||| Non
+Tu crois au destin ? ||| Oui ||| Non
+Tu crois à la chance ? ||| Oui ||| Non
+Tu as un porte-bonheur ? ||| Oui ||| Non
+Tu as déjà gagné de l'argent au jeu ? ||| Oui ||| Non
+Tu as déjà vendu quelque chose en ligne ? ||| Oui ||| Non
+Tu fais des listes de choses à faire ? ||| Oui ||| Non
+Tu es toujours en avance ? ||| Oui ||| Non
+Tu as déjà planté quelqu'un à un rendez-vous ? ||| Oui ||| Non
+Tu préfères les chiens aux chats ? ||| Oui ||| Non
+Tu sais coudre un bouton ? ||| Oui ||| Non
+Tu as déjà changé une roue ? ||| Oui ||| Non
+Tu as déjà fait un discours devant 100 personnes ? ||| Oui ||| Non
+Tu as déjà été élu(e) délégué(e) ? ||| Oui ||| Non
+Tu as déjà fait du théâtre ? ||| Oui ||| Non
+Tu as déjà appris un instrument ? ||| Oui ||| Non
+Tu chantes sous la douche ? ||| Oui ||| Non
+Tu danses quand tu es seul(e) ? ||| Oui ||| Non
+Tu as déjà dansé sur une table ? ||| Oui ||| Non
+Tu as déjà été viré(e) d'un cours ? ||| Oui ||| Non
+Tu as déjà séché le travail ? ||| Oui ||| Non
+Tu as déjà fait semblant d'être malade ? ||| Oui ||| Non
+Tu bois plus de 3 cafés par jour ? ||| Oui ||| Non
+Tu pourrais te passer de sucre un mois ? ||| Oui ||| Non
+Tu as déjà fait un régime ? ||| Oui ||| Non
+Tu as déjà eu un coup de soleil terrible ? ||| Oui ||| Non
+Tu as déjà vu une étoile filante ? ||| Oui ||| Non
+Tu as déjà vu la neige en été ? ||| Oui ||| Non
+Tu as déjà nagé avec des dauphins ? ||| Oui ||| Non
+Tu as déjà vu une baleine ? ||| Oui ||| Non
+Tu as déjà été piqué(e) par une méduse ? ||| Oui ||| Non
+Tu sais lire une carte papier ? ||| Oui ||| Non
+Tu as déjà dormi plus de 12 heures ? ||| Oui ||| Non
+Tu as déjà fait un selfie avec une célébrité ? ||| Oui ||| Non
+Tu as déjà été figurant dans un film ? ||| Oui ||| Non
+Tu regardes la fin d'un livre avant de le finir ? ||| Oui ||| Non
+Tu relis tes messages avant de les envoyer ? ||| Oui ||| Non
+Tu as déjà envoyé un message à la mauvaise personne ? ||| Oui ||| Non
+Tu as plus de 5 applis de jeux ? ||| Oui ||| Non
+Tu mets le lait avant les céréales ? ||| Oui ||| Non
+Tu as déjà mangé une pizza entière seul(e) ? ||| Oui ||| Non
