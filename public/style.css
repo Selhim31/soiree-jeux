@@ -51,3 +51,6 @@ textarea{width:100%;min-height:70px;padding:12px;border-radius:14px;border:1px s
 .card.rv .duo{animation:pop .5s .2s both}
 
 .opt .vn{display:flex;flex-wrap:wrap;gap:4px;margin-top:4px;position:relative}.opt .vn em{font-style:normal;font-size:.75em;padding:1px 7px;border-radius:10px;background:rgba(255,255,255,.18)}
+
+.pod-anim .pod div{animation:podrise .7s cubic-bezier(.2,1.4,.4,1) both;animation-delay:var(--d,0ms)}@keyframes podrise{from{transform:translateY(60px) scale(.6);opacity:0}}
+.titles{margin-top:8px}

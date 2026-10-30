@@ -10,7 +10,7 @@
  <div class=gh><img id=g-img alt=""><div><h2 id=g-name></h2><p id=g-desc></p></div></div>
  <h3 class=sec>Niveaux <small>(plusieurs possibles)</small></h3><div class=chips id=g-levels></div>
  
- <button class="btn big" onclick="createRoom()">Créer la salle ▶</button>
+ <input id=grp maxlength=40 placeholder="Code de groupe (optionnel)" autocomplete=off title="Même code = classement cumulé entre vos soirées" style="width:100%;margin:6px 0"><button class="btn big" onclick="createRoom()">Créer la salle ▶</button>
 </section>
 <section id=v-room class="view hide">
  <div class=topbar><button class=back onclick="leave()">✕</button><div class=rcode>Salle <b id=r-code></b></div><button class=back onclick="toggleInvite()">👥 Inviter</button></div>
