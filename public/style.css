@@ -46,3 +46,6 @@ textarea{width:100%;min-height:70px;padding:12px;border-radius:14px;border:1px s
 .cf i{position:absolute;top:-10px;width:7px;height:11px;border-radius:2px;animation:cf 1.2s ease-in both}
 @keyframes cf{from{transform:translate(0,0) rotate(0);opacity:1}to{transform:translate(var(--x),320px) rotate(var(--r));opacity:0}}
 @media (prefers-reduced-motion:reduce){.card.rv .ans,.card.rv .opt,.card.rv .res{animation:none}.cf{display:none}}
+
+.duo{display:flex;gap:8px;align-items:center}.duo .ans{flex:1;text-align:center}.duo .dm{font-size:2em}
+.card.rv .duo{animation:pop .5s .2s both}

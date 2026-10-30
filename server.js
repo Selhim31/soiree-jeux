@@ -1,13 +1,13 @@
 const express=require('express'),http=require('http'),fs=require('fs'),QR=require('qrcode'),{Server}=require('socket.io');
 const G={};for(const f of fs.readdirSync(__dirname+'/content'))G[f.replace('.json','')]=JSON.parse(fs.readFileSync(__dirname+'/content/'+f));
-const ORDER=["connaitre","soft","coquin","hot","couple","flirts","defis","av","qui","jamais","tupreferes","ouinon","cestun10","imposteur","7sec","quiz","equipe","cercle","rnp","pmu","purete","verite","debats","mime","halloween"];
+const ORDER=["ecrit","excrush","estim","duo","connaitre","soft","coquin","hot","couple","flirts","defis","av","qui","jamais","tupreferes","ouinon","cestun10","imposteur","7sec","quiz","equipe","cercle","rnp","pmu","purete","verite","debats","mime","halloween"];
 const KIND={defis:'dare',mime:'dare',flirts:'dare',qui:'players',tupreferes:'ab',ouinon:'ab',jamais:'ab'};
 const kindOf=k=>G[k].kind||KIND[k]||'input';
-const ASSET='a4';const VER=ASSET+'-'+(process.env.RENDER_GIT_COMMIT||String(Date.now())).slice(0,8);
+const ASSET='a5';const VER=ASSET+'-'+(process.env.RENDER_GIT_COMMIT||String(Date.now())).slice(0,8);
 const INDEX=()=>fs.readFileSync(__dirname+'/public/index.html','utf8').replace(/(\/(?:app|app2)\.js|\/style\.css)"/g,`$1?v=${VER}"`).replace('<head>',`<head><meta name=app-version content="${VER}">`);
 const app=express();app.get(['/','/index.html'],(q,r)=>{r.set('Cache-Control','no-store');r.type('html').send(INDEX())});app.get('/api/version',(q,r)=>{r.set('Cache-Control','no-store');r.json({v:VER})});app.set('trust proxy',true);app.use(express.static(__dirname+'/public',{maxAge:0,etag:true,setHeaders:(r)=>r.setHeader('Cache-Control','no-cache')}));
 app.get('/api/games',(q,r)=>r.json(ORDER.filter(k=>G[k]).map(k=>({id:k,name:G[k].name,desc:G[k].desc,img:G[k].img,adult:G[k].adult,kind:kindOf(k),levels:Object.fromEntries(Object.entries(G[k].levels).map(([l,v])=>[l,['rnp','pmu'].includes(k)?0:v.length]))}))));
-const FAM=[{id:'questions',name:'Questions & Vérités',emoji:'💬',desc:'Se découvrir, avouer, débattre',games:['connaitre','soft','verite','av','jamais','debats']},{id:'defis',name:'Défis',emoji:'⚡',desc:'Gages à distance, mimes, chrono',games:['defis','mime','7sec']},{id:'ambiance',name:"Jeux d'ambiance",emoji:'🎉',desc:'Votes, quiz, imposteur, équipes',games:['qui','tupreferes','ouinon','cestun10','imposteur','quiz','equipe','halloween']},{id:'cartes',name:'Cartes & alcool',emoji:'🍻',desc:'Le cercle, rouge-noir-purple, PMU',games:['cercle','rnp','pmu']},{id:'adulte',name:'Couple & 18+',emoji:'🔥',desc:'Coquin, Hot, Couple, Flirts, Pureté',adult:true,games:['coquin','hot','couple','flirts','purete']}];
+const FAM=[{id:'questions',name:'Questions & Vérités',emoji:'💬',desc:'Se découvrir, avouer, débattre',games:['connaitre','soft','verite','av','jamais','debats','excrush']},{id:'defis',name:'Défis',emoji:'⚡',desc:'Gages à distance, mimes, chrono',games:['defis','mime','7sec']},{id:'ambiance',name:"Jeux d'ambiance",emoji:'🎉',desc:'Votes, quiz, imposteur, équipes',games:['qui','tupreferes','ouinon','cestun10','imposteur','quiz','equipe','halloween','ecrit','estim','duo']},{id:'cartes',name:'Cartes & alcool',emoji:'🍻',desc:'Le cercle, rouge-noir-purple, PMU',games:['cercle','rnp','pmu']},{id:'adulte',name:'Couple & 18+',emoji:'🔥',desc:'Coquin, Hot, Couple, Flirts, Pureté',adult:true,games:['coquin','hot','couple','flirts','purete']}];
 app.get('/api/families',(q,r)=>r.json(FAM));
 app.get('/api/purete',(q,r)=>r.json(G.purete.levels.Classique));
 app.get('/qr/:code.png',async(q,r)=>{const u=`${q.protocol}://${q.get('host')}/?r=${encodeURIComponent(q.params.code)}`;r.type('png').send(await QR.toBuffer(u,{margin:1,width:300,color:{dark:'#1a0b2e',light:'#ffffff'}}))});
@@ -23,17 +23,22 @@ const nm=(r,id)=>(r.players.find(p=>p.id===id)||{}).name||'?';
 const partner=()=>null;
 const NOMIX=['pmu','rnp','purete'];
 function cleanMix(m){if(!m||typeof m!=='object')return null;const o={};for(const[k,v]of Object.entries(m))if(G[k]&&!NOMIX.includes(k)&&Array.isArray(v)){const l=v.filter(x=>G[k].levels[x]);if(l.length)o[k]=l}return Object.keys(o).length?o:null}
-function expected(r){const c=r.card;if(!c)return[];if(c.kind==='input'&&r.mode==='turn')return[c.target];if(c.kind==='rnp')return[c.target];if(['input','players','ab','quiz','number','purity','impostor','pmu'].includes(c.kind))return r.players.filter(p=>p.online!==false).map(p=>p.id);return[]}
-function pub(r){save();const c=r.card;let card=null;if(c){card={...c};delete card.secret;delete card.tpl;delete card.correct;if(!c.revealed)delete card.result;card.answered=Object.keys(r.ans);card.expected=expected(r);card.done=roundDone(r);if(c.revealed)card.answers=Object.entries(r.ans).map(([id,v])=>({name:nm(r,id),v}));if(c.timerEnd)card.timerLeft=c.timerEnd-Date.now()}
+function expected(r){const c=r.card;if(!c)return[];if(c.kind==='input'&&r.mode==='turn')return[c.target];if(c.kind==='rnp')return[c.target];if(['input','players','ab','quiz','number','purity','impostor','pmu','whowrote','estimate','duo'].includes(c.kind))return r.players.filter(p=>p.online!==false).map(p=>p.id);return[]}
+function pub(r){save();const c=r.card;let card=null;if(c){card={...c};delete card.secret;delete card.tpl;delete card.correct;if(!c.revealed)delete card.result;card.answered=c.kind==='whowrote'&&c.phase==='vote'?Object.keys(c.secret.votes):Object.keys(r.ans);card.expected=expected(r);card.done=roundDone(r);if(c.revealed&&!['whowrote','duo'].includes(c.kind))card.answers=Object.entries(r.ans).map(([id,v])=>({name:nm(r,id),v}));if(c.timerEnd)card.timerLeft=c.timerEnd-Date.now()}
  io.to(r.code).emit('state',{code:r.code,host:r.host,players:r.players,game:r.game,levels:r.levels,format:r.format,mode:r.mode,pick:r.pick,turn:r.turn,card,count:r.count,teams:r.teams,scores:r.scores,dares:r.dares,mix:r.mix,ended:r.ended,banned:r.banned||[],locked:!!r.locked});}
-function reveal(r){const c=r.card;if(!c||c.revealed)return;c.revealed=true;
+function wwVote(r){const c=r.card;const e=Object.entries(r.ans).filter(([,v])=>String(v).trim());const L=shuf(e);c.secret.auth=L.map(x=>x[0]);c.list=L.map((x,i)=>({i,v:x[1]}));c.phase='vote';c.secret.votes={}}
+const pt=(r,id,n=1)=>{const k=nm(r,id);r.scores[k]=(r.scores[k]||0)+n};
+function reveal(r){const c=r.card;if(!c||c.revealed)return;if(c.kind==='whowrote'&&c.phase==='write'){wwVote(r);return}c.revealed=true;
+ if(c.kind==='whowrote'){const V=c.secret.votes;c.reveal=c.list.map(x=>{const a=c.secret.auth[x.i];const ok=Object.entries(V).filter(([vid,m])=>vid!==a&&m&&m[x.i]===a).map(([vid])=>vid);ok.forEach(v=>pt(r,v));return{v:x.v,author:nm(r,a),found:ok.map(id=>nm(r,id))}});const tot=c.reveal.reduce((s,x)=>s+x.found.length,0);c.result=`🕵️ ${tot} bonne(s) déduction(s) : +1 point par auteur bien deviné`}
+ if(c.kind==='estimate'){const tv=r.ans[c.target];if(tv==='pass'||tv===undefined)c.result=`🤐 ${nm(r,c.target)} garde le secret, pas de point cette fois.`;else{const T=Number(tv);const g=Object.entries(r.ans).filter(([id,v])=>id!==c.target&&v!=='pass'&&!isNaN(Number(v))).map(([id,v])=>[id,Math.abs(Number(v)-T)]);if(!g.length)c.result=`🎯 Réponse : ${T}`;else{const m=Math.min(...g.map(x=>x[1]));const w=g.filter(x=>x[1]===m).map(x=>x[0]);w.forEach(id=>pt(r,id));c.result=`🎯 Réponse de ${nm(r,c.target)} : ${T} · le plus proche : ${w.map(id=>nm(r,id)).join(', ')} (+1)`}}}
+ if(c.kind==='duo'){const a=r.ans[c.target],b=r.ans[c.partner];const m=a!==undefined&&a===b;const pr=Object.entries(r.ans).filter(([id])=>id!==c.target&&id!==c.partner);const good=pr.filter(([,v])=>(v==='Pareil')===m).map(([id])=>id);good.forEach(id=>pt(r,id));c.duo={a:a??'—',b:b??'—',an:nm(r,c.target),bn:nm(r,c.partner),match:m,preds:pr.map(([id,v])=>({name:nm(r,id),v,ok:good.includes(id)}))};c.result=(m?'💞 Même réponse !':'💥 Réponses différentes !')+(pr.length?` · bons pronostics : ${good.length?good.map(id=>nm(r,id)).join(', '):'aucun'}`:'')}
  if(c.kind==='quiz'){for(const[id,v]of Object.entries(r.ans))if(v===c.correct)r.scores[nm(r,id)]=(r.scores[nm(r,id)]||0)+1;c.result='Bonne réponse : '+c.correct}
  if(c.kind==='impostor')c.result=`L'imposteur était ${nm(r,c.secret.imp)} ! Mot des civils : « ${c.secret.a} », mot de l'imposteur : « ${c.secret.b} ».`;
  if(c.kind==='number'){const v=Object.values(r.ans).map(Number).filter(x=>!isNaN(x));c.result=v.length?'Moyenne : '+(v.reduce((a,b)=>a+b,0)/v.length).toFixed(1)+'/10':''}
  if(c.kind==='purity'){c.result='Score de pureté : '+Object.entries(r.ans).map(([id,v])=>`${nm(r,id)} ${Math.max(0,100-Math.round(v*100/G.purete.levels.Classique.length))}%`).join(' · ')}
  if(c.kind==='rnp'){const g=r.ans[c.target];const red=s=>'♥♦'.includes(s);const d=()=>rnd(['A','2','3','4','5','6','7','8','9','10','V','D','R'])+rnd('♥♦♣♠'.split(''));let cards=[d()];if(g==='Purple')cards.push(d());
   const reds=cards.filter(x=>red(x.slice(-1))).length;const win=g==='Rouge'?reds===1:g==='Noir'?reds===0:reds===1;c.result=`${cards.join('  ')} → ${win?'Gagné ! '+nm(r,c.target)+' distribue '+(g==='Purple'?4:2)+' gorgées':'Perdu ! '+nm(r,c.target)+' boit '+(g==='Purple'?4:2)+' gorgées'}`}}
-function checkAll(r){const e=expected(r);if(e.length&&e.every(id=>id in r.ans)&&r.card.kind!=='pmu')reveal(r)}
+function checkAll(r){const c=r.card;const e=expected(r);if(c.kind==='whowrote'&&c.phase==='vote'){if(e.every(id=>id in c.secret.votes))reveal(r);return}if(e.length&&e.every(id=>id in r.ans)&&c.kind!=='pmu')reveal(r)}
 function roundDone(r){const c=r.card;if(!c||r.ended)return true;if(['timer','team','circle'].includes(c.kind))return true;return !!c.revealed}
 function nextTarget(r){const ids=r.players.map(p=>p.id);if(r.mode==='turn'){if(!r.turn||!ids.includes(r.turn))r.turn=rnd(ids);return r.turn}return rnd(ids)}
 function draw(r){let gid=r.game,lvs=r.levels;if(r.mix){const ks=Object.keys(r.mix);let o=ks.filter(k=>k!==r.lastG);if(!o.length)o=ks;gid=rnd(o);lvs=r.mix[gid];r.lastG=gid}const g=G[gid],kind=kindOf(gid);r.ans={};const lv=lvs.filter(l=>g.levels[l]);if(!lv.length)lv.push(Object.keys(g.levels)[0]);const l=rnd(lv);
@@ -46,6 +51,9 @@ function draw(r){let gid=r.game,lvs=r.levels;if(r.mix){const ks=Object.keys(r.mi
 
  if(kind==='ab'){if(gid==='jamais')opts=["Je l'ai déjà fait 🍻","Jamais 😇"];else{const p=text.replace(/^Tu préfères /,'').replace(/ \?$/,'').split(' ||| ');if(gid==='ouinon'){text=p[0];opts=[p[1],p[2]]}else{text='Tu préfères…';opts=[p[0],p[1]]}}}
  if(gid==='av'&&text.startsWith('Action'))c.kind='dare';
+ if(gid==='excrush'&&/^Qui ici/.test(text))c.kind='players';
+ if(kind==='whowrote'){c.phase='write';c.secret={}}
+ if(kind==='duo'){const p=text.split(' ||| ');text=`${nm(r,target)} et ${q?nm(r,q):'?'} : ${p[0]}`;opts=[p[1],p[2]]}
  if(kind==='quiz'){const p=text.split(' ||| ');text=p[0];c.correct=p[1];opts=shuf(p.slice(1))}
  if(kind==='timer'){c.timerEnd=Date.now()+9000}
  if(kind==='team'){if(!r.teams||Object.keys(r.teams).length!==ids.length){r.teams={};shuf(ids).forEach((id,i)=>r.teams[id]=i%2?'Rouge':'Bleue');r.scores={Bleue:0,Rouge:0}}r.tt=r.tt==='Bleue'?'Rouge':'Bleue';text=text.replace('{t}',r.tt)}
@@ -64,6 +72,7 @@ io.on('connection',so=>{so.emit('ver',VER);let r=null,me=null;const H=()=>r&&r.h
  so.on('next',()=>{if(H()&&roundDone(r)){r.ended=false;draw(r);pub(r);}});
  so.on('joker',()=>{if(r&&r.card){draw(r);pub(r);}});
  so.on('answer',v=>{if(!r||!r.card||r.card.revealed)return;r.ans[me]=typeof v==='number'?v:String(v).slice(0,300);if(r.card.kind==='rnp'&&me!==r.card.target)delete r.ans[me];checkAll(r);pub(r);});
+ so.on('votes',v=>{const c=r&&r.card;if(!c||c.kind!=='whowrote'||c.phase!=='vote'||c.revealed||typeof v!=='object')return;const m={};for(const[k,id]of Object.entries(v||{}))if(r.players.some(p=>p.id===id))m[+k]=id;c.secret.votes[me]=m;checkAll(r);pub(r)});
  so.on('reveal',()=>{if(H()&&r.card){reveal(r);pub(r);}});
  so.on('pickNext',id=>{if(!r||!r.card||!r.players.some(p=>p.id===id))return;if(me===r.card.target||H()){r.turn=id;draw(r);pub(r);}});
  so.on('randNext',()=>{if(H()&&roundDone(r)){const o=r.players.map(p=>p.id).filter(x=>x!==r.turn);r.turn=o.length?rnd(o):r.turn;draw(r);pub(r);}});
@@ -76,7 +85,7 @@ io.on('connection',so=>{so.emit('ver',VER);let r=null,me=null;const H=()=>r&&r.h
   if(act==='unban'){r.banned=r.banned.filter(b=>b.id!==id)}
   if(act==='makeHost'&&p){r.host=id;io.to(r.code).emit('toast',`👑 ${p.name} est maintenant l'hôte`)}
   if(act==='skip'&&r.card){const o=on.filter(x=>x.id!==r.card.target);const t=o.length?rnd(o).id:null;if(r.mode==='turn'&&t)r.turn=t;r.forceT=t;draw(r);r.forceT=null}
-  if(act==='force'&&r.card){if(r.card.kind==='dare'&&!r.card.revealed){r.card.revealed=true;r.card.result='⏭️ Passé par l\'hôte'}else reveal(r);r.card.revealed=true}
+  if(act==='force'&&r.card){if(r.card.kind==='dare'&&!r.card.revealed){r.card.revealed=true;r.card.result='⏭️ Passé par l\'hôte'}else{reveal(r);if(!(r.card.kind==='whowrote'&&r.card.phase==='vote'&&!r.card.revealed))r.card.revealed=true}}
   if(act==='reset'){r.dares={};for(const k in r.scores)r.scores[k]=0;if(!r.teams)r.scores={};io.to(r.code).emit('toast','🔄 Scores remis à zéro')}
   if(act==='lock'){r.locked=!r.locked;io.to(r.code).emit('toast',r.locked?'🔒 Salle verrouillée':'🔓 Salle ouverte')}
   if(act==='end'){r.ended=true}
