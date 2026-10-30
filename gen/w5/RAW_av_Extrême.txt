@@ -1,0 +1,20 @@
+Vérité : {p}, quelle est la pratique que tu as essayée une fois et jamais refaite ?
+Vérité : {p}, quel est ton fantasme le plus inavouable ?
+Vérité : {p}, avec combien de personnes de ce groupe pourrais-tu imaginer une nuit ?
+Vérité : {p}, as-tu déjà eu un plan d'un soir dont tu ne te rappelles pas le prénom ?
+Vérité : {p}, quel est l'endroit le plus fou où tu l'as fait ?
+Vérité : {p}, quelle est la chose la plus crue que tu aies envoyée par message ?
+Vérité : {p}, as-tu déjà eu un orgasme dans un lieu public ?
+Vérité : {p}, quel est ton jouet préféré ?
+Vérité : {p}, quel rôle prends-tu au lit : dominant(e) ou soumis(e) ?
+Vérité : {p}, as-tu déjà été avec deux personnes en même temps ?
+Vérité : {p}, combien de temps a duré ta plus longue nuit ?
+Vérité : {p}, quelle est la pire chose dite pendant l'acte ?
+Vérité : {p}, as-tu déjà couché avec quelqu'un rencontré moins d'une heure avant ?
+Vérité : {p}, quel est ton avis honnête sur la taille ?
+Vérité : {p}, as-tu déjà fait l'amour en étant au téléphone avec quelqu'un d'autre ?
+Vérité : {p}, quel est le fantasme le plus étrange que tu aies réalisé ?
+Vérité : {p}, as-tu déjà été pris(e) en photo dans une situation intime ?
+Vérité : {p}, qui ici a selon toi le plus d'expérience au lit ?
+Vérité : {p}, ta dernière fois remonte à quand ?
+Vérité : {p}, as-tu déjà payé pour quelque chose de coquin (club, show, appli) ?

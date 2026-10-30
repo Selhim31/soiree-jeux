@@ -1,0 +1,15 @@
+Vérité : {p}, quel est le dernier rêve coquin dont tu te souviens ?
+Vérité : {p}, qui ici a le plus beau sourire selon toi ?
+Vérité : {p}, combien de temps as-tu tenu sans embrasser personne ?
+Vérité : {p}, ta zone érogène numéro un ?
+Vérité : {p}, ta plus belle nuit tient en quel mot ?
+Vérité : {p}, as-tu déjà dragué quelqu'un par jalousie ?
+Vérité : {p}, quel vêtement te donne envie de l'enlever à l'autre ?
+Vérité : {p}, le dernier sexto que tu as écrit disait quoi (résumé) ?
+Vérité : {p}, quel prénom a déjà été crié au mauvais moment ?
+Vérité : {p}, tu craques plutôt pour les mains, la bouche ou les yeux ?
+Action : {p}, envoie un emoji qui résume ta dernière nuit dans le chat.
+Action : {p}, lis à voix haute ton dernier message envoyé, version sensuelle.
+Action : {p}, fais ton regard le plus séducteur à la caméra pendant 10 secondes.
+Action : {p}, décris ton crush idéal en imitant une voix de radio de nuit.
+Action : {p}, chante un refrain d'amour en mode chanteur de charme.

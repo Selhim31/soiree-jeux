@@ -1,0 +1,12 @@
+Vérité : {p}, quel est ton type de personne en trois mots ?
+Vérité : {p}, ton dernier crush date de quand ?
+Vérité : {p}, as-tu déjà menti pour un date ?
+Vérité : {p}, qui ici aurait le meilleur profil d'appli de rencontre ?
+Vérité : {p}, la pire phrase de drague que tu aies utilisée ?
+Vérité : {p}, ton premier baiser : âge et lieu ?
+Vérité : {p}, as-tu déjà stalké quelqu'un pendant des heures ?
+Vérité : {p}, ton plus beau compliment reçu ?
+Action : {p}, fais une déclaration d'amour à ton plat préféré.
+Action : {p}, envoie un clin d'œil emoji à la personne de ton choix dans le chat.
+Action : {p}, prends ta voix la plus douce et dis bonsoir à tout le monde.
+Action : {p}, raconte ton premier date comme un conte de fées.
