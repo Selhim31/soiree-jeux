@@ -3,7 +3,7 @@ const G={};for(const f of fs.readdirSync(__dirname+'/content'))G[f.replace('.jso
 const ORDER=["ask","ecrit","excrush","estim","duo","connaitre","soft","coquin","hot","couple","flirts","darkromance","defis","av","qui","jamais","tupreferes","ouinon","cestun10","imposteur","7sec","quiz","equipe","cercle","rnp","pmu","purete","verite","debats","mime","halloween"];
 const KIND={defis:'dare',mime:'dare',flirts:'dare',qui:'players',tupreferes:'ab',ouinon:'ab',jamais:'ab'};
 const kindOf=k=>G[k].kind||KIND[k]||'input';
-const ASSET='a15';const VER=ASSET+'-'+(process.env.RENDER_GIT_COMMIT||String(Date.now())).slice(0,8);
+const ASSET='a16';const VER=ASSET+'-'+(process.env.RENDER_GIT_COMMIT||String(Date.now())).slice(0,8);
 const INDEX=()=>fs.readFileSync(__dirname+'/public/index.html','utf8').replace(/(\/(?:app|app2)\.js|\/style\.css)"/g,`$1?v=${VER}"`).replace('<head>',`<head><meta name=app-version content="${VER}">`);
 const app=express();app.get(['/','/index.html'],(q,r)=>{r.set('Cache-Control','no-store');r.type('html').send(INDEX())});app.get('/api/version',(q,r)=>{r.set('Cache-Control','no-store');r.json({v:VER})});app.set('trust proxy',true);app.use(express.static(__dirname+'/public',{maxAge:0,etag:true,setHeaders:(r)=>r.setHeader('Cache-Control','no-cache')}));
 app.get('/api/games',(q,r)=>r.json(ORDER.filter(k=>G[k]).map(k=>({id:k,name:G[k].name,desc:G[k].desc,img:G[k].img,adult:G[k].adult,kind:kindOf(k),levels:Object.fromEntries(Object.entries(G[k].levels).map(([l,v])=>[l,['rnp','pmu'].includes(k)?0:v.length]))}))));
@@ -35,7 +35,7 @@ function reveal(r){const c=r.card;if(!c||c.revealed)return;if(c.kind==='whowrote
  if(c.kind==='quiz'){for(const[id,v]of Object.entries(r.ans))if(v===c.correct)r.scores[nm(r,id)]=(r.scores[nm(r,id)]||0)+1;c.result='Bonne réponse : '+c.correct}
  if(c.kind==='impostor')c.result=`L'imposteur était ${nm(r,c.secret.imp)} ! Mot des civils : « ${c.secret.a} », mot de l'imposteur : « ${c.secret.b} ».`;
  if(c.kind==='number'){const v=Object.values(r.ans).map(Number).filter(x=>!isNaN(x));c.result=v.length?'Moyenne : '+(v.reduce((a,b)=>a+b,0)/v.length).toFixed(1)+'/10':''}
- if(c.kind==='purity'){c.result='Score de pureté : '+Object.entries(r.ans).map(([id,v])=>`${nm(r,id)} ${Math.max(0,100-Math.round(v*100/Object.values(G.purete.levels)[0].length))}%`).join(' · ')}
+ if(c.kind==='purity'){const T=(c.items||[]).length||10;c.result='Score de pureté : '+Object.entries(r.ans).map(([id,v])=>{const k=Math.min(T,Math.max(0,Number(v)||0));return `${nm(r,id)} ${100-Math.round(k*100/T)}% (${k}/${T})`}).join(' · ')}
  if(c.kind==='rnp'){const g=r.ans[c.target];const red=s=>'♥♦'.includes(s);const d=()=>rnd(['A','2','3','4','5','6','7','8','9','10','V','D','R'])+rnd('♥♦♣♠'.split(''));let cards=[d()];if(g==='Purple')cards.push(d());
   const reds=cards.filter(x=>red(x.slice(-1))).length;const win=g==='Rouge'?reds===1:g==='Noir'?reds===0:reds===1;c.result=`${cards.join('  ')} → ${win?'Gagné ! '+nm(r,c.target)+' distribue '+(g==='Purple'?4:2)+' gorgées':'Perdu ! '+nm(r,c.target)+' boit '+(g==='Purple'?4:2)+' gorgées'}`}}
 function checkAll(r){const c=r.card;const e=expected(r);if(c.kind==='whowrote'&&c.phase==='vote'){if(e.every(id=>id in c.secret.votes))reveal(r);return}if(e.length&&e.every(id=>id in r.ans)&&c.kind!=='pmu')reveal(r)}
@@ -63,7 +63,7 @@ function draw(r,depth=0){let gid=r.game,lvs=r.levels;if(r.mix){const ks=Object.k
  if(kind==='quiz'){const p=text.split(' ||| ');text=p[0];c.correct=p[1];opts=shuf(p.slice(1))}
  if(kind==='timer'){c.timerEnd=Date.now()+9000}
  if(kind==='team'){if(!r.teams||Object.keys(r.teams).length!==ids.length){r.teams={};shuf(ids).forEach((id,i)=>r.teams[id]=i%2?'Rouge':'Bleue');r.scores={Bleue:0,Rouge:0}}r.tt=r.tt==='Bleue'?'Rouge':'Bleue';text=text.replace('{t}',r.tt)}
- if(kind==='purity'){text='Coche en secret tout ce que tu as déjà fait. Seul ton score sera révélé.'}
+ if(kind==='purity'){const u=r.used[key];if(!c.items)u.delete(t);let av=pool.filter(x=>!u.has(x));if(av.length<10){u.clear();av=pool.slice()}c.items=shuf(av).slice(0,10);c.items.forEach(x=>u.add(x));text="J'ai déjà… Coche en secret ce que tu as déjà fait parmi ces 10 propositions. Seul ton score sera révélé."}
  if(kind==='impostor'){let [a,b]=t.split('|');if(Math.random()<.5)[a,b]=[b,a];const imp=rnd(ids);c.secret={a,b,imp};text='Chacun a reçu un mot secret. À tour de rôle, décrivez-le en un mot, puis votez pour l\'imposteur !';opts=null;for(const id of ids)io.to('p:'+id).emit('secret',id===imp?b:a)}
  if(kind==='rnp'){text=`${nm(r,target)}, rouge, noir ou purple ?`;opts=['Rouge','Noir','Purple']}
  if(kind==='pmu'){text='Pariez sur votre as ! Puis l\'hôte retourne les cartes.';opts=['♥','♦','♣','♠'];c.pmu={h:{'♥':0,'♦':0,'♣':0,'♠':0},last:null,winner:null}}
