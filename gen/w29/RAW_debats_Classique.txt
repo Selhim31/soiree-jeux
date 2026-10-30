@@ -1,0 +1,100 @@
+Faut-il mettre du ketchup sur les pâtes ? {p} pour, {q} contre : 30 secondes chacun.
+Faut-il mettre du ketchup sur les pâtes ? Tout le monde vote, puis {p} défend la minorité.
+Le pyjama toute la journée le dimanche, c'est sain ? {p} pour, {q} contre : 30 secondes chacun.
+Le pyjama toute la journée le dimanche, c'est sain ? Tout le monde vote, puis {p} défend la minorité.
+Les chats sont meilleurs que les chiens ? {p} pour, {q} contre : 30 secondes chacun.
+Les chats sont meilleurs que les chiens ? Tout le monde vote, puis {p} défend la minorité.
+La plage vaut mieux que la montagne ? {p} pour, {q} contre : 30 secondes chacun.
+La plage vaut mieux que la montagne ? Tout le monde vote, puis {p} défend la minorité.
+Faut-il répondre aux messages tout de suite ? {p} pour, {q} contre : 30 secondes chacun.
+Faut-il répondre aux messages tout de suite ? Tout le monde vote, puis {p} défend la minorité.
+Le café est meilleur que le thé ? {p} pour, {q} contre : 30 secondes chacun.
+Le café est meilleur que le thé ? Tout le monde vote, puis {p} défend la minorité.
+Les films doublés valent mieux que la VO ? {p} pour, {q} contre : 30 secondes chacun.
+Les films doublés valent mieux que la VO ? Tout le monde vote, puis {p} défend la minorité.
+L'été est la meilleure saison ? {p} pour, {q} contre : 30 secondes chacun.
+L'été est la meilleure saison ? Tout le monde vote, puis {p} défend la minorité.
+Faut-il plier ou rouler ses vêtements ? {p} pour, {q} contre : 30 secondes chacun.
+Faut-il plier ou rouler ses vêtements ? Tout le monde vote, puis {p} défend la minorité.
+Les vocaux de plus d'une minute sont-ils acceptables ? {p} pour, {q} contre : 30 secondes chacun.
+Les vocaux de plus d'une minute sont-ils acceptables ? Tout le monde vote, puis {p} défend la minorité.
+Le fromage après le dessert, c'est permis ? {p} pour, {q} contre : 30 secondes chacun.
+Le fromage après le dessert, c'est permis ? Tout le monde vote, puis {p} défend la minorité.
+Mieux vaut être en avance qu'à l'heure ? {p} pour, {q} contre : 30 secondes chacun.
+Mieux vaut être en avance qu'à l'heure ? Tout le monde vote, puis {p} défend la minorité.
+Le papier toilette doit pendre devant ? {p} pour, {q} contre : 30 secondes chacun.
+Le papier toilette doit pendre devant ? Tout le monde vote, puis {p} défend la minorité.
+Les chaussettes dans les sandales, c'est stylé ? {p} pour, {q} contre : 30 secondes chacun.
+Les chaussettes dans les sandales, c'est stylé ? Tout le monde vote, puis {p} défend la minorité.
+La raclette en été, c'est oui ? {p} pour, {q} contre : 30 secondes chacun.
+La raclette en été, c'est oui ? Tout le monde vote, puis {p} défend la minorité.
+Faut-il couper ses spaghettis ? {p} pour, {q} contre : 30 secondes chacun.
+Faut-il couper ses spaghettis ? Tout le monde vote, puis {p} défend la minorité.
+Le Nutella se met au frigo ? {p} pour, {q} contre : 30 secondes chacun.
+Le Nutella se met au frigo ? Tout le monde vote, puis {p} défend la minorité.
+Les séries valent mieux que les films ? {p} pour, {q} contre : 30 secondes chacun.
+Les séries valent mieux que les films ? Tout le monde vote, puis {p} défend la minorité.
+Lire la fin d'un livre en premier, c'est un crime ? {p} pour, {q} contre : 30 secondes chacun.
+Lire la fin d'un livre en premier, c'est un crime ? Tout le monde vote, puis {p} défend la minorité.
+Le karaoké est la meilleure activité de soirée ? {p} pour, {q} contre : 30 secondes chacun.
+Le karaoké est la meilleure activité de soirée ? Tout le monde vote, puis {p} défend la minorité.
+Mieux vaut un petit appart en ville qu'une grande maison à la campagne ? {p} pour, {q} contre : 30 secondes chacun.
+Mieux vaut un petit appart en ville qu'une grande maison à la campagne ? Tout le monde vote, puis {p} défend la minorité.
+Les selfies en vacances, c'est indispensable ? {p} pour, {q} contre : 30 secondes chacun.
+Les selfies en vacances, c'est indispensable ? Tout le monde vote, puis {p} défend la minorité.
+Faut-il se doucher le matin ou le soir ? {p} pour, {q} contre : 30 secondes chacun.
+Faut-il se doucher le matin ou le soir ? Tout le monde vote, puis {p} défend la minorité.
+Le réveil à 6h rend plus productif ? {p} pour, {q} contre : 30 secondes chacun.
+Le réveil à 6h rend plus productif ? Tout le monde vote, puis {p} défend la minorité.
+Les jeux vidéo sont une forme d'art ? {p} pour, {q} contre : 30 secondes chacun.
+Les jeux vidéo sont une forme d'art ? Tout le monde vote, puis {p} défend la minorité.
+Faut-il dire « bonjour » en entrant dans un ascenseur ? {p} pour, {q} contre : 30 secondes chacun.
+Faut-il dire « bonjour » en entrant dans un ascenseur ? Tout le monde vote, puis {p} défend la minorité.
+La mayonnaise maison vaut l'effort ? {p} pour, {q} contre : 30 secondes chacun.
+La mayonnaise maison vaut l'effort ? Tout le monde vote, puis {p} défend la minorité.
+Les croissants au beurre écrasent les ordinaires ? {p} pour, {q} contre : 30 secondes chacun.
+Les croissants au beurre écrasent les ordinaires ? Tout le monde vote, puis {p} défend la minorité.
+Le camping est de vraies vacances ? {p} pour, {q} contre : 30 secondes chacun.
+Le camping est de vraies vacances ? Tout le monde vote, puis {p} défend la minorité.
+Faut-il manger la croûte du brie ? {p} pour, {q} contre : 30 secondes chacun.
+Faut-il manger la croûte du brie ? Tout le monde vote, puis {p} défend la minorité.
+Le foot est le meilleur sport à regarder ? {p} pour, {q} contre : 30 secondes chacun.
+Le foot est le meilleur sport à regarder ? Tout le monde vote, puis {p} défend la minorité.
+Les réseaux sociaux rendent plus heureux ? {p} pour, {q} contre : 30 secondes chacun.
+Les réseaux sociaux rendent plus heureux ? Tout le monde vote, puis {p} défend la minorité.
+La pizza froide le lendemain est meilleure ? {p} pour, {q} contre : 30 secondes chacun.
+La pizza froide le lendemain est meilleure ? Tout le monde vote, puis {p} défend la minorité.
+Mieux vaut voyager seul qu'en groupe ? {p} pour, {q} contre : 30 secondes chacun.
+Mieux vaut voyager seul qu'en groupe ? Tout le monde vote, puis {p} défend la minorité.
+Faut-il applaudir quand l'avion atterrit ? {p} pour, {q} contre : 30 secondes chacun.
+Faut-il applaudir quand l'avion atterrit ? Tout le monde vote, puis {p} défend la minorité.
+Les surprises d'anniversaire sont une bonne idée ? {p} pour, {q} contre : 30 secondes chacun.
+Les surprises d'anniversaire sont une bonne idée ? Tout le monde vote, puis {p} défend la minorité.
+Le télétravail est mieux que le bureau ? {p} pour, {q} contre : 30 secondes chacun.
+Le télétravail est mieux que le bureau ? Tout le monde vote, puis {p} défend la minorité.
+Les licornes auraient dû exister ? {p} pour, {q} contre : 30 secondes chacun.
+Les licornes auraient dû exister ? Tout le monde vote, puis {p} défend la minorité.
+Faut-il mettre du sucre dans la vinaigrette ? {p} pour, {q} contre : 30 secondes chacun.
+Faut-il mettre du sucre dans la vinaigrette ? Tout le monde vote, puis {p} défend la minorité.
+Les playlists partagées en voiture, c'est le chauffeur qui décide ? {p} pour, {q} contre : 30 secondes chacun.
+Les playlists partagées en voiture, c'est le chauffeur qui décide ? Tout le monde vote, puis {p} défend la minorité.
+La soupe est un vrai repas ? {p} pour, {q} contre : 30 secondes chacun.
+La soupe est un vrai repas ? Tout le monde vote, puis {p} défend la minorité.
+Le sandwich triangle est supérieur au rectangle ? {p} pour, {q} contre : 30 secondes chacun.
+Le sandwich triangle est supérieur au rectangle ? Tout le monde vote, puis {p} défend la minorité.
+Faut-il garder les boîtes des appareils électroniques ? {p} pour, {q} contre : 30 secondes chacun.
+Faut-il garder les boîtes des appareils électroniques ? Tout le monde vote, puis {p} défend la minorité.
+Les dinosaures étaient plus cool que les requins ? {p} pour, {q} contre : 30 secondes chacun.
+Les dinosaures étaient plus cool que les requins ? Tout le monde vote, puis {p} défend la minorité.
+Le hot-dog est un sandwich ? {p} pour, {q} contre : 30 secondes chacun.
+Le hot-dog est un sandwich ? Tout le monde vote, puis {p} défend la minorité.
+Les céréales avant le lait ? {p} pour, {q} contre : 30 secondes chacun.
+Les céréales avant le lait ? Tout le monde vote, puis {p} défend la minorité.
+Faut-il faire son lit tous les matins ? {p} pour, {q} contre : 30 secondes chacun.
+Faut-il faire son lit tous les matins ? Tout le monde vote, puis {p} défend la minorité.
+Les moustaches vont revenir à la mode ? {p} pour, {q} contre : 30 secondes chacun.
+Les moustaches vont revenir à la mode ? Tout le monde vote, puis {p} défend la minorité.
+Les escape games sont meilleurs que le bowling ? {p} pour, {q} contre : 30 secondes chacun.
+Les escape games sont meilleurs que le bowling ? Tout le monde vote, puis {p} défend la minorité.
+La galette des rois à la frangipane bat la brioche ? {p} pour, {q} contre : 30 secondes chacun.
+La galette des rois à la frangipane bat la brioche ? Tout le monde vote, puis {p} défend la minorité.

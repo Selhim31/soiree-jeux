@@ -1,0 +1,102 @@
+dis à {q} ce que tu admires le plus chez lui/elle
+raconte votre première dispute selon toi, {q} donne sa version
+quel est le plat préféré de {q} ? {q} confirme
+quelle est la plus grande peur de {q} ? {q} confirme ou corrige
+cite trois qualités de {q} en 10 secondes
+quel est le rêve de voyage de {q} ?
+dis à {q} le moment où tu as été le plus fier ou la plus fière de lui/elle
+quel surnom donnes-tu à {q} en secret ?
+quelle est la chanson qui vous représente ?
+raconte à {q} ton souvenir préféré avec lui/elle
+qui de vous deux est le plus têtu ?
+qui de vous deux cuisine le mieux ?
+qui de vous deux est le plus drôle ?
+qui de vous deux dépense le plus ?
+qui de vous deux est le plus en retard ?
+qui de vous deux s'excuse en premier ?
+qui de vous deux est le plus romantique ?
+quel est le film préféré de {q} ?
+quel est le premier cadeau que {q} t'a offert ?
+où vous êtes-vous rencontrés, raconte en 20 secondes
+quelle habitude de {q} trouves-tu adorable ?
+quelle habitude de {q} t'agace ?
+dis à {q} une chose que tu n'oses jamais lui dire
+quel est le projet que tu aimerais réaliser avec {q} ?
+que ferait {q} avec 1 million d'euros ?
+quel animal serait {q} ?
+quelle est la plus grande qualité de {q} en voyage ?
+qui de vous deux ronfle le plus ?
+qui de vous deux est le plus jaloux ?
+qui de vous deux est le plus bordélique ?
+qui de vous deux conduit le mieux ?
+quelle est la date de votre rencontre ? {q} vérifie
+quel est le meilleur restaurant que vous ayez fait ensemble ?
+quel est votre rituel préféré ensemble ?
+dis à {q} une chose qu'il/elle fait mieux que toi
+quelle série regardez-vous ensemble en ce moment ?
+quel est le pire cadeau que tu aies offert à {q} ?
+qu'est-ce que {q} fait quand il/elle est triste ?
+qu'est-ce qui fait rire {q} à coup sûr ?
+quelle est la plus grosse bêtise que vous ayez faite à deux ?
+qui de vous deux a fait le premier pas ?
+qui de vous deux a dit « je t'aime » en premier ?
+quel est le meilleur conseil que {q} t'ait donné ?
+quel est votre voyage de rêve à deux ?
+qu'aimerais-tu changer dans votre quotidien ?
+dis à {q} un compliment sur sa personnalité
+quelle est la chose que {q} déteste manger ?
+quelle est la couleur préférée de {q} ?
+quel est le premier film que vous avez vu ensemble ?
+quel est le petit geste de {q} qui te fait du bien ?
+quel serait votre nom de duo de super-héros ?
+qui de vous deux est le plus sportif ?
+qui de vous deux est le plus fêtard ?
+qui de vous deux est le plus économe ?
+qui de vous deux pleure devant les films ?
+quelle est la chose que {q} fait le matin et que tu adores ?
+dis à {q} ce que tu ferais pour lui/elle un jour de pluie
+quel est le surnom que {q} te donne ?
+que ferait {q} sur une île déserte ?
+quelle est la plus grande force de votre couple ?
+quel défi aimeriez-vous relever ensemble ?
+quel est votre meilleur week-end à deux ?
+qui de vous deux est le meilleur pour les cadeaux ?
+qui de vous deux est le plus câlin ?
+qui de vous deux est le plus timide ?
+quel est l'endroit où vous aimeriez vivre ensemble ?
+quel est le jeu auquel {q} triche ?
+quel est le plat que vous cuisinez ensemble ?
+dis à {q} une chose qui te fait penser à lui/elle
+quelle est la plus belle photo de vous deux ?
+quel est le premier message que {q} t'a envoyé, selon toi ?
+qui de vous deux est le plus bavard ?
+qui de vous deux prend le plus de place dans le lit ?
+qui de vous deux est le plus organisé ?
+quel est le meilleur fou rire que vous ayez partagé ?
+dis à {q} une chose qui t'a surpris(e) chez lui/elle
+que penses-tu que {q} pensait de toi au premier regard ?
+quel est le souvenir que tu aimerais revivre avec {q} ?
+qui de vous deux est le plus patient ?
+qui de vous deux est le plus aventureux ?
+quel est le petit nom de votre futur animal ?
+dis à {q} trois choses que tu aimes chez lui/elle, sans hésiter
+qu'est-ce que {q} fait de mieux pour te remonter le moral ?
+quelle est ta plus grande fierté de couple ?
+quelle tradition voulez-vous créer ensemble ?
+qui de vous deux choisit le film le plus souvent ?
+qui de vous deux est le meilleur danseur ?
+quelle est la plus grosse surprise que {q} t'ait faite ?
+quelle est la manie de {q} au lit (pour dormir) ?
+qui de vous deux a le plus mauvais caractère le matin ?
+qu'est-ce que tu as appris grâce à {q} ?
+quel est votre restaurant fétiche ?
+quel serait le titre du film de votre histoire ?
+qui de vous deux serait le meilleur parent ?
+qui de vous deux oublie le plus les dates importantes ?
+quel est le plus beau compliment que {q} t'ait fait ?
+qu'est-ce que tu voudrais que {q} sache aujourd'hui ?
+quel est votre plus grand fou rire en public ?
+dis à {q} merci pour quelque chose de précis
+quel est le prochain voyage que vous devriez faire ?
+qui de vous deux gagnerait à un quiz de culture G ?
+quelle est la chose la plus mignonne que {q} fasse en dormant ?

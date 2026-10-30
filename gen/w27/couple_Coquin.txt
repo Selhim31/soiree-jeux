@@ -1,0 +1,100 @@
+dis à {q} quel vêtement de lui/elle tu préfères lui voir porter
+quel est l'endroit où tu préfères embrasser {q} ?
+raconte votre premier baiser, {q} donne sa version
+quel est le parfum de {q} qui te fait craquer ?
+dis à {q} ce qui t'a fait de l'effet la dernière fois
+quel est le surnom coquin que tu pourrais donner à {q} ?
+décris le regard de {q} quand il/elle a envie
+quelle est la tenue de {q} qui te rend fou ou folle ?
+dis à {q} trois mots doux à l'oreille (au micro)
+quel est le premier geste tendre que {q} a eu pour toi ?
+qui de vous deux est le plus câlin le matin ?
+qui de vous deux embrasse le mieux ?
+qui de vous deux fait le premier pas pour un câlin ?
+qui de vous deux est le plus jaloux en soirée ?
+quel est le meilleur baiser que vous ayez échangé ?
+où aimerais-tu embrasser {q} la prochaine fois ?
+décris à {q} un rendez-vous romantique surprise
+quel est l'endroit le plus improbable où vous vous êtes embrassés ?
+dis à {q} ce que tu trouves sexy chez lui/elle quand il/elle ne s'en rend pas compte
+quel sous-vêtement de {q} préfères-tu ?
+qu'est-ce que {q} fait qui te donne envie de lui sauter dessus ?
+quel est ton souvenir le plus romantique avec {q} ?
+dis à {q} ce que tu aimerais qu'il/elle te fasse ce soir, version soft
+quel est le meilleur câlin de {q} ?
+qui de vous deux est le plus séducteur ?
+qui de vous deux rougit le plus ?
+quel est le compliment physique préféré de {q} ?
+quelle est la chanson parfaite pour un slow avec {q} ?
+dis à {q} la partie de son corps que tu préfères
+quel jeu coquin aimerais-tu faire avec {q} ?
+quel est le meilleur date que vous ayez fait ?
+qu'est-ce qui te fait fondre dans la voix de {q} ?
+si tu devais séduire {q} à nouveau, que ferais-tu ?
+décris à {q} la tenue que tu mettrais pour le/la séduire
+quel est le geste de {q} qui t'électrise ?
+quel est le premier rendez-vous idéal que tu referais avec {q} ?
+qui de vous deux est le plus tactile ?
+qui de vous deux est le plus coquin par message ?
+quel est le message le plus mignon que {q} t'ait envoyé ?
+quel est le message le plus coquin que {q} t'ait envoyé (résumé) ?
+dis à {q} ce qui te fait craquer quand il/elle se réveille
+quel est le petit rituel câlin de votre couple ?
+où aimerais-tu partir en week-end romantique avec {q} ?
+quel est le bisou de {q} que tu préfères ?
+dis à {q} ce qui t'a attiré(e) la première fois en un mot
+qu'est-ce que {q} porte au lit ?
+quel est votre film romantique préféré à deux ?
+raconte la fois où {q} t'a fait rougir
+quel est le fantasme romantique que tu voudrais vivre avec {q} ?
+qui de vous deux danse le mieux le slow ?
+qui de vous deux est le plus doué pour les massages ?
+quel massage aimerais-tu recevoir de {q} ?
+dis à {q} un compliment sur son sourire
+qu'est-ce qui te plaît le plus dans la façon dont {q} t'embrasse ?
+quelle est l'odeur de {q} que tu reconnaîtrais entre mille ?
+décris le câlin parfait avec {q}
+quel est le moment de la journée où tu as le plus envie de {q} ?
+dis à {q} ce qu'il/elle fait de plus sexy en cuisine
+quelle est la chose la plus coquine que vous ayez faite en public ?
+qui de vous deux est le plus joueur ?
+quel est le premier endroit où vous avez dormi ensemble ?
+dis à {q} ce que tu ressens quand il/elle te prend la main
+quel est le look de {q} qui te fait le plus craquer ?
+quelle surprise coquine aimerais-tu faire à {q} ?
+quel est le souvenir de vacances le plus romantique avec {q} ?
+dis à {q} à quoi tu penses quand il/elle te regarde
+qu'est-ce que tu aimerais que {q} fasse plus souvent ?
+qui de vous deux aime le plus les bisous dans le cou ?
+qui de vous deux a le plus d'imagination pour les dates ?
+quel est votre endroit secret pour un câlin ?
+quelle est la chose la plus mignonne que {q} fasse au réveil ?
+dis à {q} ce que tu aimerais qu'il/elle porte ce week-end
+quel est le premier détail de {q} que tu as remarqué ?
+raconte un moment où {q} t'a séduit(e) sans le vouloir
+quelle est la meilleure soirée en amoureux que vous ayez faite ?
+dis à {q} une phrase de drague comme au premier jour
+qui de vous deux tient le plus longtemps sans bisou ?
+quelle est la chose la plus romantique que {q} ait faite ?
+dis à {q} ce qui te donne envie de l'embrasser là, maintenant
+quel est ton souvenir préféré sous la couette (version soft) ?
+quel est le plus beau regard que {q} t'ait lancé ?
+quel est votre slow de mariage idéal ?
+dis à {q} quel est son meilleur atout de séduction
+qu'aimerais-tu recevoir comme cadeau coquin de {q} ?
+qui de vous deux est le plus sensible aux chatouilles ?
+qui de vous deux rêve le plus souvent de l'autre ?
+décris à {q} votre soirée parfaite de vendredi soir
+dis à {q} trois choses que tu aimes chez lui/elle physiquement
+quel est le moment où tu as trouvé {q} le plus irrésistible ?
+qu'est-ce que tu ressens quand {q} te fait un compliment ?
+quel est le pyjama de {q} le plus sexy (ou le plus drôle) ?
+quelle est la chose qui te rend jaloux ou jalouse chez {q} ?
+dis à {q} où tu aimerais qu'il/elle t'embrasse en premier ce soir
+quelle est la dernière fois que {q} t'a fait craquer ?
+qui de vous deux est le plus romantique en voyage ?
+quel bisou volé de {q} t'a le plus marqué(e) ?
+dis à {q} ce que tu aimes dans sa façon de te prendre dans ses bras
+qu'est-ce que vous faites quand vous êtes seuls tous les deux pour la première fois de la journée ?
+quel est le petit mot coquin que tu voudrais que {q} t'écrive ?
+dis à {q} quel moment de votre histoire tu revivrais en premier

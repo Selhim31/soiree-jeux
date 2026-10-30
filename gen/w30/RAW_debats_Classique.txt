@@ -1,0 +1,8 @@
+Les vacances à la neige valent les vacances au soleil ? {p} pour, {q} contre : 30 secondes chacun.
+Les vacances à la neige valent les vacances au soleil ? Tout le monde vote, puis {p} défend la minorité.
+Faut-il interdire les trottinettes en ville ? {p} pour, {q} contre : 30 secondes chacun.
+Faut-il interdire les trottinettes en ville ? Tout le monde vote, puis {p} défend la minorité.
+La fondue est meilleure que la raclette ? {p} pour, {q} contre : 30 secondes chacun.
+La fondue est meilleure que la raclette ? Tout le monde vote, puis {p} défend la minorité.
+Les lunettes de soleil la nuit, c'est jamais ok ? {p} pour, {q} contre : 30 secondes chacun.
+Les lunettes de soleil la nuit, c'est jamais ok ? Tout le monde vote, puis {p} défend la minorité.
