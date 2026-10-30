@@ -4,7 +4,7 @@ const last=(s)=>new Promise(r=>s.once('state',r));
 a.on('state',s=>S.a=s);b.on('state',s=>S.b=s);let sec={};a.on('secret',x=>sec.a=x);b.on('secret',x=>sec.b=x);
 let photo=null,toasts=[];b.on('photo',p=>photo=p);b.on('toast',t=>toasts.push(t));
 b.on('linkAsk',({from})=>b.emit('linkAccept',from));
-(async()=>{a.emit('create',{name:'Selim',game:'connaitre',levels:['Léger'],format:'Groupe'});await w(400);
+(async()=>{a.emit('create',{name:'Selim',game:'connaitre',levels:['Léger'],format:'Groupe'});await w(2500);
 b.emit('join',{code:S.a.code,name:'Ami'});await w(400);
 b.emit('anonQ',{text:'Question secrète ?',level:'Léger'});await w(200);console.log('anonCount',S.a.anonCount, 'sender exposed?',JSON.stringify(S.a).includes(b.id));
 a.emit('next');await w(300);console.log('card',S.a.card.text,S.a.card.anon||false,'kind',S.a.card.kind);
