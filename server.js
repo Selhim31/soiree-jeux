@@ -1,13 +1,13 @@
 const express=require('express'),http=require('http'),fs=require('fs'),QR=require('qrcode'),{Server}=require('socket.io');
 const G={};for(const f of fs.readdirSync(__dirname+'/content'))G[f.replace('.json','')]=JSON.parse(fs.readFileSync(__dirname+'/content/'+f));
-const ORDER=["ecrit","excrush","estim","duo","connaitre","soft","coquin","hot","couple","flirts","defis","av","qui","jamais","tupreferes","ouinon","cestun10","imposteur","7sec","quiz","equipe","cercle","rnp","pmu","purete","verite","debats","mime","halloween"];
+const ORDER=["ecrit","excrush","estim","duo","connaitre","soft","coquin","hot","couple","flirts","darkromance","defis","av","qui","jamais","tupreferes","ouinon","cestun10","imposteur","7sec","quiz","equipe","cercle","rnp","pmu","purete","verite","debats","mime","halloween"];
 const KIND={defis:'dare',mime:'dare',flirts:'dare',qui:'players',tupreferes:'ab',ouinon:'ab',jamais:'ab'};
 const kindOf=k=>G[k].kind||KIND[k]||'input';
-const ASSET='a12';const VER=ASSET+'-'+(process.env.RENDER_GIT_COMMIT||String(Date.now())).slice(0,8);
+const ASSET='a13';const VER=ASSET+'-'+(process.env.RENDER_GIT_COMMIT||String(Date.now())).slice(0,8);
 const INDEX=()=>fs.readFileSync(__dirname+'/public/index.html','utf8').replace(/(\/(?:app|app2)\.js|\/style\.css)"/g,`$1?v=${VER}"`).replace('<head>',`<head><meta name=app-version content="${VER}">`);
 const app=express();app.get(['/','/index.html'],(q,r)=>{r.set('Cache-Control','no-store');r.type('html').send(INDEX())});app.get('/api/version',(q,r)=>{r.set('Cache-Control','no-store');r.json({v:VER})});app.set('trust proxy',true);app.use(express.static(__dirname+'/public',{maxAge:0,etag:true,setHeaders:(r)=>r.setHeader('Cache-Control','no-cache')}));
 app.get('/api/games',(q,r)=>r.json(ORDER.filter(k=>G[k]).map(k=>({id:k,name:G[k].name,desc:G[k].desc,img:G[k].img,adult:G[k].adult,kind:kindOf(k),levels:Object.fromEntries(Object.entries(G[k].levels).map(([l,v])=>[l,['rnp','pmu'].includes(k)?0:v.length]))}))));
-const FAM=[{id:'questions',name:'Questions & Vérités',emoji:'💬',desc:'Se découvrir, avouer, débattre',games:['connaitre','soft','verite','av','jamais','debats','excrush']},{id:'defis',name:'Défis',emoji:'⚡',desc:'Gages à distance, mimes, chrono',games:['defis','mime','7sec']},{id:'ambiance',name:"Jeux d'ambiance",emoji:'🎉',desc:'Votes, quiz, imposteur, équipes',games:['qui','tupreferes','ouinon','cestun10','imposteur','quiz','equipe','halloween','ecrit','estim','duo']},{id:'cartes',name:'Cartes & alcool',emoji:'🍻',desc:'Le cercle, rouge-noir-purple, PMU',games:['cercle','rnp','pmu']},{id:'adulte',name:'Couple & 18+',emoji:'🔥',desc:'Coquin, Hot, Couple, Flirts, Pureté',adult:true,games:['coquin','hot','couple','flirts','purete']}];
+const FAM=[{id:'questions',name:'Questions & Vérités',emoji:'💬',desc:'Se découvrir, avouer, débattre',games:['connaitre','soft','verite','av','jamais','debats','excrush']},{id:'defis',name:'Défis',emoji:'⚡',desc:'Gages à distance, mimes, chrono',games:['defis','mime','7sec']},{id:'ambiance',name:"Jeux d'ambiance",emoji:'🎉',desc:'Votes, quiz, imposteur, équipes',games:['qui','tupreferes','ouinon','cestun10','imposteur','quiz','equipe','halloween','ecrit','estim','duo']},{id:'cartes',name:'Cartes & alcool',emoji:'🍻',desc:'Le cercle, rouge-noir-purple, PMU',games:['cercle','rnp','pmu']},{id:'adulte',name:'Couple & 18+',emoji:'🔥',desc:'Coquin, Hot, Couple, Flirts, Dark Romance, Pureté',adult:true,games:['coquin','hot','couple','flirts','darkromance','purete']}];
 app.get('/api/families',(q,r)=>r.json(FAM));
 app.get('/api/purete',(q,r)=>r.json(Object.values(G.purete.levels)[0]));
 app.get('/qr/:code.png',async(q,r)=>{const u=`${q.protocol}://${q.get('host')}/?r=${encodeURIComponent(q.params.code)}`;r.type('png').send(await QR.toBuffer(u,{margin:1,width:300,color:{dark:'#1a0b2e',light:'#ffffff'}}))});
@@ -55,7 +55,7 @@ function draw(r,depth=0){let gid=r.game,lvs=r.levels;if(r.mix){const ks=Object.k
  let text=t.replaceAll('{p}',nm(r,target)).replaceAll('{q}',q?nm(r,q):"quelqu'un de ton choix"),opts=null,c={elig:restr?EL:null,id:Date.now(),game:gid,gname:g.name,level:l,kind,target,partner:q,revealed:false};
 
  if(kind==='ab'){if(gid==='jamais')opts=["Je l'ai déjà fait 🍻","Jamais 😇"];else{const p=text.replace(/^Tu préfères /,'').replace(/ \?$/,'').split(' ||| ');if(gid==='ouinon'){text=p[0];opts=[p[1],p[2]]}else{text='Tu préfères…';opts=[p[0],p[1]]}}}
- if(gid==='av'&&text.startsWith('Action'))c.kind='dare';
+ if((gid==='av'||gid==='darkromance')&&text.startsWith('Action'))c.kind='dare';
  if(gid==='excrush'&&/^Qui ici/.test(text))c.kind='players';
  if(kind==='whowrote'){c.phase='write';c.secret={}}
  if(kind==='duo'){const p=text.split(' ||| ');text=`${nm(r,target)} et ${q?nm(r,q):'?'} : ${p[0]}`;opts=[p[1],p[2]]}
