@@ -1,7 +1,7 @@
 const ME=localStorage.pid||(localStorage.pid=(self.crypto&&crypto.randomUUID?crypto.randomUUID():Math.random().toString(36).slice(2)+Date.now()));
 const MYVER=(document.querySelector('meta[name=app-version]')||{}).content;
 const so=io(),$=i=>document.getElementById(i);let GAMES=[],cur=null,selLv=[],selFmt='Groupe',S=null,pendingGate=null;
-const SAFE=['Classique','Halloween','Gage'];
+const SAFE=['Classique','Halloween'];
 const esc=s=>String(s).replace(/[&<>"']/g,m=>'&#'+m.charCodeAt(0)+';');
 const adultOk=()=>localStorage.adult==='1';
 function gate(cb){if(adultOk())return cb();pendingGate=cb;$('gate').classList.remove('hide')}
