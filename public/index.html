@@ -18,7 +18,7 @@
  <div class=players id=r-players></div>
  <div class=meta id=r-meta></div>
  <div class=stage><div id=r-card></div></div>
- <div class=actions><button class=btn2 id=r-joker onclick="so.emit('joker')">🃏 Joker</button><button class="btn" id=r-next onclick="so.emit('next')">Carte suivante ▶</button></div>
+ <div class=actions><button class=btn2 id=r-joker title="Passer la carte : −10 pts" onclick="so.emit('joker')">🃏 Joker <small>(−10)</small></button><button class="btn" id=r-next onclick="so.emit('next')">Carte suivante ▶</button></div>
  <p class=wait id=r-wait>L'hôte tire les cartes…</p>
  <div id=r-extra></div>
  <details id=r-settings class=glass><summary>⚙️ Réglages de la partie (hôte)</summary><p class=lbl2>Jeu</p><select id=s-game onchange="so.emit('settings',{game:this.value})"></select><p class=lbl2>Niveaux</p><div class=chips id=s-levels></div><p class=lbl2>Questions</p><div class="chips seg" id=s-mode></div><div id=s-pickbox><p class=lbl2>Joueur suivant choisi par</p><div class="chips seg" id=s-pick></div></div></details>

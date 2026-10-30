@@ -44,3 +44,16 @@ body{padding-bottom:env(safe-area-inset-bottom)}
 .gcard{box-shadow:0 6px 18px #000c}
 .bg{background:linear-gradient(180deg,#0b050733,#0b050759 45%,#0b0507a6),url(/img/velours-m.webp) center/cover no-repeat,#0b0507!important;opacity:1!important;filter:none!important}
 @media (min-aspect-ratio:3/4){.bg{background:radial-gradient(60% 80% at 50% 45%,#0b050766,#0b050726),url(/img/velours-d.webp) center/cover no-repeat,#0b0507!important}}
+.av.ave{background:radial-gradient(circle at 35% 30%,#3a1018,#14060b)!important;font-size:15px;font-family:'Segoe UI Emoji','Noto Color Emoji',sans-serif;line-height:1}
+.pod > div .av.ave{font-size:26px}.vn em .av.ave{font-size:11px}
+.avt{font-family:'Noto Color Emoji',sans-serif}
+.avrow{display:flex;gap:8px;align-items:stretch}.avrow input{flex:1;min-width:0}
+#avbtn{flex:none;width:52px;border-radius:12px;border:1px solid #d4af37;background:radial-gradient(circle at 35% 30%,#3a1018,#14060b);font-size:26px;cursor:pointer;position:relative;padding:0}
+#avbtn:after{content:'✎';position:absolute;right:-4px;bottom:-4px;font-size:11px;background:#d4af37;color:#14060b;border-radius:50%;width:17px;height:17px;display:grid;place-items:center}
+#avpick{position:fixed;inset:0;z-index:30;background:#000b;display:grid;place-items:center;padding:16px;backdrop-filter:blur(4px)}
+.avp-box{background:linear-gradient(180deg,#2a0a12,#14060b);border:1px solid #d4af37;border-radius:16px;padding:16px;max-width:360px;width:100%;text-align:center;box-shadow:0 10px 40px #000}
+.avp-t{font-family:'Playfair Display',serif;color:#f7e3a1;font-size:1.2em;margin:0 0 12px}
+.avp-g{display:grid;grid-template-columns:repeat(6,1fr);gap:8px;margin-bottom:14px}
+.avp-e{aspect-ratio:1;font-size:24px;border-radius:50%;border:1px solid #d4af3755;background:#ffffff08;cursor:pointer;padding:0}
+.avp-e.on{border:2px solid #d4af37;box-shadow:0 0 12px #d4af3799;background:#3a1018}
+.avp-e.tk{opacity:.25;filter:grayscale(1)}
