@@ -1,6 +1,6 @@
 {
  "name": "Action ou Vérité",
- "desc": "Le grand classique, version soirée.",
+ "desc": "Chaque carte est soit une vérité à laquelle répondre, soit une action à faire. Du plus sage à l'explicite.",
  "levels": {
   "Classique": [
    "Vérité : {p}, quel est le plus gros mensonge que tu as raconté à tes parents ?",

@@ -1,6 +1,6 @@
 {
  "name": "Défis",
- "desc": "Des gages réalisables même à distance, en visio.",
+ "desc": "Uniquement des gages à réaliser, en visio ou en envoyant une preuve, validés par le groupe ou par le destinataire.",
  "levels": {
   "Classique": [
    "{p}, imite un présentateur météo pendant 20 secondes.",

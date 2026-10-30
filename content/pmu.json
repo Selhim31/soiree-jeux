@@ -1,1 +1,12 @@
-{"name": "Le jeu du PMU", "desc": "Pariez sur un as (♥♦♣♠), l'hôte retourne les cartes, les chevaux avancent en direct !", "kind": "pmu", "levels": {"Classique": ["pmu"]}, "img": "/img/pmu.webp", "adult": false}
+{
+ "name": "Le jeu du PMU",
+ "desc": "On parie sur une couleur d'as, et les chevaux avancent à chaque carte retournée.",
+ "kind": "pmu",
+ "levels": {
+  "Classique": [
+   "pmu"
+  ]
+ },
+ "img": "/img/pmu.webp",
+ "adult": false
+}
