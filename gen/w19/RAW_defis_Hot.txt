@@ -1,0 +1,107 @@
+{p}, enlève un vêtement de ton choix face caméra (chaussette, pull, accessoire).
+{p}, décris ta nuit idéale en 30 secondes au micro.
+{p}, fais une danse lascive de 15 secondes face caméra, habillé(e).
+{p}, murmure une phrase torride au micro.
+{p}, mords-toi la lèvre en fixant la caméra 5 secondes.
+{p}, lis le message le plus coquin de ton téléphone au micro (prénoms masqués).
+{p}, décris le baiser parfait au micro.
+{p}, dis à {q} quelle partie de son visage tu trouves la plus sexy.
+{p}, fais un regard intense à {q} face caméra pendant 15 secondes.
+{p}, caresse lentement ton cou face caméra 10 secondes.
+{p}, dis à voix haute ton turn-on numéro un.
+{p}, fais ton meilleur « strip-tease du pull » face caméra.
+{p}, raconte ton souvenir le plus chaud de l'été au micro.
+{p}, lèche une cuillère de façon suggestive face caméra.
+{p}, décris à {q} la tenue que tu aimerais le/la voir porter.
+{p}, fais une pose sexy face caméra 10 secondes.
+{p}, imite un gémissement de film face caméra 3 secondes.
+{p}, dis à voix haute la chose la plus osée que tu aies faite cette année.
+{p}, enlève tes chaussettes de la façon la plus sexy possible face caméra.
+{p}, fais un body roll face caméra.
+{p}, décris ton sous-vêtement du jour au micro.
+{p}, donne une note sur 10 au charme de chaque joueur.
+{p}, raconte au micro ton meilleur massage.
+{p}, dis au groupe ton fantasme le plus soft.
+{p}, souffle sur la caméra comme sur une nuque.
+{p}, imite une scène de film romantique très chaude (habillé·e) face caméra.
+{p}, dis à {q} ce que tu lui murmurerais à l'oreille.
+{p}, fais un clin d'œil, un mordillement de lèvre et un sourire à la caméra.
+{p}, danse en te déhanchant sur la chanson choisie par le groupe.
+{p}, reste en t-shirt ou débardeur jusqu'à ton prochain tour.
+{p}, choisis un joueur et dis-lui ce qui te ferait craquer chez lui/elle.
+{p}, fais une danse lascive de 15 secondes, filme-toi et envoie la vidéo à {q}, la personne de ton choix (envoi hors appli).
+{p}, mime un massage sensuel sur un coussin, filme-toi et envoie la vidéo à {q}, la personne de ton choix (envoi hors appli).
+{p}, fais un déhanché lent, filme-toi et envoie la vidéo à {q}, la personne de ton choix (envoi hors appli).
+{p}, retire lentement un accessoire, filme-toi et envoie la vidéo à {q}, la personne de ton choix (envoi hors appli).
+{p}, mange un fruit de façon suggestive, filme-toi et envoie la vidéo à {q}, la personne de ton choix (envoi hors appli).
+{p}, fais un mini strip-tease de ton pull, filme-toi et envoie la vidéo à {q}, la personne de ton choix (envoi hors appli).
+{p}, caresse tes cheveux de façon sensuelle, filme-toi et envoie la vidéo à {q}, la personne de ton choix (envoi hors appli).
+{p}, fais un regard de braise par-dessus ton épaule, filme-toi et envoie la vidéo à {q}, la personne de ton choix (envoi hors appli).
+{p}, fais un clin d'œil et un baiser soufflé, filme-toi et envoie la vidéo à {q}, la personne de ton choix (envoi hors appli).
+{p}, imite une pub de parfum sexy, filme-toi et envoie la vidéo à {q}, la personne de ton choix (envoi hors appli).
+{p}, marche comme un mannequin de lingerie (habillé·e), filme-toi et envoie la vidéo à {q}, la personne de ton choix (envoi hors appli).
+{p}, mime un dîner aux chandelles qui dérape, filme-toi et envoie la vidéo à {q}, la personne de ton choix (envoi hors appli).
+{p}, fais semblant d'enlever ta ceinture très lentement, filme-toi et envoie la vidéo à {q}, la personne de ton choix (envoi hors appli).
+{p}, danse un slow sensuel avec ton oreiller, filme-toi et envoie la vidéo à {q}, la personne de ton choix (envoi hors appli).
+{p}, fais une pose de calendrier, filme-toi et envoie la vidéo à {q}, la personne de ton choix (envoi hors appli).
+{p}, dans ta pose la plus sexy (habillé·e), prends-toi en photo et envoie-la à {q}, la personne de ton choix (envoi hors appli).
+{p}, avec ton regard le plus intense, prends-toi en photo et envoie-la à {q}, la personne de ton choix (envoi hors appli).
+{p}, en mordant ta lèvre, prends-toi en photo et envoie-la à {q}, la personne de ton choix (envoi hors appli).
+{p}, avec une épaule dénudée, prends-toi en photo et envoie-la à {q}, la personne de ton choix (envoi hors appli).
+{p}, en sortant de la douche avec une serviette sur les cheveux, prends-toi en photo et envoie-la à {q}, la personne de ton choix (envoi hors appli).
+{p}, avec ton plus beau décolleté ou ta chemise ouverte d'un bouton, prends-toi en photo et envoie-la à {q}, la personne de ton choix (envoi hors appli).
+{p}, allongé(e) sur ton lit en pose de magazine, prends-toi en photo et envoie-la à {q}, la personne de ton choix (envoi hors appli).
+{p}, en tenue de nuit, prends-toi en photo et envoie-la à {q}, la personne de ton choix (envoi hors appli).
+{p}, avec un glaçon sur les lèvres, prends-toi en photo et envoie-la à {q}, la personne de ton choix (envoi hors appli).
+{p}, en mode photo de profil sexy, prends-toi en photo et envoie-la à {q}, la personne de ton choix (envoi hors appli).
+{p}, murmure le prénom de {q} de façon sensuelle, enregistre-toi et envoie le vocal à {q}, la personne de ton choix (envoi hors appli).
+{p}, soupire de façon sensuelle 5 secondes, enregistre-toi et envoie le vocal à {q}, la personne de ton choix (envoi hors appli).
+{p}, décris ce que tu ferais lors d'un massage, enregistre-toi et envoie le vocal à {q}, la personne de ton choix (envoi hors appli).
+{p}, chuchote ton fantasme le plus soft, enregistre-toi et envoie le vocal à {q}, la personne de ton choix (envoi hors appli).
+{p}, dis « viens » de trois façons différentes, enregistre-toi et envoie le vocal à {q}, la personne de ton choix (envoi hors appli).
+{p}, lis une phrase torride inventée, enregistre-toi et envoie le vocal à {q}, la personne de ton choix (envoi hors appli).
+{p}, fais une déclaration chaude de 15 secondes, enregistre-toi et envoie le vocal à {q}, la personne de ton choix (envoi hors appli).
+{p}, ris de façon coquine, enregistre-toi et envoie le vocal à {q}, la personne de ton choix (envoi hors appli).
+{p}, décris ton baiser idéal, enregistre-toi et envoie le vocal à {q}, la personne de ton choix (envoi hors appli).
+{p}, raconte ton souvenir le plus chaud en 20 secondes, enregistre-toi et envoie le vocal à {q}, la personne de ton choix (envoi hors appli).
+{p}, imite une voix de téléphone rose (sans contenu explicite), enregistre-toi et envoie le vocal à {q}, la personne de ton choix (envoi hors appli).
+{p}, décris la tenue que tu portes en ce moment de façon sexy, enregistre-toi et envoie le vocal à {q}, la personne de ton choix (envoi hors appli).
+{p}, décris à {q} son plus grand atout de séduction.
+{p}, imite la façon dont tu enlèves ton haut le soir, au ralenti, face caméra (habillé·e dessous).
+{p}, fais une danse de chaise sexy de 15 secondes face caméra.
+{p}, lis à voix haute un passage sensuel inventé avec {q} comme héros.
+{p}, dis à voix haute ton nombre de partenaires approximatif.
+{p}, raconte au micro ta technique pour embrasser.
+{p}, choisis un joueur avec qui tu ferais un slow et explique pourquoi.
+{p}, explique au micro ce qui rend un câlin irrésistible.
+{p}, montre face caméra comment tu fais un suçon… sur ton bras.
+{p}, fais deviner ton fantasme en mime face caméra.
+{p}, décris en 20 secondes le corps idéal pour toi.
+{p}, révèle face caméra la couleur de tes sous-vêtements.
+{p}, choisis la personne ici avec qui tu partagerais un bain (moussant) et pourquoi.
+{p}, dis à {q} ce qu'il/elle porte qui te plaît ce soir.
+{p}, imite un chanteur de charme pendant 15 secondes face caméra.
+{p}, passe tes mains dans tes cheveux puis sur ton cou lentement, filme-toi et envoie la vidéo à {q}, la personne de ton choix (envoi hors appli).
+{p}, fais un strip-tease de tes chaussettes, filme-toi et envoie la vidéo à {q}, la personne de ton choix (envoi hors appli).
+{p}, retire lentement ta montre ou un bijou en fixant la caméra, filme-toi et envoie la vidéo à {q}, la personne de ton choix (envoi hors appli).
+{p}, fais une chorégraphie lascive de 10 secondes, filme-toi et envoie la vidéo à {q}, la personne de ton choix (envoi hors appli).
+{p}, danse sur une chanson sensuelle choisie par {q}, filme-toi et envoie la vidéo à {q}, la personne de ton choix (envoi hors appli).
+{p}, fais un mouvement de hanches façon danse orientale, filme-toi et envoie la vidéo à {q}, la personne de ton choix (envoi hors appli).
+{p}, enfile une chemise ou un pull de façon sexy, filme-toi et envoie la vidéo à {q}, la personne de ton choix (envoi hors appli).
+{p}, mime un baiser contre une vitre, filme-toi et envoie la vidéo à {q}, la personne de ton choix (envoi hors appli).
+{p}, lèche lentement une glace ou un yaourt, filme-toi et envoie la vidéo à {q}, la personne de ton choix (envoi hors appli).
+{p}, marche vers la caméra avec ton regard le plus intense, filme-toi et envoie la vidéo à {q}, la personne de ton choix (envoi hors appli).
+{p}, avec un regard de braise et une main dans les cheveux, prends-toi en photo et envoie-la à {q}, la personne de ton choix (envoi hors appli).
+{p}, en position allongée, habillé(e), en mode séduction, prends-toi en photo et envoie-la à {q}, la personne de ton choix (envoi hors appli).
+{p}, en train de te mordre le doigt, prends-toi en photo et envoie-la à {q}, la personne de ton choix (envoi hors appli).
+{p}, avec juste un plaid sur les épaules (habillé·e dessous), prends-toi en photo et envoie-la à {q}, la personne de ton choix (envoi hors appli).
+{p}, en mode selfie miroir sexy, prends-toi en photo et envoie-la à {q}, la personne de ton choix (envoi hors appli).
+{p}, en tenue de sport moulante, prends-toi en photo et envoie-la à {q}, la personne de ton choix (envoi hors appli).
+{p}, dis « j'ai chaud » de 3 façons différentes, enregistre-toi et envoie le vocal à {q}, la personne de ton choix (envoi hors appli).
+{p}, lis une recette de cuisine comme un texte érotique, enregistre-toi et envoie le vocal à {q}, la personne de ton choix (envoi hors appli).
+{p}, décris ton parfum préféré sur quelqu'un, enregistre-toi et envoie le vocal à {q}, la personne de ton choix (envoi hors appli).
+{p}, murmure ce que tu aimes qu'on te fasse dans le cou, enregistre-toi et envoie le vocal à {q}, la personne de ton choix (envoi hors appli).
+{p}, imite un soupir de plaisir pendant un massage, enregistre-toi et envoie le vocal à {q}, la personne de ton choix (envoi hors appli).
+{p}, raconte ton plus beau baiser en 20 secondes, enregistre-toi et envoie le vocal à {q}, la personne de ton choix (envoi hors appli).
+{p}, chuchote trois compliments sensuels, enregistre-toi et envoie le vocal à {q}, la personne de ton choix (envoi hors appli).
+{p}, dis ce que tu porterais pour un rendez-vous torride, enregistre-toi et envoie le vocal à {q}, la personne de ton choix (envoi hors appli).

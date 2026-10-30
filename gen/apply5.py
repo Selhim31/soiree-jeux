@@ -3,7 +3,7 @@ import sys;W=sys.argv[1]
 def norm(s):
   s=unicodedata.normalize('NFD',s.lower());s=''.join(c for c in s if unicodedata.category(c)!='Mn')
   s=re.sub(r'\{[pq]\}|verite|action|[^a-z ]',' ',s);s=' '.join(s.split())
-  for t in ['c est un mais il elle ','cite ','je n ai jamais ','tu preferes ','qui pourrait ','equipe t citez ','equipe t ','p mime ','sans parler les autres devinent','les autres devinent','p cite ']:s=s.replace(t,'')
+  for t in ['c est un mais il elle ','cite ','je n ai jamais ','tu preferes ','qui pourrait ','equipe t citez ','equipe t ','p mime ','sans parler les autres devinent','les autres devinent','p cite ',' filme toi et envoie la video a q la personne de ton choix envoi hors appli avec son accord',' filme toi et envoie la video a q la personne de ton choix envoi hors appli',' prends toi en photo et envoie la a q la personne de ton choix envoi hors appli avec son accord',' prends toi en photo et envoie la a q la personne de ton choix envoi hors appli',' enregistre toi et envoie le vocal a q la personne de ton choix envoi hors appli',' face camera']:s=s.replace(t,'')
   return s
 allc={};games={}
 for f in glob.glob('content/*.json'):

@@ -1,0 +1,12 @@
+{p}, raconte face caméra ta pire bêtise d'enfant comme un conteur.
+{p}, fais un bruitage de film d'action pendant 15 secondes.
+{p}, change de prénom jusqu'à ton prochain tour, le groupe le choisit.
+{p}, parle uniquement avec des questions jusqu'à ton prochain tour.
+{p}, imite un journaliste sportif pour décrire {q}.
+{p}, fais un tour complet de ta pièce en sautant à cloche-pied face caméra.
+{p}, chante une chanson connue en remplaçant les paroles par « miaou ».
+{p}, fais une révérence à chaque joueur et appelle-les « Votre Altesse ».
+{p}, fais un concours de dessin les yeux fermés et montre le résultat.
+{p}, imite un serveur snob qui présente l'eau du robinet.
+{p}, fais une déclaration solennelle à ton frigo face caméra.
+{p}, dis l'alphabet à l'envers face caméra.

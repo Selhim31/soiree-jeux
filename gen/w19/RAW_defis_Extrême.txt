@@ -1,0 +1,118 @@
+{p}, imite un animal pendant 1 minute dès que quelqu'un dit ton prénom.
+{p}, parle en chuchotant jusqu'à ton prochain tour.
+{p}, ne parle qu'en rimes jusqu'à ton prochain tour.
+{p}, laisse le groupe choisir ta voix (accent, robot…) jusqu'au prochain tour.
+{p}, fais 20 squats face caméra en chantant.
+{p}, fais une planche face caméra pendant 30 secondes.
+{p}, mange une cuillère de moutarde face caméra.
+{p}, bois un verre d'eau cul sec face caméra.
+{p}, mets un glaçon dans ton t-shirt face caméra 10 secondes.
+{p}, lis ta dernière recherche Google au micro.
+{p}, montre ta dernière photo prise à la caméra.
+{p}, montre la photo la plus ancienne de ta galerie.
+{p}, montre ton historique YouTube récent.
+{p}, laisse {q} te poser une question piège à laquelle tu réponds honnêtement.
+{p}, imite chaque joueur en une phrase face caméra.
+{p}, raconte ta plus grosse honte en 30 secondes au micro.
+{p}, fais un discours de mariage pour {q} et son crush imaginaire.
+{p}, fais une pub de 20 secondes pour un objet moche de chez toi.
+{p}, danse la macarena face caméra.
+{p}, fais le poirier ou essaie face caméra (en sécurité).
+{p}, mets tes chaussettes sur tes mains jusqu'au prochain tour.
+{p}, porte un objet sur la tête jusqu'à ton prochain tour.
+{p}, parle comme un pirate jusqu'au prochain tour.
+{p}, fais 10 pompes face caméra.
+{p}, chante l'hymne de ton choix en playback face caméra.
+{p}, fais une imitation de ton prof ou chef le plus marquant.
+{p}, rejoue ta pire chute face caméra (doucement).
+{p}, fais un rap improvisé de 15 secondes sur {q}.
+{p}, garde une pince à linge sur l'oreille jusqu'à ton prochain tour.
+{p}, mange un aliment choisi par le groupe dans ta cuisine (sans danger).
+{p}, dessine un portrait de {q} en 30 secondes et montre-le.
+{p}, fais un tuto maquillage ou coiffure express face caméra.
+{p}, lis une page de dictionnaire avec une voix dramatique.
+{p}, fais un faux bulletin météo de ta pièce face caméra.
+{p}, commente la soirée comme un match de foot pendant 20 secondes.
+{p}, fais une déclaration d'amitié à {q} digne d'un Oscar.
+{p}, laisse {q} choisir ton fond d'écran jusqu'à la fin de la partie (il/elle t'envoie l'image).
+{p}, ne dis plus « oui » ni « non » jusqu'à ton prochain tour.
+{p}, tiens-toi sur une jambe jusqu'à ton prochain tour.
+{p}, parle à la troisième personne jusqu'à ton prochain tour.
+{p}, danse 20 secondes comme un robot, filme-toi et envoie la vidéo à {q}, la personne de ton choix (envoi hors appli).
+{p}, mange un citron sans grimacer, filme-toi et envoie la vidéo à {q}, la personne de ton choix (envoi hors appli).
+{p}, fais une chorégraphie TikTok ridicule, filme-toi et envoie la vidéo à {q}, la personne de ton choix (envoi hors appli).
+{p}, fais la poule dans ton salon 10 secondes, filme-toi et envoie la vidéo à {q}, la personne de ton choix (envoi hors appli).
+{p}, fais un défilé avec un sac poubelle comme robe ou cape, filme-toi et envoie la vidéo à {q}, la personne de ton choix (envoi hors appli).
+{p}, imite une star de rock en concert avec un balai, filme-toi et envoie la vidéo à {q}, la personne de ton choix (envoi hors appli).
+{p}, chante sous la douche (habillé·e, sans eau), filme-toi et envoie la vidéo à {q}, la personne de ton choix (envoi hors appli).
+{p}, fais un tour de magie raté, filme-toi et envoie la vidéo à {q}, la personne de ton choix (envoi hors appli).
+{p}, mime un dinosaure qui fait le ménage, filme-toi et envoie la vidéo à {q}, la personne de ton choix (envoi hors appli).
+{p}, fais une bataille de sabre laser avec une cuillère en bois, filme-toi et envoie la vidéo à {q}, la personne de ton choix (envoi hors appli).
+{p}, fais 10 sauts de grenouille, filme-toi et envoie la vidéo à {q}, la personne de ton choix (envoi hors appli).
+{p}, marche comme un pingouin jusqu'à la cuisine et reviens, filme-toi et envoie la vidéo à {q}, la personne de ton choix (envoi hors appli).
+{p}, fais un tuto cuisine absurde de 20 secondes, filme-toi et envoie la vidéo à {q}, la personne de ton choix (envoi hors appli).
+{p}, danse le moonwalk, filme-toi et envoie la vidéo à {q}, la personne de ton choix (envoi hors appli).
+{p}, joue de l'air guitar sur un solo de 15 secondes, filme-toi et envoie la vidéo à {q}, la personne de ton choix (envoi hors appli).
+{p}, fais un discours de président de 15 secondes, filme-toi et envoie la vidéo à {q}, la personne de ton choix (envoi hors appli).
+{p}, imite un commentateur animalier en filmant ton animal ou un objet, filme-toi et envoie la vidéo à {q}, la personne de ton choix (envoi hors appli).
+{p}, fais un mannequin challenge de 10 secondes, filme-toi et envoie la vidéo à {q}, la personne de ton choix (envoi hors appli).
+{p}, imite un youtubeur qui ouvre un colis vide, filme-toi et envoie la vidéo à {q}, la personne de ton choix (envoi hors appli).
+{p}, fais une dégustation de vin… avec de l'eau, filme-toi et envoie la vidéo à {q}, la personne de ton choix (envoi hors appli).
+{p}, avec la grimace la plus laide possible, prends-toi en photo et envoie-la à {q}, la personne de ton choix (envoi hors appli).
+{p}, déguisé(e) avec 3 objets de ta salle de bain, prends-toi en photo et envoie-la à {q}, la personne de ton choix (envoi hors appli).
+{p}, avec une coiffure absurde, prends-toi en photo et envoie-la à {q}, la personne de ton choix (envoi hors appli).
+{p}, avec une moustache dessinée (feutre lavable), prends-toi en photo et envoie-la à {q}, la personne de ton choix (envoi hors appli).
+{p}, en pose de statue grecque, prends-toi en photo et envoie-la à {q}, la personne de ton choix (envoi hors appli).
+{p}, en mode « photo d'identité ratée», prends-toi en photo et envoie-la à {q}, la personne de ton choix (envoi hors appli).
+{p}, avec un légume comme accessoire, prends-toi en photo et envoie-la à {q}, la personne de ton choix (envoi hors appli).
+{p}, avec tes vêtements à l'envers, prends-toi en photo et envoie-la à {q}, la personne de ton choix (envoi hors appli).
+{p}, avec un double menton exagéré, prends-toi en photo et envoie-la à {q}, la personne de ton choix (envoi hors appli).
+{p}, déguisé(e) en ton personnage de film préféré, prends-toi en photo et envoie-la à {q}, la personne de ton choix (envoi hors appli).
+{p}, chante une chanson pour enfants avec une voix d'opéra, enregistre-toi et envoie le vocal à {q}, la personne de ton choix (envoi hors appli).
+{p}, fais un discours de remerciement des Oscars, enregistre-toi et envoie le vocal à {q}, la personne de ton choix (envoi hors appli).
+{p}, imite le bruit de 5 animaux, enregistre-toi et envoie le vocal à {q}, la personne de ton choix (envoi hors appli).
+{p}, raconte une histoire d'horreur de 20 secondes, enregistre-toi et envoie le vocal à {q}, la personne de ton choix (envoi hors appli).
+{p}, fais ton meilleur cri de Tarzan, enregistre-toi et envoie le vocal à {q}, la personne de ton choix (envoi hors appli).
+{p}, récite l'alphabet le plus vite possible, enregistre-toi et envoie le vocal à {q}, la personne de ton choix (envoi hors appli).
+{p}, imite la voix de quelqu'un de la partie, enregistre-toi et envoie le vocal à {q}, la personne de ton choix (envoi hors appli).
+{p}, chante joyeux anniversaire à {q} en mode métal, enregistre-toi et envoie le vocal à {q}, la personne de ton choix (envoi hors appli).
+{p}, fais une fausse annonce de gare, enregistre-toi et envoie le vocal à {q}, la personne de ton choix (envoi hors appli).
+{p}, fais un bulletin d'infos sur la soirée, enregistre-toi et envoie le vocal à {q}, la personne de ton choix (envoi hors appli).
+{p}, fais 30 secondes de jumping jacks face caméra.
+{p}, dis la vérité sur ta dernière dispute au micro.
+{p}, lis à voix haute le dernier message de ta conversation avec un joueur de la partie.
+{p}, montre ta dernière capture d'écran à la caméra.
+{p}, garde un accent italien jusqu'à ton prochain tour.
+{p}, appelle chaque joueur par un surnom ridicule jusqu'à ton prochain tour.
+{p}, mange un carré de chocolat sans les mains face caméra.
+{p}, fais une imitation de bébé qui pleure face caméra.
+{p}, lis un horoscope inventé pour chaque joueur.
+{p}, fais un concours de grimaces avec {q}, le groupe vote.
+{p}, chante ta réponse à chaque question jusqu'à ton prochain tour.
+{p}, invente une danse pour {q} et apprends-la-lui face caméra.
+{p}, tiens une cuillère sur ton nez 10 secondes face caméra.
+{p}, fais un éloge funèbre drôle pour ton téléphone.
+{p}, imite la voix d'un GPS qui se perd.
+{p}, enchaîne 5 virelangues sans erreur au micro.
+{p}, parle sans fermer la bouche pendant 20 secondes.
+{p}, danse le twist pendant 15 secondes, filme-toi et envoie la vidéo à {q}, la personne de ton choix (envoi hors appli).
+{p}, fais du hula hoop imaginaire, filme-toi et envoie la vidéo à {q}, la personne de ton choix (envoi hors appli).
+{p}, imite un chat qui découvre un concombre, filme-toi et envoie la vidéo à {q}, la personne de ton choix (envoi hors appli).
+{p}, fais une course en sac de couchage dans ton couloir (en sécurité), filme-toi et envoie la vidéo à {q}, la personne de ton choix (envoi hors appli).
+{p}, joue un western avec des doigts pistolets, filme-toi et envoie la vidéo à {q}, la personne de ton choix (envoi hors appli).
+{p}, fais une interview de toi-même en deux personnages, filme-toi et envoie la vidéo à {q}, la personne de ton choix (envoi hors appli).
+{p}, fais semblant de faire du ski dans ton salon, filme-toi et envoie la vidéo à {q}, la personne de ton choix (envoi hors appli).
+{p}, danse comme ton père ou ta mère en soirée, filme-toi et envoie la vidéo à {q}, la personne de ton choix (envoi hors appli).
+{p}, fais un unboxing dramatique d'un objet du quotidien, filme-toi et envoie la vidéo à {q}, la personne de ton choix (envoi hors appli).
+{p}, fais une pub télé pour ton dentifrice, filme-toi et envoie la vidéo à {q}, la personne de ton choix (envoi hors appli).
+{p}, avec 5 objets en équilibre sur toi, prends-toi en photo et envoie-la à {q}, la personne de ton choix (envoi hors appli).
+{p}, avec un sourire sans dents, prends-toi en photo et envoie-la à {q}, la personne de ton choix (envoi hors appli).
+{p}, en imitant une célébrité, prends-toi en photo et envoie-la à {q}, la personne de ton choix (envoi hors appli).
+{p}, avec un chapeau improvisé, prends-toi en photo et envoie-la à {q}, la personne de ton choix (envoi hors appli).
+{p}, en grimace de selfie raté, prends-toi en photo et envoie-la à {q}, la personne de ton choix (envoi hors appli).
+{p}, chante une chanson en ne prononçant que des « la », enregistre-toi et envoie le vocal à {q}, la personne de ton choix (envoi hors appli).
+{p}, imite un commentateur de course hippique, enregistre-toi et envoie le vocal à {q}, la personne de ton choix (envoi hors appli).
+{p}, fais un discours de motivation à ton canapé, enregistre-toi et envoie le vocal à {q}, la personne de ton choix (envoi hors appli).
+{p}, imite 3 sonneries de téléphone, enregistre-toi et envoie le vocal à {q}, la personne de ton choix (envoi hors appli).
+{p}, lis la liste des ingrédients d'un produit avec émotion, enregistre-toi et envoie le vocal à {q}, la personne de ton choix (envoi hors appli).
+{p}, raconte ta journée comme un film d'action, enregistre-toi et envoie le vocal à {q}, la personne de ton choix (envoi hors appli).
