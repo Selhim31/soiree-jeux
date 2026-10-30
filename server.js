@@ -3,7 +3,7 @@ const G={};for(const f of fs.readdirSync(__dirname+'/content'))G[f.replace('.jso
 const ORDER=["ecrit","excrush","estim","duo","connaitre","soft","coquin","hot","couple","flirts","defis","av","qui","jamais","tupreferes","ouinon","cestun10","imposteur","7sec","quiz","equipe","cercle","rnp","pmu","purete","verite","debats","mime","halloween"];
 const KIND={defis:'dare',mime:'dare',flirts:'dare',qui:'players',tupreferes:'ab',ouinon:'ab',jamais:'ab'};
 const kindOf=k=>G[k].kind||KIND[k]||'input';
-const ASSET='a7';const VER=ASSET+'-'+(process.env.RENDER_GIT_COMMIT||String(Date.now())).slice(0,8);
+const ASSET='a8';const VER=ASSET+'-'+(process.env.RENDER_GIT_COMMIT||String(Date.now())).slice(0,8);
 const INDEX=()=>fs.readFileSync(__dirname+'/public/index.html','utf8').replace(/(\/(?:app|app2)\.js|\/style\.css)"/g,`$1?v=${VER}"`).replace('<head>',`<head><meta name=app-version content="${VER}">`);
 const app=express();app.get(['/','/index.html'],(q,r)=>{r.set('Cache-Control','no-store');r.type('html').send(INDEX())});app.get('/api/version',(q,r)=>{r.set('Cache-Control','no-store');r.json({v:VER})});app.set('trust proxy',true);app.use(express.static(__dirname+'/public',{maxAge:0,etag:true,setHeaders:(r)=>r.setHeader('Cache-Control','no-cache')}));
 app.get('/api/games',(q,r)=>r.json(ORDER.filter(k=>G[k]).map(k=>({id:k,name:G[k].name,desc:G[k].desc,img:G[k].img,adult:G[k].adult,kind:kindOf(k),levels:Object.fromEntries(Object.entries(G[k].levels).map(([l,v])=>[l,['rnp','pmu'].includes(k)?0:v.length]))}))));
@@ -76,6 +76,7 @@ io.on('connection',so=>{so.emit('ver',VER);let r=null,me=null;const H=()=>r&&r.h
  so.on('joker',()=>{if(r&&r.card){draw(r);pub(r);}});
  so.on('answer',v=>{if(!r||!r.card||r.card.revealed)return;r.ans[me]=typeof v==='number'?v:String(v).slice(0,300);if(r.card.kind==='rnp'&&me!==r.card.target)delete r.ans[me];checkAll(r);pub(r);});
  so.on('votes',v=>{const c=r&&r.card;if(!c||c.kind!=='whowrote'||c.phase!=='vote'||c.revealed||typeof v!=='object')return;const m={};for(const[k,id]of Object.entries(v||{}))if(r.players.some(p=>p.id===id))m[+k]=id;c.secret.votes[me]=m;checkAll(r);pub(r)});
+ so.on('dareText',v=>{const c=r&&r.card;if(!c||c.kind!=='dare'||c.send||me!==c.target)return;c.typed=String(v||'').slice(0,1000);pub(r)});
  so.on('reveal',()=>{if(H()&&r.card){reveal(r);pub(r);}});
  so.on('pickNext',id=>{if(!r||!r.card||!r.players.some(p=>p.id===id))return;if(me===r.card.target||H()){r.turn=id;draw(r);pub(r);}});
  so.on('randNext',()=>{if(H()&&roundDone(r)){const o=r.players.map(p=>p.id).filter(x=>x!==r.turn);r.turn=o.length?rnd(o):r.turn;draw(r);pub(r);}});
