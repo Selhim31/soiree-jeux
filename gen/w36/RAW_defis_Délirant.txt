@@ -1,0 +1,5 @@
+{p}, présente le journal télévisé de ta cuisine pendant 30 secondes, face caméra.
+{p}, chante une chanson connue en remplaçant toutes les paroles par « miaou ».
+{p}, fais un défilé de mode avec trois objets de ta salle de bain comme accessoires, face caméra.
+{p}, parle comme un robot jusqu'à ton prochain tour.
+{p}, imite une poule qui pond un œuf, face caméra, pendant 10 secondes.
