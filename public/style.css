@@ -54,3 +54,4 @@ textarea{width:100%;min-height:70px;padding:12px;border-radius:14px;border:1px s
 
 .pod-anim .pod div{animation:podrise .7s cubic-bezier(.2,1.4,.4,1) both;animation-delay:var(--d,0ms)}@keyframes podrise{from{transform:translateY(60px) scale(.6);opacity:0}}
 .titles{margin-top:8px}
+.pod-anim .tt{animation:podrise .6s both;animation-delay:var(--d,0ms)}
