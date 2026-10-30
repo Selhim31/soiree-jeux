@@ -21,10 +21,9 @@
  <div class=actions><button class=btn2 id=r-joker onclick="so.emit('joker')">🃏 Joker</button><button class="btn" id=r-next onclick="so.emit('next')">Carte suivante ▶</button></div>
  <p class=wait id=r-wait>L'hôte tire les cartes…</p>
  <div id=r-extra></div>
- <details id=r-duo class=glass><summary>💞 Duo (Couples &amp; Flirts)</summary><div id=duo-box></div></details>
  <details id=r-settings class=glass><summary>⚙️ Réglages de la partie (hôte)</summary><p class=lbl2>Jeu</p><select id=s-game onchange="so.emit('settings',{game:this.value})"></select><p class=lbl2>Niveaux</p><div class=chips id=s-levels></div><p class=lbl2>Format</p><div class="chips seg" id=s-format></div><p class=lbl2>Questions</p><div class="chips seg" id=s-mode></div><div id=s-pickbox><p class=lbl2>Joueur suivant choisi par</p><div class="chips seg" id=s-pick></div></div></details>
 </section>
 </main>
 <div id=gate class="modal hide"><div class=glass><h2>🔞 Contenu adulte</h2><p>Ce niveau contient des contenus pour adultes consentants. Tous les joueurs ont-ils 18 ans ou plus ?</p><button class=btn onclick="gateOk()">Oui, on a tous 18+</button><button class=btn2 onclick="gateNo()">Non</button></div></div>
-<div id=toast></div><div id=photo class="modal hide" onclick="this.classList.add('hide')"><div class=glass><p id=photo-from></p><img id=photo-img style="max-width:100%;border-radius:14px"><p style="opacity:.6;font-size:.8em">Non enregistrée · touche pour fermer</p></div></div><input type=file id=file accept="image/*" capture=user class=hide>
+<div id=toast></div>
 <script src="/socket.io/socket.io.js"></script><script src="/app.js"></script><script src="/app2.js"></script></body></html>
