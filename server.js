@@ -11,7 +11,7 @@ app.get('/api/purete',(q,r)=>r.json(G.purete.levels.Classique));
 app.get('/qr/:code.png',async(q,r)=>{const u=`${q.protocol}://${q.get('host')}/?r=${encodeURIComponent(q.params.code)}`;r.type('png').send(await QR.toBuffer(u,{margin:1,width:300,color:{dark:'#1a0b2e',light:'#ffffff'}}))});
 const EMO=['😂','🔥','😍','😱','🥵','👏','🍻','😈','🙈','💀','❤️','🤯','😏','🥳','👀','💯'];const GR={},GRACE=45000;
 function leaveP(r,id){const p=r.players.find(p=>p.id===id);if(!p||p.online)return;r.players=r.players.filter(p=>p.id!==id);if(!r.players.length){const c=r.code;setTimeout(()=>{if(rooms[c]&&!rooms[c].players.length){delete rooms[c];save()}},3600000);save();return}if(r.host===id)r.host=(r.players.find(p=>p.online)||r.players[0]).id;if(r.card)checkAll(r);pub(r)}
-function restore(o){const r={code:o.code,host:o.host,players:o.players.map(p=>({id:p.id,name:p.name,online:false})),game:G[o.game]?o.game:'soft',levels:o.levels||[],format:'Groupe',mode:o.mode||'all',pick:o.pick||'answerer',turn:null,card:null,ans:{},used:{},count:o.count||0,links:[],anon:[],dares:o.dares||{},ended:false,scores:o.scores||{},teams:o.teams||null};for(const p of r.players)GR[r.code+p.id]=setTimeout(()=>leaveP(r,p.id),GRACE*4);return r}
+function restore(o){const r={code:o.code,host:o.host,players:o.players.map(p=>({id:p.id,name:p.name,online:false})),game:G[o.game]?o.game:'soft',levels:o.levels||[],format:'Groupe',mode:o.mode||'all',pick:o.pick||'answerer',turn:null,card:null,ans:{},used:{},count:o.count||0,dares:o.dares||{},ended:false,scores:o.scores||{},teams:o.teams||null};for(const p of r.players)GR[r.code+p.id]=setTimeout(()=>leaveP(r,p.id),GRACE*4);return r}
 const SAVE=__dirname+'/data/rooms.json';let svT=null;
 function save(){clearTimeout(svT);svT=setTimeout(()=>{try{fs.mkdirSync(__dirname+'/data',{recursive:true});fs.writeFileSync(SAVE,JSON.stringify(Object.values(rooms).map(r=>({...r,card:null,ans:{},used:{}}))))}catch(e){console.error(e)}},800)}
 const s=http.createServer(app),io=new Server(s,{maxHttpBufferSize:4e6});const rooms={};try{for(const o of JSON.parse(fs.readFileSync(__dirname+'/data/rooms.json')))rooms[o.code]=restore(o)}catch(e){}
@@ -19,9 +19,9 @@ const code=()=>Array.from({length:4},()=>"ABCDEFGHJKLMNPQRSTUVWXYZ23456789"[Math
 const rnd=a=>a[Math.random()*a.length|0],shuf=a=>a.map(x=>[Math.random(),x]).sort((a,b)=>a[0]-b[0]).map(x=>x[1]);
 const nm=(r,id)=>(r.players.find(p=>p.id===id)||{}).name||'?';
 const partner=()=>null;
-function expected(r){const c=r.card;if(!c)return[];if(c.kind==='input'&&r.mode==='turn')return[c.target];if(c.kind==='rnp')return[c.target];if(['input','players','ab','quiz','number','purity','impostor','pmu'].includes(c.kind))return r.players.map(p=>p.id);return[]}
+function expected(r){const c=r.card;if(!c)return[];if(c.kind==='input'&&r.mode==='turn')return[c.target];if(c.kind==='rnp')return[c.target];if(['input','players','ab','quiz','number','purity','impostor','pmu'].includes(c.kind))return r.players.filter(p=>p.online!==false).map(p=>p.id);return[]}
 function pub(r){save();const c=r.card;let card=null;if(c){card={...c};delete card.secret;delete card.correct;if(!c.revealed)delete card.result;card.answered=Object.keys(r.ans);card.expected=expected(r);card.done=roundDone(r);if(c.revealed)card.answers=Object.entries(r.ans).map(([id,v])=>({name:nm(r,id),v}));if(c.timerEnd)card.timerLeft=c.timerEnd-Date.now()}
- io.to(r.code).emit('state',{code:r.code,host:r.host,players:r.players,game:r.game,levels:r.levels,format:r.format,mode:r.mode,pick:r.pick,turn:r.turn,card,count:r.count,links:r.links,anonCount:r.anon.length,teams:r.teams,scores:r.scores,dares:r.dares,ended:r.ended});}
+ io.to(r.code).emit('state',{code:r.code,host:r.host,players:r.players,game:r.game,levels:r.levels,format:r.format,mode:r.mode,pick:r.pick,turn:r.turn,card,count:r.count,teams:r.teams,scores:r.scores,dares:r.dares,ended:r.ended,banned:r.banned||[],locked:!!r.locked});}
 function reveal(r){const c=r.card;if(!c||c.revealed)return;c.revealed=true;
  if(c.kind==='quiz'){for(const[id,v]of Object.entries(r.ans))if(v===c.correct)r.scores[nm(r,id)]=(r.scores[nm(r,id)]||0)+1;c.result='Bonne réponse : '+c.correct}
  if(c.kind==='impostor')c.result=`L'imposteur était ${nm(r,c.secret.imp)} ! Mot des civils : « ${c.secret.a} », mot de l'imposteur : « ${c.secret.b} ».`;
@@ -35,11 +35,11 @@ function nextTarget(r){const ids=r.players.map(p=>p.id);if(r.mode==='turn'){if(!
 function draw(r){const g=G[r.game],kind=kindOf(r.game);r.ans={};const lv=r.levels.filter(l=>g.levels[l]);if(!lv.length)lv.push(Object.keys(g.levels)[0]);const l=rnd(lv);
  let pool=g.levels[l];if(r.players.length<2){const f=pool.filter(x=>!x.includes('{q}'));if(f.length)pool=f}
  const key=r.game+l;r.used[key]=r.used[key]||new Set();if(r.used[key].size>=pool.length)r.used[key].clear();let t;do t=rnd(pool);while(r.used[key].has(t)&&r.used[key].size<pool.length);r.used[key].add(t);
- const ids=r.players.map(p=>p.id);let target;
- if(kind==='circle'||kind==='rnp'){r.ci=((r.ci??-1)+1)%ids.length;target=ids[r.ci]}else target=nextTarget(r);
+ const on=r.players.filter(p=>p.online!==false),ids=(on.length?on:r.players).map(p=>p.id);let target;
+ if(kind==='circle'||kind==='rnp'){r.ci=((r.ci??-1)+1)%ids.length;target=ids[r.ci]}else target=nextTarget(r);if(r.forceT&&ids.includes(r.forceT)&&!['circle','rnp'].includes(kind))target=r.forceT;
  let q=partner(r,target);if(!q){const o=ids.filter(x=>x!==target);q=o.length?rnd(o):null}
  let text=t.replaceAll('{p}',nm(r,target)).replaceAll('{q}',q?nm(r,q):"quelqu'un de ton choix"),opts=null,c={id:Date.now(),level:l,kind,target,partner:q,revealed:false};
- if(r.game==='connaitre'&&r.anon.length&&Math.random()<.6){const i=r.anon.findIndex(a=>r.levels.includes(a.level));if(i>=0){text=r.anon.splice(i,1)[0].text;c.anon=true}}
+
  if(kind==='ab'){if(r.game==='jamais')opts=["Je l'ai déjà fait 🍻","Jamais 😇"];else{const p=text.replace(/^Tu préfères /,'').replace(/ \?$/,'').split(' ||| ');if(r.game==='ouinon'){text=p[0];opts=[p[1],p[2]]}else{text='Tu préfères…';opts=[p[0],p[1]]}}}
  if(r.game==='av'&&text.startsWith('Action'))c.kind='dare';
  if(kind==='quiz'){const p=text.split(' ||| ');text=p[0];c.correct=p[1];opts=shuf(p.slice(1))}
@@ -51,8 +51,8 @@ function draw(r){const g=G[r.game],kind=kindOf(r.game);r.ans={};const lv=r.level
  if(kind==='pmu'){text='Pariez sur votre as ! Puis l\'hôte retourne les cartes.';opts=['♥','♦','♣','♠'];c.pmu={h:{'♥':0,'♦':0,'♣':0,'♠':0},last:null,winner:null}}
  c.text=text;c.opts=opts;r.card=c;r.count++;}
 io.on('connection',so=>{let r=null,me=null;const H=()=>r&&r.host===me;let emoT=[];
- const join=(room,name,pid)=>{if(r&&r!==room)so.leave(r.code);r=room;me=String(pid||so.id).slice(0,40);so.join(r.code);so.join('p:'+me);let p=r.players.find(p=>p.id===me);if(p){p.online=true;clearTimeout(GR[r.code+me]);if(name)p.name=String(name).slice(0,20)}else{p={id:me,name:String(name||'Anonyme').slice(0,20),online:true};r.players.push(p)}so.emit('joined',r.code);pub(r);if(r.card&&r.card.secret)so.emit('secret',me===r.card.secret.imp?r.card.secret.b:r.card.secret.a)};
- so.on('create',({name,game,levels,format,pid})=>{if(!G[game])return;let c;do c=code();while(rooms[c]);rooms[c]={code:c,host:String(pid||so.id).slice(0,40),players:[],game,levels:levels||[],format:format||'Groupe',mode:'all',pick:'answerer',turn:null,card:null,ans:{},used:{},count:0,links:[],anon:[],dares:{},ended:false,scores:{}};join(rooms[c],name,pid);});
+ const join=(room,name,pid)=>{const id0=String(pid||so.id).slice(0,40);room.banned=room.banned||[];if(room.banned.some(b=>b.id===id0))return so.emit('kicked',"Tu as été exclu de cette salle par l'hôte.");if(room.locked&&!room.players.some(p=>p.id===id0))return so.emit('err','Cette salle est verrouillée par l\'hôte : impossible de la rejoindre pour le moment.');if(r&&r!==room)so.leave(r.code);r=room;me=String(pid||so.id).slice(0,40);so.join(r.code);so.join('p:'+me);let p=r.players.find(p=>p.id===me);if(p){p.online=true;clearTimeout(GR[r.code+me]);if(name)p.name=String(name).slice(0,20)}else{p={id:me,name:String(name||'Anonyme').slice(0,20),online:true};r.players.push(p)}so.emit('joined',r.code);pub(r);if(r.card&&r.card.secret)so.emit('secret',me===r.card.secret.imp?r.card.secret.b:r.card.secret.a)};
+ so.on('create',({name,game,levels,format,pid})=>{if(!G[game])return;let c;do c=code();while(rooms[c]);rooms[c]={code:c,host:String(pid||so.id).slice(0,40),players:[],game,levels:levels||[],format:format||'Groupe',mode:'all',pick:'answerer',turn:null,card:null,ans:{},used:{},count:0,dares:{},ended:false,banned:[],locked:false,scores:{}};join(rooms[c],name,pid);});
  so.on('join',({code,name,pid,snap})=>{code=String(code||'').toUpperCase().replace(/[^A-Z0-9]/g,'');let room=rooms[code];if(!room&&snap&&snap.code===code&&Array.isArray(snap.players)){room=rooms[code]=restore(snap)}if(!room)return so.emit('err',`Aucune salle avec le code ${code||'?'}. Vérifie le code, ou demande à l'hôte de rouvrir la partie (une salle peut disparaître si le serveur gratuit a redémarré).`);join(room,name,pid);});
  so.on('settings',o=>{if(!H())return;if(o.game&&G[o.game]&&o.game!==r.game){r.game=o.game;r.levels=[Object.keys(G[o.game].levels)[0]];r.card=null;r.scores={};r.teams=null}if(o.levels)r.levels=o.levels;for(const k of['format','mode','pick'])if(o[k])r[k]=o[k];pub(r);});
  so.on('end',()=>{if(H()){r.ended=true;pub(r)}});
@@ -65,7 +65,16 @@ io.on('connection',so=>{let r=null,me=null;const H=()=>r&&r.host===me;let emoT=[
  so.on('pmuDraw',()=>{if(!H()||!r.card||r.card.kind!=='pmu'||r.card.pmu.winner)return;const p=r.card.pmu,su=rnd(['♥','♦','♣','♠']);p.h[su]++;p.last=su;if(p.h[su]>=6){p.winner=su;r.card.revealed=true;const w=Object.entries(r.ans).filter(([,v])=>v===su).map(([id])=>nm(r,id));r.card.result=`L'as ${su} gagne ! ${w.length?w.join(', ')+' distribue(nt) 5 gorgées':'Personne n\'avait parié dessus'} — les autres boivent 2 gorgées.`}pub(r);});
  so.on('teamPoint',t=>{if(H()&&r.scores&&t in r.scores){r.scores[t]++;pub(r);}});
  const res=(ok)=>{if(!r||!r.card||r.card.kind!=='dare'||r.card.revealed)return;if(me!==r.card.target&&!H())return;r.card.revealed=true;const dn=nm(r,r.card.target);r.dares[dn]=r.dares[dn]||{ok:0,fail:0};r.dares[dn][ok?'ok':'fail']++;r.card.result=ok?`✅ ${nm(r,r.card.target)} a relevé le défi !`:`❌ ${nm(r,r.card.target)} n'a pas relevé le défi`;io.to(r.code).emit('toast',r.card.result);pub(r)};so.on('done',()=>res(true));so.on('fail',()=>res(false));
+ so.on('host',({act,id})=>{if(!H())return;const p=r.players.find(p=>p.id===id);const on=r.players.filter(p=>p.online!==false);
+  if(act==='kick'&&p&&id!==me){r.players=r.players.filter(x=>x.id!==id);r.banned.push({id,name:p.name});io.to('p:'+id).emit('kicked',"Tu as été exclu de cette salle par l'hôte.");io.in('p:'+id).socketsLeave(r.code);delete r.ans[id];if(r.card)checkAll(r);io.to(r.code).emit('toast',`🚪 ${p.name} a été exclu`)}
+  if(act==='unban'){r.banned=r.banned.filter(b=>b.id!==id)}
+  if(act==='makeHost'&&p){r.host=id;io.to(r.code).emit('toast',`👑 ${p.name} est maintenant l'hôte`)}
+  if(act==='skip'&&r.card){const o=on.filter(x=>x.id!==r.card.target);const t=o.length?rnd(o).id:null;if(r.mode==='turn'&&t)r.turn=t;r.forceT=t;draw(r);r.forceT=null}
+  if(act==='force'&&r.card){if(r.card.kind==='dare'&&!r.card.revealed){r.card.revealed=true;r.card.result='⏭️ Passé par l\'hôte'}else reveal(r);r.card.revealed=true}
+  if(act==='reset'){r.dares={};for(const k in r.scores)r.scores[k]=0;if(!r.teams)r.scores={};io.to(r.code).emit('toast','🔄 Scores remis à zéro')}
+  if(act==='lock'){r.locked=!r.locked;io.to(r.code).emit('toast',r.locked?'🔒 Salle verrouillée':'🔓 Salle ouverte')}
+  if(act==='end'){r.ended=true}
+  pub(r)});
  so.on('emo',e=>{if(!r||!me)return;const now=Date.now();emoT=emoT.filter(t=>now-t<10000);if(emoT.length>=8||(emoT.length&&now-emoT[emoT.length-1]<600))return;if(!EMO.includes(e))return;emoT.push(now);io.to(r.code).emit('emo',{e,name:nm(r,me)})});
- so.on('anonQ',({text,level})=>{if(r&&text&&String(text).trim()){r.anon.push({text:String(text).slice(0,250),level:String(level)});so.emit('toast','✉️ Question anonyme ajoutée');pub(r)}});
- so.on('disconnect',()=>{if(!r||!me)return;const p=r.players.find(p=>p.id===me);if(!p)return;const sockets=io.sockets.adapter.rooms.get('p:'+me);if(sockets&&sockets.size)return;p.online=false;pub(r);const room=r,id=me;GR[room.code+id]=setTimeout(()=>leaveP(room,id),GRACE)});});
+ so.on('disconnect',()=>{if(!r||!me)return;const p=r.players.find(p=>p.id===me);if(!p)return;const sockets=io.sockets.adapter.rooms.get('p:'+me);if(sockets&&sockets.size)return;p.online=false;if(r.card)checkAll(r);pub(r);const room=r,id=me;GR[room.code+id]=setTimeout(()=>leaveP(room,id),GRACE)});});
 s.listen(process.env.PORT||3000,()=>console.log('ok'));

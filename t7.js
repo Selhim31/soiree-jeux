@@ -1,0 +1,12 @@
+const io=require('socket.io-client');const U=process.argv[2]||'http://localhost:3000';const w=ms=>new Promise(r=>setTimeout(r,ms));
+let S={},K=[],E=[];const mk=(k)=>{const s=io(U,{forceNew:true});s.on('state',x=>S[k]=x);s.on('kicked',m=>K.push(k+':'+m));s.on('err',m=>E.push(k+':'+m));return s};
+(async()=>{const a=mk('a'),b=mk('b'),c=mk('c');await w(1500);a.emit('create',{name:'Selim',game:'defis',levels:['Classique'],pid:'H'});await w(1500);const code=S.a.code;
+b.emit('join',{code,name:'Ami',pid:'B'});c.emit('join',{code,name:'Léo',pid:'C'});await w(800);
+a.emit('host',{act:'kick',id:'C'});await w(500);console.log('kick: players',S.a.players.map(p=>p.name).join(','),'| kicked msg',K);
+const c2=mk('c2');c2.emit('join',{code,name:'Léo',pid:'C'});await w(600);console.log('rejoin blocked:',K.length>1);
+a.emit('host',{act:'unban',id:'C'});await w(300);c2.emit('join',{code,name:'Léo',pid:'C'});await w(600);console.log('after unban back in:',S.a.players.some(p=>p.id==='C'));
+a.emit('host',{act:'lock'});await w(300);const d=mk('d');d.emit('join',{code,name:'New',pid:'D'});await w(600);console.log('locked:',S.a.locked,'| new join err',E.slice(-1));
+a.emit('next');await w(400);const t0=S.a.card.target;a.emit('host',{act:'skip',id:t0});await w(400);console.log('skip retarget:',t0,'->',S.a.card.target);
+a.emit('next');await w(300);a.emit('host',{act:'force'});await w(300);console.log('force:',S.a.card.result,'done',S.a.card.done);
+a.emit('host',{act:'makeHost',id:'B'});await w(300);console.log('host now',S.a.host);b.emit('host',{act:'reset'});await w(300);console.log('reset dares',JSON.stringify(S.a.dares));
+b.emit('host',{act:'end'});await w(300);console.log('ended',S.a.ended);process.exit()})();setTimeout(()=>process.exit(1),30000);

@@ -35,3 +35,4 @@ textarea{width:100%;min-height:70px;padding:12px;border-radius:14px;border:1px s
 #emo-pal{display:grid;grid-template-columns:repeat(4,1fr);gap:4px;background:#1a0d38f0;border:1px solid #ffffff22;border-radius:18px;padding:8px}#emo-pal button{font-size:1.5em;background:none;padding:6px;border-radius:10px}#emo-pal button:active{background:#ffffff22}
 #emo-feed{display:flex;flex-direction:column;gap:4px;align-items:flex-end}#emo-feed div{background:#000a;padding:4px 10px;border-radius:12px;font-size:.85em;animation:in .3s}
 .emo-fly{position:fixed;bottom:120px;font-size:2.6em;z-index:14;pointer-events:none;animation:fly 2.6s ease-out forwards}@keyframes fly{to{transform:translateY(-55vh) scale(1.4);opacity:0}}
+.hint{background:none!important;opacity:.55;font-size:.75em!important;width:100%}.modal .glass button{display:block;width:100%;margin:6px 0}.modal .chip{display:inline-block!important;width:auto!important}
