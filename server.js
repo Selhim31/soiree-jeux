@@ -3,7 +3,7 @@ const G={};for(const f of fs.readdirSync(__dirname+'/content'))G[f.replace('.jso
 const ORDER=["ecrit","excrush","estim","duo","connaitre","soft","coquin","hot","couple","flirts","defis","av","qui","jamais","tupreferes","ouinon","cestun10","imposteur","7sec","quiz","equipe","cercle","rnp","pmu","purete","verite","debats","mime","halloween"];
 const KIND={defis:'dare',mime:'dare',flirts:'dare',qui:'players',tupreferes:'ab',ouinon:'ab',jamais:'ab'};
 const kindOf=k=>G[k].kind||KIND[k]||'input';
-const ASSET='a6';const VER=ASSET+'-'+(process.env.RENDER_GIT_COMMIT||String(Date.now())).slice(0,8);
+const ASSET='a7';const VER=ASSET+'-'+(process.env.RENDER_GIT_COMMIT||String(Date.now())).slice(0,8);
 const INDEX=()=>fs.readFileSync(__dirname+'/public/index.html','utf8').replace(/(\/(?:app|app2)\.js|\/style\.css)"/g,`$1?v=${VER}"`).replace('<head>',`<head><meta name=app-version content="${VER}">`);
 const app=express();app.get(['/','/index.html'],(q,r)=>{r.set('Cache-Control','no-store');r.type('html').send(INDEX())});app.get('/api/version',(q,r)=>{r.set('Cache-Control','no-store');r.json({v:VER})});app.set('trust proxy',true);app.use(express.static(__dirname+'/public',{maxAge:0,etag:true,setHeaders:(r)=>r.setHeader('Cache-Control','no-cache')}));
 app.get('/api/games',(q,r)=>r.json(ORDER.filter(k=>G[k]).map(k=>({id:k,name:G[k].name,desc:G[k].desc,img:G[k].img,adult:G[k].adult,kind:kindOf(k),levels:Object.fromEntries(Object.entries(G[k].levels).map(([l,v])=>[l,['rnp','pmu'].includes(k)?0:v.length]))}))));
@@ -46,7 +46,7 @@ function elig(r,t){const P=r.pairs||{},on=r.players.filter(p=>p.online!==false&&
 function setPair(r,a,b){r.pairs=r.pairs||{};const P=r.pairs;for(const x of[a,b])if(x&&P[x]){delete P[P[x]];delete P[x]}if(b&&b!==a){P[a]=b;P[b]=a}}
 function draw(r,depth=0){let gid=r.game,lvs=r.levels;if(r.mix){const ks=Object.keys(r.mix);let o=ks.filter(k=>k!==r.lastG);if(!o.length)o=ks;gid=rnd(o);lvs=r.mix[gid];r.lastG=gid}const g=G[gid],kind=kindOf(gid);r.ans={};const lv=lvs.filter(l=>g.levels[l]);if(!lv.length)lv.push(Object.keys(g.levels)[0]);const l=rnd(lv);
  let pool=g.levels[l];if(r.players.length<2){const f=pool.filter(x=>!x.includes('{q}'));if(f.length)pool=f}
- const key=gid+'|'+l;r.used[key]=r.used[key]||new Set();if(r.used[key].size>=pool.length)r.used[key].clear();let t;do t=rnd(pool);while(r.used[key].has(t)&&r.used[key].size<pool.length);const needQ=x=>x.includes('{q}')||kind==='duo';const restr=isR(gid,l);let EL=null;
+ const key=gid+'|'+l;r.used[key]=r.used[key]||new Set();if(r.used[key].size>=pool.length)r.used[key].clear();let t;do t=rnd(pool);while(r.used[key].has(t)&&r.used[key].size<pool.length);const needQ=x=>x.includes('{q}')||kind==='duo';const restr=isR(gid,l)||(gid==='av'&&l==='Extrême'&&t.startsWith('Action'));let EL=null;
  const on=r.players.filter(p=>p.online!==false),ids=(on.length?on:r.players).map(p=>p.id);let target;
  if(kind==='circle'||kind==='rnp'){r.ci=((r.ci??-1)+1)%ids.length;target=ids[r.ci]}else target=nextTarget(r);if(r.forceT&&ids.includes(r.forceT)&&!['circle','rnp'].includes(kind))target=r.forceT;
  let q=partner(r,target);if(restr){EL=elig(r,target);if(needQ(t)&&!EL.length){const free=pool.filter(x=>!needQ(x));const nu=free.filter(x=>!r.used[key].has(x));if(free.length)t=rnd(nu.length?nu:free);else if(depth<8)return draw(r,depth+1)}if(EL.length)q=rnd(EL)}else if(!q){const o=ids.filter(x=>x!==target);q=o.length?rnd(o):null}r.used[key].add(t);
