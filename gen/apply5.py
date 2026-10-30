@@ -2,7 +2,9 @@ import json,glob,os,re,difflib,unicodedata
 import sys;W=sys.argv[1]
 def norm(s):
   s=unicodedata.normalize('NFD',s.lower());s=''.join(c for c in s if unicodedata.category(c)!='Mn')
-  s=re.sub(r'\{[pq]\}|verite|action|[^a-z ]',' ',s);return ' '.join(s.split())
+  s=re.sub(r'\{[pq]\}|verite|action|[^a-z ]',' ',s);s=' '.join(s.split())
+  for t in ['c est un mais il elle ','cite ','je n ai jamais ','tu preferes ','qui pourrait ']:s=s.replace(t,'')
+  return s
 allc={};games={}
 for f in glob.glob('content/*.json'):
   g=os.path.basename(f)[:-5];d=json.load(open(f));games[g]=d
@@ -12,7 +14,7 @@ added={};skipped=[]
 keys=list(allc)
 for fn in sorted(os.listdir(W)):
   raw=fn.startswith('RAW_');b=fn[4:-4] if raw else fn[:-4]
-  g,l=b.rsplit('_',1);g=re.sub(r'\d+$','',g)
+  g,l=b.rsplit('_',1);g=g if g in games else re.sub(r'\d+$','',g)
   for line in open(f'{W}/{fn}',encoding='utf-8'):
     t=line.strip()
     if not t:continue

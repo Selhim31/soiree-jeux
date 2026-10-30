@@ -28,7 +28,7 @@ function reveal(r){const c=r.card;if(!c||c.revealed)return;c.revealed=true;
  if(c.kind==='quiz'){for(const[id,v]of Object.entries(r.ans))if(v===c.correct)r.scores[nm(r,id)]=(r.scores[nm(r,id)]||0)+1;c.result='Bonne réponse : '+c.correct}
  if(c.kind==='impostor')c.result=`L'imposteur était ${nm(r,c.secret.imp)} ! Mot des civils : « ${c.secret.a} », mot de l'imposteur : « ${c.secret.b} ».`;
  if(c.kind==='number'){const v=Object.values(r.ans).map(Number).filter(x=>!isNaN(x));c.result=v.length?'Moyenne : '+(v.reduce((a,b)=>a+b,0)/v.length).toFixed(1)+'/10':''}
- if(c.kind==='purity'){c.result='Score de pureté : '+Object.entries(r.ans).map(([id,v])=>`${nm(r,id)} ${Math.max(0,100-v*2)}%`).join(' · ')}
+ if(c.kind==='purity'){c.result='Score de pureté : '+Object.entries(r.ans).map(([id,v])=>`${nm(r,id)} ${Math.max(0,100-Math.round(v*100/G.purete.levels.Classique.length))}%`).join(' · ')}
  if(c.kind==='rnp'){const g=r.ans[c.target];const red=s=>'♥♦'.includes(s);const d=()=>rnd(['A','2','3','4','5','6','7','8','9','10','V','D','R'])+rnd('♥♦♣♠'.split(''));let cards=[d()];if(g==='Purple')cards.push(d());
   const reds=cards.filter(x=>red(x.slice(-1))).length;const win=g==='Rouge'?reds===1:g==='Noir'?reds===0:reds===1;c.result=`${cards.join('  ')} → ${win?'Gagné ! '+nm(r,c.target)+' distribue '+(g==='Purple'?4:2)+' gorgées':'Perdu ! '+nm(r,c.target)+' boit '+(g==='Purple'?4:2)+' gorgées'}`}}
 function checkAll(r){const e=expected(r);if(e.length&&e.every(id=>id in r.ans)&&r.card.kind!=='pmu')reveal(r)}
