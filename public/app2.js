@@ -6,8 +6,8 @@ so.on('toast',t=>{const d=document.createElement('div');d.textContent=t;$('toast
 const pn=id=>(S.players.find(p=>p.id===id)||{}).name||'?';
 function ans(v){so.emit('answer',v)}
 let tmr=null;
-function render(){const s=S,h=s.host===so.id,g=GAMES.find(x=>x.id===s.game);if(!g)return;
-$('r-code').textContent=s.code;$('r-players').innerHTML=s.players.map(p=>`<span>${p.id===s.host?'👑 ':''}${s.card&&s.card.target===p.id?'🎯 ':''}${esc(p.name)}${p.id===so.id?' (toi)':''}${s.teams&&s.teams[p.id]?(s.teams[p.id]==='Bleue'?' 🔵':' 🔴'):''}</span>`).join('');
+function render(){const s=S,h=s.host===ME,g=GAMES.find(x=>x.id===s.game);if(!g)return;
+$('r-code').textContent=s.code;$('r-players').innerHTML=s.players.map(p=>`<span>${p.id===s.host?'👑 ':''}${s.card&&s.card.target===p.id?'🎯 ':''}${esc(p.name)}${p.online===false?' 💤':''}${p.id===ME?' (toi)':''}${s.teams&&s.teams[p.id]?(s.teams[p.id]==='Bleue'?' 🔵':' 🔴'):''}</span>`).join('');
 $('r-meta').textContent=`${g.name} · ${s.levels.join(', ')} · ${s.players.length} joueur(s) · ${MODES[s.mode]} · ${s.count} carte(s)`;
 $('r-next').classList.toggle('hide',!h);$('r-settings').classList.toggle('hide',!h);$('r-joker').classList.toggle('hide',!s.card);
 if(h){renderSel('s');$('s-game').innerHTML=GAMES.map(x=>`<option value=${x.id} ${x.id===s.game?'selected':''}>${esc(x.name)}</option>`).join('');$('s-mode').innerHTML=Object.entries(MODES).map(([k,v])=>`<button class="chip ${s.mode===k?'on':''}" onclick="so.emit('settings',{mode:'${k}'})">${v}</button>`).join('');$('s-pick').innerHTML=Object.entries(PICKS).map(([k,v])=>`<button class="chip ${s.pick===k?'on':''}" onclick="so.emit('settings',{pick:'${k}'})">${v}</button>`).join('');$('s-pickbox').classList.toggle('hide',s.mode!=='turn')}
@@ -23,7 +23,7 @@ let eb=$('r-end');if(h&&!eb){eb=document.createElement('button');eb.id='r-end';e
 $('r-extra').innerHTML=s.game==='connaitre'?`<details class=glass><summary>✉️ Poser une question anonyme (${s.anonCount} en attente)</summary><p class=small>Personne ne saura que c'est toi, pas même l'hôte.</p><textarea id=anon-t maxlength=250 placeholder="Ta question…"></textarea><select id=anon-l>${Object.keys(g.levels).map(l=>`<option>${l}</option>`).join('')}</select><button class=btn style="width:100%;margin-top:8px" onclick="if($('anon-t').value.trim()){so.emit('anonQ',{text:$('anon-t').value,level:$('anon-l').value});$('anon-t').value=''}">Envoyer anonymement</button></details>`:'';
 const c=s.card,box=$('r-card');clearInterval(tmr);
 if(!c){box.innerHTML=`<div class="card intro"><img src="${g.img}" alt=""><div>${h?'Invite tes amis avec le lien ou le QR code, puis lance la partie !':'En attente du lancement…'}</div></div>`;box.dataset.id='';return}
-const me=so.id,mine=c.answered.includes(me),isT=c.target===me,exp=c.expected,need=exp.includes(me);let body='';
+const me=ME,mine=c.answered.includes(me),isT=c.target===me,exp=c.expected,need=exp.includes(me);let body='';
 const prog=exp.length?`<div class=prog>${c.answered.filter(x=>exp.includes(x)).length}/${exp.length} réponse(s)${h&&!c.revealed?` · <a href=# onclick="so.emit('reveal');return false" style="color:#ff9be0">révéler maintenant</a>`:''}</div>`:'';
 const answersHtml=()=>c.answers?c.answers.map(a=>`<div class=ans><b>${esc(a.name)}</b> : ${esc(c.kind==='purity'?Math.max(0,100-a.v*2)+'% pur':a.v)}</div>`).join(''):'';
 const optBtns=(list)=>`<div class=opts>${list.map(o=>{const n=c.answers?c.answers.filter(a=>a.v===o).length:0,tot=c.answers?c.answers.length||1:1;return `<button class="opt ${c.myv===o?'me':''}" ${c.revealed||mine?'disabled':''} data-v="${esc(o)}"><i style="width:${c.revealed?100*n/tot:0}%"></i><span>${esc(o)}${c.revealed?` · <b>${n}</b>`:''}</span></button>`}).join('')}</div>`;
@@ -44,3 +44,11 @@ const html=`<div class=lv>${esc(g.name)} · ${esc(c.level)}${c.anon?' · ✉️ 
 if(box.dataset.id!=c.id){box.dataset.id=c.id;SECRET=c.kind==='impostor'?SECRET:null;box.innerHTML=`<div class=card>${html}</div>`}else{const ta=$('a-in'),keep=ta&&ta.value;box.firstChild.innerHTML=html;if(keep&&$('a-in'))$('a-in').value=keep}
 box.querySelectorAll('.opt').forEach(b=>b.onclick=()=>{c.myv=b.dataset.v;ans(b.dataset.v)});
 if(c.kind==='timer'){const end=Date.now()+c.timerLeft;const f=()=>{const ms=end-Date.now(),el=$('tm');if(!el)return;el.textContent=ms>7000?'Prêts…':ms>0?Math.ceil(ms/1000):'⏰ Temps écoulé !';if(ms<=0)clearInterval(tmr)};f();tmr=setInterval(f,200)}}
+
+// emoji chat
+const EMO=['😂','🔥','😍','😱','🥵','👏','🍻','😈','🙈','💀','❤️','🤯','😏','🥳','👀','💯'];
+(()=>{const b=document.createElement('div');b.id='emo';b.innerHTML=`<div id=emo-feed></div><div id=emo-pal class=hide>${EMO.map(e=>`<button>${e}</button>`).join('')}</div><button id=emo-btn>😀</button>`;document.body.appendChild(b);
+$('emo-btn').onclick=()=>$('emo-pal').classList.toggle('hide');$('emo-pal').querySelectorAll('button').forEach(x=>x.onclick=()=>so.emit('emo',x.textContent))})();
+so.on('emo',({e,name})=>{const f=document.createElement('div');f.className='emo-fly';f.textContent=e;f.style.left=(10+Math.random()*75)+'%';document.body.appendChild(f);setTimeout(()=>f.remove(),2600);
+const l=document.createElement('div');l.innerHTML=`<b>${esc(name)}</b> ${e}`;const fd=$('emo-feed');fd.prepend(l);while(fd.children.length>4)fd.lastChild.remove();setTimeout(()=>l.remove(),6000)});
+setInterval(()=>{$('emo').classList.toggle('hide',$('v-room').classList.contains('hide'))},500);
