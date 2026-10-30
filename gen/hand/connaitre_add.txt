@@ -1,0 +1,70 @@
+Léger|Quelle est la meilleure blague que tu connais par cœur ?
+Léger|Ton snack de minuit préféré ?
+Léger|Le dernier truc que tu as acheté en ligne ?
+Léger|Quelle série regarderais-tu pour la 5e fois ?
+Léger|Ton record de sommeil d'affilée ?
+Léger|Tu es plutôt sucré ou salé ?
+Léger|Quelle compétence aimerais-tu apprendre en un week-end ?
+Léger|Quel était ton dessin animé préféré à 8 ans ?
+Léger|Ta destination de rêve pour un long week-end ?
+Léger|Le meilleur concert de ta vie ?
+Léger|Ta façon préférée de passer un dimanche ?
+Léger|Le jeu vidéo qui t'a le plus marqué ?
+Léger|Ton citation ou proverbe fétiche ?
+Léger|Quel est ton parfum de glace introuvable préféré ?
+Léger|Quelle est l'odeur que tu préfères ?
+Léger|Ton artiste du moment en boucle ?
+Léger|Si ta vie était un film, quel serait son titre ?
+Léger|Quelle tradition familiale adores-tu ?
+Léger|Le métier le plus bizarre qui te tenterait ?
+Léger|Ton objet fétiche que tu emportes partout ?
+Profond|Qu'est-ce qui te donne de l'énergie quand tout va mal ?
+Profond|Quel moment de ta vie revivrais-tu exactement pareil ?
+Profond|Quelle est la plus belle chose qu'un inconnu a faite pour toi ?
+Profond|De quoi as-tu changé d'avis ces dernières années ?
+Profond|Qu'est-ce que tu aimerais transmettre plus tard ?
+Profond|Quel est ton plus grand accomplissement que personne ne connaît ?
+Profond|Qu'est-ce qui te fait te sentir chez toi ?
+Profond|Quelle est la leçon la plus dure que tu as apprise ?
+Profond|Qui admires-tu en silence ?
+Profond|Qu'est-ce que tu ferais si tu n'avais peur de rien ?
+Profond|Quelle question aimerais-tu qu'on te pose plus souvent ?
+Profond|Quel est ton rapport à la solitude ?
+Profond|Qu'est-ce qui t'émeut à coup sûr ?
+Profond|Quel rêve d'enfant as-tu abandonné, et pourquoi ?
+Profond|Qu'est-ce qui te rend fier de tes parents ?
+Profond|Comment sais-tu que tu fais confiance à quelqu'un ?
+Profond|Quelle habitude aimerais-tu changer dès demain ?
+Profond|Quel est ton souvenir le plus paisible ?
+Profond|Qu'est-ce que la réussite pour toi ?
+Profond|Que dirais-tu à quelqu'un ici que tu n'as jamais osé dire ?
+Intime|Qu'est-ce qui te fait te sentir beau ou belle ?
+Intime|Quelle rupture t'a le plus transformé ?
+Intime|De quoi as-tu besoin pour te sentir en sécurité en couple ?
+Intime|Quelle est la chose la plus vulnérable que tu as dite à quelqu'un ?
+Intime|As-tu déjà aimé quelqu'un qui ne le saura jamais ?
+Intime|Qu'est-ce qui te fait douter de toi en amour ?
+Intime|Quel est ton langage de l'amour ?
+Intime|Quel secret de famille t'a marqué ?
+Intime|As-tu déjà regretté une déclaration ?
+Intime|Qu'est-ce qui te fait pleurer en cachette ?
+Intime|Qu'est-ce que tu n'as jamais pardonné ?
+Intime|Quelle partie de ton passé assumes-tu le moins ?
+Intime|Ton plus beau souvenir d'enfance avec un parent ?
+Intime|As-tu déjà eu peur d'être trop pour quelqu'un ?
+Intime|Qu'est-ce que tu attends d'une amitié profonde ?
+Hot|Qu'est-ce qui te fait te sentir sexy, vraiment ?
+Hot|Le compliment le plus troublant que tu as reçu ?
+Hot|Quelle est la chose la plus audacieuse que tu as faite par séduction ?
+Hot|Ton fantasme de week-end idéal ?
+Hot|Ce que tu préfères dans un premier baiser ?
+Hot|As-tu un rituel de séduction ?
+Hot|Quel est ton souvenir le plus chaud d'une soirée ?
+Hot|Qu'est-ce qui te fait craquer dans un regard ?
+Hot|Tu préfères être désiré en secret ou ouvertement ?
+Hot|Quel vêtement te donne le plus confiance ?
+Hot|La chanson qui met l'ambiance chez toi ?
+Hot|Ce qui rend une nuit inoubliable ?
+Hot|As-tu déjà fait une folie pour quelqu'un en une nuit ?
+Hot|Qu'est-ce que tu adores qu'on remarque chez toi ?
+Hot|La plus belle façon de te réveiller ?
