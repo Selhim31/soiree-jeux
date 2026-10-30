@@ -28,7 +28,17 @@
 "Tu préfères avoir des doigts de pied à la place des doigts ||| l'inverse ?",
 "Tu préfères faire du stop ||| prendre le bus 10h ?",
 "Tu préfères rester coincé dans un ascenseur avec ton ex ||| avec ton boss ?",
-"Tu préfères connaître la date de ta mort ||| la cause ?"
+"Tu préfères connaître la date de ta mort ||| la cause ?",
+"Tu préfères perdre ta voix ||| perdre ton odorat ?",
+"Tu préfères vivre dans un château hanté ||| dans une cabane ?",
+"Tu préfères parler à voix haute tout le temps ||| chuchoter tout le temps ?",
+"Tu préfères avoir un rire de cochon ||| un éternuement de chat ?",
+"Tu préfères faire le tour du monde seul ||| rester ici avec tes amis ?",
+"Tu préfères savoir cuisiner comme un chef ||| danser comme un pro ?",
+"Tu préfères être dans Harry Potter ||| dans Star Wars ?",
+"Tu préfères ne plus jamais voyager ||| ne plus jamais lire ?",
+"Tu préfères avoir 10 enfants ||| aucun ?",
+"Tu préfères une maison sur la plage ||| un loft en ville ?"
 ],
 "Coquin": [
 "Tu préfères embrasser ton crush devant tout le monde ||| ne jamais l'embrasser ?",
@@ -44,7 +54,15 @@
 "Tu préfères sortir avec le sosie de ta star préférée ||| avec ton ex ?",
 "Tu préfères un slow langoureux ||| une bataille d'oreillers ?",
 "Tu préfères un partenaire jaloux ||| un partenaire indifférent ?",
-"Tu préfères tout savoir de son passé ||| ne rien savoir ?"
+"Tu préfères tout savoir de son passé ||| ne rien savoir ?",
+"Tu préfères être dragué par ton crush célébrité ||| par ton crush réel ?",
+"Tu préfères un date surprise ||| un date planifié ?",
+"Tu préfères des fleurs ||| du chocolat ?",
+"Tu préfères un bisou volé ||| un bisou demandé ?",
+"Tu préfères un partenaire romantique ||| un partenaire aventurier ?",
+"Tu préfères rencontrer l'amour en soirée ||| sur une appli ?",
+"Tu préfères lire ses messages ||| qu'il lise tes pensées ?",
+"Tu préfères un ex qui revient ||| un nouveau crush ?"
 ],
 "Hot": [
 "Tu préfères une nuit torride sans lendemain ||| dix nuits sages ?",
@@ -60,7 +78,15 @@
 "Tu préfères tester un jeu de rôle ||| tester un jouet ?",
 "Tu préfères chuchoter des mots doux ||| des mots crus ?",
 "Tu préfères un plan improvisé ||| un scénario préparé ?",
-"Tu préfères être surpris ||| surprendre ?"
+"Tu préfères être surpris ||| surprendre ?",
+"Tu préfères un week-end au lit ||| un week-end en voyage ?",
+"Tu préfères la lumière allumée ||| éteinte ?",
+"Tu préfères une tenue sexy ||| un pyjama doux ?",
+"Tu préfères un massage des pieds ||| du dos ?",
+"Tu préfères en silence ||| en musique ?",
+"Tu préfères tout de suite ||| faire durer le plaisir ?",
+"Tu préfères un fantasme réalisé ||| dix fantasmes imaginés ?",
+"Tu préfères à la plage ||| en montagne ?"
 ]
 },
 "adult": false,
