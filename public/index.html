@@ -2,7 +2,7 @@
 <link rel=stylesheet href="/style.css"></head><body><div class=bg></div><main id=app>
 <section id=v-home class=view>
  <header class=hero><h1>Soirée<span>Jeux</span></h1><p>Gratuit · Multijoueur · Sans compte</p></header>
- <div class=glass><input id=name placeholder="Ton pseudo" maxlength=20><div class=row><input id=code placeholder="CODE" maxlength=4><button class=btn2 onclick="joinRoom()">Rejoindre</button></div><p class=err id=err></p></div>
+ <div class=glass><input id=name placeholder="Ton pseudo" maxlength=20 autocomplete=nickname enterkeyhint=next><div class=row><input id=code placeholder="CODE" maxlength=6 autocapitalize=characters autocomplete=off autocorrect=off spellcheck=false enterkeyhint=go><button class=btn2 onclick="joinRoom()">Rejoindre</button></div><p class=err id=err></p></div>
  <div class=row style="margin-top:14px"><button id=fam-back class="back hide" onclick="showFams()">←</button><h2 class=sec id=sec-title style="margin:10px 4px">Choisis une famille de jeux</h2></div><div class=games id=games></div>
 </section>
 <section id=v-game class="view hide">

@@ -20,8 +20,8 @@ function tl(p,l){const doIt=()=>{let a=[...(p==='g'?selLv:S.levels)];a=a.include
 function tf(p,f){if(p==='g'){selFmt=f;renderSel('g')}else so.emit('settings',{format:f})}
 function pseudo(){const n=$('name').value.trim();if(!n){show('home');$('err').textContent='Entre ton pseudo d\'abord 🙂';$('name').focus();return null}localStorage.pseudo=n;return n}
 function createRoom(){const n=pseudo();if(n)so.emit('create',{name:n,game:cur.id,levels:selLv,format:selFmt,pid:ME})}
-function joinRoom(c){const n=pseudo();if(n){const code=(c||$('code').value.trim()).toUpperCase();let snap=null;try{snap=JSON.parse(localStorage.snap||'null')}catch(e){}so.emit('join',{code,name:n,pid:ME,snap:snap&&snap.code===code?snap:null})}}
-so.on('err',e=>{localStorage.removeItem('room');$('err').textContent=e;show('home')});
+function joinRoom(c){const n=pseudo();if(n){const code=String(c||$('code').value).toUpperCase().replace(/[^A-Z0-9]/g,'');if(code.length<4){$('err').textContent='Le code de salle fait 4 caractères 🙂';return}$('err').textContent=so.connected?'Recherche de la salle '+code+'…':'Connexion au serveur… (peut prendre ~30 s s\'il dormait)';let snap=null;try{snap=JSON.parse(localStorage.snap||'null')}catch(e){}so.emit('join',{code,name:n,pid:ME,snap:snap&&snap.code===code?snap:null})}}
+so.on('err',e=>{localStorage.removeItem('room');$('err').textContent='❌ '+e;show('home')});
 so.on('joined',c=>{localStorage.room=c;history.replaceState(null,'','/?r='+c);const l=location.origin+'/?r='+c;$('r-link').value=l;$('r-qr').src='/qr/'+c+'.png';show('room')});
 const qs=new URLSearchParams(location.search).get('r');so.on('connect',()=>{const c=qs||localStorage.room;if(c&&localStorage.pseudo)joinRoom(c)});
 if(qs){$('code').value=qs;if(localStorage.pseudo){}else $('err').textContent='Entre ton pseudo puis « Rejoindre » pour entrer dans la salle '+qs}
@@ -30,3 +30,7 @@ function copyLink(){navigator.clipboard.writeText($('r-link').value);$('r-link')
 function shareLink(){navigator.share?navigator.share({title:'Soirée Jeux',text:'Rejoins ma partie !',url:$('r-link').value}):copyLink()}
 function leave(){localStorage.removeItem('room');localStorage.removeItem('snap');location.href='/'}
 so.on('state',s=>{const first=!S;S=s;try{localStorage.snap=JSON.stringify({code:s.code,host:s.host,players:s.players.map(p=>({id:p.id,name:p.name})),game:s.game,levels:s.levels,mode:s.mode,pick:s.pick,dares:s.dares,scores:s.scores,teams:s.teams,count:s.count})}catch(e){}if(first&&s.host===ME)$('invite').classList.remove('hide');render()});
+
+$('code').addEventListener('keydown',e=>{if(e.key==='Enter'){e.preventDefault();joinRoom()}});
+$('code').addEventListener('input',e=>{const v=e.target.value.toUpperCase().replace(/[^A-Z0-9]/g,'');if(v!==e.target.value)e.target.value=v});
+$('name').addEventListener('keydown',e=>{if(e.key==='Enter'){e.preventDefault();$('code').value?joinRoom():$('code').focus()}});
