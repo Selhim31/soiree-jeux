@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;500;700;800&display=swap');
+html,body{font-family:'Outfit',system-ui,sans-serif;background:#0a0018}
+.bg{background:linear-gradient(130deg,#1a0033,#3b0a5e,#5e0b52,#14003a,#2a0a5e);background-size:400% 400%;animation:nGrad 16s ease infinite}
+.bg:after{content:'';position:absolute;inset:0;background:radial-gradient(40% 30% at 20% 10%,#ff3cc855,transparent),radial-gradient(40% 30% at 90% 80%,#7a5cff55,transparent)}
+@keyframes nGrad{0%,100%{background-position:0% 50%}50%{background-position:100% 50%}}
+.hero h1{filter:none;background:none;color:inherit}.hero p{letter-spacing:3px;text-transform:uppercase;font-size:.75em;color:#e8c8ff}
+.glass,.gcard,.card,details.glass{background:rgba(255,255,255,.07)!important;border:1px solid rgba(255,255,255,.18)!important;backdrop-filter:blur(18px) saturate(140%);-webkit-backdrop-filter:blur(18px)}
+.card{background:linear-gradient(160deg,rgba(255,60,200,.16),rgba(120,80,255,.12))!important;box-shadow:0 0 0 1px #ff8af033,0 20px 60px #ff3cc833,inset 0 0 40px #ffffff0a}
+.btn{background:linear-gradient(90deg,#ff3cc8,#7a5cff);border-radius:999px;box-shadow:0 0 18px #ff3cc8aa,0 0 42px #7a5cff66;letter-spacing:.5px;text-transform:uppercase;font-size:.9em}
+.btn:hover{box-shadow:0 0 28px #ff3cc8,0 0 60px #7a5cff}
+.btn2,.back{background:rgba(255,255,255,.08);border:1px solid #ff8af066;border-radius:999px;box-shadow:0 0 12px #ff3cc833 inset;padding:10px 16px}
+.chip{background:rgba(255,255,255,.06);border:1px solid #c9a4ff44}.chip.on{box-shadow:0 0 18px #ff3cc8,0 0 4px #fff inset}
+input{background:rgba(0,0,0,.35);border:1px solid #c9a4ff44;border-radius:999px}
+.gcard{border-radius:24px}.gcard img{opacity:.85}.gcard .lbl{background:linear-gradient(transparent,#1a0033ee)}
+.opt{background:rgba(255,255,255,.06);border:1px solid #c9a4ff33}.opt i{background:linear-gradient(90deg,#ff3cc8aa,#7a5cffaa)}
+.res{color:#ffd6fb;text-shadow:0 0 12px #ff3cc8}
+.av{display:inline-grid;place-items:center;width:26px;height:26px;border-radius:50%;font-style:normal;font-size:11px;font-weight:800;color:#120022;margin-right:6px;vertical-align:middle;box-shadow:0 0 10px currentColor,0 0 0 2px #ffffff55}
+.pod > div .av{width:44px;height:44px;font-size:16px;margin:0 0 6px}
+body[data-fam=adulte] .card{background:linear-gradient(160deg,rgba(255,20,80,.28),rgba(90,0,40,.35))!important;box-shadow:0 0 40px #ff1450aa}
+body[data-fam=adulte] .btn{background:linear-gradient(90deg,#ff1450,#b0006a)}
+body[data-fam=defis] .card{box-shadow:0 0 40px #ffb020aa}
+body[data-fam=ambiance] .card{box-shadow:0 0 40px #3cf0ffaa}

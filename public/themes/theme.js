@@ -1,0 +1,16 @@
+(function(){const T=document.documentElement.dataset.theme;if(!T)return;
+const LOGO={neon:'<svg viewBox="0 0 320 90" width="100%" style="max-width:320px"><defs><linearGradient id="lg" x1="0" x2="1"><stop offset="0" stop-color="#ff4ecd"/><stop offset=".5" stop-color="#a76bff"/><stop offset="1" stop-color="#4ee1ff"/></linearGradient><filter id="gl"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs><text x="160" y="58" text-anchor="middle" font-family="Outfit" font-weight="800" font-size="52" fill="none" stroke="url(#lg)" stroke-width="2.5" filter="url(#gl)">Soirée Jeux</text></svg>',
+ velours:'<div class=lg-v><span class=lg-orn>✦</span><span class=lg-t>Soirée</span><span class=lg-amp>&amp;</span><span class=lg-t2>Jeux</span><span class=lg-orn>✦</span></div>',
+ pop:'<div class=lg-p>'+'Soirée'.split('').map((c,i)=>`<b style="--i:${i}">${c}</b>`).join('')+'<em>Jeux!</em></div>'};
+const PAL={neon:[300,265,190,330,210,280,170,240],velours:[350,40,15,330,30,0,45,355],pop:[0,30,50,140,190,220,270,320]};
+const col=n=>{let h=0;for(const c of n.toLowerCase())h=(h*31+c.charCodeAt(0))>>>0;const p=PAL[T];const hue=p[h%p.length];return T==='velours'?`hsl(${hue} 55% ${30+h%3*8}%)`:T==='pop'?`hsl(${hue} 90% 58%)`:`hsl(${hue} 90% 60%)`};
+const EMO=['🦊','🐼','🐸','🦄','🐙','🐯','🐨','🐵','🦁','🐧'];
+const ini=n=>{const w=n.trim().split(/\s+/);return (w[0][0]+(w[1]?w[1][0]:'')).toUpperCase()};
+const av=n=>{const e=document.createElement('i');e.className='av';e.style.background=col(n);e.textContent=T==='pop'?EMO[[...n].reduce((a,c)=>a+c.charCodeAt(0),0)%EMO.length]:ini(n);e.title=n;return e};
+function names(){try{return (S&&S.players||[]).map(p=>p.name).sort((a,b)=>b.length-a.length)}catch(e){return[]}}
+function deco(){const N=names();if(!N.length)return;
+ document.querySelectorAll('#r-players span, .ans > b, .vn em, .pod > div, .tt > b').forEach(el=>{if(el.dataset.av)return;const t=el.textContent;const n=N.find(x=>t.includes(x));if(!n)return;el.dataset.av=1;el.prepend(av(n))});
+ document.querySelectorAll('.opt .vn em').forEach(el=>{});
+ try{const fam=(typeof FAMS!=='undefined'?FAMS:[]).find(f=>f.games.includes(S.game));document.body.dataset.fam=fam?fam.id:''}catch(e){}}
+function logo(){const h=document.querySelector('.hero h1');if(h&&!h.dataset.lg){h.dataset.lg=1;h.innerHTML=LOGO[T]}}
+const go=()=>{logo();deco()};const st=()=>{new MutationObserver(go).observe(document.body,{childList:true,subtree:true});go();setInterval(deco,700)};document.readyState==="loading"?document.addEventListener("DOMContentLoaded",st):st()})();
