@@ -1,0 +1,2 @@
+Vérité : {p}, quelle est la rupture la plus bête que tu aies vécue ?
+Vérité : {p}, avoue à {q} l'objet d'un(e) ex que tu n'arrives pas à jeter.

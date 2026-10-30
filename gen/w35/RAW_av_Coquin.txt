@@ -1,0 +1,2 @@
+Vérité : {p}, as-tu déjà regretté d'avoir quitté quelqu'un ?
+Vérité : {p}, confie à {q} le pire premier date avec un(e) futur(e) ex.
