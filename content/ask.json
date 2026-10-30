@@ -1,0 +1,59 @@
+{
+ "name": "Pose ta question",
+ "desc": "Choisis un joueur ou ton/ta partenaire et pose-lui la question de ton choix, anonymement si tu veux.",
+ "img": "/img/ask.webp",
+ "kind": "ask",
+ "levels": {
+  "Classique": [
+   "Quel est ton plus grand rêve que tu n'as encore jamais dit à personne ?",
+   "Quelle est la chose la plus folle que tu aies faite pour quelqu'un ?",
+   "Qu'est-ce que tu penses vraiment de moi, en une phrase ?",
+   "Quel est ton souvenir d'enfance préféré ?",
+   "Quelle est la chose dont tu es le plus fier ou la plus fière ?",
+   "Si tu pouvais changer une seule chose dans ta vie, ce serait quoi ?",
+   "Quelle est ta plus grande peur ?",
+   "Quel est le meilleur conseil qu'on t'ait donné ?",
+   "Quelle première impression as-tu eue de moi ?",
+   "Qu'est-ce qui te fait rire à coup sûr ?",
+   "Quel talent caché as-tu ?",
+   "Quel est le mensonge que tu regrettes le plus ?",
+   "Qui t'a le plus marqué(e) dans ta vie ?",
+   "Qu'est-ce que tu ferais si tu gagnais au loto demain ?",
+   "Quelle est ta plus grosse honte en soirée ?"
+  ],
+  "Coquin": [
+   "Qui est la personne la plus attirante de ce groupe selon toi ?",
+   "Quel est ton plus gros râteau ?",
+   "Quel est ton meilleur souvenir de premier baiser ?",
+   "As-tu déjà eu un crush sur quelqu'un ici ?",
+   "Qu'est-ce qui te séduit en premier chez quelqu'un ?",
+   "Quel est le message le plus osé que tu aies envoyé ?",
+   "Quel est ton pire date ?",
+   "As-tu déjà été jaloux ou jalouse sans raison ?",
+   "Quelle tenue te rend irrésistible selon toi ?",
+   "Quel est ton type idéal, en trois mots ?",
+   "As-tu déjà dragué quelqu'un par erreur ?",
+   "Quelle partie de ton corps préfères-tu ?",
+   "Quelle est ta technique de séduction secrète ?",
+   "As-tu déjà menti pour impressionner quelqu'un qui te plaisait ?",
+   "Quel compliment te fait fondre ?"
+  ],
+  "Hot": [
+   "Quel est ton fantasme que tu n'as jamais osé avouer ?",
+   "Quel est l'endroit le plus insolite où tu l'aies fait ?",
+   "Qu'est-ce qui t'excite le plus chez ton ou ta partenaire ?",
+   "Quelle est ta position préférée ?",
+   "As-tu déjà simulé ? Pourquoi ?",
+   "Quelle est la chose la plus coquine que tu aies faite à distance ?",
+   "Préfères-tu dominer ou être dominé(e) ?",
+   "Quel est ton meilleur souvenir au lit ?",
+   "Quelle est la chose que tu voudrais essayer au moins une fois ?",
+   "Quel est le mot qui t'excite le plus ?",
+   "As-tu déjà envoyé une photo osée que tu as regrettée ?",
+   "Combien de temps as-tu tenu sans rien faire ?",
+   "Quelle est ta zone la plus sensible ?",
+   "Qu'est-ce que tu adores qu'on te murmure ?",
+   "Quel est ton plus gros tabou au lit ?"
+  ]
+ }
+}

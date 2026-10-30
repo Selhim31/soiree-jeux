@@ -1,13 +1,13 @@
 const express=require('express'),http=require('http'),fs=require('fs'),QR=require('qrcode'),{Server}=require('socket.io');
 const G={};for(const f of fs.readdirSync(__dirname+'/content'))G[f.replace('.json','')]=JSON.parse(fs.readFileSync(__dirname+'/content/'+f));
-const ORDER=["ecrit","excrush","estim","duo","connaitre","soft","coquin","hot","couple","flirts","darkromance","defis","av","qui","jamais","tupreferes","ouinon","cestun10","imposteur","7sec","quiz","equipe","cercle","rnp","pmu","purete","verite","debats","mime","halloween"];
+const ORDER=["ask","ecrit","excrush","estim","duo","connaitre","soft","coquin","hot","couple","flirts","darkromance","defis","av","qui","jamais","tupreferes","ouinon","cestun10","imposteur","7sec","quiz","equipe","cercle","rnp","pmu","purete","verite","debats","mime","halloween"];
 const KIND={defis:'dare',mime:'dare',flirts:'dare',qui:'players',tupreferes:'ab',ouinon:'ab',jamais:'ab'};
 const kindOf=k=>G[k].kind||KIND[k]||'input';
-const ASSET='a14';const VER=ASSET+'-'+(process.env.RENDER_GIT_COMMIT||String(Date.now())).slice(0,8);
+const ASSET='a15';const VER=ASSET+'-'+(process.env.RENDER_GIT_COMMIT||String(Date.now())).slice(0,8);
 const INDEX=()=>fs.readFileSync(__dirname+'/public/index.html','utf8').replace(/(\/(?:app|app2)\.js|\/style\.css)"/g,`$1?v=${VER}"`).replace('<head>',`<head><meta name=app-version content="${VER}">`);
 const app=express();app.get(['/','/index.html'],(q,r)=>{r.set('Cache-Control','no-store');r.type('html').send(INDEX())});app.get('/api/version',(q,r)=>{r.set('Cache-Control','no-store');r.json({v:VER})});app.set('trust proxy',true);app.use(express.static(__dirname+'/public',{maxAge:0,etag:true,setHeaders:(r)=>r.setHeader('Cache-Control','no-cache')}));
 app.get('/api/games',(q,r)=>r.json(ORDER.filter(k=>G[k]).map(k=>({id:k,name:G[k].name,desc:G[k].desc,img:G[k].img,adult:G[k].adult,kind:kindOf(k),levels:Object.fromEntries(Object.entries(G[k].levels).map(([l,v])=>[l,['rnp','pmu'].includes(k)?0:v.length]))}))));
-const FAM=[{id:'questions',name:'Questions & Vérités',emoji:'💬',desc:'Se découvrir, avouer, débattre',games:['connaitre','soft','verite','av','jamais','debats','excrush']},{id:'defis',name:'Défis',emoji:'⚡',desc:'Gages à distance, mimes, chrono',games:['defis','mime','7sec']},{id:'ambiance',name:"Jeux d'ambiance",emoji:'🎉',desc:'Votes, quiz, imposteur, équipes',games:['qui','tupreferes','ouinon','cestun10','imposteur','quiz','equipe','halloween','ecrit','estim','duo']},{id:'cartes',name:'Cartes & alcool',emoji:'🍻',desc:'Le cercle, rouge-noir-purple, PMU',games:['cercle','rnp','pmu']},{id:'adulte',name:'Couple & 18+',emoji:'🔥',desc:'Coquin, Hot, Couple, Flirts, Dark Romance, Pureté',adult:true,games:['coquin','hot','couple','flirts','darkromance','purete']}];
+const FAM=[{id:'questions',name:'Questions & Vérités',emoji:'💬',desc:'Se découvrir, avouer, débattre',games:['ask','connaitre','soft','verite','av','jamais','debats','excrush']},{id:'defis',name:'Défis',emoji:'⚡',desc:'Gages à distance, mimes, chrono',games:['defis','mime','7sec']},{id:'ambiance',name:"Jeux d'ambiance",emoji:'🎉',desc:'Votes, quiz, imposteur, équipes',games:['qui','tupreferes','ouinon','cestun10','imposteur','quiz','equipe','halloween','ecrit','estim','duo']},{id:'cartes',name:'Cartes & alcool',emoji:'🍻',desc:'Le cercle, rouge-noir-purple, PMU',games:['cercle','rnp','pmu']},{id:'adulte',name:'Couple & 18+',emoji:'🔥',desc:'Coquin, Hot, Couple, Flirts, Dark Romance, Pureté',adult:true,games:['coquin','hot','couple','flirts','darkromance','purete']}];
 app.get('/api/families',(q,r)=>r.json(FAM));
 app.get('/api/purete',(q,r)=>r.json(Object.values(G.purete.levels)[0]));
 app.get('/qr/:code.png',async(q,r)=>{const u=`${q.protocol}://${q.get('host')}/?r=${encodeURIComponent(q.params.code)}`;r.type('png').send(await QR.toBuffer(u,{margin:1,width:300,color:{dark:'#1a0b2e',light:'#ffffff'}}))});
@@ -21,11 +21,11 @@ const code=()=>Array.from({length:4},()=>"ABCDEFGHJKLMNPQRSTUVWXYZ23456789"[Math
 const rnd=a=>a[Math.random()*a.length|0],shuf=a=>a.map(x=>[Math.random(),x]).sort((a,b)=>a[0]-b[0]).map(x=>x[1]);
 const nm=(r,id)=>(r.players.find(p=>p.id===id)||{}).name||'?';
 const partner=()=>null;
-const NOMIX=['pmu','rnp','purete'];
+const NOMIX=['pmu','rnp','purete','ask'];
 function cleanMix(m){if(!m||typeof m!=='object')return null;const o={};for(const[k,v]of Object.entries(m))if(G[k]&&!NOMIX.includes(k)&&Array.isArray(v)){const l=mapLv(k,v).filter(x=>G[k].levels[x]);if(l.length)o[k]=l}return Object.keys(o).length?o:null}
-function expected(r){const c=r.card;if(!c)return[];if(c.kind==='input'&&(r.mode==='turn'||c.named))return[c.target];if(c.kind==='rnp')return[c.target];if(['input','players','ab','quiz','number','purity','impostor','pmu','whowrote','estimate','duo'].includes(c.kind))return r.players.filter(p=>p.online!==false).map(p=>p.id);return[]}
-function pub(r){save();const c=r.card;let card=null;if(c){card={...c};delete card.secret;delete card.tpl;delete card.correct;if(!c.revealed)delete card.result;card.answered=c.kind==='whowrote'&&c.phase==='vote'?Object.keys(c.secret.votes):Object.keys(r.ans);card.expected=expected(r);card.done=roundDone(r);if(c.revealed&&!['whowrote','duo'].includes(c.kind))card.answers=Object.entries(r.ans).map(([id,v])=>({name:nm(r,id),v}));if(c.timerEnd)card.timerLeft=c.timerEnd-Date.now()}
- io.to(r.code).emit('state',{code:r.code,host:r.host,players:r.players,game:r.game,levels:r.levels,format:r.format,mode:r.mode,pick:r.pick,turn:r.turn,card,count:r.count,teams:r.teams,scores:r.scores,dares:r.dares,mix:r.mix,pairs:r.pairs||{},ended:r.ended,banned:r.banned||[],locked:!!r.locked});}
+function expected(r){const c=r.card;if(!c)return[];if(c.kind==='ask')return c.phase==='answer'?[c.target]:[];if(c.kind==='input'&&(r.mode==='turn'||c.named))return[c.target];if(c.kind==='rnp')return[c.target];if(['input','players','ab','quiz','number','purity','impostor','pmu','whowrote','estimate','duo'].includes(c.kind))return r.players.filter(p=>p.online!==false).map(p=>p.id);return[]}
+function pub(r){save();const c=r.card;let card=null;if(c){card={...c};delete card.secret;delete card.tpl;delete card.correct;if(!c.revealed)delete card.result;card.answered=c.kind==='whowrote'&&c.phase==='vote'?Object.keys(c.secret.votes):Object.keys(r.ans);card.expected=expected(r);card.done=roundDone(r);if(c.revealed&&!['whowrote','duo'].includes(c.kind))card.answers=Object.entries(r.ans).map(([id,v])=>({name:nm(r,id),v}));if(c.timerEnd)card.timerLeft=c.timerEnd-Date.now();if(c.kind==='ask'){delete card.partner;if(c.phase==='pick')io.to('p:'+c.secret.asker).emit('askme',{id:c.id,inspi:c.secret.inspi})}}
+ io.to(r.code).emit('state',{code:r.code,host:r.host,players:r.players,game:r.game,levels:r.levels,format:r.format,mode:r.mode,pick:r.pick,turn:c&&c.kind==='ask'?null:r.turn,card,count:r.count,teams:r.teams,scores:r.scores,dares:r.dares,mix:r.mix,pairs:r.pairs||{},ended:r.ended,banned:r.banned||[],locked:!!r.locked});}
 function wwVote(r){const c=r.card;const e=Object.entries(r.ans).filter(([,v])=>String(v).trim());const L=shuf(e);c.secret.auth=L.map(x=>x[0]);c.list=L.map((x,i)=>({i,v:x[1]}));c.phase='vote';c.secret.votes={}}
 const pt=(r,id,n=1)=>{const k=nm(r,id);r.scores[k]=(r.scores[k]||0)+n};
 function reveal(r){const c=r.card;if(!c||c.revealed)return;if(c.kind==='whowrote'&&c.phase==='write'){wwVote(r);return}c.revealed=true;
@@ -50,7 +50,7 @@ function draw(r,depth=0){let gid=r.game,lvs=r.levels;if(r.mix){const ks=Object.k
  let pool=g.levels[l];if(r.players.length<2){const f=pool.filter(x=>!x.includes('{q}'));if(f.length)pool=f}
  const key=gid+'|'+l;r.used[key]=r.used[key]||new Set();if(r.used[key].size>=pool.length)r.used[key].clear();let t;do t=rnd(pool);while(r.used[key].has(t)&&r.used[key].size<pool.length);const needQ=x=>x.includes('{q}')||kind==='duo';const restr=isR(gid,l);let EL=null;
  const on=r.players.filter(p=>p.online!==false),ids=(on.length?on:r.players).map(p=>p.id);let target;
- if(kind==='circle'||kind==='rnp'){r.ci=((r.ci??-1)+1)%ids.length;target=ids[r.ci]}else target=nextTarget(r);if(r.forceT&&ids.includes(r.forceT)&&!['circle','rnp'].includes(kind))target=r.forceT;
+ if(kind==='ask'&&r.mode==='turn'){r.ai=((r.ai??-1)+1)%ids.length;target=ids[r.ai]}else if(kind==='circle'||kind==='rnp'){r.ci=((r.ci??-1)+1)%ids.length;target=ids[r.ci]}else target=nextTarget(r);if(r.forceT&&ids.includes(r.forceT)&&!['circle','rnp'].includes(kind))target=r.forceT;
  let q=partner(r,target);if(restr){EL=elig(r,target);if(needQ(t)&&!EL.length){const free=pool.filter(x=>!needQ(x));const nu=free.filter(x=>!r.used[key].has(x));if(free.length)t=rnd(nu.length?nu:free);else if(depth<8)return draw(r,depth+1)}if(EL.length)q=rnd(EL)}else if(!q){const o=ids.filter(x=>x!==target);q=o.length?rnd(o):null}r.used[key].add(t);
  let text=t.replaceAll('{p}',nm(r,target)).replaceAll('{q}',q?nm(r,q):"quelqu'un de ton choix"),opts=null,c={elig:restr?EL:null,id:Date.now(),game:gid,gname:g.name,level:l,kind,target,partner:q,revealed:false};
 
@@ -58,6 +58,7 @@ function draw(r,depth=0){let gid=r.game,lvs=r.levels;if(r.mix){const ks=Object.k
  if((gid==='av'||gid==='darkromance')&&text.startsWith('Action'))c.kind='dare';
  if(gid==='excrush'&&/^Qui ici/.test(text))c.kind='players';
  if(kind==='whowrote'){c.phase='write';c.secret={}}
+ if(kind==='ask'){c.secret={asker:target,inspi:shuf(lv.flatMap(x=>g.levels[x])).slice(0,4)};c.target=null;c.partner=null;c.phase='pick';text="🤫 Un joueur prépare sa question en secret…"}
  if(kind==='duo'){const p=text.split(' ||| ');text=`${nm(r,target)} et ${q?nm(r,q):'?'} : ${p[0]}`;opts=[p[1],p[2]]}
  if(kind==='quiz'){const p=text.split(' ||| ');text=p[0];c.correct=p[1];opts=shuf(p.slice(1))}
  if(kind==='timer'){c.timerEnd=Date.now()+9000}
@@ -75,12 +76,13 @@ io.on('connection',so=>{so.emit('ver',VER);let r=null,me=null;const H=()=>r&&r.h
  so.on('settings',o=>{if(!H())return;if(o.game&&G[o.game]&&(o.game!==r.game||r.mix)){r.game=o.game;r.mix=null;r.levels=[Object.keys(G[o.game].levels)[0]];r.card=null;r.scores={};r.teams=null}if(o.levels)r.levels=mapLv(r.game,o.levels);if('mix' in o){r.mix=cleanMix(o.mix);r.card=null;r.teams=null}for(const k of['format','mode','pick'])if(o[k])r[k]=o[k];pub(r);});
  so.on('end',()=>{if(H()){r.ended=true;pub(r)}});
  so.on('next',()=>{if(H()&&roundDone(r)){r.ended=false;draw(r);pub(r);}});
- so.on('joker',()=>{if(r&&r.card){draw(r);pub(r);}});
- so.on('answer',v=>{if(!r||!r.card||r.card.revealed)return;if(r.card.kind==='input'&&r.card.named&&me!==r.card.target)return;r.ans[me]=typeof v==='number'?v:String(v).slice(0,300);if(r.card.kind==='rnp'&&me!==r.card.target)delete r.ans[me];checkAll(r);pub(r);});
+ so.on('joker',()=>{const c=r&&r.card;if(c&&c.kind==='ask'){if(c.revealed)return;if(c.phase==='answer'&&me===c.target){r.ans[me]='🃏 Joker';reveal(r);pub(r)}else if(c.phase==='pick'&&me===c.secret.asker){draw(r);pub(r)}return}if(r&&r.card){draw(r);pub(r);}});
+ so.on('ask',o=>{const c=r&&r.card;if(!c||c.kind!=='ask'||c.phase!=='pick'||me!==c.secret.asker||!o)return;const to=String(o.to||''),q=String(o.q||'').trim().slice(0,300);if(!q||to===me||!r.players.some(p=>p.id===to&&p.online!==false))return;c.target=to;c.text=q;c.anon=!!o.anon;c.askerName=c.anon?null:nm(r,me);c.phase='answer';pub(r)});
+ so.on('answer',v=>{if(!r||!r.card||r.card.revealed)return;if(r.card.kind==='ask'&&(r.card.phase!=='answer'||me!==r.card.target))return;if(r.card.kind==='input'&&r.card.named&&me!==r.card.target)return;r.ans[me]=typeof v==='number'?v:String(v).slice(0,300);if(r.card.kind==='rnp'&&me!==r.card.target)delete r.ans[me];checkAll(r);pub(r);});
  so.on('votes',v=>{const c=r&&r.card;if(!c||c.kind!=='whowrote'||c.phase!=='vote'||c.revealed||typeof v!=='object')return;const m={};for(const[k,id]of Object.entries(v||{}))if(r.players.some(p=>p.id===id))m[+k]=id;c.secret.votes[me]=m;checkAll(r);pub(r)});
  so.on('dareText',v=>{const c=r&&r.card;if(!c||c.kind!=='dare'||c.send||me!==c.target)return;c.typed=String(v||'').slice(0,1000);pub(r)});
  so.on('reveal',()=>{if(H()&&r.card){reveal(r);pub(r);}});
- so.on('pickNext',id=>{if(!r||!r.card||!r.players.some(p=>p.id===id))return;if(me===r.card.target||H()){r.turn=id;draw(r);pub(r);}});
+ so.on('pickNext',id=>{if(!r||!r.card||r.card.kind==='ask'||!r.players.some(p=>p.id===id))return;if(me===r.card.target||H()){r.turn=id;draw(r);pub(r);}});
  so.on('randNext',()=>{if(H()&&roundDone(r)){const o=r.players.map(p=>p.id).filter(x=>x!==r.turn);r.turn=o.length?rnd(o):r.turn;draw(r);pub(r);}});
  so.on('pmuDraw',()=>{if(!H()||!r.card||r.card.kind!=='pmu'||r.card.pmu.winner)return;const p=r.card.pmu,su=rnd(['♥','♦','♣','♠']);p.h[su]++;p.last=su;if(p.h[su]>=6){p.winner=su;r.card.revealed=true;const w=Object.entries(r.ans).filter(([,v])=>v===su).map(([id])=>nm(r,id));r.card.result=`L'as ${su} gagne ! ${w.length?w.join(', ')+' distribue(nt) 5 gorgées':'Personne n\'avait parié dessus'} — les autres boivent 2 gorgées.`}pub(r);});
  so.on('teamPoint',t=>{if(H()&&r.scores&&t in r.scores){r.scores[t]++;pub(r);}});
@@ -92,7 +94,7 @@ io.on('connection',so=>{so.emit('ver',VER);let r=null,me=null;const H=()=>r&&r.h
   if(act==='unban'){r.banned=r.banned.filter(b=>b.id!==id)}
   if(act==='makeHost'&&p){r.host=id;io.to(r.code).emit('toast',`👑 ${p.name} est maintenant l'hôte`)}
   if(act==='skip'&&r.card){const o=on.filter(x=>x.id!==r.card.target);const t=o.length?rnd(o).id:null;if(r.mode==='turn'&&t)r.turn=t;r.forceT=t;draw(r);r.forceT=null}
-  if(act==='force'&&r.card){if(r.card.kind==='dare'&&!r.card.revealed){r.card.revealed=true;r.card.result='⏭️ Passé par l\'hôte'}else{reveal(r);if(!(r.card.kind==='whowrote'&&r.card.phase==='vote'&&!r.card.revealed))r.card.revealed=true}}
+  if(act==='force'&&r.card&&r.card.kind==='ask'&&r.card.phase==='pick'){draw(r)}else if(act==='force'&&r.card){if(r.card.kind==='dare'&&!r.card.revealed){r.card.revealed=true;r.card.result='⏭️ Passé par l\'hôte'}else{reveal(r);if(!(r.card.kind==='whowrote'&&r.card.phase==='vote'&&!r.card.revealed))r.card.revealed=true}}
   if(act==='reset'){r.dares={};for(const k in r.scores)r.scores[k]=0;if(!r.teams)r.scores={};io.to(r.code).emit('toast','🔄 Scores remis à zéro')}
   if(act==='lock'){r.locked=!r.locked;io.to(r.code).emit('toast',r.locked?'🔒 Salle verrouillée':'🔓 Salle ouverte')}
   if(act==='end'){r.ended=true}
