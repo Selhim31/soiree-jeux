@@ -9,9 +9,11 @@ let tmr=null;
 function render(){const s=S,h=s.host===so.id,g=GAMES.find(x=>x.id===s.game);if(!g)return;
 $('r-code').textContent=s.code;$('r-players').innerHTML=s.players.map(p=>`<span>${p.id===s.host?'👑 ':''}${s.card&&s.card.target===p.id?'🎯 ':''}${esc(p.name)}${p.id===so.id?' (toi)':''}${s.teams&&s.teams[p.id]?(s.teams[p.id]==='Bleue'?' 🔵':' 🔴'):''}</span>`).join('');
 $('r-meta').textContent=`${g.name} · ${s.levels.join(', ')} · ${s.format} · ${MODES[s.mode]} · ${s.count} carte(s)`;
-$('r-next').classList.toggle('hide',!h);$('r-wait').classList.toggle('hide',h);$('r-settings').classList.toggle('hide',!h);$('r-joker').classList.toggle('hide',!s.card);
+$('r-next').classList.toggle('hide',!h);$('r-settings').classList.toggle('hide',!h);$('r-joker').classList.toggle('hide',!s.card);
 if(h){renderSel('s');$('s-game').innerHTML=GAMES.map(x=>`<option value=${x.id} ${x.id===s.game?'selected':''}>${esc(x.name)}</option>`).join('');$('s-mode').innerHTML=Object.entries(MODES).map(([k,v])=>`<button class="chip ${s.mode===k?'on':''}" onclick="so.emit('settings',{mode:'${k}'})">${v}</button>`).join('');$('s-pick').innerHTML=Object.entries(PICKS).map(([k,v])=>`<button class="chip ${s.pick===k?'on':''}" onclick="so.emit('settings',{pick:'${k}'})">${v}</button>`).join('');$('s-pickbox').classList.toggle('hide',s.mode!=='turn')}
-$('r-next').textContent=s.card?'Carte suivante ▶':'Lancer la partie ▶';
+$('r-next').textContent=s.card?'Carte suivante ▶':'Lancer la partie ▶';{const c=s.card,lock=c&&!c.done&&!s.ended;$('r-next').disabled=!!lock;$('r-next').style.opacity=lock?.4:1;
+let pend='';if(lock){const miss=c.kind==='dare'?[c.target]:c.expected.filter(id=>!c.answered.includes(id));pend=miss.length?'⏳ En attente de : '+miss.map(pn).map(esc).join(', ')+(c.kind==='dare'?' (défi)':''):(h?'⏳ Toutes les réponses sont là, révèle-les':'')}
+$('r-wait').innerHTML=pend||(h?'':"L'hôte tire les cartes…");$('r-wait').classList.toggle('hide',!pend&&h)}
 // tableau des défis
 {const D=Object.entries(s.dares||{}).sort((x,y)=>y[1].ok-x[1].ok||x[1].fail-y[1].fail);let el=$('r-board');if(!el){el=document.createElement('div');el.id='r-board';$('r-extra').before(el)}
 el.innerHTML=s.ended?`<div class="card podium"><div class=lv>🏁 Partie terminée</div>${D.length?`<div style="font-size:2.4em">👑</div><div><b>${esc(D[0][0])}</b> remporte la couronne avec ${D[0][1].ok} défi(s) relevé(s) !</div><div class=pod>${D.slice(0,3).map((d,i)=>`<div class=p${i}><span>${['🥇','🥈','🥉'][i]}</span>${esc(d[0])}<small>${d[1].ok} ✅ · ${d[1].fail} ❌</small></div>`).join('')}</div>`:'<div>Aucun défi joué.</div>'}${h?'<button class=btn2 onclick="so.emit(\'next\')">Rejouer ▶</button>':''}</div>`
