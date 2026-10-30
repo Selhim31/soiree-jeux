@@ -1,0 +1,25 @@
+Équipe {t} : construisez une tour avec 5 objets de chez vous, la plus haute gagne.
+Équipe {t} : le capitaine décrit un tableau célèbre sans le nommer, l'équipe devine.
+Équipe {t} : imitez ensemble un orchestre de casseroles pendant 10 secondes.
+Équipe {t} : trouvez qui dans l'équipe a la photo la plus ancienne dans sa galerie.
+Équipe {t} : rejouez une scène culte de film en 30 secondes.
+Équipe {t} : faites un « tableau vivant » d'un repas de famille face caméra.
+Équipe {t} : chaque joueur dit un mot pour former une phrase complète sans hésiter.
+Équipe {t} : retrouvez le titre d'une chanson à partir de 3 émojis donnés par l'adversaire.
+Équipe {t} : racontez une histoire de fantômes en 30 secondes à plusieurs voix.
+Équipe {t} : faites une ola sur vos caméras en moins de 5 secondes.
+Équipe {t} : enchaînez l'alphabet en citant un animal par lettre jusqu'à J.
+Équipe {t} : devinez l'âge de chaque adversaire, chaque bonne réponse vaut un point.
+Équipe {t} : faites deviner un proverbe en mime.
+Équipe {t} : composez un haïku collectif sur la soirée.
+Équipe {t} : inventez la recette du cocktail de l'équipe et présentez-la.
+Équipe {t} : trouvez un point commun surprenant entre tous les joueurs de l'équipe.
+Équipe {t} : répondez à 3 questions de calcul mental posées par l'adversaire.
+Équipe {t} : dessinez ensemble un monstre, chaque joueur ajoute une partie (caméra).
+Équipe {t} : retrouvez 5 objets qui commencent par la lettre B chez vous.
+Équipe {t} : imitez le bruit d'une jungle tous ensemble pendant 10 secondes.
+Équipe {t} : lisez un texte de pub avec une voix de film d'horreur.
+Équipe {t} : faites un défilé de mode express avec ce que vous portez.
+Équipe {t} : chantez une chanson en remplaçant toutes les voyelles par « i ».
+Équipe {t} : faites deviner un personnage historique en 5 indices.
+Équipe {t} : recréez la pochette d'un album célèbre face caméra.

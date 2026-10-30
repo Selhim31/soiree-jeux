@@ -1,0 +1,106 @@
+{p}, mime un astronaute qui marche sur la Lune sans parler, les autres devinent.
+{p}, mime un serveur qui renverse un plateau sans parler, les autres devinent.
+{p}, mime un chat qui chasse une mouche sans parler, les autres devinent.
+{p}, mime un pingouin sur la banquise sans parler, les autres devinent.
+{p}, mime un chirurgien qui opère sans parler, les autres devinent.
+{p}, mime un pianiste de concert sans parler, les autres devinent.
+{p}, mime un cowboy qui monte un taureau sans parler, les autres devinent.
+{p}, mime un plongeur qui voit un requin sans parler, les autres devinent.
+{p}, mime un bébé qui apprend à marcher sans parler, les autres devinent.
+{p}, mime un mime coincé dans une boîte sans parler, les autres devinent.
+{p}, mime un touriste perdu avec une carte sans parler, les autres devinent.
+{p}, mime un DJ en pleine soirée sans parler, les autres devinent.
+{p}, mime un boxeur au dernier round sans parler, les autres devinent.
+{p}, mime un peintre devant sa toile sans parler, les autres devinent.
+{p}, mime un photographe de mode sans parler, les autres devinent.
+{p}, mime un pompier qui sauve un chat sans parler, les autres devinent.
+{p}, mime un professeur qui écrit au tableau sans parler, les autres devinent.
+{p}, mime un magicien qui rate son tour sans parler, les autres devinent.
+{p}, mime un jardinier qui découvre une taupe sans parler, les autres devinent.
+{p}, mime quelqu'un qui épluche un oignon sans parler, les autres devinent.
+{p}, mime quelqu'un qui marche dans un chewing-gum sans parler, les autres devinent.
+{p}, mime quelqu'un qui cherche ses clés sans parler, les autres devinent.
+{p}, mime quelqu'un qui rate le bus sans parler, les autres devinent.
+{p}, mime quelqu'un qui monte un meuble Ikea sans parler, les autres devinent.
+{p}, mime quelqu'un qui fait du surf sans parler, les autres devinent.
+{p}, mime quelqu'un qui fait du ski pour la première fois sans parler, les autres devinent.
+{p}, mime quelqu'un qui promène un chien trop fort sans parler, les autres devinent.
+{p}, mime un gorille qui découvre un miroir sans parler, les autres devinent.
+{p}, mime une poule qui pond un œuf sans parler, les autres devinent.
+{p}, mime un dinosaure qui veut applaudir sans parler, les autres devinent.
+{p}, mime un robot qui tombe en panne sans parler, les autres devinent.
+{p}, mime un vampire qui voit le soleil sans parler, les autres devinent.
+{p}, mime un zombie qui cherche son chemin sans parler, les autres devinent.
+{p}, mime un chevalier qui combat un dragon sans parler, les autres devinent.
+{p}, mime un pirate qui cherche un trésor sans parler, les autres devinent.
+{p}, mime un ninja discret sans parler, les autres devinent.
+{p}, mime un sumo qui se prépare sans parler, les autres devinent.
+{p}, mime un mannequin sur un podium sans parler, les autres devinent.
+{p}, mime un livreur de pizza pressé sans parler, les autres devinent.
+{p}, mime un footballeur qui simule une faute sans parler, les autres devinent.
+{p}, mime un gardien de but qui plonge sans parler, les autres devinent.
+{p}, mime un basketteur qui dunk sans parler, les autres devinent.
+{p}, mime un golfeur qui rate son coup sans parler, les autres devinent.
+{p}, mime un tennisman qui s'énerve sans parler, les autres devinent.
+{p}, mime un nageur qui fait le papillon sans parler, les autres devinent.
+{p}, mime un haltérophile sans parler, les autres devinent.
+{p}, mime un arbitre qui siffle une faute sans parler, les autres devinent.
+{p}, mime un chef d'orchestre sans parler, les autres devinent.
+{p}, mime un guitariste de rock sans parler, les autres devinent.
+{p}, mime un batteur endiablé sans parler, les autres devinent.
+{p}, mime un chanteur d'opéra sans parler, les autres devinent.
+{p}, mime une star de cinéma sur le tapis rouge sans parler, les autres devinent.
+{p}, mime un photographe de paparazzi sans parler, les autres devinent.
+{p}, mime un policier qui fait la circulation sans parler, les autres devinent.
+{p}, mime un pilote de Formule 1 sans parler, les autres devinent.
+{p}, mime un conducteur de bus sans parler, les autres devinent.
+{p}, mime un pilote d'avion dans une tempête sans parler, les autres devinent.
+{p}, mime un capitaine sur un bateau qui coule sans parler, les autres devinent.
+{p}, mime un explorateur dans la jungle sans parler, les autres devinent.
+{p}, mime un archéologue qui trouve une momie sans parler, les autres devinent.
+{p}, mime une momie qui se réveille sans parler, les autres devinent.
+{p}, mime un fantôme qui fait peur sans parler, les autres devinent.
+{p}, mime un sorcier qui lance un sort sans parler, les autres devinent.
+{p}, mime un super-héros qui s'envole sans parler, les autres devinent.
+{p}, mime Spider-Man qui grimpe un mur sans parler, les autres devinent.
+{p}, mime un clown à un anniversaire sans parler, les autres devinent.
+{p}, mime quelqu'un qui mange un citron sans parler, les autres devinent.
+{p}, mime quelqu'un qui boit un café trop chaud sans parler, les autres devinent.
+{p}, mime quelqu'un qui goûte un plat très épicé sans parler, les autres devinent.
+{p}, mime quelqu'un qui se brûle avec une pizza sans parler, les autres devinent.
+{p}, mime quelqu'un qui se coince le doigt dans une porte sans parler, les autres devinent.
+{p}, mime quelqu'un qui se réveille en retard sans parler, les autres devinent.
+{p}, mime quelqu'un qui se rase sans parler, les autres devinent.
+{p}, mime quelqu'un qui se maquille dans le métro sans parler, les autres devinent.
+{p}, mime quelqu'un qui prend un selfie parfait sans parler, les autres devinent.
+{p}, mime quelqu'un qui joue à un jeu vidéo et perd sans parler, les autres devinent.
+{p}, mime quelqu'un qui gagne au loto sans parler, les autres devinent.
+{p}, mime quelqu'un qui reçoit une mauvaise note sans parler, les autres devinent.
+{p}, mime quelqu'un qui passe le permis sans parler, les autres devinent.
+{p}, mime quelqu'un qui fait un créneau sans parler, les autres devinent.
+{p}, mime quelqu'un qui pêche un gros poisson sans parler, les autres devinent.
+{p}, mime quelqu'un qui découvre une araignée sans parler, les autres devinent.
+{p}, mime quelqu'un qui marche sur des braises sans parler, les autres devinent.
+{p}, mime quelqu'un qui traverse un pont de singe sans parler, les autres devinent.
+{p}, mime quelqu'un qui fait du yoga avancé sans parler, les autres devinent.
+{p}, mime un moine en méditation sans parler, les autres devinent.
+{p}, mime un bodybuilder qui pose sans parler, les autres devinent.
+{p}, mime un influenceur qui fait un unboxing sans parler, les autres devinent.
+{p}, mime un youtubeur qui commence sa vidéo sans parler, les autres devinent.
+{p}, mime un présentateur de journal télé sans parler, les autres devinent.
+{p}, mime un commentateur de course de chevaux sans parler, les autres devinent.
+{p}, mime un jockey sans parler, les autres devinent.
+{p}, mime un cheval au galop sans parler, les autres devinent.
+{p}, mime un kangourou sans parler, les autres devinent.
+{p}, mime un flamant rose sans parler, les autres devinent.
+{p}, mime un singe qui épluche une banane sans parler, les autres devinent.
+{p}, mime un crabe sur la plage sans parler, les autres devinent.
+{p}, mime un serpent qui hypnotise sans parler, les autres devinent.
+{p}, mime un escargot pressé sans parler, les autres devinent.
+{p}, mime un paresseux qui se réveille sans parler, les autres devinent.
+{p}, mime un ours qui pêche un saumon sans parler, les autres devinent.
+{p}, mime un aigle qui chasse sans parler, les autres devinent.
+{p}, mime un poisson hors de l'eau sans parler, les autres devinent.
+{p}, mime un perroquet qui répète tout sans parler, les autres devinent.
+{p}, mime un chien qui attend son maître sans parler, les autres devinent.
+{p}, mime un hamster dans sa roue sans parler, les autres devinent.

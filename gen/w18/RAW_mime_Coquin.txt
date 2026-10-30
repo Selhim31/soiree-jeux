@@ -1,0 +1,13 @@
+{p}, mime un couple qui choisit un prénom de bébé, les autres devinent.
+{p}, mime une chanteuse de cabaret, les autres devinent.
+{p}, mime quelqu'un qui reçoit un bouquet de son ex, les autres devinent.
+{p}, mime un selfie de couple raté, les autres devinent.
+{p}, mime quelqu'un qui découvre une lettre d'amour cachée, les autres devinent.
+{p}, mime un mariage où le témoin drague tout le monde, les autres devinent.
+{p}, mime une déclaration dans un karaoké, les autres devinent.
+{p}, mime un baiser à l'envers façon Spider-Man, les autres devinent.
+{p}, mime une danse de séduction de paon, les autres devinent.
+{p}, mime un flirt avec un mannequin de vitrine, les autres devinent.
+{p}, mime quelqu'un qui teste un parfum sur son crush, les autres devinent.
+{p}, mime un rendez-vous en tandem qui tourne mal, les autres devinent.
+{p}, mime une demande de numéro par signes, les autres devinent.
