@@ -49,3 +49,5 @@ textarea{width:100%;min-height:70px;padding:12px;border-radius:14px;border:1px s
 
 .duo{display:flex;gap:8px;align-items:center}.duo .ans{flex:1;text-align:center}.duo .dm{font-size:2em}
 .card.rv .duo{animation:pop .5s .2s both}
+
+.opt .vn{display:flex;flex-wrap:wrap;gap:4px;margin-top:4px;position:relative}.opt .vn em{font-style:normal;font-size:.75em;padding:1px 7px;border-radius:10px;background:rgba(255,255,255,.18)}
