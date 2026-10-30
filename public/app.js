@@ -1,6 +1,7 @@
 const ME=localStorage.pid||(localStorage.pid=(self.crypto&&crypto.randomUUID?crypto.randomUUID():Math.random().toString(36).slice(2)+Date.now()));
+const MYVER=(document.querySelector('meta[name=app-version]')||{}).content;
 const so=io(),$=i=>document.getElementById(i);let GAMES=[],cur=null,selLv=[],selFmt='Groupe',S=null,pendingGate=null;
-const FMTS=['Solo','Couple','Trio','Groupe'],SAFE=['Classique','Halloween'];
+const SAFE=['Classique','Halloween'];
 const esc=s=>String(s).replace(/[&<>"']/g,m=>'&#'+m.charCodeAt(0)+';');
 const adultOk=()=>localStorage.adult==='1';
 function gate(cb){if(adultOk())return cb();pendingGate=cb;$('gate').classList.remove('hide')}
@@ -15,9 +16,8 @@ function renderGames(g){$('games').innerHTML=g.map(x=>`<div class=gcard onclick=
 function openGame(id){const g=GAMES.find(x=>x.id===id);const go=()=>{cur=g;selLv=[Object.keys(g.levels)[0]];$('g-img').src=g.img;$('g-name').textContent=g.name;$('g-desc').textContent=g.desc;renderSel('g');show('game')};g.adult?gate(go):go()}
 function renderSel(p){const g=p==='g'?cur:GAMES.find(x=>x.id===S.game);const lv=p==='g'?selLv:S.levels,fm=p==='g'?selFmt:S.format;
 $(p+'-levels').innerHTML=Object.entries(g.levels).map(([l,n])=>`<button class="chip ${lv.includes(l)?'on':''}" onclick="tl('${p}','${l}')">${SAFE.includes(l)?'':'🔥 '}${l}<small>${n}</small></button>`).join('');
-if(0)$(p+'-format').innerHTML=FMTS.map(f=>`<button class="chip ${fm===f?'on':''}" onclick="tf('${p}','${f}')">${{Solo:'🙋',Couple:'💑',Trio:'👥',Groupe:'🎉'}[f]} ${f}</button>`).join('')}
+}
 function tl(p,l){const doIt=()=>{let a=[...(p==='g'?selLv:S.levels)];a=a.includes(l)?a.filter(x=>x!==l):[...a,l];if(!a.length)return;if(p==='g'){selLv=a;renderSel('g')}else so.emit('settings',{levels:a})};SAFE.includes(l)?doIt():gate(doIt)}
-function tf(p,f){if(p==='g'){selFmt=f;renderSel('g')}else so.emit('settings',{format:f})}
 function pseudo(){const n=$('name').value.trim();if(!n){show('home');$('err').textContent='Entre ton pseudo d\'abord 🙂';$('name').focus();return null}localStorage.pseudo=n;return n}
 function createRoom(){const n=pseudo();if(n)so.emit('create',{name:n,game:cur.id,levels:selLv,format:selFmt,pid:ME})}
 function joinRoom(c){const n=pseudo();if(n){const code=String(c||$('code').value).toUpperCase().replace(/[^A-Z0-9]/g,'');if(code.length<4){$('err').textContent='Le code de salle fait 4 caractères 🙂';return}$('err').textContent=so.connected?'Recherche de la salle '+code+'…':'Connexion au serveur… (peut prendre ~30 s s\'il dormait)';let snap=null;try{snap=JSON.parse(localStorage.snap||'null')}catch(e){}so.emit('join',{code,name:n,pid:ME,snap:snap&&snap.code===code?snap:null})}}
@@ -34,3 +34,5 @@ so.on('state',s=>{const first=!S;S=s;try{localStorage.snap=JSON.stringify({code:
 $('code').addEventListener('keydown',e=>{if(e.key==='Enter'){e.preventDefault();joinRoom()}});
 $('code').addEventListener('input',e=>{const v=e.target.value.toUpperCase().replace(/[^A-Z0-9]/g,'');if(v!==e.target.value)e.target.value=v});
 $('name').addEventListener('keydown',e=>{if(e.key==='Enter'){e.preventDefault();$('code').value?joinRoom():$('code').focus()}});
+
+so.on('ver',v=>{if(MYVER&&v&&v!==MYVER)location.reload()});
