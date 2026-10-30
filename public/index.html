@@ -1,32 +1,27 @@
-<!doctype html><html lang=fr><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><title>Toc Toc Party</title>
-<style>*{box-sizing:border-box}body{margin:0;min-height:100vh;font-family:system-ui,sans-serif;color:#fff;background:radial-gradient(circle at 20% 0,#5b1a8f,#0b0820 60%);display:flex;justify-content:center}
-.w{width:100%;max-width:460px;padding:24px}h1{text-align:center;font-size:2.4em;background:linear-gradient(90deg,#ff3cac,#784ba0,#2b86c5);-webkit-background-clip:text;color:transparent;filter:drop-shadow(0 0 12px #ff3cac88)}
-input,button{width:100%;padding:14px;border-radius:14px;border:0;font-size:1.05em;margin:6px 0}input{background:#ffffff14;color:#fff}
-button{background:linear-gradient(90deg,#ff3cac,#784ba0);color:#fff;font-weight:700;box-shadow:0 0 18px #ff3cac66;cursor:pointer}button.g{background:#ffffff18;box-shadow:none}
-.grid{display:grid;grid-template-columns:1fr 1fr;gap:10px}.cat{padding:14px;border-radius:16px;background:#ffffff10;text-align:center;border:2px solid transparent;cursor:pointer}.cat.on{border-color:#ff3cac;box-shadow:0 0 16px #ff3cac88;background:#ff3cac22}.cat b{font-size:2em;display:block}
-.card{margin:20px 0;min-height:240px;border-radius:24px;padding:28px;display:flex;flex-direction:column;justify-content:center;text-align:center;font-size:1.35em;background:linear-gradient(145deg,#2a1150,#140a2e);box-shadow:0 0 30px #784ba099;animation:f .5s}
-@keyframes f{from{transform:rotateY(90deg)}to{transform:none}}.tag{font-size:.7em;opacity:.7;margin-bottom:12px}.pl{display:flex;flex-wrap:wrap;gap:6px}.pl span{background:#ffffff18;padding:6px 10px;border-radius:20px;font-size:.9em}
-.bar{background:#ffffff18;border-radius:10px;margin:4px 0;overflow:hidden}.bar div{background:#ff3cac;padding:6px 10px;white-space:nowrap}.hide{display:none}.code{text-align:center;font-size:1.1em}.code b{font-size:1.6em;letter-spacing:4px;color:#ff9de2}</style></head><body><div class=w>
-<h1>Toc Toc Party</h1>
-<div id=home><input id=name placeholder="Ton pseudo" maxlength=20><button onclick="create()">Créer une salle</button><input id=code placeholder="Code de salle" maxlength=4 style="text-transform:uppercase"><button class=g onclick="join()">Rejoindre</button><p id=err style="color:#ff7a9c"></p></div>
-<div id=room class=hide><p class=code>Code : <b id=rc></b></p><div class=pl id=pl></div>
-<div id=setup><h3>Catégories</h3><div class=grid id=cg></div></div>
-<div id=cardbox></div><button id=nx onclick="next()">Carte suivante ▶</button><p id=wait class=hide style="text-align:center;opacity:.7">L'hôte tire les cartes…</p></div></div>
-<script src="/socket.io/socket.io.js"></script><script>
-const so=io();let CATS={},S=null,adultOk=false;const $=id=>document.getElementById(id);
-so.on('cats',c=>CATS=c);so.on('err',e=>$('err').textContent=e);
-function nm(){const n=$('name').value.trim();if(!n){$('err').textContent='Entre un pseudo';return null}return n}
-function create(){const n=nm();if(n)so.emit('create',n)}function join(){const n=nm();if(n)so.emit('join',{code:$('code').value.trim(),name:n})}
-function next(){so.emit('next')}
-function tog(k){if(S.host!==so.id)return;let c=[...S.cats];if(c.includes(k))c=c.filter(x=>x!==k);else{if(CATS[k].adult&&!adultOk){if(!confirm('Contenu 18+ entre adultes consentants. Tout le monde a 18 ans ou plus ?'))return;adultOk=true}c.push(k)}so.emit('cats',c)}
-so.on('state',s=>{S=s;const h=s.host===so.id;$('home').classList.add('hide');$('room').classList.remove('hide');$('rc').textContent=s.code;
-$('pl').innerHTML=s.players.map(p=>`<span>${p.id===s.host?'👑 ':''}${esc(p.name)}</span>`).join('');
-$('cg').innerHTML=Object.entries(CATS).map(([k,v])=>`<div class="cat ${s.cats.includes(k)?'on':''}" onclick="tog('${k}')"><b>${v.emoji}</b>${v.name}</div>`).join('');
-$('nx').classList.toggle('hide',!h);$('wait').classList.toggle('hide',h);$('nx').textContent=s.card?'Carte suivante ▶':'Lancer la partie ▶';
-const c=s.card;if(!c){$('cardbox').innerHTML='';return}
-let v='';if(c.vote){const t={};Object.values(s.votes).forEach(x=>t[x]=(t[x]||0)+1);const n=Object.values(s.votes).length||1;
-v='<div style="font-size:.6em;margin-top:14px">'+s.players.map(p=>`<div class=bar onclick="so.emit('vote','${esc(p.name)}')" style="cursor:pointer"><div style="width:${Math.max(15,100*(t[p.name]||0)/n)}%">${esc(p.name)} · ${t[p.name]||0}</div></div>`).join('')+'</div>'}
-const key=c.text+c.cat;if($('cardbox').dataset.k!==key){$('cardbox').dataset.k=key;$('cardbox').innerHTML=''}
-$('cardbox').innerHTML=`<div class=card><div class=tag>${c.emoji} ${c.catName}</div>${esc(c.text)}${v}${h?'':''}</div>`+(h?'<button class=g onclick="next()">🃏 Joker / passer</button>':'')});
-function esc(s){return String(s).replace(/[&<>"']/g,m=>'&#'+m.charCodeAt(0)+';')}
-</script></body></html>
+<!doctype html><html lang=fr><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name=theme-color content="#0b0820"><title>Soirée Jeux 🔥</title>
+<link rel=stylesheet href="/style.css"></head><body><div class=bg></div><main id=app>
+<section id=v-home class=view>
+ <header class=hero><h1>Soirée<span>Jeux</span></h1><p>Gratuit · Multijoueur · Sans compte</p></header>
+ <div class=glass><input id=name placeholder="Ton pseudo" maxlength=20><div class=row><input id=code placeholder="CODE" maxlength=4><button class=btn2 onclick="joinRoom()">Rejoindre</button></div><p class=err id=err></p></div>
+ <h2 class=sec>Choisis un jeu</h2><div class=games id=games></div>
+</section>
+<section id=v-game class="view hide">
+ <button class=back onclick="show('home')">← Retour</button>
+ <div class=gh><img id=g-img alt=""><div><h2 id=g-name></h2><p id=g-desc></p></div></div>
+ <h3 class=sec>Niveaux <small>(plusieurs possibles)</small></h3><div class=chips id=g-levels></div>
+ <h3 class=sec>Format</h3><div class="chips seg" id=g-format></div>
+ <button class="btn big" onclick="createRoom()">Créer la salle ▶</button>
+</section>
+<section id=v-room class="view hide">
+ <div class=topbar><button class=back onclick="leave()">✕</button><div class=rcode>Salle <b id=r-code></b></div><button class=back onclick="toggleInvite()">👥 Inviter</button></div>
+ <div id=invite class="glass hide"><img id=r-qr alt="QR"><div class=row><input id=r-link readonly><button class=btn2 onclick="copyLink()">Copier</button></div><button class=btn2 onclick="shareLink()" style="width:100%">Partager…</button></div>
+ <div class=players id=r-players></div>
+ <div class=meta id=r-meta></div>
+ <div class=stage><div id=r-card></div></div>
+ <div class=actions><button class=btn2 id=r-joker onclick="so.emit('joker')">🃏 Joker</button><button class="btn" id=r-next onclick="so.emit('next')">Carte suivante ▶</button></div>
+ <p class=wait id=r-wait>L'hôte tire les cartes…</p>
+ <details id=r-settings class=glass><summary>⚙️ Réglages de la partie (hôte)</summary><div class=chips id=s-levels></div><div class="chips seg" id=s-format></div></details>
+</section>
+</main>
+<div id=gate class="modal hide"><div class=glass><h2>🔞 Contenu adulte</h2><p>Ce niveau contient des contenus pour adultes consentants. Tous les joueurs ont-ils 18 ans ou plus ?</p><button class=btn onclick="gateOk()">Oui, on a tous 18+</button><button class=btn2 onclick="gateNo()">Non</button></div></div>
+<script src="/socket.io/socket.io.js"></script><script src="/app.js"></script></body></html>
