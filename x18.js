@@ -16,7 +16,7 @@ module.exports=function(X){// X={io,log(r,ev,o),nm(r,id),content(k)}
  const G=r=>X.content(r.game);
  const gold=(r,l,t)=>!!((G(r).gold||{})[l]||[]).includes(t);
  function pick(r,l){const x=r.x;x.used=x.used||{};const pool=G(r).levels[l]||[];const u=x.used[l]=x.used[l]||[];let av=pool.filter(t=>!u.includes(t));if(!av.length){u.length=0;av=pool}const t=rnd(av);u.push(t);return t}
- function ensure(r){if(!r.x||r.x.game!==r.game){clearTimeout(TM[r.code]);r.x={game:r.game,ph:'lobby',N:r.game==='chaudfroid'?15:10,cat:'Progressif',cats:['Séduction','Hot'],envies:[],hot:[]}}return r.x}
+ function ensure(r){if(!r.x||r.x.game!==r.game){clearTimeout(TM[r.code]);r.x={game:r.game,ph:'lobby',N:r.game==='chaudfroid'?15:10,cat:'Progressif',cats:['Séduction','Hot'],dur:10,envies:[],hot:[]}}return r.x}
  function arm(r,sec,fn){const x=r.x;clearTimeout(TM[r.code]);x.dl=Date.now()+sec*1000*SP();TM[r.code]=setTimeout(()=>{if(r.x===x){fn();X.pub(r)}},sec*1000*SP())}
  const stopT=r=>{clearTimeout(TM[r.code]);if(r.x)r.x.dl=null};
  const other=(x,id)=>x.P.find(p=>p!==id);
@@ -33,13 +33,13 @@ module.exports=function(X){// X={io,log(r,ev,o),nm(r,id),content(k)}
  const THEMES=['Lieu','Tenue','Jeu de rôle','Ambiance'];
  function fRound(r){const x=r.x;x.round=(x.round||0)+1;x.holder=x.round===1?rnd(x.P):other(x,x.holder);x.guesser=other(x,x.holder);x.opts=shuf(THEMES.flatMap(th=>[th,th])).slice(0,5).map(th=>{const t=pick(r,th);return{th,t,gold:gold(r,th,t)}});x.theme=null;x.card=null;x.qs=[];x.guess=null;x.found=null;x.tente={};x.ph='choose';x.gage=null;x.winner=null;x.mutual=null}
  // ---------- Maître ----------
- function mTurn(r){const x=r.x;x.ph='play';x.cons=null;x.stops=0;x.msg='';x.okd=0;x.sugg=mSug(r);arm(r,T.maitre,()=>mEnd(r,'⏱️ Temps écoulé'))}
+ function mTurn(r){const x=r.x;x.ph='play';x.cons=null;x.stops=0;x.msg='';x.okd=0;x.sugg=mSug(r);arm(r,(r.x.dur||10)*60,()=>mEnd(r,'⏱️ Temps écoulé'))}
  const mPool=r=>(r.x.cats||MCAT).flatMap(c=>(G(r).levels[c]||[]).map(t=>({t,c})));
  function mSug(r){return shuf(mPool(r)).slice(0,3).map(o=>o.t)}
  function mEnd(r,why){const x=r.x;stopT(r);x.turns=(x.turns||0)+1;x.hist.push({m:x.master,done:x.okd,why});x.master=other(x,x.master);x.ph='between';x.why=why;x.cons=null}
  const cfL=(x,i)=>x.cat&&x.cat!=='Progressif'?x.cat:levelFor(i,x.N);
  function start(r,me,o){const x=ensure(r);const P=on(r);const g=G(r);if(P.length<(g.min||2))return `Il faut au moins ${g.min||2} joueurs connectés.`;if(g.max&&P.length>g.max)return `Ce jeu se joue à ${g.max} exactement : ${P.length} joueurs connectés.`;
-  stopT(r);const keep={envies:x.envies||[],hot:x.hot||[],N:x.N,used:x.used,cat:x.cat||'Progressif',cats:x.cats||['Séduction','Hot']};r.x={game:r.game,...keep,P,ph:'',log:[]};const y=r.x;
+  stopT(r);const keep={envies:x.envies||[],hot:x.hot||[],N:x.N,used:x.used,cat:x.cat||'Progressif',cats:x.cats||['Séduction','Hot'],dur:x.dur||10};r.x={game:r.game,...keep,P,ph:'',log:[]};const y=r.x;
   if(r.game==='encheres'){if(ECAT.includes(o.cat))y.cat=o.cat;const N=[5,10,15].includes(+o.N)?+o.N:(+x.N||10);y.N=N;y.m=1;y.tok={};y.done={};y.ref={};P.forEach(p=>{y.tok[p]=100;y.done[p]=0;y.ref[p]=0});eDraw(r)}
   if(r.game==='scenario'){const[d,a,b]=pick(r,'Décors').split('|');const o2=shuf(P);Object.assign(y,{decor:d,roles:{[o2[0]]:a,[o2[1]]:b},order:o2,act:1,tour:1,i:0,w:o2[0],story:[{k:'a',act:1}],ph:'write'});sArm(r)}
   if(r.game==='fantasme')fRound(r);
@@ -47,6 +47,7 @@ module.exports=function(X){// X={io,log(r,ev,o),nm(r,id),content(k)}
   if(r.game==='chaudfroid'){if(ECAT.includes(o.cat))y.cat=o.cat;const N=[10,15,20].includes(+o.N)?+o.N:(+x.N||15);y.N=N;y.i=1;const l0=cfL(y,1);y.prop=pick(r,l0);y.pgold=gold(r,l0,y.prop);y.rt={};y.ph='rate';y.res=[]}
   jl(r,'start',me,`${g.name} · ${P.map(p=>nm(r,p)).join(', ')}${y.N&&['encheres','chaudfroid'].includes(r.game)?' · '+y.N+' manches':''}`)}
  function act(r,me,o){if(!r)return 'Pas de salle.';const x=ensure(r);const a=o.a;const isH=r.host===me;
+  if(a==='setDur'){if(!isH)return "Seul l'hôte choisit.";const d=+o.dur;if(![5,10,15,20,25,30].includes(d))return 'Durée invalide.';x.dur=d;return}
   if(a==='setCat'){if(!isH)return "Seul l'hôte choisit.";if((r.game==='encheres'||r.game==='chaudfroid')&&ECAT.includes(o.cat))x.cat=o.cat;if(r.game==='maitre'&&Array.isArray(o.cats)){const c=o.cats.filter(k=>MCAT.includes(k));if(!c.length)return 'Choisis au moins une catégorie.';x.cats=c}return}
   if(a==='setN'){if(!isH)return "Seul l'hôte choisit.";const v=+o.N;if(r.game==='encheres'&&[5,10,15].includes(v))x.N=v;if(r.game==='chaudfroid'&&[10,15,20].includes(v))x.N=v;return}
   if(a==='start'){if(!isH)return "Seul l'hôte lance la partie.";if(x.ph&&!['lobby','end'].includes(x.ph))return 'Partie déjà en cours.';return start(r,me,o)}
@@ -88,7 +89,7 @@ module.exports=function(X){// X={io,log(r,ev,o),nm(r,id),content(k)}
    if(a==='next'&&x.ph==='reveal'){if(x.i>=x.N){x.ph='end';return}x.i++;const l1=cfL(x,x.i);x.prop=pick(r,l1);x.pgold=gold(r,l1,x.prop);x.rt={};x.ph='rate';return}
   }
   return 'Action impossible maintenant.'}
- function pubView(r){const x=ensure(r);const v={game:x.game,ph:x.ph||'lobby',N:x.N,cat:x.cat,cats:x.cats,P:x.P||null,dl:x.dl||null,now:Date.now(),envies:x.envies,hot:x.hot};const g=r.game;
+ function pubView(r){const x=ensure(r);const v={game:x.game,ph:x.ph||'lobby',N:x.N,cat:x.cat,cats:x.cats,dur:x.dur||10,P:x.P||null,dl:x.dl||null,now:Date.now(),envies:x.envies,hot:x.hot};const g=r.game;
   if(g==='encheres'&&x.P)Object.assign(v,{m:x.m,tok:x.tok,done:x.done,ref:x.ref,dare:x.dare?{t:x.dare.txt||x.dare.t.replaceAll('{q}','le gagnant de l\'enchère'),l:x.dare.l,gold:x.dare.gold}:null,bidders:Object.keys(x.bids||{}),win:x.win,tgt:x.tgt,last:x.ph==='bid'?null:x.last,score:x.score,champ:x.champ,fin:x.fin,sugg:x.ph==='final'?x.sugg:null});
   if(g==='scenario'&&x.P)Object.assign(v,{decor:x.decor,roles:x.roles,act:x.act,tour:x.tour,w:x.w,story:x.story,count:(x.story||[]).filter(s=>s.k==='s').length});
   if(g==='fantasme'&&x.P)Object.assign(v,{round:x.round,holder:x.holder,guesser:x.guesser,theme:x.theme,qs:x.qs,guess:x.guess,found:x.found,winner:x.winner,gage:x.gage,card:['tente','res'].includes(x.ph)?x.card:null,tented:Object.keys(x.tente||{}),mutual:x.ph==='res'?x.mutual:null});
