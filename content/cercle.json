@@ -158,27 +158,5 @@
   ]
  },
  "img": "/img/cercle.webp",
- "adult": false,
- "gold": {
-  "Classique": [
-   "Bonus — Celui qui a le fond d'écran le plus gênant boit (on montre !).",
-   "Bonus — Ceux qui ont envoyé un vocal aujourd'hui boivent.",
-   "Bonus — {p} fait une grimace, le premier qui rit boit.",
-   "Bonus — Tout le monde lève son verre et dit santé dans une langue différente ; le dernier boit.",
-   "Bonus — {p} choisit un mot de passe secret ; celui qui le dit sans le savoir boit.",
-   "Bonus — {p} lance le « ni oui ni non » pendant 1 minute ; qui se trompe boit.",
-   "Bonus — {p} dit trois mots sur lui/elle, dont un faux ; qui se trompe boit.",
-   "Bonus — {p} interdit le mot « boire » jusqu'à la fin du tour.",
-   "Bonus — {p} raconte sa dernière honte ou boit 3 gorgées.",
-   "Bonus — {p} raconte un secret ou boit 2 gorgées.",
-   "Bonus — {p} lance un chrono de 10 s : le premier qui montre un objet jaune donne une gorgée.",
-   "Bonus — {p} lance une catégorie « personnages de dessins animés », le premier qui sèche boit.",
-   "Bonus — Bonus : {p} lance un défi d'équilibre sur une jambe, le premier qui tombe boit.",
-   "Bonus — {p} lance un concours de regard avec quelqu'un, le premier qui cligne boit.",
-   "Bonus — Tout le monde dit un mot pour décrire {p} ; {p} boit pour le plus gentil.",
-   "Bonus — {p} donne une gorgée à la personne qui a la meilleure déco derrière elle.",
-   "Bonus — {p} choisit une chanson, le premier qui ne connaît pas les paroles boit.",
-   "Bonus — {p} lance une catégorie « marques de bière », le premier qui sèche boit."
-  ]
- }
+ "adult": false
 }

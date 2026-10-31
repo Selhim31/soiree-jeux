@@ -8,13 +8,31 @@ const C=k=>JSON.parse(fs.readFileSync(__dirname+'/../content/'+k+'.json'));const
 for(const k of['encheres','scenario','fantasme','maitre','chaudfroid']){const d=C(k);assert.strictEqual(d.kind,'x18');assert.strictEqual(d.adult,true,k+' adulte');assert(fs.existsSync(__dirname+'/../public'+d.img),k+' image');cnt[k]={};
  for(const[l,a]of Object.entries(d.levels)){assert.strictEqual(new Set(a).size,a.length,k+'/'+l+' doublon');cnt[k][l]=a.length;for(const t of a){assert(!/mineur|enfant|ado\b|lycéen|sans (son|ton|leur) accord|de force|forcer|étrangl|drogu|inconscient/i.test(t),k+': '+t);if(/envo|vocal|sexto|filme|prends(-toi)? en photo/i.test(t)&&!['Rebondissements','Décors'].includes(l))assert(/accord/i.test(t),'accord manquant : '+t)}}
  for(const[l,a]of Object.entries(d.gold||{}))for(const t of a)assert(d.levels[l].includes(t),'or inconnu '+t)}
+
+// ---------- 3 nouveaux jeux : Le Bluffeur, Miroir miroir, La Roulette du Désir ----------
+{const nz2=t=>t.normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase().replace(/[^a-z0-9 ]+/g,' ').split(/\s+/).filter(w=>w.length>2||/\d/.test(w));
+ const jacc=(a,b)=>{const A=new Set(nz2(a)),B=new Set(nz2(b));let x=0;for(const w of A)if(B.has(w))x++;return x/(A.size+B.size-x||1)};
+ const near=(a,lab,th)=>{const seen=new Set();for(let i=0;i<a.length;i++){const n=nz2(a[i]).sort().join(' ');assert(!seen.has(n),'doublon '+lab+' : '+a[i]);seen.add(n);for(let j=0;j<i;j++)assert(jacc(a[i],a[j])<th,`quasi-doublon ${lab} : « ${a[i]} » ~ « ${a[j]} »`)}};
+ const SOFTBAN=/sexe|sexuel|orgasm|masturb|nu\(e\)|mineur|drogu|humili|insult|de force|forcer|étrangl|sans (son|ton|leur|mon) accord/i;
+ const B=C('bluffeur');assert.strictEqual(B.kind,'x18');assert.strictEqual(B.adult,false);assert.strictEqual(B.min,3);assert.strictEqual(B.max,12);assert(fs.existsSync(__dirname+'/../public'+B.img));
+ const pairs=['Éloignées','Proches','Très proches'].flatMap(l=>{assert(B.levels[l].length>=50,l);return B.levels[l]});assert(pairs.length>=150,'paires '+pairs.length);
+ for(const t of pairs){const q=t.split('|');assert.strictEqual(q.length,2,'paire mal formée : '+t);assert(q[0]!==q[1]&&q.every(x=>x.trim().length>8&&/\?$/.test(x.trim())),'paire : '+t);assert(!SOFTBAN.test(t),'interdit : '+t)}
+ near(pairs.map(t=>t.split('|')[0]),'bluffeur',0.85);near(pairs,'bluffeur paires',0.85);assert(B.levels.Gages.length>=30);near(B.levels.Gages,'gages bluffeur',0.85);B.levels.Gages.forEach(t=>assert(!SOFTBAN.test(t),t));
+ const M=C('miroir');assert.strictEqual(M.adult,false);assert(fs.existsSync(__dirname+'/../public'+M.img));const MQ=M.levels['Qualités'],MD=M.levels['Défauts'];assert(MQ.length>=60&&MD.length>=50&&MQ.length+MD.length>=150,'miroir '+MQ.length+'+'+MD.length);
+ const allM=[...MQ,...MD];assert.strictEqual(new Set(allM.map(t=>nz2(t).join(' '))).size,allM.length,'doublon miroir');allM.forEach(t=>assert(!SOFTBAN.test(t)&&!/idiot|nul\b|moche|gros|stupide|bête/i.test(t),'miroir pas bienveillant : '+t));
+ assert(!C('cercle').gold&&!C('bluffeur').gold&&!C('miroir').gold,'or cosmétique');const R=C('roulette');assert(!R.gold);assert.strictEqual(R.adult,true);assert.strictEqual(R.min,2);assert.strictEqual(R.max,2);assert(fs.existsSync(__dirname+'/../public'+R.img));
+ const RBAN=/mineur|enfant|\bados?\b|lycé|collég|écoli|\bécole\b|sans (son|ton|leur|mon) accord|de force|forcer|étrangl|drogu|inconscient|douleur|fouet|gifl|humili|insult|sang\b|brûl|bougie|\bcire\b|\bpince(r|s)?\b|mord(s|re) fort|photo|filme|enregistre(?!r rien)|upload|capture/i;
+ for(const k of['Zones','Actions','Contraintes']){const a=R.levels[k];assert(a.length>=150,k+' '+a.length);const per={1:0,2:0,3:0,4:0};
+  for(const t of a){const m=/^([1-4])\|(.+)$/.exec(t);assert(m,'format palier : '+t);per[m[1]]++;const tx=m[2];assert(!RBAN.test(tx.replace(/sans rien enregistrer|n'enregistre rien|sans enregistrer/g,'')),'roulette interdit : '+tx);if(/envo|sexto|vocal envoy/i.test(tx))assert(/accord/.test(tx),'accord manquant : '+tx)}
+  for(const p of[1,2,3,4])assert(per[p]>=150,`${k} palier ${p} : ${per[p]}`);near(a.map(t=>t.slice(2)),'roulette '+k,0.85)}
+ cnt.bluffeur={paires:pairs.length,gages:B.levels.Gages.length};cnt.miroir={qualites:MQ.length,defauts:MD.length};cnt.roulette=Object.fromEntries(['Zones','Actions','Contraintes'].map(k=>[k,R.levels[k].length]))}
 const tot=(k,ls)=>ls.reduce((s,l)=>s+cnt[k][l],0);
 const NEED={encheres:['Coquin','Hot','Explicite'],maitre:['Séduction','Hot','Extrême','Dominant / Soumis','Jeu de rôle'],fantasme:['Lieu','Tenue','Jeu de rôle','Ambiance'],chaudfroid:['Coquin','Hot','Explicite'],scenario:['Décors','Rebondissements']};
 for(const[k,ls]of Object.entries(NEED))for(const l of ls)assert(cnt[k][l]>=150,`${k}/${l} : ${cnt[k][l]} < 150`);assert(cnt.encheres.Final>=30&&cnt.fantasme.Gages>=60);
 // anti-doublons : identiques après normalisation, ou quasi identiques (Jaccard des mots ≥ 0,85) dans une même catégorie
 const nz=t=>t.normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase().replace(/\{q\}/g,'').replace(/[^a-z0-9 ]+/g,' ').split(/\s+/).filter(w=>w.length>2);
 const all=new Map();for(const k of Object.keys(NEED)){const d=C(k);for(const[l,a]of Object.entries(d.levels)){const ks=a.map(t=>new Set(nz(t)));for(let i=0;i<a.length;i++){const n=[...ks[i]].sort().join(' ');assert(!all.has(n)||all.get(n)===k+'/'+l+'#'+i,'doublon : '+a[i]);all.set(n,k+'/'+l+'#'+i);for(let j=0;j<i;j++){const A=ks[i],B=ks[j];let x=0;for(const w of A)if(B.has(w))x++;const J=x/(A.size+B.size-x);assert(J<0.85,`quasi-doublon ${k}/${l} : « ${a[i]} » ~ « ${a[j]} »`)}}}
- const g=d.gold||{};for(const l of NEED[k]){if(k==='scenario'&&l==='Décors')continue;const p=(g[l]||[]).length/d.levels[l].length;assert(p>=0.05&&p<=0.12,`${k}/${l} : ${Math.round(p*100)}% d'or`)}}
+ const g=d.gold||{};if(k!=='encheres'){assert(!d.gold,k+' : Carte en Or sans effet de jeu, doit être retirée');continue}for(const l of NEED[k]){const p=(g[l]||[]).length/d.levels[l].length;assert(p>=0.05&&p<=0.12,`${k}/${l} : ${Math.round(p*100)}% d'or`)}}
 // rôles explicitement adultes, rien d'interdit
 const BAN=/mineur|enfant|\bados?\b|lycé|collégien|écoli|\bécole\b|sans (son|ton|leur|mon) accord|de force|forcer|étrangl|drogu|inconscient|douleur|fouet|gifl|humili|insult|sang\b|brûlure/i;
 for(const k of Object.keys(NEED)){const d=C(k);for(const[l,a]of Object.entries(d.levels))for(const t of a){assert(!BAN.test(t),k+' interdit : '+t);if(/professeur|prof\b|élève|étudiant|apprenti/i.test(t))assert(/adulte|major|majeur|entre adultes/i.test(t),'rôle adulte non explicite : '+t)}}
@@ -63,6 +81,41 @@ for(const k of Object.keys(NEED)){const d=C(k);for(const[l,a]of Object.entries(d
    for(const[a,b]of plan){await S.a(0,'rate',{v:a});x=S.x();assert.strictEqual(x.rt,null);assert(!('rt' in S[1].st.x&&S[1].st.x.rt));await S.a(1,'rate',{v:b});x=S.x();assert.strictEqual(x.ph,'reveal');assert.strictEqual(x.k,rateK(a,b));await S.a(1,'next')}
    x=S.x();assert.strictEqual(x.ph,'end');assert.strictEqual(x.hot.length,4);assert.strictEqual(x.res.length,10);end(S)}
   // Garde-fous
+
+  // Le Bluffeur : 3 joueurs, secret de la question, vote, points/gage
+  {const S=await room('bluffeur',2);await S.a(0,'start');assert(/au moins 3/.test(S[0].err));end(S)}
+  {const S=await room('bluffeur',3);await S.a(1,'setN',{N:5});assert(S[1].err);await S.a(0,'setN',{N:5});assert.strictEqual(S.x().N,5);await S.a(0,'start');let x=S.x();assert.strictEqual(x.ph,'answer');assert.strictEqual(x.lv,'Éloignées');await w(150);
+   const qs=S.map(s=>s.me.q);assert(qs.every(Boolean));const maj=qs.find(q=>qs.filter(z=>z===q).length===2);const bi=qs.findIndex(q=>q!==maj);assert(bi>=0,'une seule question différente');
+   assert(!JSON.stringify(S[0].st).includes(qs[bi])&&!JSON.stringify(S[0].st).includes(maj),'questions jamais dans l\'état public pendant les réponses');
+   for(let i=0;i<3;i++)await S.a(i,'answer',{t:'réponse '+i});x=S.x();assert.strictEqual(x.ph,'debate');assert.strictEqual(x.qa,maj);assert(!x.bl&&!JSON.stringify(x).includes(qs[bi]),'bluffeur caché au débat');
+   await S.a(1,'tovote');assert(S[1].err);await S.a(0,'tovote');assert.strictEqual(S.x().ph,'vote');await S.a(0,'vote',{t:S.ids[0]});assert(/autre/.test(S[0].err));
+   const B=S.ids[bi];for(let i=0;i<3;i++)await S.a(i,'vote',{t:i===bi?S.ids[(i+1)%3]:B});x=S.x();assert.strictEqual(x.ph,'res');assert.strictEqual(x.bl,B);assert(x.out.caught);assert(x.gage);
+   for(let i=0;i<3;i++)assert.strictEqual(x.sc[S.ids[i]],i===bi?0:1);
+   for(let m=2;m<=5;m++){await S.a(0,'next');x=S.x();assert.strictEqual(x.m,m);if(m===5)assert.strictEqual(x.lv,'Très proches');await S.a(0,'force');await S.a(0,'tovote');await S.a(0,'force');assert.strictEqual(S.x().ph,'res');if(!S.x().out.caught)assert(S.x().sc[S.x().bl]>=3)}
+   await S.a(0,'next');assert.strictEqual(S.x().ph,'end');end(S)}
+  // Miroir, miroir : choix secrets, catégories de cartes, portraits
+  {const S=await room('miroir',3);await S.a(0,'start');let x=S.x();assert.strictEqual(x.ph,'pick');assert.strictEqual(x.opt.Q.length,12);assert.strictEqual(x.opt.D.length,8);
+   const mi=x.mi,ord=x.order;const Q=x.opt.Q,D=x.opt.D;await S.a(0,'sel',{q:Q.slice(0,2),d:D.slice(0,2)});assert(/exactement/.test(S[0].err));
+   await S.a(mi,'sel',{q:[Q[0],Q[1],Q[2]],d:[D[0],D[1]]});assert(!JSON.stringify(S[0].st).includes('"sel"'));const ot=S.ids.filter(i=>i!==mi);
+   for(const p of ot)await S.a(p,'sel',{q:[Q[0],Q[3],Q[4]],d:[D[1],D[2]]});x=S.x();assert.strictEqual(x.ph,'reveal');assert.strictEqual(x.cards.length,0);assert.strictEqual(x.nc,8);
+   const nm=ot.find(p=>p!==S.ids[0]&&p!==mi);if(nm){await S.a(nm,'flip');assert(S.by(nm).err)}for(let i=0;i<8;i++)await S.a(mi,'flip');x=S.x();const K=Object.fromEntries(x.cards.map(c=>[c.t,c.k]));
+   assert.strictEqual(K[Q[0]],'accord');assert.strictEqual(K[Q[3]],'angle');assert.strictEqual(K[Q[1]],'secret');assert.strictEqual(K[D[0]],'dur');assert.strictEqual(K[D[1]],'lucide');assert.strictEqual(K[D[2]],'vu');
+   await S.a(ot[0],'anec',{t:'La fois où…'});assert.strictEqual(S.x().anec.length,1);assert(S.x().port[mi].angle.includes(Q[3]));
+   for(let k=1;k<3;k++){await S.a(0,'next');x=S.x();assert.strictEqual(x.mi,ord[k]);for(const p of S.ids)await S.a(p,'sel',{q:x.opt.Q.slice(0,3),d:x.opt.D.slice(0,2)});for(let i=0;i<20;i++)await S.a(0,'flip')}
+   await S.a(0,'next');x=S.x();assert.strictEqual(x.ph,'end');assert.strictEqual(Object.keys(x.port).length,3);end(S)}
+  // La Roulette du Désir : 2 exactement, double accord, jackpot à deux, jokers, stop
+  {const S=await room('roulette',3);await S.a(0,'start');assert(/2 exactement/.test(S[0].err));end(S)}
+  {const S=await room('roulette',2);await S.a(0,'start');let x=S.x();assert.strictEqual(x.ph,'rules');await S.a(0,'spin');assert(S[0].err);await S.a(0,'ok');await S.a(1,'ok');x=S.x();assert.strictEqual(x.ph,'spin');assert.strictEqual(x.pal,1);
+   const sp=x.sp,o=S.ids.find(i=>i!==sp);await S.a(o,'spin');assert(S.by(o).err);await S.a(sp,'spin');x=S.x();assert.strictEqual(x.ph,'do');assert.strictEqual(x.res.length,3);
+   const lv=k=>C('roulette').levels[k].map(t=>t.slice(2));assert(lv('Zones').includes(x.res[0])&&lv('Actions').includes(x.res[1])&&lv('Contraintes').includes(x.res[2]));
+   const r0=x.res[0];await S.a(sp,'joker',{c:0});x=S.x();assert.notStrictEqual(x.res[0],r0);assert.strictEqual(x.jok[sp],2);await S.a(o,'joker',{c:1});assert(S.by(o).err);
+   await S.a(sp,'jp');assert(/Brûlant/.test(S.by(sp).err));await S.a(sp,'up');assert.strictEqual(S.x().pal,1);await S.a(o,'up');assert.strictEqual(S.x().pal,2,'double accord');
+   await S.a(sp,'fait');x=S.x();assert.strictEqual(x.sp,o);assert.strictEqual(x.ph,'spin');assert.strictEqual(x.spins,1);
+   await S.a(o,'up');await S.a(sp,'up');assert.strictEqual(S.x().pal,3);await S.a(o,'up');assert(/Jackpot/.test(S.by(o).err));
+   await S.a(o,'jp');assert.strictEqual(S.x().pal,3,'jackpot seul : non');await S.a(sp,'jp');assert.strictEqual(S.x().pal,4,'jackpot à deux');
+   await S.a(o,'spin');x=S.x();const p4=k=>C('roulette').levels[k].filter(t=>t[0]==='4').map(t=>t.slice(2));assert(p4('Zones').includes(x.res[0])&&p4('Actions').includes(x.res[1]),'tirage Jackpot');
+   await S.a(sp,'stop');x=S.x();assert.strictEqual(x.ph,'spin');assert.strictEqual(x.res,null);assert.strictEqual(x.pal,3,'retour Brûlant après Jackpot');assert.strictEqual(x.stops,1);
+   await S.a(o,'down');assert.strictEqual(S.x().pal,2,'baisser = un seul');end(S)}
   {const S=await room('maitre',3);await S.a(0,'start');assert(/2 exactement/.test(S[0].err));end(S)}
   // Journal : les phrases/consignes sont loguées par le serveur (via J.log) — vérification statique du branchement
   const src=fs.readFileSync(__dirname+'/../x18.js','utf8');for(const ev of['phrase','question','proposition','consigne','final','notes'])assert(src.includes(`jl(r,'${ev}'`),'journal '+ev);
