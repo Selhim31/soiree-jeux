@@ -13,7 +13,7 @@
 #games.ring .rc.s{width:26%}#games.ring .rc.s b{font-size:clamp(11px,3.2vw,14px)}#games.ring .rc .rb{margin-top:6px;padding:3px 8px;font-size:clamp(10px,2.8vw,12px)}#games.ring .rc.one{top:34%;width:42%}#games.ring.dbl{aspect-ratio:4/5}#games.ring.dbl:before{inset:20% 12%;border-radius:50%}
 #games.ring .rf.sm .l{font-size:clamp(8px,2.3vw,10px);margin-top:1px}#games.ring .rf.sm img{opacity:.9}
 #games.ring .rf.out{z-index:2}#games.ring .rf.sm .l{font-size:clamp(8px,2.3vw,10px)}
-#games.ring .rf .badge{position:absolute;top:8%;right:14%;font-size:10px}
+#games.ring .rf .badge{position:absolute;top:-2%;right:-2%;left:auto;font-size:9px!important;line-height:1.2!important;padding:1px 5px!important;min-width:0!important;width:auto!important;height:auto!important;border-radius:8px!important;transform:none!important}
 #games.ring .rf:hover,#games.ring .rf:focus-visible,#games.ring .rf:active{box-shadow:0 0 0 2px #e8c766,0 0 26px rgba(232,199,102,.75);transform:translate(-50%,-50%) scale(1.06);outline:none}
 #games.ring .rf.hl{box-shadow:0 0 0 2px #e8c766,0 0 22px rgba(232,199,102,.7)}#games.ring .rf.win{box-shadow:0 0 0 3px #ffe08a,0 0 40px 6px rgba(255,215,90,.9);transform:translate(-50%,-50%) scale(1.1)}#games.ring .rc .rb{display:block}
 

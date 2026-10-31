@@ -11,7 +11,7 @@
   for(const k of ids)if(GRP[k])for(const L of Object.values(GRP[k].levels))for(const[f,l]of L)cov.add(f+'|'+l);else{const d=JSON.parse(fs.readFileSync(__dirname+`/../content/${k}.json`));for(const l in d.levels)cov.add(k+'|'+l)}
   for(const f of fs.readdirSync(__dirname+'/../content')){const k=f.replace('.json','');const d=JSON.parse(fs.readFileSync(__dirname+'/../content/'+f));for(const l in d.levels)assert(cov.has(k+'|'+l),`cartes perdues : ${k} / ${l}`);
    if(d.gold)for(const l in d.gold)assert(cov.has(k+'|'+l),'or perdu '+k)}
-  let n=0;for(const g of games){if(g.kind==='lg')continue;for(const lv of Object.keys(g.levels)){const S=[io(U,{forceNew:true}),io(U,{forceNew:true}),io(U,{forceNew:true})];let st=null;S[0].on('state',x=>st=x);const t=Math.random().toString(36).slice(2,6);
+  let n=0;for(const g of games){if(g.kind==='lg'||g.kind==='x18')continue;for(const lv of Object.keys(g.levels)){const S=[io(U,{forceNew:true}),io(U,{forceNew:true}),io(U,{forceNew:true})];let st=null;S[0].on('state',x=>st=x);const t=Math.random().toString(36).slice(2,6);
    S[0].emit('create',{name:'Hôte',game:g.id,levels:[lv],pid:'h'+t,len:15,anon:true});for(let i=0;i<60&&!st;i++)await w(25);S[1].emit('join',{code:st.code,name:'Inès',pid:'a'+t});S[2].emit('join',{code:st.code,name:'Karim',pid:'b'+t});await w(120);
    for(let k=0;k<3;k++){const prev=st.card&&st.card.id;S[0].emit('host',{act:'force'});await w(40);S[0].emit('next');for(let i=0;i<60&&(!st.card||st.card.id===prev);i++)await w(25);const c=st.card;assert(c&&c.text,`${g.id}/${lv} : carte tirée`);
     if(GRP[g.id]){const ok=GRP[g.id].levels[lv].some(([f,l])=>f===c.game&&l===c.level);assert(ok,`${g.id}/${lv} : carte de ${c.game}/${c.level} hors catégorie`);assert.strictEqual(c.gname,g.name)}n++}

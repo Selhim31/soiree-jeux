@@ -1,6 +1,6 @@
 {
  "name": "Test de pureté",
- "desc": "On coche en secret ce qu'on a déjà fait, et seul le score final est révélé.",
+ "desc": "On coche ce qu'on a déjà fait : le score est révélé, avec une case cochée par joueur dévoilée au hasard à chaque manche.",
  "kind": "purity",
  "adult": true,
  "levels": {

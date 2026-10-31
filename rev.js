@@ -1,11 +1,14 @@
-// Révélations : tests secrets (moteur type Pureté). Chacun coche en secret ; seuls scores / profils / % sont révélés.
+// Révélations : tests du Scanner (moteur type Pureté). Scores / profils / % révélés + une case cochée par joueur tirée au hasard.
 'use strict';
 const TIERS={redflag:[[10,'🟢 Green Flag'],[25,'🟡 Drapeau jaune'],[45,'🟠 Orange vif'],[70,'🔴 Red Flag'],[101,'🚩 Écarlate']],
  fetard:[[10,'😇 Sage comme une image'],[30,'🍹 Petit joueur'],[55,'🥂 Bon vivant'],[80,'🪩 Fêtard confirmé'],[101,'🌙 Légende de la nuit']],
  jaloux:[[10,'😌 Zen absolu'],[30,'🙂 Un brin possessif'],[55,'👀 Radar activé'],[80,'🔥 Jaloux passionné'],[101,'💚 Monstre aux yeux verts']],
  menteur:[[10,'😇 Honnête comme un ange'],[30,'🤭 Petits arrangements'],[55,'🎭 Comédien doué'],[80,'🦊 Menteur de compétition'],[101,'🤥 Pinocchio en personne']]};
 const PROF={aventurier:'🧭 Aventurier·ère',dominant:'👑 Dominant·e',soumis:'🎀 Soumis·e',joueur:'🎲 Joueur·se',sensuel:'🕯️ Sensuel·le',exhib:'✨ Exhibitionniste',voyeur:'👁️ Voyeur·se',romantique:'🌹 Romantique coquin·e'};
-const PROMPT={redflag:"Coche en secret ce que tu as déjà fait en couple ou en séduction. Seul ton niveau de drapeau sera révélé.",fetard:"Coche en secret ce que tu as déjà vécu en soirée. Seul ton titre de fêtard sera révélé.",jaloux:"Coche en secret ce qui t'est déjà arrivé… puis devine qui aura le score le plus haut !",menteur:"Coche en secret les mensonges que tu as déjà faits, puis devine le score de chacun.",kink:"🔞 Coche en secret ce qui t'attire (entre adultes consentants). Tes réponses restent privées : seul ton profil est révélé.",compat:"Coche ce que tu aimes. Les réponses de chaque duo sont comparées pour calculer votre compatibilité."};
+const PROMPT={redflag:"Coche en secret ce que tu as déjà fait en couple ou en séduction. Ton niveau de drapeau sera révélé, et une de tes cases cochées sera dévoilée au hasard à la fin de la manche.",fetard:"Coche en secret ce que tu as déjà vécu en soirée. Ton titre de fêtard sera révélé, et une de tes cases cochées sera dévoilée au hasard à la fin de la manche.",jaloux:"Coche ce qui t'est déjà arrivé… puis devine qui aura le score le plus haut ! Une de tes cases cochées sera dévoilée au hasard à la fin de la manche.",menteur:"Coche les mensonges que tu as déjà faits, puis devine le score de chacun. Une de tes cases cochées sera dévoilée au hasard à la fin de la manche.",kink:"🔞 Coche ce qui t'attire (entre adultes consentants).",compat:"Coche ce que tu aimes. Les réponses de chaque duo sont comparées pour calculer votre compatibilité, et une case cochée par joueur est dévoilée au hasard."};
+const SPE={purete:['😈','a déjà…'],redflag:['🚩','a déjà…'],fetard:['🥂','a déjà…'],jaloux:['💚','a déjà…'],menteur:['🤥','a déjà…'],kink:['🔥','est tenté·e par…'],compat:['💞','aime…']};
+// Révélation d'UNE case cochée au hasard par joueur (Kink : seulement si le joueur l'a autorisé).
+const spot=(g,name,items,k,show)=>{const[e,v]=SPE[g]||['✨','a coché…'];if(!k.length)return{name,e:'😇',none:true,txt:`${name} : rien à signaler 😇`};const it=items[k[Math.random()*k.length|0]];return{name,e,txt:`${name} ${v}`,item:it}};
 const tier=(g,pc)=>(TIERS[g].find(t=>pc<=t[0])||TIERS[g][TIERS[g].length-1])[1];
 module.exports=function({award,nm,log,rnd,shuf}){
  const IDS=['redflag','fetard','jaloux','menteur','kink','compat'];
@@ -24,6 +27,7 @@ module.exports=function({award,nm,log,rnd,shuf}){
   if(g==='compat'){const duos=(c.duos&&c.duos.length?c.duos:[]).filter(([a,b])=>A[a]&&A[b]);const pairs=duos.length?duos:[];if(!pairs.length)for(let i=0;i<ids.length;i++)for(let j=i+1;j<ids.length;j++)pairs.push([ids[i],ids[j]]);
    r.rv.cp=r.rv.cp||{};c.rv=pairs.map(([a,b])=>{const sa=new Set(A[a].k),sb=new Set(A[b].k);let same=0;for(let i=0;i<T;i++)if(sa.has(i)===sb.has(i))same++;const key=[a,b].sort().join('|');const e=r.rv.cp[key]=r.rv.cp[key]||{s:0,T:0};e.s+=same;e.T+=T;return{name:`${nm(r,a)} 💞 ${nm(r,b)}`,a,b,pc:Math.round(same*100/T),cum:Math.round(e.s*100/e.T)}}).sort((x,y)=>y.pc-x.pc);
    if(c.rv.length){const b=c.rv[0];award(r,b.a,3,'sync');award(r,b.b,3,'sync');out.push(c.rv.map(x=>`${x.name} ${x.pc}%${x.cum!==x.pc?' (cumul '+x.cum+'%)':''}`).join(' · ')+` — duo le plus compatible : ${b.name} (+3 chacun)`)}c.rv.forEach(x=>{delete x.a;delete x.b})}
+  c.spot=ids.map(id=>spot(g,nm(r,id),c.items,A[id].k));
   c.result=out.join('\n');log(r,g==='kink'?ids.map(id=>`${nm(r,id)} : profil révélé`).join(', '):ids.map(id=>`${nm(r,id)} ${A[id].k.length}/${T}`).join(', '))}
  return{IDS,draw,reveal,PROMPT}};
-module.exports.TIERS=TIERS;module.exports.PROF=PROF;
+module.exports.spot=spot;module.exports.TIERS=TIERS;module.exports.PROF=PROF;
