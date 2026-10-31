@@ -82,7 +82,7 @@ setInterval(()=>{if(!S)return;let b=$('r-hostbtn');const h=S.host===ME;if(h&&!b)
 // confetti CSS
 function confetti(el){const w=document.createElement('div');w.className='cf';const C=['#ff4e7a','#ffd23f','#5ee7ff','#9b5cff','#7dff8a'];for(let i=0;i<24;i++){const b=document.createElement('i');b.style.left=Math.random()*100+'%';b.style.background=C[i%5];b.style.setProperty('--x',(Math.random()*120-60)+'px');b.style.setProperty('--r',(Math.random()*720-360)+'deg');b.style.animationDelay=Math.random()*250+'ms';w.appendChild(b)}el.appendChild(w);setTimeout(()=>w.remove(),1500)}
 // mode mélange (hôte)
-const NOMIX=['pmu','rnp','purete','ask'];let mixOpen=null;
+const NOMIX=['pmu','rnp','purete','ask','confessions','seduction','gdefis','defi18','loupgarou','lghot'];let mixOpen=null;
 function renderMix(){const s=S;let el=$('s-mix');if(!el){el=document.createElement('div');el.id='s-mix';$('r-settings').appendChild(el)}const m=s.mix||{};
 el.innerHTML=`<p class=lbl2>🔀 Mode mélange ${s.mix?'<b>(actif)</b>':''}</p><p class=small>Choisis plusieurs jeux et leurs niveaux : chaque carte alterne entre eux.</p><div class=chips>${GAMES.filter(x=>!NOMIX.includes(x.id)).map(x=>`<button class="chip ${m[x.id]?'on':''}" onclick="mixG('${x.id}')">${x.adult?'🔞 ':''}${esc(x.name)}</button>`).join('')}</div>`+
 Object.keys(m).map(k=>{const g=GAMES.find(x=>x.id===k);return `<p class=lbl2>${esc(g.name)}</p><div class=chips>${Object.entries(g.levels).map(([l,n])=>`<button class="chip ${m[k].includes(l)?'on':''}" onclick="mixL('${k}','${l}')">${SAFE.includes(l)?'':'🔥 '}${esc(l)}<small>${n}</small></button>`).join('')}</div>`}).join('')+

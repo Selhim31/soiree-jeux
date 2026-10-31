@@ -1,0 +1,81 @@
+{
+ "name": "Loup-Garou Hot",
+ "desc": "Le Loup-Garou version brûlante : Prédateurs, Séductrice, Infirmière coquine… Gages hot, plaidoiries osées et nuits torrides. Adultes consentants uniquement.",
+ "kind": "lg",
+ "adult": true,
+ "img": "/img/loupgarou_hot.svg",
+ "levels": {
+  "Hot": [
+   "Vérité : {p}, quel est le fantasme que tu n'as encore jamais avoué à personne ?",
+   "Vérité : {p}, qui dans cette partie embrasserais-tu en premier si tu devais choisir ?",
+   "Vérité : {p}, quel est l'endroit le plus insolite où tu as eu envie de quelqu'un ?",
+   "Vérité : {p}, qu'est-ce qui te fait craquer en deux secondes chez quelqu'un ?",
+   "Vérité : {p}, quel est ton souvenir le plus torride de l'année ?",
+   "Vérité : {p}, quel est le message le plus osé que tu as déjà envoyé ?",
+   "Vérité : {p}, quelle tenue te rend irrésistible selon toi ?",
+   "Vérité : {p}, décris ton rendez-vous parfait, de l'apéro jusqu'au lendemain matin.",
+   "Vérité : {p}, as-tu déjà eu un crush sur quelqu'un ici ? Donne un indice.",
+   "Vérité : {p}, quel est le compliment le plus sexy qu'on t'ait jamais fait ?",
+   "Vérité : {p}, quelle chanson met immédiatement l'ambiance pour toi ?",
+   "Vérité : {p}, avec quelle célébrité passerais-tu une nuit si tout était permis ?",
+   "Action : {p}, fais ta meilleure voix sensuelle et lis à voix haute le dernier message reçu (en cachant les noms).",
+   "Action : {p}, fais une déclaration enflammée de 20 secondes à la caméra pour la personne de ton choix dans la partie.",
+   "Action : {p}, danse de façon sexy sur une chanson imaginaire pendant 15 secondes devant ta caméra.",
+   "Action : {p}, décris à voix haute, en 3 phrases, ce que tu ferais lors d'un premier rendez-vous parfait avec quelqu'un de la partie.",
+   "Action : {p}, prends ta pose de couverture de magazine la plus sexy et tiens-la 10 secondes.",
+   "Action : {p}, chuchote un compliment brûlant à la personne de ton choix, à voix haute pour tout le monde.",
+   "Action : {p}, fais un strip-tease… d'une seule chaussette, avec toute la mise en scène.",
+   "Action : {p}, mime ton baiser le plus passionné avec ta main pendant 5 secondes.",
+   "Action : {p}, envoie à {q} un selfie avec ton regard le plus séducteur (avec son accord).",
+   "Action : {p}, envoie à {q} une photo de ta tenue du moment, version la plus sexy possible (avec son accord).",
+   "Action : {p}, envoie à {q} une courte vidéo où tu lui fais ton meilleur clin d'œil charmeur (avec son accord).",
+   "Action : {p}, envoie à {q} une photo de tes lèvres en train d'envoyer un bisou (avec son accord)."
+  ],
+  "Plaidoirie": [
+   "Plaidoirie : {p}, défends-toi en 20 secondes avec ta voix la plus envoûtante, regard caméra.",
+   "Plaidoirie : {p}, fais un compliment sincère et coquin à chaque personne qui t'accuse.",
+   "Plaidoirie : {p}, jure ton innocence en prenant une pose de séduction pendant 10 secondes.",
+   "Plaidoirie : {p}, avoue un petit secret coquin pour prouver que tu n'as rien à cacher.",
+   "Plaidoirie : {p}, chante 10 secondes d'une chanson d'amour pour attendrir le jury.",
+   "Plaidoirie : {p}, fais une danse de séduction de 10 secondes pour gagner des voix.",
+   "Plaidoirie : {p}, envoie à {q} un selfie « innocent mais irrésistible » pour l'acheter (avec son accord).",
+   "Plaidoirie : {p}, déclare ta flamme à la personne qui t'a accusé·e en premier, en 3 phrases."
+  ],
+  "Nuits torrides": [
+   "Action en duo : envoyez-vous chacun un message vocal de 10 secondes qui commence par « Ce que j'aime chez toi, c'est… ».",
+   "Action en duo : écrivez-vous chacun la description de votre rendez-vous idéal en trois phrases brûlantes.",
+   "Action en duo : chacun écrit à l'autre le compliment le plus osé qu'il ose écrire, sans se censurer.",
+   "Action en duo : décrivez-vous mutuellement, par écrit, la tenue dans laquelle vous aimeriez voir l'autre ce soir.",
+   "Action en duo : chacun avoue à l'autre, par message, un fantasme soft qu'il n'a jamais dit à personne.",
+   "Action en duo : envoyez-vous chacun un emoji qui résume ce que vous feriez à l'autre si vous étiez seuls, puis expliquez-le.",
+   "Action en duo : chacun écrit les trois premiers mots qu'il chuchoterait à l'oreille de l'autre.",
+   "Action en duo : inventez ensemble, à tour de rôle, une scène de film romantique qui dérape, une phrase chacun, 6 phrases au total.",
+   "Action en duo : chacun envoie à l'autre une note sur 10 de son charme ce soir, avec une justification coquine.",
+   "Action en duo : écrivez-vous chacun le scénario de votre premier baiser idéal en trois étapes.",
+   "Action en duo : chacun choisit une chanson sensuelle pour l'autre et lui envoie le titre avec une phrase d'explication.",
+   "Action en duo : envoyez-vous chacun un message qui commence par « Si on était seuls là, tout de suite… ».",
+   "Action en duo : chacun révèle à l'autre la partie de son corps dont il est le plus fier, et pourquoi.",
+   "Action en duo : écrivez-vous une promesse coquine pour la prochaine fois que vous vous verrez (à tenir seulement si vous êtes tous les deux d'accord).",
+   "Action en duo : chacun décrit à l'autre, par écrit, le regard qu'il lui lancerait de l'autre côté d'une pièce pleine de monde.",
+   "Action en duo : dites-vous chacun ce qui vous ferait craquer immédiatement chez l'autre, en une phrase sans filtre."
+  ],
+  "Séductrice": [
+   "Défi de la Séductrice : murmure tout bas la phrase de drague la plus torride que tu oserais dire à quelqu’un de la partie.",
+   "Défi de la Séductrice : prends ta pose la plus séduisante devant ta caméra pendant 5 secondes, juste pour toi.",
+   "Défi de la Séductrice : murmure le prénom de la personne la plus attirante de la partie, tout bas, sans que personne ne t'entende.",
+   "Défi de la Séductrice : mords-toi la lèvre en pensant à ton dernier rêve coquin, 5 secondes.",
+   "Défi de la Séductrice : souris de ton sourire le plus irrésistible à ton écran en comptant jusqu'à 10.",
+   "Défi de la Séductrice : remets-toi les cheveux en place comme si quelqu'un d'irrésistible venait d'entrer dans la pièce.",
+   "Défi de la Séductrice : pense très fort à la personne de la partie avec qui tu partagerais un slow, et garde le secret.",
+   "Défi de la Séductrice : fais un clin d'œil à ta caméra comme si tu draguais la personne qui te plaît le plus."
+  ]
+ },
+ "gold": {
+  "Nuits torrides": [
+   "Action en duo : chacun avoue à l'autre, par message, un fantasme soft qu'il n'a jamais dit à personne.",
+   "Action en duo : envoyez-vous chacun un message qui commence par « Si on était seuls là, tout de suite… ».",
+   "Action en duo : écrivez-vous une promesse coquine pour la prochaine fois que vous vous verrez (à tenir seulement si vous êtes tous les deux d'accord).",
+   "Action en duo : inventez ensemble, à tour de rôle, une scène de film romantique qui dérape, une phrase chacun, 6 phrases au total."
+  ]
+ }
+}
