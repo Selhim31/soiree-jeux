@@ -1187,7 +1187,10 @@
    "Vérité : {p}, quel est le moment le plus intense que tu aies vécu avec un inconnu ?",
    "Vérité : {p}, as-tu déjà dû mentir sur tes envies pour ne pas choquer ?",
    "Vérité : {p}, quel est le scénario le plus cru que tu te sois déjà imaginé avec un(e) collègue ?",
-   "Vérité : {p}, as-tu déjà fait quelque chose au lit uniquement pour impressionner, et l'as-tu regretté ?"
+   "Vérité : {p}, as-tu déjà fait quelque chose au lit uniquement pour impressionner, et l'as-tu regretté ?",
+   "Vérité : {p}, quel fantasme as-tu déjà réalisé et regretté de ne pas avoir fait plus tôt ?",
+   "Vérité : {p}, quel est le compliment le plus cru qu'on t'ait fait et qui t'a plu ?",
+   "Action : {p}, écris à {q} en privé la première pensée qui t'est venue en le/la voyant ce soir."
   ],
   "Explicite": [
    "Action : {p}, enlève deux vêtements choisis par {q}, caméra on.",
@@ -1418,7 +1421,9 @@
    "Action : {p}, fais un mini strip-tease de ton haut, filme-toi et envoie la vidéo à {q} (par ta messagerie, avec son accord).",
    "Action : {p}, mime un oral sur un fruit, de façon suggestive, filme-toi et envoie la vidéo à {q} (par ta messagerie, avec son accord).",
    "Action : {p}, en lingerie ou caleçon, de face, visage facultatif, prends-toi en photo et envoie-la à {q} (par ta messagerie, avec son accord).",
-   "Vérité : {p}, décris au groupe ta meilleure nuit avec un(e) ex, sans prénom."
+   "Vérité : {p}, décris au groupe ta meilleure nuit avec un(e) ex, sans prénom.",
+   "Vérité : {p}, quelle est la scène de film adulte que tu aimerais rejouer, sans donner le titre ?",
+   "Action : {p}, mordille ta lèvre face caméra en regardant {q} pendant 10 secondes sans rire."
   ]
  },
  "adult": false,

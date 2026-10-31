@@ -154,7 +154,9 @@
    "Quelle est la chose que tu emportes partout ?",
    "Quel est ton record de sommeil ?",
    "Quel est ton record de jours sans téléphone ?",
-   "Quel est ton jeu de cartes préféré ?"
+   "Quel est ton jeu de cartes préféré ?",
+   "Quelle est ta commande fétiche au fast-food ?",
+   "Si tu avais un an sabbatique demain, tu partirais où ?"
   ],
   "Profond": [
    "Qu'est-ce qui te fait te sentir vraiment vivant ?",
@@ -311,7 +313,9 @@
    "Quel petit bonheur rend ta vie meilleure ?",
    "Que ferais-tu différemment si tu recommençais tes études ?",
    "Qu'est-ce qu'une ancienne relation t'a appris sur toi ?",
-   "Quelle rupture t'a le plus fait grandir ?"
+   "Quelle rupture t'a le plus fait grandir ?",
+   "Quelle leçon as-tu apprise trop tard ?",
+   "Quel compliment t'a marqué pour toujours ?"
   ],
   "Intime": [
    "Qu'est-ce qui te met en confiance avec quelqu'un ?",
@@ -627,7 +631,8 @@
    "Ce que tu préfères : surprise ou rendez-vous prévu ?",
    "La chanson qui te met dans l'ambiance ?",
    "Qu'est-ce qu'un(e) ex faisait au lit que tu n'as jamais retrouvé ?",
-   "Le souvenir le plus chaud avec un(e) ex que tu peux raconter ?"
+   "Le souvenir le plus chaud avec un(e) ex que tu peux raconter ?",
+   "Ton parfum ou ton odeur préférée chez quelqu'un ?"
   ]
  },
  "img": "/img/connaitre.webp",

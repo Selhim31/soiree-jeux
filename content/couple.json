@@ -326,7 +326,9 @@
    "{p}, décris à {q} ton baiser de cinéma idéal",
    "{p}, quel est le moment le plus gênant pendant un bisou ?",
    "{p}, dis à {q} son plus beau trait de visage",
-   "{p}, qui de vous deux se fait le plus beau pour un date ?"
+   "{p}, qui de vous deux se fait le plus beau pour un date ?",
+   "{p}, quelle est la manie de {q} que tu trouves secrètement sexy ?",
+   "{p}, devine le dernier fantasme de {q} ; {q} dit si tu as vu juste."
   ],
   "Hot": [
    "{p}, dis à {q} ce que tu aimerais qu'il/elle te fasse ce soir, en restant élégant.",
@@ -485,7 +487,9 @@
    "{p}, dis à {q} ton souvenir le plus chaud dans une voiture",
    "{p}, qui de vous deux est le plus impatient ?",
    "{p}, décris à {q} une nuit sous la tente",
-   "{p}, quel sous-vêtement de {q} préfères-tu ?"
+   "{p}, quel sous-vêtement de {q} préfères-tu ?",
+   "{p}, quel souvenir avec {q} te revient quand tu as envie de lui/elle en journée ?",
+   "{p}, chuchote à {q} le mot qui résume votre meilleure nuit."
   ],
   "Explicite": [
    "{p}, dis à {q} ta position préférée avec lui/elle.",
@@ -641,7 +645,9 @@
    "{p}, dis à {q} ce que tu voudrais qu'il/elle te fasse juste après l'orgasme",
    "{p}, décris à {q} un jeu de « interdiction de jouir »",
    "{p}, dis à {q} ton plus gros fantasme avec de l'huile de massage",
-   "{p}, décris à {q} le scénario « prof et élève majeur(e) » à votre façon"
+   "{p}, décris à {q} le scénario « prof et élève majeur(e) » à votre façon",
+   "{p}, dis à {q} une chose qu'il/elle fait au lit et que tu aimerais qu'il/elle fasse plus souvent.",
+   "{p}, plutôt tendresse lente ou passion brutale avec {q} ce soir ? {q} donne aussi sa réponse."
   ]
  },
  "img": "/img/couple.webp"

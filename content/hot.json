@@ -156,7 +156,10 @@
    "{p}, quel est le geste le plus simple qui suffit à te donner envie ?",
    "{p}, as-tu déjà eu envie de quelqu'un juste en entendant sa voix au réveil ?",
    "{p}, quel est le souvenir le plus chaud que tu aies d'un slow ?",
-   "{p}, quelle est la partie du corps de l'autre que tu regardes en premier quand tu as envie ?"
+   "{p}, quelle est la partie du corps de l'autre que tu regardes en premier quand tu as envie ?",
+   "{p}, quel est ton point faible que personne ne devine du premier coup ?",
+   "{p}, quel vêtement porté par quelqu'un d'autre te fait complètement décrocher d'une conversation ?",
+   "{p}, si tu devais noter ton niveau de jalousie sur 10 en couple, et pourquoi ?"
   ],
   "Hard": [
    "{p}, avoue ton pire comportement après un date.",
@@ -312,7 +315,12 @@
    "{p}, as-tu déjà été dragué(e) puis emmené(e) au lit par un(e) ami(e) de ton/ta partenaire ?",
    "{p}, as-tu déjà eu une relation avec l'ex d'un(e) ami(e) ?",
    "{p}, quel est le pire défaut d'un(e) ex au lit ?",
-   "{p}, as-tu déjà couché avec un(e) ex alors que l'un de vous était recasé ?"
+   "{p}, as-tu déjà couché avec un(e) ex alors que l'un de vous était recasé ?",
+   "{p}, quel est le pire endroit où tu as déjà eu envie de quelqu'un, au point de ne plus te concentrer ?",
+   "{p}, as-tu déjà fantasmé sur quelqu'un pendant une réunion ou un cours ? Raconte sans nommer.",
+   "{p}, quelle règle de séduction as-tu déjà brisée sans regret ?",
+   "{p}, quel est le texto le plus gênant que tu aies envoyé à la mauvaise personne ?",
+   "{p}, as-tu déjà recontacté un ex uniquement pour une nuit ? Comment ça a fini ?"
   ],
   "Explicite": [
    "{p}, quelle est ta position préférée, et pourquoi elle ?",
@@ -466,7 +474,12 @@
    "{p}, décris la nuit de sexe la plus longue que tu aies eue",
    "{p}, quel est ton avis sur le sexe tantrique ?",
    "{p}, quelle pratique as-tu découverte avec un(e) ex et adores-tu encore ?",
-   "{p}, quel est l'endroit le plus fou où tu l'as fait avec un(e) ex ?"
+   "{p}, quel est l'endroit le plus fou où tu l'as fait avec un(e) ex ?",
+   "{p}, d'après toi, ton ou ta partenaire connaît-il/elle vraiment ton corps ? Note-le sur 10.",
+   "{p}, préfères-tu donner ou recevoir des ordres au lit ?",
+   "{p}, décris en trois mots ta nuit la plus intense.",
+   "{p}, quel jouet aimerais-tu tester mais n'as jamais osé acheter ?",
+   "{p}, matin, après-midi ou milieu de nuit : quand es-tu le plus en forme pour ça ?"
   ]
  },
  "img": "/img/hot.webp"

@@ -154,7 +154,10 @@
    "{p}, décris la maison hantée de tes rêves",
    "{p}, imite un squelette qui danse face caméra",
    "{p}, quelle est la créature mythologique la plus effrayante ?",
-   "{p}, quel personnage d'Halloween serais-tu dans un dessin animé ?"
+   "{p}, quel personnage d'Halloween serais-tu dans un dessin animé ?",
+   "{p}, si tu devais hanter quelqu'un ici, qui serait-ce et comment ?",
+   "{p}, raconte ton pire déguisement de tous les temps.",
+   "{p}, quelle légende urbaine te fait encore vérifier sous ton lit ?"
   ],
   "Coquin": [
    "{p}, quel monstre sexy serais-tu ?",
@@ -308,7 +311,10 @@
    "{p}, que ferais-tu d'un manoir vide pour une nuit à deux ?",
    "{p}, quel déguisement te donnerait le plus confiance ?",
    "{p}, décris le costume le plus sexy de l'histoire du cinéma d'horreur",
-   "{p}, quel monstre aurait les meilleurs câlins ?"
+   "{p}, quel monstre aurait les meilleurs câlins ?",
+   "{p}, quel déguisement d'Halloween trouverais-tu irrésistible chez {q} ?",
+   "{p}, sorcière envoûtante ou démon tentateur : qui ici joue quel rôle ?",
+   "{p}, prends ta voix de vampire et dis à {q} pourquoi tu as soif de lui/elle."
   ]
  },
  "adult": false,

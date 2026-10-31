@@ -192,7 +192,11 @@
    "{p}, quel surnom ridicule ton ex te donnait ?",
    "{p}, quel est le compliment physique qui te met le plus en confiance ?",
    "{p}, qu'est-ce qui t'attire chez quelqu'un de mystérieux ?",
-   "{p}, as-tu déjà été attiré(e) par une voix au téléphone ?"
+   "{p}, as-tu déjà été attiré(e) par une voix au téléphone ?",
+   "{p}, quelle chanson te met directement d'humeur câline ?",
+   "{p}, as-tu déjà fait semblant de ne pas comprendre un sous-entendu pour faire durer le jeu ?",
+   "{p}, quel prénom te fait craquer rien qu'à l'entendre ?",
+   "{p}, cite un film dont une scène t'a mis un peu trop chaud quand tu étais ado."
   ],
   "Hot": [
    "{p}, quel moment de la journée te rend le plus câlin… ou plus ?",
@@ -344,7 +348,9 @@
    "{p}, as-tu déjà eu un câlin torride dans une cabane ou un chalet ?",
    "{p}, quel est le vêtement que tu voudrais qu'on t'enlève avec les dents ?",
    "{p}, quel souvenir sensuel avec un(e) ex te fait encore sourire ?",
-   "{p}, qu'est-ce qu'un(e) ex faisait pour te rendre fou ou folle ?"
+   "{p}, qu'est-ce qu'un(e) ex faisait pour te rendre fou ou folle ?",
+   "{p}, plutôt lente montée en tension ou contrôle total dès le début ?",
+   "{p}, envoie à {q} un emoji qui résume ce que tu penserais de lui/elle en tête-à-tête."
   ]
  },
  "img": "/img/coquin.webp"
