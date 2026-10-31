@@ -313,5 +313,47 @@
   ]
  },
  "img": "/img/cestun10.webp",
- "adult": false
+ "adult": false,
+ "gold": {
+  "Classique": [
+   "C'est un 10 mais il/elle ne sait pas garder un secret.",
+   "C'est un 10 mais il/elle mâche la bouche ouverte.",
+   "C'est un 10 mais il/elle appelle au lieu d'envoyer un message.",
+   "C'est un 10 mais il/elle appelle sa mère 5 fois par jour.",
+   "C'est un 10 mais il/elle appelle tout le monde « chef ».",
+   "C'est un 10 mais il/elle parle de crypto au premier date.",
+   "C'est un 10 mais il/elle donne des surnoms ridicules à tout le monde.",
+   "C'est un 10 mais il/elle imite chaque animal qu'il/elle croise.",
+   "C'est un 10 mais il/elle crie quand il/elle perd à un jeu.",
+   "C'est un 10 mais il/elle imite des accents en permanence.",
+   "C'est un 10 mais il/elle chante faux tout le temps.",
+   "C'est un 10 mais il/elle chante dans les magasins.",
+   "C'est un 10 mais il/elle met une alarme pour boire de l'eau toutes les 10 minutes.",
+   "C'est un 10 mais il/elle fait des pompes au milieu du salon pendant les soirées.",
+   "C'est un 10 mais il/elle demande toujours l'addition séparée au centime près.",
+   "C'est un 10 mais il/elle collectionne les capsules de bière dans son salon.",
+   "C'est un 10 mais il/elle commente les infos en direct comme un journaliste.",
+   "C'est un 10 mais il/elle garde un poisson rouge nommé Kévin depuis 15 ans."
+  ],
+  "Coquin": [
+   "C'est un 10 mais il/elle t'envoie des sextos en vers alexandrins.",
+   "C'est un 10 mais il/elle envoie des sextos pleins de fautes.",
+   "C'est un 10 mais il/elle envoie des sextos avec des fautes.",
+   "C'est un 10 mais il/elle n'a jamais fait de bisou dans le cou.",
+   "C'est un 10 mais il/elle embrasse avec trop de langue.",
+   "C'est un 10 mais il/elle met des chaussettes dépareillées en lingerie.",
+   "C'est un 10 mais il/elle rit à chaque fois qu'il/elle te voit nu(e).",
+   "C'est un 10 mais il/elle a des sous-vêtements de super-héros.",
+   "C'est un 10 mais il/elle envoie des vocaux de 10 minutes pour flirter.",
+   "C'est un 10 mais il/elle appelle tes parties intimes par des surnoms ridicules.",
+   "C'est un 10 mais il/elle exige un contrat avant le premier baiser.",
+   "C'est un 10 mais il/elle ne supporte pas qu'on le/la touche dans le cou.",
+   "C'est un 10 mais il/elle a un rire bizarre quand il/elle est excité(e).",
+   "C'est un 10 mais il/elle répond aux sextos avec un pouce bleu.",
+   "C'est un 10 mais il/elle est jaloux ou jalouse de ton chat.",
+   "C'est un 10 mais il/elle lèche ton oreille sans prévenir.",
+   "C'est un 10 mais il/elle écrit ses sextos en majuscules.",
+   "C'est un 10 mais il/elle ne répond jamais aux sextos."
+  ]
+ }
 }

@@ -163,5 +163,28 @@
   ]
  },
  "img": "/img/quiz.webp",
- "adult": false
+ "adult": false,
+ "gold": {
+  "Culture G": [
+   "Qui a écrit Vingt mille lieues sous les mers ? ||| Jules Verne ||| Alexandre Dumas ||| Victor Hugo",
+   "Quelle reine de France a été guillotinée en 1793 ? ||| Marie-Antoinette ||| Catherine de Médicis ||| Anne d'Autriche",
+   "Quel est le plus grand désert froid du monde ? ||| Antarctique ||| Gobi ||| Sibérie",
+   "Combien de joueurs dans une équipe de rugby à XV ? ||| 15 ||| 13 ||| 11",
+   "Quel est l'ingrédient principal du guacamole ? ||| Avocat ||| Concombre ||| Petit pois",
+   "Quel océan borde la côte ouest de la France ? ||| Atlantique ||| Pacifique ||| Indien",
+   "Quelle ville a accueilli les JO d'été de 2024 ? ||| Paris ||| Los Angeles ||| Tokyo",
+   "Quelle est la capitale de la Corée du Sud ? ||| Séoul ||| Busan ||| Pyongyang",
+   "Le premier film Pixar ? ||| Toy Story ||| Cars ||| Nemo",
+   "Quelle est la formule chimique de l'eau ? ||| H2O ||| CO2 ||| O2",
+   "Combien de zéros dans un million ? ||| 6 ||| 5 ||| 9",
+   "Quelle est la capitale de l'Australie ? ||| Canberra ||| Sydney ||| Melbourne",
+   "Quel est le plus petit pays du monde ? ||| Vatican ||| Monaco ||| Malte",
+   "Qui a écrit L'Étranger ? ||| Albert Camus ||| Jean-Paul Sartre ||| André Gide",
+   "Quelle est la couleur obtenue en mélangeant bleu et jaune ? ||| Vert ||| Violet ||| Orange",
+   "Quel peintre est célèbre pour ses Nymphéas ? ||| Claude Monet ||| Renoir ||| Degas",
+   "Quelle course cycliste se termine traditionnellement sur les Champs-Élysées ? ||| Tour de France ||| Giro ||| Vuelta",
+   "Qui a écrit Les Trois Mousquetaires ? ||| Alexandre Dumas ||| Balzac ||| Flaubert",
+   "Quelle est la capitale de l'Espagne ? ||| Madrid ||| Barcelone ||| Séville"
+  ]
+ }
 }

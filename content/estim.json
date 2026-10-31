@@ -471,5 +471,68 @@
    "Devinez le nombre de fois où {p} a craqué pour un massage sensuel.",
    "Devinez le nombre de nuits où {p} a dormi nu(e) ce mois-ci."
   ]
+ },
+ "gold": {
+  "Classique": [
+   "Estimez le nombre de langues que {p} sait dire « bonjour » !",
+   "Estimez le nombre de messages que {p} envoie par jour !",
+   "Estimez le nombre de chansons dans la playlist préférée de {p} !",
+   "Estimez l'âge de {p} quand il/elle a eu son premier téléphone !",
+   "Estimez le prix du vêtement le plus cher de {p} !",
+   "Estimez l'âge de {p} lors de son premier job !",
+   "Estimez l'âge de {p} à son premier concert !",
+   "Estimez le nombre de déguisements que {p} a portés en soirée !",
+   "Estimez le nombre de bougies d'anniversaire que {p} a soufflées en une fois au maximum !",
+   "Estimez le nombre de fois où {p} a pleuré devant un film cette année !",
+   "Estimez le nombre d'heures que {p} passe sur son téléphone par jour !",
+   "Estimez le nombre de fois où {p} est arrivé(e) en retard ce mois-ci !",
+   "Estimez le nombre de chaînes YouTube auxquelles {p} est abonné(e) !",
+   "Estimez le nombre d'heures de route du plus long road trip de {p} !",
+   "Estimez le nombre de fois où {p} appuie sur « snooze » le matin !",
+   "Estimez le nombre de recettes que {p} sait faire sans regarder !",
+   "Estimez le nombre de films vus au cinéma par {p} cette année !",
+   "Estimez le nombre d'onglets ouverts sur le navigateur de {p} !",
+   "Estimez le nombre de séries que {p} a regardées cette année !"
+  ],
+  "Coquin": [
+   "Estimez le nombre de bisous dans le cou reçus par {p} cette semaine !",
+   "Estimez le nombre de crushs secrets de {p} au lycée !",
+   "Estimez le nombre de numéros obtenus par {p} en une soirée record !",
+   "Estimez le nombre de premiers baisers ratés de {p} !",
+   "Estimez l'âge de {p} à son premier baiser !",
+   "Estimez le nombre de fois où {p} a été jaloux ou jalouse ce mois-ci !",
+   "Estimez le nombre de personnes que {p} a embrassées en une soirée au maximum !",
+   "Estimez le nombre de messages envoyés par {p} à un crush en une nuit !",
+   "Estimez le nombre de minutes que {p} met à répondre à un crush !",
+   "Estimez le nombre de fois où {p} s'est fait draguer ce mois-ci !",
+   "Estimez le nombre de premiers rendez-vous de {p} dans sa vie !",
+   "Estimez la durée en jours de la plus courte relation de {p} !",
+   "Estimez le nombre de personnes qui ont avoué un crush à {p} !",
+   "Estimez le nombre de playlists faites par {p} pour un crush !",
+   "Estimez la durée en mois de la plus longue relation de {p} !",
+   "Estimez le nombre de baisers de {p} au Nouvel An au total !",
+   "Estimez le nombre de bisous de {p} en une journée record !",
+   "Estimez le nombre de crushs de {p} sur un collègue !"
+  ],
+  "Hot": [
+   "Estimez le nombre d'ensembles de lingerie ou de boxers sexy de {p} !",
+   "Estimez le nombre de baisers dans le cou nécessaires pour faire craquer {p} !",
+   "Estimez le nombre de nuits où {p} a dormi nu(e) ce mois-ci !",
+   "Estimez le nombre de strip-teases faits par {p} !",
+   "Estimez le nombre de fois où {p} a fait du sexe au téléphone !",
+   "Estimez le nombre de sextos envoyés par {p} cette année !",
+   "Estimez le nombre d'orgasmes de {p} en une nuit, record !",
+   "Estimez le nombre de fantasmes réalisés par {p} !",
+   "Estimez le nombre de fois où {p} l'a fait au premier rendez-vous !",
+   "Estimez le nombre de nuits d'hôtel coquines de {p} cette année !",
+   "Estimez la durée en heures de la plus longue session de {p} !",
+   "Estimez le nombre de minutes du plus long baiser de {p} !",
+   "Estimez le nombre de nuits blanches coquines de {p} !",
+   "Estimez l'heure préférée de {p} pour le faire !",
+   "Estimez le nombre de jouets coquins de {p} !",
+   "Estimez l'âge de {p} à sa première fois !",
+   "Estimez le nombre de personnes avec qui {p} a eu un plan d'un soir en vacances !",
+   "Estimez le nombre de partenaires de {p} rencontrés sur une appli !"
+  ]
  }
 }

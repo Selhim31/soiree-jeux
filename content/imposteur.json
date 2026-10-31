@@ -370,5 +370,55 @@
   ]
  },
  "img": "/img/imposteur.webp",
- "adult": false
+ "adult": false,
+ "gold": {
+  "Classique": [
+   "WhatsApp|SMS",
+   "Course|Marche",
+   "Anniversaire|Mariage",
+   "Astronaute|Aviateur",
+   "Série|Film",
+   "Ours|Panda",
+   "Japon|Chine",
+   "Couette|Plaid",
+   "Bière|Cidre",
+   "Cartes|Dés",
+   "Kebab|Tacos",
+   "Professeur|Directeur",
+   "Roman|BD",
+   "Journal|Radio",
+   "Football|Rugby",
+   "Opéra|Comédie musicale",
+   "Bière|Vin",
+   "Boxe|Karaté",
+   "Princesse|Reine",
+   "Supermarché|Marché",
+   "Montagne|Colline",
+   "Assiette|Bol",
+   "Feu|Barbecue",
+   "Neige|Pluie",
+   "Tempête|Ouragan"
+  ],
+  "Coquin": [
+   "Barbe|Moustache",
+   "Amant|Maîtresse",
+   "Chemise ouverte|Décolleté",
+   "Lingerie|Pyjama",
+   "Accent|Murmure",
+   "Lune de miel|Week-end en amoureux",
+   "Petit ami|Fiancé",
+   "Dîner aux chandelles|Pique-nique romantique",
+   "Désir|Envie",
+   "Câlin du matin|Câlin du soir",
+   "Strip-tease|Danse lascive",
+   "Lit king size|Lit superposé",
+   "Patron|Secrétaire",
+   "Mariage|Pacs",
+   "Talon aiguille|Cuissardes",
+   "Plan à trois|Partie à plusieurs",
+   "Tatouage|Piercing",
+   "Bisou|Câlin",
+   "Speed dating|Rencard à l'aveugle"
+  ]
+ }
 }

@@ -8,5 +8,10 @@
   ]
  },
  "img": "/img/pmu.webp",
- "adult": false
+ "adult": false,
+ "gold": {
+  "Classique": [
+   "pmu"
+  ]
+ }
 }

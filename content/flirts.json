@@ -320,5 +320,48 @@
    "{p} et {q} : chacun décrit un baiser volé dans un endroit public."
   ]
  },
- "img": "/img/flirts.webp"
+ "img": "/img/flirts.webp",
+ "gold": {
+  "Duo": [
+   "{p} et {q} : chacun dit ce qu'il trouverait sexy dans un message de l'autre.",
+   "{p} et {q} : faites un selfie imaginaire en prenant la pose de couple.",
+   "{p} et {q} : chacun décrit la tenue de l'autre pour un gala.",
+   "{p} et {q} : chacun nomme la tenue de l'autre qu'il préfère.",
+   "{p}, dis à {q} quelle est sa plus belle photo selon toi.",
+   "{p} et {q} : chacun envoie un baiser imaginaire et l'autre le « rattrape ».",
+   "{p}, décris à {q} votre premier week-end imaginaire en amoureux.",
+   "{p}, décris à {q} votre premier café ensemble.",
+   "{p} et {q} : chacun décrit le premier baiser idéal entre vous.",
+   "{p}, imite le premier regard que tu lancerais à {q} dans une soirée.",
+   "{p} et {q} : mimez votre premier date imaginaire.",
+   "{p}, imite la façon dont {q} drague.",
+   "{p}, avoue à {q} si tu as déjà pensé à lui/elle avant de dormir.",
+   "{p}, avoue à {q} une chose qui te rend timide avec lui/elle.",
+   "{p}, avoue à {q} un détail de son style que tu adores.",
+   "{p}, dis à {q} un mot doux dans une autre langue.",
+   "{p}, décris à {q} la carte postale que tu lui écrirais de vacances.",
+   "{p}, dis à {q} comment tu l'appellerais dans ton téléphone.",
+   "{p}, écris à {q} trois choses que tu aimes chez lui/elle."
+  ],
+  "Hot": [
+   "{p} et {q} : chacun décrit la tenue la plus sexy de l'autre.",
+   "{p}, envoie à {q} un vocal murmuré (ou fais-le au micro).",
+   "{p}, montre à {q} ton épaule nue face caméra de la façon la plus sensuelle.",
+   "{p}, avoue à {q} si tu l'as déjà trouvé(e) sexy dans une situation banale.",
+   "{p}, avoue à {q} le détail chez lui/elle qui t'excite le plus.",
+   "{p}, décris à {q} ta façon d'embrasser dans le cou.",
+   "{p}, décris à {q} la tenue que tu enfilerais pour l'accueillir à la porte.",
+   "{p}, décris à {q} une tenue de soirée qui cache juste ce qu'il faut.",
+   "{p} et {q} : chacun dit le moment le plus gênant et chaud qu'il imagine avec l'autre.",
+   "{p}, décris à {q} la tenue que tu aimerais lui voir porter.",
+   "{p} et {q} : chacun dit ce qu'il trouve le plus excitant dans un premier baiser.",
+   "{p} et {q} : chacun dit la chose la plus sexy qu'il sache faire.",
+   "{p}, dis à {q} quel est son côté le plus sexy à tes yeux.",
+   "{p}, décris à {q} une caresse dans le dos très lente.",
+   "{p}, dis à {q} l'endroit le plus fou où tu aimerais l'embrasser.",
+   "{p} et {q} : imaginez votre premier sexto et lisez-le à voix haute.",
+   "{p} et {q} : chacun dit le mot qui l'excite le plus.",
+   "{p}, fais un strip-tease d'un seul accessoire (montre, bijou, chaussette) face caméra pour {q}."
+  ]
+ }
 }

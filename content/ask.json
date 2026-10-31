@@ -172,5 +172,31 @@
    "Quel scénario te ferait craquer ce soir ?",
    "Qu'est-ce qui rend un baiser vraiment torride ?"
   ]
+ },
+ "gold": {
+  "Classique": [
+   "Quel est le mensonge que tu regrettes le plus ?",
+   "Quelle est la chose la plus folle que tu aies faite pour quelqu'un ?",
+   "Quel est ton plus grand rêve que tu n'as encore jamais dit à personne ?",
+   "Qu'est-ce que tu penses vraiment de moi, en une phrase ?",
+   "Quelle est ta plus grosse honte en soirée ?",
+   "Quel est ton plaisir coupable ?"
+  ],
+  "Coquin": [
+   "Qu'est-ce que tu n'avouerais jamais à un crush ?",
+   "Quel est ton souvenir de slow le plus gênant ?",
+   "Quelle tenue te rend irrésistible selon toi ?",
+   "Quelle tenue te fait te sentir irrésistible ?",
+   "Quel est ton meilleur souvenir de premier baiser ?",
+   "Quelle est ta pire technique de drague ?"
+  ],
+  "Hot": [
+   "Quel est ton fantasme avec un(e) inconnu(e) ?",
+   "Quelle tenue te rend fou ou folle chez l'autre ?",
+   "Qu'est-ce qui t'excite le plus chez ton ou ta partenaire ?",
+   "Qu'est-ce qui rend un baiser vraiment torride ?",
+   "Quel est le mot qui t'excite le plus ?",
+   "Quel mot cru t'excite le plus ?"
+  ]
  }
 }

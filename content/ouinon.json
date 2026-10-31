@@ -313,5 +313,47 @@
   ]
  },
  "img": "/img/ouinon.webp",
- "adult": false
+ "adult": false,
+ "gold": {
+  "Classique": [
+   "Tu parles plus de deux langues ? ||| Oui ||| Non",
+   "Tu as un plaisir coupable musical ? ||| Oui ||| Non",
+   "Tu as déjà menti aujourd'hui ? ||| Oui ||| Non",
+   "Tu pardonnerais une trahison ? ||| Oui ||| Non",
+   "Tu as déjà menti sur ton âge ? ||| Oui ||| Non",
+   "Tu sais garder un secret ? ||| Oui ||| Non",
+   "Tu es jaloux ? ||| Oui ||| Non",
+   "Tu relis tes messages avant de les envoyer ? ||| Oui ||| Non",
+   "Tu sais faire un créneau du premier coup ? ||| Oui ||| Non",
+   "Tu te lèves dès le premier réveil ? ||| Oui ||| Non",
+   "Tu reprendrais ton ex ? ||| Oui ||| Non",
+   "Tu danses quand tu es seul(e) ? ||| Oui ||| Non",
+   "Tu crois au coup de foudre ? ||| Oui ||| Non",
+   "Tu chantes sous la douche ? ||| Oui ||| Non",
+   "Tu as déjà fait un discours devant 100 personnes ? ||| Oui ||| Non",
+   "Tu mangerais un insecte pour 100 € ? ||| Oui ||| Non",
+   "Tu as déjà dormi plus de 12 heures ? ||| Oui ||| Non",
+   "Tu as déjà changé de coupe de cheveux après une rupture ? ||| Oui ||| Non"
+  ],
+  "Coquin": [
+   "Tu as déjà embrassé un(e) inconnu(e) ? ||| Oui ||| Non",
+   "Tu as déjà embrassé quelqu'un du même sexe ? ||| Oui ||| Non",
+   "Tu as déjà flirté en langue étrangère ? ||| Oui ||| Non",
+   "Tu as déjà envoyé une photo sexy ? ||| Oui ||| Non",
+   "Tu aimes les bisous dans le cou ? ||| Oui ||| Non",
+   "Tu trouves les tatouages sexy ? ||| Oui ||| Non",
+   "Tu as déjà regretté un baiser ? ||| Oui ||| Non",
+   "Tu trouves les lunettes sexy ? ||| Oui ||| Non",
+   "Tu as déjà joué au jeu du regard avec un(e) inconnu(e) ? ||| Oui ||| Non",
+   "Tu portes des sous-vêtements assortis aujourd'hui ? ||| Oui ||| Non",
+   "Tu as déjà donné ton numéro à un(e) inconnu(e) ? ||| Oui ||| Non",
+   "Tu as déjà offert de la lingerie ? ||| Oui ||| Non",
+   "Tu as déjà fait un strip-tease ? ||| Oui ||| Non",
+   "Tu dors nu ? ||| Oui ||| Non",
+   "Tu as déjà embrassé quelqu'un au premier rendez-vous ? ||| Oui ||| Non",
+   "Tu as déjà embrassé quelqu'un dès le premier soir ? ||| Oui ||| Non",
+   "Tu as déjà été jaloux ou jalouse d'un ex de ton partenaire ? ||| Oui ||| Non",
+   "Tu as déjà été amoureux ou amoureuse en secret ? ||| Oui ||| Non"
+  ]
+ }
 }

@@ -353,5 +353,52 @@
    "{p}, envoie à {q} un emoji qui résume ce que tu penserais de lui/elle en tête-à-tête."
   ]
  },
- "img": "/img/coquin.webp"
+ "img": "/img/coquin.webp",
+ "gold": {
+  "Coquin": [
+   "{p}, quelle est la tenue la plus sexy que tu possèdes, décris-la ?",
+   "{p}, quelle est la tenue que tu mets quand tu veux vraiment plaire ?",
+   "{p}, danse de façon sexy 15 secondes (habillé !).",
+   "{p}, as-tu déjà eu un crush sur un(e) inconnu(e) croisé(e) tous les jours ?",
+   "{p}, mime ton premier baiser avec ta main.",
+   "{p}, quel est le moment le plus gênant devant les parents de quelqu'un ?",
+   "{p}, as-tu déjà été jaloux d'un ami parce qu'il plaisait à ton crush ?",
+   "{p}, quel est le rendez-vous le plus gênant que tu aies vécu ?",
+   "{p}, qu'est-ce qui est plus sexy : l'humour ou l'assurance ?",
+   "{p}, qui était ton crush secret au lycée, et le sait-il ?",
+   "{p}, qui ici te semble le plus romantique en secret ?",
+   "{p}, fais ton meilleur regard de séducteur à la caméra pendant 10 secondes.",
+   "{p}, raconte ton plus long regard échangé avec un inconnu.",
+   "{p}, quel détail d'une tenue te fait regarder deux fois ?",
+   "{p}, quel est le texto le plus audacieux que tu as osé envoyer ?",
+   "{p}, fais semblant de draguer {q} dans un bar pendant 30 secondes.",
+   "{p}, quelle est la phrase de drague la plus nulle qui a pourtant marché sur toi ?",
+   "{p}, quel est le lieu le plus improbable où tu as eu un premier baiser ?",
+   "{p}, tu es plutôt bisou au premier rendez-vous ou attente stratégique ?",
+   "{p}, quel personnage de série a le flirt le plus efficace selon toi ?",
+   "{p}, quelle est ta pire technique de drague qui a pourtant marché ?",
+   "{p}, quelle est la photo de toi que tu trouves la plus séduisante ?",
+   "{p}, raconte ton premier baiser en mode bande-annonce de film."
+  ],
+  "Hot": [
+   "{p}, as-tu déjà eu un fantasme sur un inconnu croisé dans les transports ?",
+   "{p}, quel est le lieu le plus excitant où tu aies embrassé quelqu'un ?",
+   "{p}, quelle est la chose la plus sexy qu'on puisse faire en cuisine ?",
+   "{p}, quel est ton type de lingerie ou de sous-vêtement préféré sur quelqu'un ?",
+   "{p}, quelle est ta tenue de nuit préférée ?",
+   "{p}, quel est ton type de baiser préféré : doux, fougueux ou joueur ?",
+   "{p}, quelle est la chose la plus excitante qu'on puisse faire sans se toucher ?",
+   "{p}, qu'est-ce qui t'excite le plus dans une dispute qui finit bien ?",
+   "{p}, quel est le scénario de rencontre le plus excitant selon toi ?",
+   "{p}, quel est ton fantasme le plus avouable devant tout le monde ?",
+   "{p}, tu préfères les bisous dans le cou ou derrière l'oreille ?",
+   "{p}, quel est le geste qui t'excite sans même un baiser ?",
+   "{p}, quelle est la tenue de l'autre qui te ferait annuler la soirée pour rester à la maison ?",
+   "{p}, quel est le meilleur moment pour un sexto ?",
+   "{p}, quelle est ta pire honte au lit ?",
+   "{p}, quelle tenue aimerais-tu voir sur ton/ta partenaire idéal(e) ?",
+   "{p}, as-tu déjà dormi nu(e) chez quelqu'un dès la première nuit ?",
+   "{p}, douceur ou fougue : qu'est-ce que tu préfères vraiment ?"
+  ]
+ }
 }

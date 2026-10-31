@@ -318,5 +318,49 @@
   ]
  },
  "adult": false,
- "img": "/img/halloween.webp"
+ "img": "/img/halloween.webp",
+ "gold": {
+  "Halloween": [
+   "{p}, quelle est la tenue d'Halloween la plus ratée que tu aies portée ?",
+   "{p}, imite un agent secret version zombie.",
+   "{p}, quel est le déguisement le plus effrayant que tu aies croisé ?",
+   "{p}, quel est le cri le plus ridicule que tu aies poussé de peur ?",
+   "{p}, imite le rire de la sorcière la plus maléfique possible.",
+   "{p}, raconte ton pire déguisement de tous les temps.",
+   "{p}, ton déguisement d'Halloween le plus réussi ?",
+   "{p}, imite un vampire timide version zombie.",
+   "{p}, quelle est la superstition que tu respectes vraiment ?",
+   "{p}, quel est le dernier moment où tu as vraiment eu peur ?",
+   "{p}, quelle superstition te fait vraiment peur ?",
+   "{p}, imite un zombie qui a faim pendant 10 secondes face caméra",
+   "{p}, quelle est la chose la plus flippante que tu aies vue dans la rue la nuit ?",
+   "{p}, quelle est la pire maison hantée de fête foraine que tu aies faite ?",
+   "{p}, raconte l'histoire la plus flippante que tu connaisses en 1 minute.",
+   "{p}, qui dans ce groupe mourrait en premier dans un film d'horreur ?",
+   "{p}, quelle est la citrouille la plus réussie que tu aies sculptée ?",
+   "{p}, quelle est la pire chose qui pourrait sortir de sous ton lit ?",
+   "{p}, quel personnage de film d'horreur pourrait être ton crush ?"
+  ],
+  "Coquin": [
+   "{p}, quel serait ton déguisement le plus sexy, en trois mots ?",
+   "{p}, décris le costume le plus sexy de l'histoire du cinéma d'horreur",
+   "{p}, quel accessoire de costume trouves-tu le plus sexy ?",
+   "{p}, quel serait ton costume d'Halloween le plus sexy ?",
+   "{p}, quel est le monstre le plus sexy du cinéma ?",
+   "{p}, qui ici aurait le costume le plus sexy ?",
+   "{p}, quel déguisement d'Halloween sexy oserais-tu porter ?",
+   "{p}, raconte la tenue la plus osée vue à Halloween",
+   "{p}, imite une momie qui se déroule de façon sexy.",
+   "{p}, quel déguisement sexy oserais-tu porter ?",
+   "{p}, choisis un costume pour {q} et décris-le de façon sexy",
+   "{p}, décris la tenue d'Halloween de tes rêves pour {q}.",
+   "{p}, mime une scène de séduction de vampire face caméra",
+   "{p}, imite un vampire séducteur face caméra",
+   "{p}, te laisserais-tu mordre dans le cou par un vampire ? par qui ici ?",
+   "{p}, choisis : une morsure dans le cou ou un baiser glacé de fantôme ?",
+   "{p}, un vampire te propose une morsure dans le cou : tu acceptes ?",
+   "{p}, quel personnage d'horreur trouves-tu étrangement sexy ?",
+   "{p}, décris un costume sexy avec 3 objets de chez toi"
+  ]
+ }
 }

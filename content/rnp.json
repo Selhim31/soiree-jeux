@@ -8,5 +8,10 @@
   ]
  },
  "img": "/img/rnp.webp",
- "adult": false
+ "adult": false,
+ "gold": {
+  "Classique": [
+   "rnp"
+  ]
+ }
 }

@@ -318,5 +318,49 @@
   ]
  },
  "adult": false,
- "img": "/img/debats.webp"
+ "img": "/img/debats.webp",
+ "gold": {
+  "Classique": [
+   "Les vocaux de 5 minutes devraient être interdits ? {p} pour, {q} contre : 30 secondes chacun.",
+   "Le premier date doit être payé par celui qui invite ? {p} pour, {q} contre : 30 secondes chacun.",
+   "Lire la fin d'un livre en premier, c'est un crime ? {p} pour, {q} contre : 30 secondes chacun.",
+   "Le karaoké est la meilleure activité de soirée ? {p} pour, {q} contre : 30 secondes chacun.",
+   "Les escape games sont meilleurs que le bowling ? {p} pour, {q} contre : 30 secondes chacun.",
+   "La pizza froide le lendemain est meilleure ? {p} pour, {q} contre : 30 secondes chacun.",
+   "Les applis de rencontre ont tué la drague ? {p} pour, {q} contre : 30 secondes chacun.",
+   "Les séries sont meilleures que les films ? {p} pour, {q} contre : 30 secondes chacun.",
+   "Le foot est le meilleur sport à regarder ? {p} pour, {q} contre : 30 secondes chacun.",
+   "Les chats sont meilleurs que les chiens ? {p} pour, {q} contre : 30 secondes chacun.",
+   "La fondue est meilleure que la raclette ? {p} pour, {q} contre : 30 secondes chacun.",
+   "Le cinéma français est le meilleur ? {p} pour, {q} contre : 30 secondes chacun.",
+   "Le café est meilleur que le thé ? {p} pour, {q} contre : 30 secondes chacun.",
+   "L'été est la meilleure saison ? {p} pour, {q} contre : 30 secondes chacun.",
+   "Mieux vaut un petit appart en ville qu'une grande maison à la campagne ? {p} pour, {q} contre : 30 secondes chacun.",
+   "Les playlists partagées en voiture, c'est le chauffeur qui décide ? {p} pour, {q} contre : 30 secondes chacun.",
+   "Faut-il dire « bonjour » en entrant dans un ascenseur ? {p} pour, {q} contre : 30 secondes chacun.",
+   "Faut-il garder les boîtes des appareils électroniques ? {p} pour, {q} contre : 30 secondes chacun.",
+   "Les vacances à la neige valent les vacances au soleil ? {p} pour, {q} contre : 30 secondes chacun."
+  ],
+  "Couple & société": [
+   "Les sextos avec un(e) inconnu(e) en couple, tromperie ou pas ? {p} tranche.",
+   "Les sextos sont une forme de tromperie s'ils sont envoyés à un autre ? {p} contre {q}, le groupe tranche.",
+   "Le sexe au premier rendez-vous, c'est ok ? {p} contre {q}, le groupe tranche.",
+   "Le coup de foudre existe vraiment ? {p} contre {q}, le groupe tranche.",
+   "Le premier rendez-vous doit se finir par un baiser ? {p} contre {q}, le groupe tranche.",
+   "La jalousie rend-elle un couple plus fort ? {p} donne son avis.",
+   "Un baiser en soirée, c'est tromper ? {p} donne son verdict.",
+   "Le coup de foudre existe vraiment ? {p} donne son avis franc.",
+   "La compatibilité sexuelle est plus importante que l'amour ? {p} contre {q}, le groupe tranche.",
+   "Il faut une vie sexuelle régulière pour un couple heureux ? {p} contre {q}, le groupe tranche.",
+   "Les déclarations publiques sur les réseaux, c'est gênant ? {p} contre {q}, le groupe tranche.",
+   "Le mensonge est parfois nécessaire en couple ? {p} contre {q}, le groupe tranche.",
+   "Le sexe sans sentiments, c'est épanouissant ? {p} contre {q}, le groupe tranche.",
+   "Avoir des secrets dans son couple est sain ? {p} contre {q}, le groupe tranche.",
+   "Le physique compte plus qu'on ne l'avoue ? {p} contre {q}, le groupe tranche.",
+   "La jalousie rétroactive est légitime ? {p} contre {q}, le groupe tranche.",
+   "Les fantasmes doivent rester secrets ? {p} contre {q}, le groupe tranche.",
+   "La jalousie est une preuve d'amour ? {p} contre {q}, le groupe tranche.",
+   "On peut pardonner une tromperie ? {p} contre {q}, le groupe tranche."
+  ]
+ }
 }

@@ -482,5 +482,70 @@
    "{p}, matin, après-midi ou milieu de nuit : quand es-tu le plus en forme pour ça ?"
   ]
  },
- "img": "/img/hot.webp"
+ "img": "/img/hot.webp",
+ "gold": {
+  "Hot": [
+   "{p}, envoie un vocal sensuel de 10 secondes à {q}.",
+   "{p}, prends une photo sexy (habillée) et montre-la au groupe.",
+   "{p}, quelle est la tenue d'intérieur la plus séduisante ?",
+   "{p}, masse ton propre cou de la façon la plus sensuelle possible.",
+   "{p}, quel est le prénom le plus sexy selon toi ?",
+   "{p}, montre ta lingerie ou ton caleçon préféré (pas porté !).",
+   "{p}, quel est ton type de lingerie préféré sur l'autre ?",
+   "{p}, quelle tenue portais-tu pour séduire ton ex ?",
+   "{p}, danse sur une chanson sensuelle choisie par {q} pendant 20 secondes.",
+   "{p}, qu'est-ce que tu trouves sexy chez quelqu'un qui prend les commandes ?",
+   "{p}, quelle est la chose la plus excitante qu'on puisse dire par texto ?",
+   "{p}, quel est le plus gros mensonge que tu as dit pour une nuit ?",
+   "{p}, quel est le scénario de jeu de rôle qui t'excite le plus ?",
+   "{p}, as-tu déjà embrassé quelqu'un du même sexe ?",
+   "{p}, le baiser dans le cou : oui, non ou encore ?",
+   "{p}, qu'est-ce qui t'excite dans la séduction ?",
+   "{p}, fais un mini strip-tease du pull ou de la veste devant la caméra.",
+   "{p}, raconte ton plus beau strip-tease, reçu ou offert.",
+   "{p}, quelle est la tenue de nuit qui te fait craquer ?"
+  ],
+  "Hard": [
+   "{p}, quel est le secret de ta vie sexuelle que même tes meilleurs amis ignorent ?",
+   "{p}, as-tu déjà envoyé une photo osée que tu as regrettée ?",
+   "{p}, as-tu déjà embrassé quelqu'un juste devant ton ex pour le/la rendre jaloux ou jalouse ?",
+   "{p}, avoue la chose la plus folle que tu as faite pour une nuit avec quelqu'un.",
+   "{p}, quelle est la chose la plus intime que tu aies filmée ou photographiée ?",
+   "{p}, quel est le secret sexuel que tu emporteras dans ta tombe (en résumé) ?",
+   "{p}, as-tu déjà menti à un(e) partenaire sur ta vie sexuelle passée ?",
+   "{p}, as-tu déjà eu un orgasme en pensant à quelqu'un d'interdit ?",
+   "{p}, as-tu déjà eu une relation sexuelle dont tu as honte ?",
+   "{p}, quel est le texto le plus gênant que tu aies envoyé à la mauvaise personne ?",
+   "{p}, quelle est la chose la plus honteuse que tu aies faite après une rupture ?",
+   "{p}, quel est le pire mensonge que tu aies dit pour cacher une aventure ?",
+   "{p}, quelle est la chose la plus risquée que tu aies faite pour du sexe ?",
+   "{p}, avoue le fantasme le plus tabou que tu acceptes de dire ici.",
+   "{p}, avoue ton pire comportement après un date.",
+   "{p}, as-tu déjà envoyé des photos osées à plusieurs personnes le même soir ?",
+   "{p}, quelle est la limite que tu as déjà franchie et que tu regrettes ?",
+   "{p}, as-tu déjà eu un « plan » qui est devenu une histoire sérieuse ?",
+   "{p}, as-tu déjà dormi chez un(e) inconnu(e) sans savoir où tu étais ?"
+  ],
+  "Explicite": [
+   "{p}, quel est ton fantasme de domination le plus précis ?",
+   "{p}, quel rôle te ferait le plus d'effet : prof, docteur, inconnu(e) ou patron(ne) ?",
+   "{p}, quel est l'endroit le plus fou où tu as eu un orgasme ?",
+   "{p}, décris au groupe ta technique de fellation ou de cunnilingus préférée",
+   "{p}, as-tu déjà eu un orgasme rien qu'avec des baisers ou des caresses ?",
+   "{p}, quelle partie de ton corps est la plus sensible au toucher sexuel ?",
+   "{p}, préfères-tu jouir en premier ou faire jouir l'autre d'abord ?",
+   "{p}, ton orgasme le plus rapide : combien de temps, et comment ?",
+   "{p}, quel est ton fantasme le plus inavouable ? (joker accepté)",
+   "{p}, quel est le geste précis qui te fait jouir le plus vite ?",
+   "{p}, attaché(e) ou attacher : qu'est-ce qui t'excite le plus ?",
+   "{p}, raconte ton orgasme le plus intense sans donner de nom.",
+   "{p}, quelle est la position qui te fait jouir le plus vite ?",
+   "{p}, quelle est ta meilleure séance de sexe par téléphone ?",
+   "{p}, décris la nuit de sexe la plus longue que tu aies eue",
+   "{p}, quel est le meilleur endroit pour jouir selon toi ?",
+   "{p}, quel est le sextoy que tu utilises le plus ?",
+   "{p}, raconte ton premier orgasme avec quelqu'un",
+   "{p}, quel est ton rapport au bruit : discret ou sans retenue ?"
+  ]
+ }
 }

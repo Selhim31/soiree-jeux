@@ -320,5 +320,49 @@
   ]
  },
  "img": "/img/7sec.webp",
- "adult": false
+ "adult": false,
+ "gold": {
+  "Classique": [
+   "{p}, cite 3 jeux vidéo de foot !",
+   "{p}, cite 3 jeux vidéo !",
+   "{p}, cite 3 langues parlées en Europe !",
+   "{p}, cite 3 choses qu'on ne dit pas à un premier date !",
+   "{p}, cite 3 boissons chaudes !",
+   "{p}, cite 3 chanteuses internationales !",
+   "{p}, cite 3 chanteurs français !",
+   "{p}, cite 3 danses !",
+   "{p}, cite 3 dessins animés des années 90 !",
+   "{p}, cite 3 mots de plus de 12 lettres !",
+   "{p}, cite 3 choses qu'on trouve dans une salle de bain !",
+   "{p}, cite 3 mots en anglais utilisés en français !",
+   "{p}, cite 3 choses qu'on met dans une valise !",
+   "{p}, cite 3 choses qu'on porte sur la tête !",
+   "{p}, cite 3 choses qu'on trouve à la plage !",
+   "{p}, cite 3 marques de voitures allemandes !",
+   "{p}, cite 3 choses qu'on fait à un mariage !",
+   "{p}, cite 3 choses qu'on fait le dimanche !",
+   "{p}, cite 3 choses qu'on fait en vacances !"
+  ],
+  "Coquin": [
+   "{p}, cite 3 tenues de soirée sexy !",
+   "{p}, cite 3 tenues sexy !",
+   "{p}, cite 3 chanteurs ou chanteuses à la voix sexy !",
+   "{p}, cite 3 déguisements sexy !",
+   "{p}, cite 3 danses sexy !",
+   "{p}, cite 3 parties de l'oreille ou du cou à embrasser !",
+   "{p}, cite 3 parties du corps sexy chez un homme !",
+   "{p}, cite 3 choses qui rendent un lit plus sexy !",
+   "{p}, cite 3 personnages de dessins animés sexy !",
+   "{p}, cite 3 façons sexy de manger une fraise !",
+   "{p}, cite 3 choses sexy à porter en hiver !",
+   "{p}, cite 3 façons d'avouer un crush !",
+   "{p}, cite 3 prénoms qui sonnent sexy !",
+   "{p}, cite 3 métiers d'uniforme sexy !",
+   "{p}, cite 3 célébrités sexy !",
+   "{p}, cite 3 parfums sexy !",
+   "{p}, cite 3 types de sous-vêtements !",
+   "{p}, cite 3 films érotiques connus !",
+   "{p}, cite 3 couleurs de lingerie !"
+  ]
+ }
 }

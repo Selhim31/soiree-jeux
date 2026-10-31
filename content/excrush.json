@@ -461,5 +461,67 @@
    "{p}, confie à {q} le baiser d'un ex qui t'a coupé les jambes.",
    "{p}, confie à {q} la nuit où un ex t'a surpris(e)."
   ]
+ },
+ "gold": {
+  "Classique": [
+   "{p}, confie à {q} le pire date avec quelqu'un qui est devenu un ex.",
+   "{p}, confie à {q} le moment où un crush est devenu un vrai date.",
+   "{p}, raconte au groupe le pire date avec quelqu'un qui est devenu un ex.",
+   "{p}, raconte au groupe le moment où un crush est devenu un vrai date.",
+   "{p}, confie à {q} le crush que tu n'as jamais avoué.",
+   "{p}, raconte au groupe le crush que tu n'as jamais avoué.",
+   "Qui ici a eu le crush le plus secret ?",
+   "Qui ici avoue le plus vite un crush ?",
+   "Qui ici s'attache le plus vite ?",
+   "{p}, confie à {q} la chose que tu regrettes d'avoir dite à un ex.",
+   "{p}, confie à {q} la chanson qui te rappelle un ex.",
+   "Qui ici a vécu le coup de foudre le plus rapide ?",
+   "{p}, confie à {q} ton premier crush et ce qui te plaisait chez lui ou elle.",
+   "{p}, confie à {q} le meilleur conseil qu'on t'ait donné après une rupture.",
+   "{p}, confie à {q} la première impression que t'a faite ton premier amour.",
+   "{p}, raconte au groupe la chose que tu regrettes d'avoir dite à un ex.",
+   "{p}, confie à {q} la plus grosse dispute avec un ex, pour une bêtise.",
+   "{p}, confie à {q} le crush le plus improbable de ton adolescence."
+  ],
+  "Coquin": [
+   "{p}, avoue au groupe la tenue que tu portais pour séduire un crush.",
+   "{p}, confie à {q} le flirt au travail le plus gênant.",
+   "{p}, confie à {q} la drague ratée la plus honteuse.",
+   "{p}, confie à {q} le surnom coquin le plus gênant.",
+   "{p}, confie à {q} la tenue que tu portais pour séduire un crush.",
+   "{p}, avoue au groupe l'endroit le plus insolite où tu as embrassé un ex.",
+   "{p}, avoue au groupe le message le plus coquin envoyé à un crush.",
+   "{p}, avoue au groupe le rencard le plus chaud que tu aies vécu.",
+   "{p}, avoue au groupe le flirt le plus osé que tu aies tenté.",
+   "{p}, avoue au groupe le crush que tu as embrassé trop vite.",
+   "{p}, avoue au groupe le baiser le plus maladroit de ta vie.",
+   "{p}, avoue au groupe ton meilleur souvenir de flirt d'été.",
+   "{p}, avoue au groupe le cadeau coquin le plus drôle reçu.",
+   "{p}, avoue au groupe le flirt au travail le plus gênant.",
+   "{p}, avoue au groupe la drague ratée la plus honteuse.",
+   "{p}, avoue au groupe ton premier baiser, sans prénom.",
+   "{p}, avoue au groupe le surnom coquin le plus gênant.",
+   "{p}, avoue au groupe le meilleur baiser d'un ex."
+  ],
+  "Hot": [
+   "{p}, avoue au groupe le sexto le plus chaud envoyé à un ex.",
+   "{p}, avoue au groupe ce que ton meilleur ex faisait avec sa bouche.",
+   "{p}, avoue au groupe le sexto d'un crush qui t'a le plus excité(e).",
+   "{p}, confie à {q} le sexto le plus chaud envoyé à un ex.",
+   "{p}, avoue au groupe la tenue qui faisait craquer un ex.",
+   "{p}, avoue au groupe le crush qui t'a donné le plus chaud sans te toucher.",
+   "{p}, avoue au groupe le meilleur réveil coquin avec un ex.",
+   "{p}, avoue au groupe ton rêve le plus chaud avec un crush.",
+   "{p}, avoue au groupe l'endroit le plus fou où tu l'as fait avec un ex.",
+   "{p}, avoue au groupe le jeu de rôle le plus fou avec un ex.",
+   "Qui ici a déjà eu un plan cul qui est devenu un crush ?",
+   "{p}, avoue au groupe la caresse d'un ex que tu n'as jamais retrouvée.",
+   "{p}, confie à {q} ce que ton meilleur ex faisait avec sa bouche.",
+   "{p}, confie à {q} le sexto d'un crush qui t'a le plus excité(e).",
+   "{p}, confie à {q} la tenue qui faisait craquer un ex.",
+   "{p}, confie à {q} le crush qui t'a donné le plus chaud sans te toucher.",
+   "{p}, avoue au groupe le moment le plus intense en vacances avec un ex.",
+   "{p}, avoue au groupe la fois où un ex t'a déshabillé(e) le plus vite."
+  ]
  }
 }

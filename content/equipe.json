@@ -159,5 +159,27 @@
   ]
  },
  "img": "/img/equipe.webp",
- "adult": false
+ "adult": false,
+ "gold": {
+  "Classique": [
+   "Équipe {t} : trouvez qui dans l'équipe a la photo la plus ancienne dans sa galerie.",
+   "Équipe {t} : chantez ensemble un refrain connu au micro.",
+   "Équipe {t} : chaque joueur montre une photo de son animal ou d'un animal en 20 secondes.",
+   "Équipe {t} : citez 6 personnages de jeux vidéo en 15 secondes.",
+   "Équipe {t} : citez 6 jeux vidéo de course en 20 secondes.",
+   "Équipe {t} : inventez un hymne d'équipe sur un air connu.",
+   "Équipe {t} : imitez ensemble un orchestre de casseroles pendant 10 secondes.",
+   "Équipe {t} : imitez le bruit d'une jungle tous ensemble pendant 10 secondes.",
+   "Équipe {t} : chaque joueur fait une grimace, l'autre équipe note sur 10.",
+   "Équipe {t} : inventez une danse d'équipe de 10 secondes face caméra.",
+   "Équipe {t} : citez 6 chanteurs français en 15 secondes.",
+   "Équipe {t} : construisez une tour avec 5 objets de chez vous, la plus haute gagne.",
+   "Équipe {t} : chantez un refrain en changeant les paroles avec le prénom d'un adversaire.",
+   "Équipe {t} : chantez une chanson en remplaçant toutes les voyelles par « i ».",
+   "Équipe {t} : inventez un pas de danse que l'équipe adverse doit refaire.",
+   "Équipe {t} : faites deviner un film à votre équipe en mime (1 joueur).",
+   "Équipe {t} : inventez un cri de guerre et criez-le ensemble au micro.",
+   "Équipe {t} : faites deviner un film d'horreur en mime (1 joueur)."
+  ]
+ }
 }

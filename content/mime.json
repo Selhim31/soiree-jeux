@@ -319,5 +319,48 @@
   ]
  },
  "adult": false,
- "img": "/img/mime.webp"
+ "img": "/img/mime.webp",
+ "gold": {
+  "Classique": [
+   "{p}, mime quelqu'un qui joue à un jeu vidéo et perd sans parler, les autres devinent.",
+   "{p}, mime quelqu'un qui prend un selfie parfait sans parler, les autres devinent.",
+   "{p}, mime un youtubeur qui commence sa vidéo sans parler, les autres devinent.",
+   "{p}, mime un photographe de paparazzi sans parler, les autres devinent.",
+   "{p}, mime un photographe de mode sans parler, les autres devinent.",
+   "{p}, mime un professeur qui écrit au tableau sans parler, les autres devinent.",
+   "{p}, mime un professeur de danse sans parler, les autres devinent.",
+   "{p}, mime quelqu'un qui fait du ski pour la première fois sans parler, les autres devinent.",
+   "{p}, mime quelqu'un qui boit un café trop chaud sans parler, les autres devinent.",
+   "{p}, mime un vampire qui voit le soleil sans parler, les autres devinent.",
+   "{p}, mime un premier rendez-vous raté sans parler, les autres devinent.",
+   "{p}, mime un vampire au soleil sans parler, les autres devinent.",
+   "{p}, fais deviner « un agent secret » par des imitations.",
+   "{p}, fais deviner « un vampire timide » par des imitations.",
+   "{p}, mime quelqu'un qui se coince le doigt dans une porte sans parler, les autres devinent.",
+   "{p}, mime quelqu'un qui découvre que le wifi est coupé sans parler, les autres devinent.",
+   "{p}, mime quelqu'un qui marche dans un chewing-gum sans parler, les autres devinent.",
+   "{p}, mime quelqu'un qui promène un chien trop fort sans parler, les autres devinent.",
+   "{p}, mime quelqu'un qui se maquille dans le métro sans parler, les autres devinent."
+  ],
+  "Coquin": [
+   "{p}, mime quelqu'un qui met de la lingerie pour la première fois, les autres devinent.",
+   "{p}, mime quelqu'un qui mange une fraise de façon sexy, les autres devinent.",
+   "{p}, mime une danse sexy avec une chaise, les autres devinent.",
+   "{p}, mime un premier rendez-vous gênant, les autres devinent.",
+   "{p}, mime un bisou dans le cou, les autres devinent.",
+   "{p}, mime un pompier sexy, les autres devinent.",
+   "{p}, mime un réveil à côté d'un inconnu, les autres devinent.",
+   "{p}, mime un strip-tease (habillé), les autres devinent.",
+   "{p}, mime un strip-tease maladroit, les autres devinent.",
+   "{p}, mime un selfie de couple raté, les autres devinent.",
+   "{p}, mime un premier baiser avec appareil dentaire, les autres devinent.",
+   "{p}, mime un premier baiser au cinéma, les autres devinent.",
+   "{p}, mime un premier baiser, les autres devinent.",
+   "{p}, mime quelqu'un qui lèche une glace de façon suggestive, les autres devinent.",
+   "{p}, mime un maître-nageur qui fait du bouche-à-bouche, les autres devinent.",
+   "{p}, mime quelqu'un qui découvre un admirateur secret, les autres devinent.",
+   "{p}, mime quelqu'un qui fait du sexting en réunion, les autres devinent.",
+   "{p}, mime quelqu'un qui écrit un sexto en cachette, les autres devinent."
+  ]
+ }
 }
