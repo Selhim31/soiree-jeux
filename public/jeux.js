@@ -1,4 +1,5 @@
 // Jeux regroupés : option « réponse anonyme » pour Confessions.
+if(typeof SAFE!=='undefined')SAFE.push('Mime','7 secondes');
 (function(){let ANON=localStorage.anonRep==='1';
 const _og=openGame;window.openGame=openGame=function(id){_og(id);let b=$('g-anon');if(!b){b=document.createElement('div');b.id='g-anon';$('grp').before(b)}const on=id==='confessions';b.classList.toggle('hide',!on);b.innerHTML=`<h3 class=sec>Réponses</h3><div class="chips seg"><button class="chip ${!ANON?'on':''}" onclick="anonSet(false)">👤 Avec les prénoms</button><button class="chip ${ANON?'on':''}" onclick="anonSet(true)">🎭 Réponse anonyme</button></div>`};
 window.anonSet=v=>{ANON=v;localStorage.anonRep=v?'1':'0';openGame('confessions')};

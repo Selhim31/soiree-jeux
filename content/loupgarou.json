@@ -2,7 +2,7 @@
  "name": "Loup-Garou",
  "desc": "Rôles secrets sur chaque téléphone, le site fait le narrateur. Les loups dévorent la nuit, le village vote le jour. Dès 4 joueurs.",
  "kind": "lg",
- "img": "/img/loupgarou.svg",
+ "img": "/img/loupgarou.webp",
  "levels": {
   "Classique": [
    "La nuit tombe sur le village. Fermez les yeux… enfin, gardez-les sur votre écran.",
