@@ -3,7 +3,7 @@
 const w=ms=>new Promise(r=>setTimeout(r,ms));const PORT=3000+Math.floor(Math.random()*900),U='http://localhost:'+PORT,KEY='k'+Math.random().toString(36).slice(2);
 (async()=>{
  // 1) Statique : la route admin ne touche jamais au module VO, et VO n'expose aucune liste.
- const src=fs.readFileSync(__dirname+'/../server.js','utf8');const a=src.indexOf("app.get('/admin/photos'"),e=src.indexOf('\n',a);const adm=src.slice(a,e);
+ const src=fs.readFileSync(__dirname+'/../server.js','utf8');const seg=k=>{const a=src.indexOf(k);return a<0?'':src.slice(a,src.indexOf('\n',a))};const a=src.indexOf("app.get('/admin/photos'");const adm=seg("app.get('/admin/photos'")+seg("app.get('/admin/media/");
  assert(a>0&&!/VO\b|vo\b/.test(adm.replace(/vou?s|avoir|vous/gi,'')),'admin route must not reference VO');
  const VO=require('../vo');assert.deepStrictEqual(Object.keys(VO).sort(),['TTL','count','has','purgeOld','purgeRoom','put','take']);
  assert(!/console\.|fs\./.test(fs.readFileSync(__dirname+'/../vo.js','utf8')),'vo.js must not log or touch disk');
@@ -30,5 +30,16 @@ const w=ms=>new Promise(r=>setTimeout(r,ms));const PORT=3000+Math.floor(Math.ran
   assert.strictEqual((await f('pA')).status,410);
   const g2=await (await fetch(U+'/admin/photos?key='+KEY)).text();assert(!g2.includes(vid));
   assert(!fs.existsSync(__dirname+'/../data/rooms.json')||!fs.readFileSync(__dirname+'/../data/rooms.json','utf8').includes(big.toString('base64').slice(0,40)),'never on disk');
+  // Vidéo vue unique
+  const clip=Buffer.concat([Buffer.from([0,0,0,0x18]),Buffer.from('ftypisom','latin1'),Buffer.alloc(50000,9)]);
+  let up=await fetch(`${U}/up/vo/${code}?pid=pB`,{method:'POST',headers:{'Content-Type':'video/mp4'},body:clip});assert.strictEqual(up.status,400,'non-target cannot upload');
+  up=await fetch(`${U}/up/vo/${code}?pid=pH`,{method:'POST',headers:{'Content-Type':'video/mp4'},body:clip});assert.strictEqual(up.status,200,'video upload');await w(300);
+  const vv=st.card.vo.find(x=>x.v);assert(vv,'video meta');
+  const gv=await (await fetch(U+'/admin/photos?key='+KEY)).text();assert(!gv.includes(vv.id)&&!gv.includes('<video'),'admin must not contain view-once video');
+  assert.strictEqual((await fetch(`${U}/admin/media/${code}/${vv.id}?key=${KEY}`)).status,404,'admin media cannot read VO');
+  const fv=p=>fetch(`${U}/vo/${code}/${vv.id}?pid=${p}`);assert.strictEqual((await fv('pB')).status,403);assert.strictEqual((await fv('pH')).status,403);
+  const okv=await fv('pA');assert.strictEqual(okv.status,200);assert(/^video\/mp4/.test(okv.headers.get('content-type')));assert.strictEqual(Buffer.from(await okv.arrayBuffer()).length,clip.length);assert.strictEqual((await fv('pA')).status,410);
+  const bad=await fetch(`${U}/up/vo/${code}?pid=pH`,{method:'POST',headers:{'Content-Type':'video/mp4'},body:Buffer.alloc(1000,3)});assert.strictEqual(bad.status,400,'fake video rejected');
+  const huge=await fetch(`${U}/up/vo/${code}?pid=pH`,{method:'POST',headers:{'Content-Type':'video/mp4'},body:Buffer.concat([clip.subarray(0,12),Buffer.alloc(8.7e6)])});assert([400,413].includes(huge.status),'oversize rejected');
   [H,A,B].forEach(s=>s.close());console.log('✅ vo-admin: tous les tests passent');
  }finally{srv.kill()}process.exit(0)})().catch(e=>{console.error('❌',e.message);process.exit(1)});
