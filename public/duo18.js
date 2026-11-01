@@ -2,7 +2,7 @@
 (function(){let MEX=null,OFF=0,LASTH='';
 const st=document.createElement('style');st.textContent=`
 #r-x{margin:8px 0}.x-b{border-radius:18px;padding:14px;margin:10px 0;background:linear-gradient(160deg,rgba(60,8,26,.82),rgba(14,3,8,.88));border:1px solid rgba(212,175,55,.35);box-shadow:0 8px 30px rgba(0,0,0,.4)}
-.x-h{display:flex;justify-content:space-between;align-items:center;gap:8px;font-weight:800;color:#f3d98b}.x-h .tm{font-variant-numeric:tabular-nums;padding:3px 10px;border-radius:99px;background:rgba(0,0,0,.35);border:1px solid #b8932f}
+.x-hc{flex-wrap:nowrap;font-size:.95em}.x-hc .xt{min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.x-hc .xr{display:flex;align-items:center;gap:6px;flex-shrink:0;white-space:nowrap}.x-hc .tm{padding:2px 8px}.x-h{display:flex;justify-content:space-between;align-items:center;gap:8px;font-weight:800;color:#f3d98b}.x-h .tm{font-variant-numeric:tabular-nums;padding:3px 10px;border-radius:99px;background:rgba(0,0,0,.35);border:1px solid #b8932f}
 .x-badge{display:inline-block;padding:3px 10px;border-radius:99px;font-size:.78em;font-weight:700;background:rgba(212,175,55,.18);border:1px solid #d4af37;color:#f3d98b;margin:2px}
 .x-gold{background:linear-gradient(90deg,#f3d98b,#b8932f);color:#2a0710;border-color:#ffe08a}
 .x-card{margin:10px 0;padding:16px 14px;border-radius:16px;text-align:center;font-size:1.12em;line-height:1.35;background:radial-gradient(circle at 30% 20%,#6b1030,#1a0610 75%);border:2px solid #d4af37;box-shadow:0 0 22px rgba(212,175,55,.25)}
@@ -87,7 +87,7 @@ function fantasme(x){const m=MEX||{};const hold=ME===x.holder;let h=`<div class=
  if(x.ph==='end')return h+'</div>'+envies(x)+replay();
  return h+'</div>'+envies(x)+stopBtn()}
 const RULES=d=>`<ul class=x-list><li>👑 Un Maître est tiré au sort pour <b>${d} minutes</b>.</li><li>Il donne des consignes (cartes ou texte libre) ; l'autre les réalise s'il/elle en a envie.</li><li>🛑 <b>Stop</b> est toujours visible : 1 appui = la consigne est passée, sans pénalité ni justification. 2ᵉ appui = fin du tour du Maître.</li><li>Puis on inverse les rôles.</li><li>Consentement : chacun peut dire non à tout moment, et on respecte toujours un Stop.</li></ul>`;
-function maitre(x){const m=MEX||{};const rec=x.master?x.P.find(p=>p!==x.master):null;let h=`<div class=x-b><div class=x-h><span>👑 Le Maître du jeu</span>${x.ph==='play'?`<span class=x-small>Tour de ${x.dur||10} min</span> `+tm(x):''}</div>`;
+function maitre(x){const m=MEX||{};const rec=x.master?x.P.find(p=>p!==x.master):null;let h=`<div class=x-b><div class="x-h x-hc"><span class=xt>👑 Maître du jeu</span>${x.ph==='play'?`<span class=xr><span class=x-small>Tour de ${x.dur||10} min</span>`+tm(x)+'</span>':''}</div>`;
  if(x.ph==='rules')return h+RULES(x.dur||10)+(x.ok.includes(ME)?`<p class=x-wait>En attente de ${x.P.filter(p=>!x.ok.includes(p)).map(N).join(', ')}<span class=x-dots></span></p>`:`<button class=x-btn onclick="xa('ok')">👍 J'ai compris</button>`)+'</div>';
  if(x.ph==='between')return h+(x.why?`<p class=x-small>${esc(x.why)}</p>`:'')+`<p style="text-align:center;font-size:1.15em">👑 <b>${N(x.master)}</b> est le Maître pour ${x.dur||10} minutes.</p>`+(ME===x.master?`<button class=x-btn onclick="xa('go')">▶️ Commencer mon tour</button>`:`<p class=x-wait>${N(x.master)} se prépare<span class=x-dots></span></p>`)+'</div>'+stopBtn();
  if(x.ph==='end')return h+`<p>Merci d'avoir joué. Tours : ${x.hist.map(t=>`${esc(P(t.m).name)} (${t.done} consigne${t.done>1?'s':''} réalisée${t.done>1?'s':''})`).join(' · ')||'aucun'}</p></div>`+replay();
