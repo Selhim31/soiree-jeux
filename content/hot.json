@@ -159,7 +159,9 @@
    "{p}, quelle est la partie du corps de l'autre que tu regardes en premier quand tu as envie ?",
    "{p}, quel est ton point faible que personne ne devine du premier coup ?",
    "{p}, quel vêtement porté par quelqu'un d'autre te fait complètement décrocher d'une conversation ?",
-   "{p}, si tu devais noter ton niveau de jalousie sur 10 en couple, et pourquoi ?"
+   "{p}, si tu devais noter ton niveau de jalousie sur 10 en couple, et pourquoi ?",
+   "{p}, préfères-tu qu'on te déshabille lentement ou qu'on aille droit au but ?",
+   "{p}, quel détail de ta chambre en dit long sur ta vie amoureuse ?"
   ],
   "Hard": [
    "{p}, avoue ton pire comportement après un date.",
@@ -320,7 +322,11 @@
    "{p}, as-tu déjà fantasmé sur quelqu'un pendant une réunion ou un cours ? Raconte sans nommer.",
    "{p}, quelle règle de séduction as-tu déjà brisée sans regret ?",
    "{p}, quel est le texto le plus gênant que tu aies envoyé à la mauvaise personne ?",
-   "{p}, as-tu déjà recontacté un ex uniquement pour une nuit ? Comment ça a fini ?"
+   "{p}, as-tu déjà recontacté un ex uniquement pour une nuit ? Comment ça a fini ?",
+   "{p}, quel est l'endroit le plus improbable où tu t'es retrouvé(e) à moitié nu(e) ?",
+   "{p}, as-tu déjà eu une aventure que tu caches encore à tes amis les plus proches ?",
+   "{p}, raconte la fois où tu as le plus clairement fait le premier pas, sans aucune subtilité.",
+   "{p}, as-tu déjà dit « juste une fois » à quelqu'un, puis recommencé plusieurs fois ?"
   ],
   "Explicite": [
    "{p}, quelle est ta position préférée, et pourquoi elle ?",
@@ -479,7 +485,11 @@
    "{p}, préfères-tu donner ou recevoir des ordres au lit ?",
    "{p}, décris en trois mots ta nuit la plus intense.",
    "{p}, quel jouet aimerais-tu tester mais n'as jamais osé acheter ?",
-   "{p}, matin, après-midi ou milieu de nuit : quand es-tu le plus en forme pour ça ?"
+   "{p}, matin, après-midi ou milieu de nuit : quand es-tu le plus en forme pour ça ?",
+   "{p}, quelle position as-tu découverte sur le tard en te demandant comment tu avais fait sans ?",
+   "{p}, raconte le moment précis où tu as su qu'une nuit allait devenir inoubliable.",
+   "{p}, plutôt bruyant(e) ou silencieux(se) au lit, et ça t'a déjà valu des remarques des voisins ?",
+   "{p}, quel est le bruit ou le mot qui, pendant l'acte, te fait complètement perdre la tête ?"
   ]
  },
  "img": "/img/hot.webp",
@@ -524,7 +534,8 @@
    "{p}, as-tu déjà envoyé des photos osées à plusieurs personnes le même soir ?",
    "{p}, quelle est la limite que tu as déjà franchie et que tu regrettes ?",
    "{p}, as-tu déjà eu un « plan » qui est devenu une histoire sérieuse ?",
-   "{p}, as-tu déjà dormi chez un(e) inconnu(e) sans savoir où tu étais ?"
+   "{p}, as-tu déjà dormi chez un(e) inconnu(e) sans savoir où tu étais ?",
+   "{p}, raconte la fois où tu as le plus clairement fait le premier pas, sans aucune subtilité."
   ],
   "Explicite": [
    "{p}, quel est ton fantasme de domination le plus précis ?",
@@ -545,7 +556,8 @@
    "{p}, quel est le meilleur endroit pour jouir selon toi ?",
    "{p}, quel est le sextoy que tu utilises le plus ?",
    "{p}, raconte ton premier orgasme avec quelqu'un",
-   "{p}, quel est ton rapport au bruit : discret ou sans retenue ?"
+   "{p}, quel est ton rapport au bruit : discret ou sans retenue ?",
+   "{p}, raconte le moment précis où tu as su qu'une nuit allait devenir inoubliable."
   ]
  }
 }

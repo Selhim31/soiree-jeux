@@ -157,7 +157,10 @@
    "{p}, quel personnage d'Halloween serais-tu dans un dessin animé ?",
    "{p}, si tu devais hanter quelqu'un ici, qui serait-ce et comment ?",
    "{p}, raconte ton pire déguisement de tous les temps.",
-   "{p}, quelle légende urbaine te fait encore vérifier sous ton lit ?"
+   "{p}, quelle légende urbaine te fait encore vérifier sous ton lit ?",
+   "{p}, quel film d'horreur t'a empêché de dormir plus d'une nuit ?",
+   "{p}, si tu étais un monstre, lequel serais-tu et quel serait ton point faible ?",
+   "{p}, raconte une fois où tu as vraiment cru à un phénomène inexpliqué."
   ],
   "Coquin": [
    "{p}, quel monstre sexy serais-tu ?",
@@ -314,7 +317,10 @@
    "{p}, quel monstre aurait les meilleurs câlins ?",
    "{p}, quel déguisement d'Halloween trouverais-tu irrésistible chez {q} ?",
    "{p}, sorcière envoûtante ou démon tentateur : qui ici joue quel rôle ?",
-   "{p}, prends ta voix de vampire et dis à {q} pourquoi tu as soif de lui/elle."
+   "{p}, prends ta voix de vampire et dis à {q} pourquoi tu as soif de lui/elle.",
+   "{p}, laisserais-tu un vampire de ton choix te mordre ? Qui et où ?",
+   "{p}, quel déguisement porterais-tu pour faire tourner toutes les têtes à une soirée d'Halloween ?",
+   "{p}, quel est le costume d'Halloween que tu oserais porter seulement pour une personne ici ?"
   ]
  },
  "adult": false,

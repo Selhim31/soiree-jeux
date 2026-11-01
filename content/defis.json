@@ -475,7 +475,8 @@
    "{p}, envoie à {q} une photo de tes lèvres mordues.",
    "{p}, envoie un vocal à {q} où tu dis « viens » de 5 façons différentes.",
    "{p}, fais un strip-tease de 20 secondes jusqu'à ce que tu le décides, caméra on.",
-   "{p}, décris ton fantasme numéro un comme une bande-annonce de film."
+   "{p}, décris ton fantasme numéro un comme une bande-annonce de film.",
+   "{p}, mordille-toi la lèvre face caméra pendant 10 secondes en fixant {q} sans rire."
   ],
   "Délirant": [
    "{p}, chante joyeux anniversaire de ta voix la plus dramatique, enregistre-toi et envoie le vocal à {q} (par ta messagerie).",
@@ -833,7 +834,9 @@
    "{p}, défie {q} : chacun se caresse après la partie, et le premier qui envoie un vocal « j'ai craqué » à l'autre a perdu (avec son accord).",
    "{p}, envoie à {q} une vidéo de 15 secondes de ton corps sous un drap pendant que tu te caresses, sans rien dévoiler (avec son accord).",
    "{p}, caresse-toi sous ta couverture, cadré(e) au-dessus des épaules, et tiens une conversation normale avec {q} sans te trahir pendant 30 secondes (avec l'accord du groupe).",
-   "{p}, après la partie, caresse-toi en regardant une photo habillée que {q} t'a envoyée pour l'occasion, et envoie-lui un vocal de remerciement (avec son accord)."
+   "{p}, après la partie, caresse-toi en regardant une photo habillée que {q} t'a envoyée pour l'occasion, et envoie-lui un vocal de remerciement (avec son accord).",
+   "{p}, envoie à {q} une vidéo de 10 secondes où tu fais glisser lentement une bretelle ou ton t-shirt, sans montrer ton visage (avec son accord).",
+   "{p}, décris à {q}, dans un vocal de 20 secondes, ce que tu ferais avec tes mains s'il/elle était à côté de toi."
   ]
  },
  "adult": false,
@@ -945,7 +948,8 @@
    "{p}, envoie à {q} un selfie en sous-vêtements, visage facultatif ({q} doit être d'accord).",
    "{p}, envoie à {q} une photo nue ou dénudée de la partie de ton choix (avec son accord).",
    "{p}, en sous-vêtements, prends-toi en photo et envoie-la à {q} (avec son accord).",
-   "{p}, mime ta position préférée en levrette avec un coussin pendant 15 secondes, filme-toi et envoie la vidéo à {q}."
+   "{p}, mime ta position préférée en levrette avec un coussin pendant 15 secondes, filme-toi et envoie la vidéo à {q}.",
+   "{p}, envoie à {q} une vidéo de 10 secondes où tu fais glisser lentement une bretelle ou ton t-shirt, sans montrer ton visage (avec son accord)."
   ]
  }
 }

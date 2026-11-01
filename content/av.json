@@ -1190,7 +1190,10 @@
    "Vérité : {p}, as-tu déjà fait quelque chose au lit uniquement pour impressionner, et l'as-tu regretté ?",
    "Vérité : {p}, quel fantasme as-tu déjà réalisé et regretté de ne pas avoir fait plus tôt ?",
    "Vérité : {p}, quel est le compliment le plus cru qu'on t'ait fait et qui t'a plu ?",
-   "Action : {p}, écris à {q} en privé la première pensée qui t'est venue en le/la voyant ce soir."
+   "Action : {p}, écris à {q} en privé la première pensée qui t'est venue en le/la voyant ce soir.",
+   "Vérité : {p}, quelle est la limite que tu croyais avoir et que tu as fini par franchir avec plaisir ?",
+   "Vérité : {p}, as-tu déjà pensé à quelqu'un d'autre pendant un moment intime ? À qui ?",
+   "Action : {p}, envoie à {q} un vocal de 15 secondes où tu murmures ce que tu lui retirerais en premier (avec son accord)."
   ],
   "Explicite": [
    "Action : {p}, enlève deux vêtements choisis par {q}, caméra on.",
@@ -1578,7 +1581,8 @@
    "Vérité : {p}, quelle est la limite que tu as déjà franchie et que tu regrettes ?",
    "Vérité : {p}, as-tu déjà fait un strip-tease ? pour qui ?",
    "Vérité : {p}, révèle ton message le plus chaud encore dans ton téléphone.",
-   "Vérité : {p}, quel est le lieu le plus fou où tu as fait l'amour ?"
+   "Vérité : {p}, quel est le lieu le plus fou où tu as fait l'amour ?",
+   "Action : {p}, envoie à {q} un vocal de 15 secondes où tu murmures ce que tu lui retirerais en premier (avec son accord)."
   ],
   "Explicite": [
    "Action : {p}, montre-toi en lingerie ou caleçon dans ta pose la plus sexy 10 secondes, filme-toi et envoie la vidéo à {q} (avec son accord).",

@@ -196,7 +196,11 @@
    "{p}, quelle chanson te met directement d'humeur câline ?",
    "{p}, as-tu déjà fait semblant de ne pas comprendre un sous-entendu pour faire durer le jeu ?",
    "{p}, quel prénom te fait craquer rien qu'à l'entendre ?",
-   "{p}, cite un film dont une scène t'a mis un peu trop chaud quand tu étais ado."
+   "{p}, cite un film dont une scène t'a mis un peu trop chaud quand tu étais ado.",
+   "{p}, quel est le geste anodin qui, fait par la bonne personne, te fait complètement perdre le fil ?",
+   "{p}, as-tu déjà relu une conversation flirt plusieurs fois juste pour le plaisir ?",
+   "{p}, avec qui ici partagerais-tu un slow sans hésiter, et pourquoi ?",
+   "{p}, quel prénom crié dans une soirée te ferait encore te retourner par réflexe ?"
   ],
   "Hot": [
    "{p}, quel moment de la journée te rend le plus câlin… ou plus ?",
@@ -350,7 +354,10 @@
    "{p}, quel souvenir sensuel avec un(e) ex te fait encore sourire ?",
    "{p}, qu'est-ce qu'un(e) ex faisait pour te rendre fou ou folle ?",
    "{p}, plutôt lente montée en tension ou contrôle total dès le début ?",
-   "{p}, envoie à {q} un emoji qui résume ce que tu penserais de lui/elle en tête-à-tête."
+   "{p}, envoie à {q} un emoji qui résume ce que tu penserais de lui/elle en tête-à-tête.",
+   "{p}, quel moment de la journée te donne le plus d'idées pas très sages ?",
+   "{p}, as-tu déjà envoyé un message osé puis prié pour que l'autre ne le lise pas tout de suite ?",
+   "{p}, envoie à {q} un vocal de 10 secondes où tu décris ce que tu portes, de la voix la plus sensuelle possible."
   ]
  },
  "img": "/img/coquin.webp",
@@ -398,7 +405,8 @@
    "{p}, quelle est ta pire honte au lit ?",
    "{p}, quelle tenue aimerais-tu voir sur ton/ta partenaire idéal(e) ?",
    "{p}, as-tu déjà dormi nu(e) chez quelqu'un dès la première nuit ?",
-   "{p}, douceur ou fougue : qu'est-ce que tu préfères vraiment ?"
+   "{p}, douceur ou fougue : qu'est-ce que tu préfères vraiment ?",
+   "{p}, envoie à {q} un vocal de 10 secondes où tu décris ce que tu portes, de la voix la plus sensuelle possible."
   ]
  }
 }
