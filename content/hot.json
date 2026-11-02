@@ -161,7 +161,9 @@
    "{p}, quel vêtement porté par quelqu'un d'autre te fait complètement décrocher d'une conversation ?",
    "{p}, si tu devais noter ton niveau de jalousie sur 10 en couple, et pourquoi ?",
    "{p}, préfères-tu qu'on te déshabille lentement ou qu'on aille droit au but ?",
-   "{p}, quel détail de ta chambre en dit long sur ta vie amoureuse ?"
+   "{p}, quel détail de ta chambre en dit long sur ta vie amoureuse ?",
+   "{p}, quel est le message le plus osé que tu aies envoyé à 2 h du matin ?",
+   "{p}, quelle tenue te donne envie d'arracher les vêtements de l'autre ?"
   ],
   "Hard": [
    "{p}, avoue ton pire comportement après un date.",
@@ -326,7 +328,10 @@
    "{p}, quel est l'endroit le plus improbable où tu t'es retrouvé(e) à moitié nu(e) ?",
    "{p}, as-tu déjà eu une aventure que tu caches encore à tes amis les plus proches ?",
    "{p}, raconte la fois où tu as le plus clairement fait le premier pas, sans aucune subtilité.",
-   "{p}, as-tu déjà dit « juste une fois » à quelqu'un, puis recommencé plusieurs fois ?"
+   "{p}, as-tu déjà dit « juste une fois » à quelqu'un, puis recommencé plusieurs fois ?",
+   "{p}, as-tu déjà simulé pour abréger un moment ? Avoue sans donner de nom.",
+   "{p}, as-tu déjà eu une aventure dans un endroit où vous risquiez vraiment d'être surpris ?",
+   "{p}, quel est le plan le plus culotté que tu aies proposé à quelqu'un dès le premier soir ?"
   ],
   "Explicite": [
    "{p}, quelle est ta position préférée, et pourquoi elle ?",
@@ -489,7 +494,10 @@
    "{p}, quelle position as-tu découverte sur le tard en te demandant comment tu avais fait sans ?",
    "{p}, raconte le moment précis où tu as su qu'une nuit allait devenir inoubliable.",
    "{p}, plutôt bruyant(e) ou silencieux(se) au lit, et ça t'a déjà valu des remarques des voisins ?",
-   "{p}, quel est le bruit ou le mot qui, pendant l'acte, te fait complètement perdre la tête ?"
+   "{p}, quel est le bruit ou le mot qui, pendant l'acte, te fait complètement perdre la tête ?",
+   "{p}, décris en trois mots ta façon de faire l'amour quand tu es vraiment en confiance.",
+   "{p}, quel geste précis, fait au bon moment, te fait basculer à coup sûr ?",
+   "{p}, quel mot cru, chuchoté à ton oreille, te ferait annuler tous tes plans du lendemain ?"
   ]
  },
  "img": "/img/hot.webp",
@@ -557,7 +565,8 @@
    "{p}, quel est le sextoy que tu utilises le plus ?",
    "{p}, raconte ton premier orgasme avec quelqu'un",
    "{p}, quel est ton rapport au bruit : discret ou sans retenue ?",
-   "{p}, raconte le moment précis où tu as su qu'une nuit allait devenir inoubliable."
+   "{p}, raconte le moment précis où tu as su qu'une nuit allait devenir inoubliable.",
+   "{p}, quel mot cru, chuchoté à ton oreille, te ferait annuler tous tes plans du lendemain ?"
   ]
  }
 }

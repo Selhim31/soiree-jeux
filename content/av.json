@@ -1193,7 +1193,10 @@
    "Action : {p}, écris à {q} en privé la première pensée qui t'est venue en le/la voyant ce soir.",
    "Vérité : {p}, quelle est la limite que tu croyais avoir et que tu as fini par franchir avec plaisir ?",
    "Vérité : {p}, as-tu déjà pensé à quelqu'un d'autre pendant un moment intime ? À qui ?",
-   "Action : {p}, envoie à {q} un vocal de 15 secondes où tu murmures ce que tu lui retirerais en premier (avec son accord)."
+   "Action : {p}, envoie à {q} un vocal de 15 secondes où tu murmures ce que tu lui retirerais en premier (avec son accord).",
+   "Vérité : {p}, quel est le fantasme que tu n'assumerais jamais devant tes parents ?",
+   "Action : {p}, envoie à {q} une photo de tes lèvres en gros plan avec un seul mot en légende (avec son accord).",
+   "Vérité : {p}, quelle est la règle que tu t'étais fixée au lit et que tu as brisée le soir même ?"
   ],
   "Explicite": [
    "Action : {p}, enlève deux vêtements choisis par {q}, caméra on.",
@@ -1426,7 +1429,9 @@
    "Action : {p}, en lingerie ou caleçon, de face, visage facultatif, prends-toi en photo et envoie-la à {q} (avec son accord).",
    "Vérité : {p}, décris au groupe ta meilleure nuit avec un(e) ex, sans prénom.",
    "Vérité : {p}, quelle est la scène de film adulte que tu aimerais rejouer, sans donner le titre ?",
-   "Action : {p}, mordille ta lèvre face caméra en regardant {q} pendant 10 secondes sans rire."
+   "Action : {p}, mordille ta lèvre face caméra en regardant {q} pendant 10 secondes sans rire.",
+   "Vérité : {p}, quel est ton record de fois dans une même nuit, et qu'est-ce qui l'a rendu possible ?",
+   "Action : {p}, enregistre pour {q} un vocal de 20 secondes qui raconte, vêtement par vêtement, comment tu le/la mettrais à nu (avec son accord)."
   ]
  },
  "adult": false,
@@ -1582,7 +1587,8 @@
    "Vérité : {p}, as-tu déjà fait un strip-tease ? pour qui ?",
    "Vérité : {p}, révèle ton message le plus chaud encore dans ton téléphone.",
    "Vérité : {p}, quel est le lieu le plus fou où tu as fait l'amour ?",
-   "Action : {p}, envoie à {q} un vocal de 15 secondes où tu murmures ce que tu lui retirerais en premier (avec son accord)."
+   "Action : {p}, envoie à {q} un vocal de 15 secondes où tu murmures ce que tu lui retirerais en premier (avec son accord).",
+   "Action : {p}, envoie à {q} une photo de tes lèvres en gros plan avec un seul mot en légende (avec son accord)."
   ],
   "Explicite": [
    "Action : {p}, montre-toi en lingerie ou caleçon dans ta pose la plus sexy 10 secondes, filme-toi et envoie la vidéo à {q} (avec son accord).",
@@ -1612,7 +1618,8 @@
    "Action : {p}, mets-toi à quatre pattes et fais un mouvement de chat sensuel pendant 10 secondes, filme-toi et envoie la vidéo à {q}.",
    "Action : {p}, envoie à {q} un vocal de toi en train de respirer fort près du micro, 30 secondes.",
    "Action : {p}, mime ta façon de chevaucher ton/ta partenaire sur ta chaise, 15 secondes, filme-toi et envoie la vidéo à {q}.",
-   "Action : {p}, mime pendant 15 secondes ce que tu ferais à {q} sous la couette, filme-toi et envoie la vidéo à {q}."
+   "Action : {p}, mime pendant 15 secondes ce que tu ferais à {q} sous la couette, filme-toi et envoie la vidéo à {q}.",
+   "Action : {p}, enregistre pour {q} un vocal de 20 secondes qui raconte, vêtement par vêtement, comment tu le/la mettrais à nu (avec son accord)."
   ]
  }
 }

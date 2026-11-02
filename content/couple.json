@@ -163,7 +163,9 @@
    "{p}, quelle habitude de {q} as-tu adoptée ?",
    "{p}, quel est le livre préféré de {q} ?",
    "{p}, qui de vous deux s'endort devant les films ?",
-   "{p}, quel est le plus beau paysage vu ensemble ?"
+   "{p}, quel est le plus beau paysage vu ensemble ?",
+   "{p}, quel petit rituel de {q} te manque le plus quand vous êtes loin ?",
+   "{p}, quelle manie de {q} t'agaçait au début et te fait craquer maintenant ?"
   ],
   "Coquin": [
    "{p}, dis à {q} ce qui t'a attiré physiquement la toute première fois.",
@@ -331,7 +333,8 @@
    "{p}, devine le dernier fantasme de {q} ; {q} dit si tu as vu juste.",
    "{p}, quel est le premier détail de {q} qui t'a donné envie de le/la revoir ?",
    "{p}, quelle chanson te fait immédiatement penser à un moment chaud avec {q} ?",
-   "{p}, imite la tête que fait {q} quand il/elle a une idée coquine derrière la tête."
+   "{p}, imite la tête que fait {q} quand il/elle a une idée coquine derrière la tête.",
+   "{p}, fais un compliment physique à {q} que tu ne lui as encore jamais fait."
   ],
   "Hot": [
    "{p}, dis à {q} ce que tu aimerais qu'il/elle te fasse ce soir, en restant élégant.",
@@ -495,7 +498,9 @@
    "{p}, chuchote à {q} le mot qui résume votre meilleure nuit.",
    "{p}, dis à {q} ce que tu aimerais qu'il/elle te fasse la prochaine fois que vous serez réunis.",
    "{p}, quelle tenue de {q} te ferait annuler n'importe quel programme ?",
-   "{p}, montre à {q}, face caméra, l'endroit exact où tu veux sentir ses lèvres en premier."
+   "{p}, montre à {q}, face caméra, l'endroit exact où tu veux sentir ses lèvres en premier.",
+   "{p}, à ton avis, quelle zone de ton corps {q} connaît le moins bien ? {q} doit deviner avant que tu répondes.",
+   "{p}, quel est le moment de votre histoire où tu as eu le plus envie de {q} sans pouvoir le montrer ?"
   ],
   "Explicite": [
    "{p}, dis à {q} ta position préférée avec lui/elle.",
@@ -655,7 +660,9 @@
    "{p}, dis à {q} une chose qu'il/elle fait au lit et que tu aimerais qu'il/elle fasse plus souvent.",
    "{p}, plutôt tendresse lente ou passion brutale avec {q} ce soir ? {q} donne aussi sa réponse.",
    "{p}, quel fantasme rêves-tu de réaliser avec {q} mais n'as jamais osé lui proposer ?",
-   "{p}, raconte à {q} ta pensée la plus explicite à son sujet cette semaine."
+   "{p}, raconte à {q} ta pensée la plus explicite à son sujet cette semaine.",
+   "{p}, décris à {q} la prochaine nuit que tu veux passer avec lui/elle, minute par minute.",
+   "{p}, quelle chose aimerais-tu que {q} te demande de faire, sans que tu aies à la proposer ?"
   ]
  },
  "img": "/img/couple.webp",

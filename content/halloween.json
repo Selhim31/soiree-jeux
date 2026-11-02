@@ -160,7 +160,10 @@
    "{p}, quelle légende urbaine te fait encore vérifier sous ton lit ?",
    "{p}, quel film d'horreur t'a empêché de dormir plus d'une nuit ?",
    "{p}, si tu étais un monstre, lequel serais-tu et quel serait ton point faible ?",
-   "{p}, raconte une fois où tu as vraiment cru à un phénomène inexpliqué."
+   "{p}, raconte une fois où tu as vraiment cru à un phénomène inexpliqué.",
+   "{p}, quelle maison abandonnée oserais-tu visiter seul(e) à minuit ?",
+   "{p}, quel bruit dans la nuit te fait allumer toutes les lumières ?",
+   "{p}, si tu revenais en fantôme, qui hanterais-tu en premier et pourquoi ?"
   ],
   "Coquin": [
    "{p}, quel monstre sexy serais-tu ?",
@@ -320,7 +323,9 @@
    "{p}, prends ta voix de vampire et dis à {q} pourquoi tu as soif de lui/elle.",
    "{p}, laisserais-tu un vampire de ton choix te mordre ? Qui et où ?",
    "{p}, quel déguisement porterais-tu pour faire tourner toutes les têtes à une soirée d'Halloween ?",
-   "{p}, quel est le costume d'Halloween que tu oserais porter seulement pour une personne ici ?"
+   "{p}, quel est le costume d'Halloween que tu oserais porter seulement pour une personne ici ?",
+   "{p}, quel monstre trouves-tu secrètement le plus sexy ?",
+   "{p}, avec qui ici partagerais-tu un cercueil pour la nuit ?"
   ]
  },
  "adult": false,

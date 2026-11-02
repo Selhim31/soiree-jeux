@@ -315,7 +315,9 @@
    "Qu'est-ce qu'une ancienne relation t'a appris sur toi ?",
    "Quelle rupture t'a le plus fait grandir ?",
    "Quelle leçon as-tu apprise trop tard ?",
-   "Quel compliment t'a marqué pour toujours ?"
+   "Quel compliment t'a marqué pour toujours ?",
+   "Quelle décision de ta vie referais-tu exactement pareil, même en connaissant la suite ?",
+   "Qu'est-ce qui te fait te sentir vraiment chez toi, au-delà d'un lieu ?"
   ],
   "Intime": [
    "Qu'est-ce qui te met en confiance avec quelqu'un ?",
@@ -479,7 +481,9 @@
    "Quel vêtement te donne le plus confiance ?",
    "Qu'est-ce que tu adores qu'on remarque chez toi ?",
    "Quelle est la chose que tu n'as jamais dite à voix haute mais que tu penses souvent ?",
-   "Dans quelle situation te sens-tu le plus vulnérable avec quelqu'un ?"
+   "Dans quelle situation te sens-tu le plus vulnérable avec quelqu'un ?",
+   "De quoi as-tu le plus peur qu'on découvre en te connaissant vraiment ?",
+   "Quelle partie de ton histoire racontes-tu seulement aux personnes en qui tu as totalement confiance ?"
   ],
   "Hot": [
    "Ce qui te fait craquer physiquement en premier ?",
@@ -636,7 +640,9 @@
    "Le souvenir le plus chaud avec un(e) ex que tu peux raconter ?",
    "Ton parfum ou ton odeur préférée chez quelqu'un ?",
    "Qu'est-ce qui te fait passer de « intéressé(e) » à « vraiment attiré(e) » chez quelqu'un ?",
-   "Ta façon préférée de faire comprendre à quelqu'un que tu as envie de lui/elle ?"
+   "Ta façon préférée de faire comprendre à quelqu'un que tu as envie de lui/elle ?",
+   "Ton moment préféré de la journée pour flirter, et pourquoi ?",
+   "Quel détail chez quelqu'un te fait passer d'un simple regard à une vraie envie de l'embrasser ?"
   ]
  },
  "img": "/img/connaitre.webp",
