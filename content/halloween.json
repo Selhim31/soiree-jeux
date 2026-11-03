@@ -163,7 +163,10 @@
    "{p}, raconte une fois où tu as vraiment cru à un phénomène inexpliqué.",
    "{p}, quelle maison abandonnée oserais-tu visiter seul(e) à minuit ?",
    "{p}, quel bruit dans la nuit te fait allumer toutes les lumières ?",
-   "{p}, si tu revenais en fantôme, qui hanterais-tu en premier et pourquoi ?"
+   "{p}, si tu revenais en fantôme, qui hanterais-tu en premier et pourquoi ?",
+   "{p}, quelle est la pire farce d'Halloween que tu aies faite ou subie ?",
+   "{p}, si tu devais passer une nuit seul(e) dans un manoir hanté, quel objet emporterais-tu pour survivre ?",
+   "{p}, quelle superstition respectes-tu encore sans oser l'avouer ?"
   ],
   "Coquin": [
    "{p}, quel monstre sexy serais-tu ?",
@@ -325,7 +328,9 @@
    "{p}, quel déguisement porterais-tu pour faire tourner toutes les têtes à une soirée d'Halloween ?",
    "{p}, quel est le costume d'Halloween que tu oserais porter seulement pour une personne ici ?",
    "{p}, quel monstre trouves-tu secrètement le plus sexy ?",
-   "{p}, avec qui ici partagerais-tu un cercueil pour la nuit ?"
+   "{p}, avec qui ici partagerais-tu un cercueil pour la nuit ?",
+   "{p}, quel déguisement d'Halloween porterais-tu pour faire craquer quelqu'un ici ?",
+   "{p}, vampire qui mord dans le cou ou sorcière qui envoûte : quel est ton style de séduction ?"
   ]
  },
  "adult": false,

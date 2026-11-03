@@ -203,7 +203,10 @@
    "{p}, quel prénom crié dans une soirée te ferait encore te retourner par réflexe ?",
    "{p}, as-tu déjà changé de tenue trois fois avant un rendez-vous pour finalement remettre la première ?",
    "{p}, avec qui ici irais-tu boire un dernier verre « juste pour discuter » ?",
-   "{p}, quel est le pire moment où ton téléphone a affiché un message gênant devant tout le monde ?"
+   "{p}, quel est le pire moment où ton téléphone a affiché un message gênant devant tout le monde ?",
+   "{p}, quel est le compliment le plus ambigu qu'on t'ait fait, celui qui t'a fait réfléchir toute la soirée ?",
+   "{p}, avec qui ici te verrais-tu coincé(e) dans un ascenseur pendant une heure, et qu'est-ce que vous feriez pour passer le temps ?",
+   "{p}, quelle est la photo de toi que tu gardes pour les grandes occasions de drague ?"
   ],
   "Hot": [
    "{p}, quel moment de la journée te rend le plus câlin… ou plus ?",
@@ -362,7 +365,10 @@
    "{p}, as-tu déjà envoyé un message osé puis prié pour que l'autre ne le lise pas tout de suite ?",
    "{p}, envoie à {q} un vocal de 10 secondes où tu décris ce que tu portes, de la voix la plus sensuelle possible.",
    "{p}, plutôt taquinerie lente qui dure des heures ou prise de contrôle immédiate ?",
-   "{p}, quel est le premier endroit que tu effleures quand tu veux faire monter la tension ?"
+   "{p}, quel est le premier endroit que tu effleures quand tu veux faire monter la tension ?",
+   "{p}, quel est le mot qui, chuchoté au bon moment, te fait perdre tous tes moyens ?",
+   "{p}, plutôt lumière éteinte, tamisée ou plein jour quand ça devient sérieux ?",
+   "{p}, quel est le vêtement que tu mets quand tu sais que la soirée va mal finir… dans le bon sens ?"
   ]
  },
  "img": "/img/coquin.webp",

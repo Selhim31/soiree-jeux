@@ -1196,7 +1196,11 @@
    "Action : {p}, envoie à {q} un vocal de 15 secondes où tu murmures ce que tu lui retirerais en premier (avec son accord).",
    "Vérité : {p}, quel est le fantasme que tu n'assumerais jamais devant tes parents ?",
    "Action : {p}, envoie à {q} une photo de tes lèvres en gros plan avec un seul mot en légende (avec son accord).",
-   "Vérité : {p}, quelle est la règle que tu t'étais fixée au lit et que tu as brisée le soir même ?"
+   "Vérité : {p}, quelle est la règle que tu t'étais fixée au lit et que tu as brisée le soir même ?",
+   "Vérité : {p}, quelle chose as-tu faite au lit que tu n'oserais jamais raconter à ton/ta meilleur(e) ami(e) ?",
+   "Vérité : {p}, quelle est la chose la plus osée que tu aies faite en sachant que quelqu'un pouvait vous entendre ?",
+   "Action : {p}, enregistre pour {q} un vocal de 15 secondes où tu décris uniquement avec des soupirs et des murmures ce que tu ressens en pensant à lui/elle (avec son accord).",
+   "Action : {p}, envoie à {q} une photo de ta tenue la plus sexy posée sur ton lit, avec une légende qui l'invite à imaginer la suite (avec son accord)."
   ],
   "Explicite": [
    "Action : {p}, enlève deux vêtements choisis par {q}, caméra on.",
@@ -1588,7 +1592,9 @@
    "Vérité : {p}, révèle ton message le plus chaud encore dans ton téléphone.",
    "Vérité : {p}, quel est le lieu le plus fou où tu as fait l'amour ?",
    "Action : {p}, envoie à {q} un vocal de 15 secondes où tu murmures ce que tu lui retirerais en premier (avec son accord).",
-   "Action : {p}, envoie à {q} une photo de tes lèvres en gros plan avec un seul mot en légende (avec son accord)."
+   "Action : {p}, envoie à {q} une photo de tes lèvres en gros plan avec un seul mot en légende (avec son accord).",
+   "Action : {p}, enregistre pour {q} un vocal de 15 secondes où tu décris uniquement avec des soupirs et des murmures ce que tu ressens en pensant à lui/elle (avec son accord).",
+   "Action : {p}, envoie à {q} une photo de ta tenue la plus sexy posée sur ton lit, avec une légende qui l'invite à imaginer la suite (avec son accord)."
   ],
   "Explicite": [
    "Action : {p}, montre-toi en lingerie ou caleçon dans ta pose la plus sexy 10 secondes, filme-toi et envoie la vidéo à {q} (avec son accord).",

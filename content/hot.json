@@ -163,7 +163,10 @@
    "{p}, préfères-tu qu'on te déshabille lentement ou qu'on aille droit au but ?",
    "{p}, quel détail de ta chambre en dit long sur ta vie amoureuse ?",
    "{p}, quel est le message le plus osé que tu aies envoyé à 2 h du matin ?",
-   "{p}, quelle tenue te donne envie d'arracher les vêtements de l'autre ?"
+   "{p}, quelle tenue te donne envie d'arracher les vêtements de l'autre ?",
+   "{p}, quel est le goût ou le parfum que tu associes à ta meilleure nuit ?",
+   "{p}, quel est le geste le plus anodin qui te donne pourtant des frissons ?",
+   "{p}, est-ce que tu préfères deviner les envies de l'autre ou qu'on te les dise clairement ?"
   ],
   "Hard": [
    "{p}, avoue ton pire comportement après un date.",
@@ -331,7 +334,11 @@
    "{p}, as-tu déjà dit « juste une fois » à quelqu'un, puis recommencé plusieurs fois ?",
    "{p}, as-tu déjà simulé pour abréger un moment ? Avoue sans donner de nom.",
    "{p}, as-tu déjà eu une aventure dans un endroit où vous risquiez vraiment d'être surpris ?",
-   "{p}, quel est le plan le plus culotté que tu aies proposé à quelqu'un dès le premier soir ?"
+   "{p}, quel est le plan le plus culotté que tu aies proposé à quelqu'un dès le premier soir ?",
+   "{p}, quelle est la chose la plus audacieuse que tu aies faite juste pour impressionner quelqu'un au lit ?",
+   "{p}, quel est l'endroit le plus improbable où tu aies eu envie de passer à l'acte sur-le-champ ?",
+   "{p}, as-tu déjà simulé ? Raconte le contexte sans donner de nom.",
+   "{p}, quelle pratique as-tu découverte sur le tard et regrettes-tu de ne pas avoir essayée plus tôt ?"
   ],
   "Explicite": [
    "{p}, quelle est ta position préférée, et pourquoi elle ?",
@@ -497,7 +504,10 @@
    "{p}, quel est le bruit ou le mot qui, pendant l'acte, te fait complètement perdre la tête ?",
    "{p}, décris en trois mots ta façon de faire l'amour quand tu es vraiment en confiance.",
    "{p}, quel geste précis, fait au bon moment, te fait basculer à coup sûr ?",
-   "{p}, quel mot cru, chuchoté à ton oreille, te ferait annuler tous tes plans du lendemain ?"
+   "{p}, quel mot cru, chuchoté à ton oreille, te ferait annuler tous tes plans du lendemain ?",
+   "{p}, quel est le goût de ton/ta partenaire idéal(e), décris-le en trois mots ?",
+   "{p}, quelle position te fait jouir le plus vite, et pourquoi selon toi ?",
+   "{p}, quel bruit ou quel mot de l'autre pendant l'acte t'a le plus excité(e) ?"
   ]
  },
  "img": "/img/hot.webp",

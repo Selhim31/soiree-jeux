@@ -156,7 +156,9 @@
    "Quel est ton record de jours sans téléphone ?",
    "Quel est ton jeu de cartes préféré ?",
    "Quelle est ta commande fétiche au fast-food ?",
-   "Si tu avais un an sabbatique demain, tu partirais où ?"
+   "Si tu avais un an sabbatique demain, tu partirais où ?",
+   "Quel est le petit plaisir qui peut sauver une journée ratée ?",
+   "Quel talent inutile es-tu secrètement fier ou fière de maîtriser ?"
   ],
   "Profond": [
    "Qu'est-ce qui te fait te sentir vraiment vivant ?",
@@ -317,7 +319,9 @@
    "Quelle leçon as-tu apprise trop tard ?",
    "Quel compliment t'a marqué pour toujours ?",
    "Quelle décision de ta vie referais-tu exactement pareil, même en connaissant la suite ?",
-   "Qu'est-ce qui te fait te sentir vraiment chez toi, au-delà d'un lieu ?"
+   "Qu'est-ce qui te fait te sentir vraiment chez toi, au-delà d'un lieu ?",
+   "Quelle opinion as-tu complètement changée ces cinq dernières années ?",
+   "Qu'est-ce que tu aimerais qu'on dise de toi quand tu n'es pas dans la pièce ?"
   ],
   "Intime": [
    "Qu'est-ce qui te met en confiance avec quelqu'un ?",
@@ -483,7 +487,9 @@
    "Quelle est la chose que tu n'as jamais dite à voix haute mais que tu penses souvent ?",
    "Dans quelle situation te sens-tu le plus vulnérable avec quelqu'un ?",
    "De quoi as-tu le plus peur qu'on découvre en te connaissant vraiment ?",
-   "Quelle partie de ton histoire racontes-tu seulement aux personnes en qui tu as totalement confiance ?"
+   "Quelle partie de ton histoire racontes-tu seulement aux personnes en qui tu as totalement confiance ?",
+   "Quelle est la dernière fois où tu t'es senti(e) vraiment vulnérable devant quelqu'un ?",
+   "Quel besoin as-tu du mal à exprimer dans une relation ?"
   ],
   "Hot": [
    "Ce qui te fait craquer physiquement en premier ?",
@@ -642,7 +648,8 @@
    "Qu'est-ce qui te fait passer de « intéressé(e) » à « vraiment attiré(e) » chez quelqu'un ?",
    "Ta façon préférée de faire comprendre à quelqu'un que tu as envie de lui/elle ?",
    "Ton moment préféré de la journée pour flirter, et pourquoi ?",
-   "Quel détail chez quelqu'un te fait passer d'un simple regard à une vraie envie de l'embrasser ?"
+   "Quel détail chez quelqu'un te fait passer d'un simple regard à une vraie envie de l'embrasser ?",
+   "Qu'est-ce qui te rend plus attirant(e) à tes propres yeux, un jour où tu te sens irrésistible ?"
   ]
  },
  "img": "/img/connaitre.webp",
