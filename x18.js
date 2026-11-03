@@ -33,7 +33,25 @@ module.exports=function(X){// X={io,log(r,ev,o),nm(r,id),content(k)}
  function sArm(r){stopT(r)}
  // ---------- Fantasme ----------
  const THEMES=['Lieu','Tenue','Jeu de rôle','Ambiance'];
- function fRound(r){const x=r.x;x.round=(x.round||0)+1;x.holder=x.round===1?rnd(x.P):other(x,x.holder);x.guesser=other(x,x.holder);x.opts=shuf(THEMES.flatMap(th=>[th,th])).slice(0,5).map(th=>{const t=pick(r,th);return{th,t,gold:gold(r,th,t)}});x.theme=null;x.card=null;x.qs=[];x.guess=null;x.found=null;x.tente={};x.ph='choose';x.gage=null;x.winner=null;x.mutual=null}
+ const FMAX=8,FBON=5;const fP=t=>{const[a,b]=String(t).split('|');return{t:a,tg:(b||'').split(',').filter(Boolean)}};
+ const fPool=(r,th)=>(G(r).levels[th]||[]).map(fP);
+ const fQs=(r,th)=>((G(r).questions||{})[th]||[]).map(z=>{const[q,k]=z.split('|');return{q,k}});
+ // pistes encore possibles : chaque réponse Oui/Non à une question liée à une étiquette élimine les fantasmes incompatibles
+ const fCand=(r,x)=>fPool(r,x.theme).filter(c=>x.qs.every(q=>!q.k||q.a==='Un peu'||q.a==null||(q.a==='Oui')===c.tg.includes(q.k)));
+ const fLeft=(r,x)=>{const c=fCand(r,x);return c.length+(c.some(z=>z.t===x.card.t)?0:1)};
+ // suggestions : les questions pas encore posées qui coupent le mieux les pistes restantes en deux
+ // aiguillage : dès 2 « Non » au total dans la manche, chaque jeu de suggestions contient au moins une question dont la réponse est Oui pour la vraie carte (parmi ses étiquettes les plus distinctives), sans aucun libellé visible
+ const fGuide=x=>(x.nT||0)>=2;
+ // suggestions renouvelées après chaque question : on retire les questions posées, on tire au hasard parmi les meilleures, et jamais deux fois le même jeu d'affilée
+ function fSug(r,x){const c=fCand(r,x),n=c.length,done=new Set(x.qs.map(q=>q.k).filter(Boolean));const prev=new Set((x.sug||[]).map(q=>q.k));
+  const L=fQs(r,x.theme).filter(q=>!done.has(q.k)).map(q=>{const h=c.filter(z=>z.tg.includes(q.k)).length;return{...q,h,s:Math.abs(h-n/2)+(h===0||h===n?n:0)}}).sort((a,b)=>a.s-b.s);if(!L.length)return[];
+  const N=Math.min(5,L.length);let G=null;if(fGuide(x)){const P=L.filter(q=>x.card.tg.includes(q.k)).sort((a,b)=>a.h-b.h);if(P.length)G=rnd(P.slice(0,2))}
+  const top=L.slice(0,Math.max(N+3,8));let best=null;
+  for(let t=0;t<12;t++){let pick=shuf(top.filter(q=>!G||q.k!==G.k)).slice(0,G?N-1:N);if(G)pick.push(G);const same=pick.length===prev.size&&pick.every(q=>prev.has(q.k));best=pick;if(!same)break}
+  if(best.length===prev.size&&best.every(q=>prev.has(q.k))){const out=L.find(q=>!prev.has(q.k));if(out){const k=best.findIndex(q=>!G||q.k!==G.k);if(k>=0)best[k]=out}}
+  return shuf(best).map(q=>({q:q.q,k:q.k}))}
+ function fChoices(r,x){const c=shuf(fCand(r,x).filter(z=>z.t!==x.card.t)),o=shuf(fPool(r,x.theme).filter(z=>z.t!==x.card.t&&!c.some(y=>y.t===z.t)));return shuf([x.card,...c,...o].slice(0,4)).map(z=>z.t)}
+ function fRound(r){const x=r.x;x.round=(x.round||0)+1;x.holder=x.round===1?rnd(x.P):other(x,x.holder);x.guesser=other(x,x.holder);x.opts=shuf(THEMES.flatMap(th=>[th,th])).slice(0,5).map(th=>({th,...fP(pick(r,th))}));x.theme=null;x.card=null;x.qs=[];x.sug=null;x.nT=0;x.choices=null;x.guess=null;x.found=null;x.bonus=false;x.gage2=null;x.tente={};x.ph='choose';x.gage=null;x.winner=null;x.mutual=null}
  // ---------- Maître ----------
  function mTurn(r){const x=r.x;x.ph='play';x.cons=null;x.stops=0;x.msg='';x.okd=0;x.sugg=mSug(r);arm(r,(r.x.dur||10)*60,()=>mEnd(r,'⏱️ Temps écoulé'))}
  const mPool=r=>(r.x.cats||MCAT).flatMap(c=>(G(r).levels[c]||[]).map(t=>({t,c})));
@@ -86,12 +104,12 @@ module.exports=function(X){// X={io,log(r,ev,o),nm(r,id),content(k)}
    if(a==='write'&&x.ph==='write'){if(me!==x.w)return "Ce n'est pas ton tour d'écrire.";const t=clip(o.t,300);if(t.length<2)return 'Écris au moins quelques mots.';x.story.push({k:'s',w:me,t,act:x.act});jl(r,'phrase',me,`Acte ${x.act} · tour ${x.tour} · ${t}`);sAdvance(r);return}
   }
   if(g==='fantasme'){
-   if(a==='choose'&&x.ph==='choose'){if(me!==x.holder)return "C'est l'autre qui choisit son fantasme.";const c=x.opts[+o.i];if(!c)return 'Choix invalide.';x.card={t:c.t,gold:c.gold};x.theme=c.th;x.opts=null;x.ph='ask';jl(r,'fantasme_choix',me,`Thème ${c.th} · ${c.t}`);return}
+   if(a==='choose'&&x.ph==='choose'){if(me!==x.holder)return "C'est l'autre qui choisit son fantasme.";const c=x.opts[+o.i];if(!c)return 'Choix invalide.';x.card={t:c.t,tg:c.tg};x.theme=c.th;x.opts=null;x.ph='ask';x.sug=fSug(r,x);jl(r,'fantasme_choix',me,`Thème ${c.th} · ${c.t}`);return}
    const pend=x.qs&&x.qs.length&&x.qs[x.qs.length-1].a==null;
-   if(a==='ask'&&x.ph==='ask'){if(me!==x.guesser)return "C'est l'autre qui devine.";if(pend)return 'Attends la réponse.';if(x.qs.length>=10)return 'Plus de questions : propose ta réponse !';const q=clip(o.q,160);if(q.length<3)return 'Question trop courte.';x.qs.push({q,a:null});jl(r,'question',me,q);return}
-   if(a==='ans'&&x.ph==='ask'){if(me!==x.holder)return 'Seul le détenteur du fantasme répond.';if(!pend)return 'Pas de question en attente.';if(!['Oui','Non','Un peu'].includes(o.v))return 'Réponse invalide.';x.qs[x.qs.length-1].a=o.v;return}
-   if(a==='guess'&&x.ph==='ask'){if(me!==x.guesser)return 'Non autorisé.';if(pend)return 'Attends la réponse.';const t=clip(o.t,200);if(t.length<2)return 'Écris ta proposition.';x.guess=t;x.ph='judge';jl(r,'proposition',me,t);return}
-   if(a==='judge'&&x.ph==='judge'){if(me!==x.holder)return 'Seul le détenteur juge.';x.found=!!o.ok;x.winner=x.found?x.guesser:x.holder;x.gage=pick(r,'Gages');x.ph='tente';jl(r,'verdict',me,`${x.found?'trouvé':'pas trouvé'} · gage pour ${nm(r,other(x,x.winner))}`);return}
+   if(a==='ask'&&x.ph==='ask'){if(me!==x.guesser)return "C'est l'autre qui devine.";if(pend)return 'Attends la réponse.';if(x.qs.length>=FMAX)return 'Plus de questions : fais ton choix !';let q,k=null;if(o.k){const s0=fQs(r,x.theme).find(z=>z.k===o.k);if(!s0)return 'Question inconnue.';if(x.qs.some(z=>z.k===o.k))return 'Déjà demandé.';q=s0.q;k=s0.k}else{q=clip(o.q,160);if(q.length<3)return 'Question trop courte.'}x.qs.push({q,k,a:null});jl(r,'question',me,q);return}
+   if(a==='ans'&&x.ph==='ask'){if(me!==x.holder)return 'Seul le détenteur du fantasme répond.';if(!pend)return 'Pas de question en attente.';if(!['Oui','Non','Un peu'].includes(o.v))return 'Réponse invalide.';x.qs[x.qs.length-1].a=o.v;if(o.v==='Non')x.nT=(x.nT||0)+1;x.sug=fSug(r,x);return}
+   if(a==='guess'&&x.ph==='ask'){if(me!==x.guesser)return 'Non autorisé.';if(pend)return 'Attends la réponse.';x.choices=fChoices(r,x);x.ph='final';jl(r,'proposition',me,'choix final parmi 4');return}
+   if(a==='pick'&&x.ph==='final'){if(me!==x.guesser)return "C'est l'autre qui choisit.";const t=x.choices[+o.i];if(t==null)return 'Choix invalide.';x.guess=t;x.found=t===x.card.t;x.bonus=x.found&&x.qs.length<=FBON;x.winner=x.found?x.guesser:x.holder;x.gage=pick(r,'Gages');x.gage2=x.bonus?pick(r,'Gages'):null;x.ph='tente';jl(r,'verdict',me,`${x.found?'trouvé':'pas trouvé'} en ${x.qs.length} question(s)${x.bonus?' · bonus':''} · gage pour ${nm(r,other(x,x.winner))}`);return}
    if(a==='tente'&&x.ph==='tente'){x.tente[me]=!!o.v;if(x.P.every(p=>p in x.tente)){x.mutual=x.P.every(p=>x.tente[p]);if(x.mutual&&!x.envies.includes(x.card.t))x.envies.push(x.card.t);x.ph='res';jl(r,'tente',null,x.mutual?'envie commune ajoutée':'pas d\'envie commune')}return}
    if(a==='next'&&x.ph==='res'){fRound(r);return}
   }
@@ -138,7 +156,7 @@ module.exports=function(X){// X={io,log(r,ev,o),nm(r,id),content(k)}
  function pubView(r){const x=ensure(r);const v={game:x.game,ph:x.ph||'lobby',N:x.N,cat:x.cat,cats:x.cats,dur:x.dur||10,P:x.P||null,dl:x.dl||null,now:Date.now(),envies:x.envies,hot:x.hot};const g=r.game;
   if(g==='encheres'&&x.P)Object.assign(v,{m:x.m,tok:x.tok,done:x.done,ref:x.ref,dare:x.dare?{t:x.dare.txt||x.dare.t.replaceAll('{q}','le gagnant de l\'enchère'),l:x.dare.l,gold:x.dare.gold}:null,bidders:Object.keys(x.bids||{}),win:x.win,tgt:x.tgt,last:x.ph==='bid'?null:x.last,score:x.score,champ:x.champ,fin:x.fin,sugg:x.ph==='final'?x.sugg:null});
   if(g==='scenario'&&x.P)Object.assign(v,{decor:x.decor,roles:x.roles,act:x.act,tour:x.tour,w:x.w,story:x.story,count:(x.story||[]).filter(s=>s.k==='s').length});
-  if(g==='fantasme'&&x.P)Object.assign(v,{round:x.round,holder:x.holder,guesser:x.guesser,theme:x.theme,qs:x.qs,guess:x.guess,found:x.found,winner:x.winner,gage:x.gage,card:['tente','res'].includes(x.ph)?x.card:null,tented:Object.keys(x.tente||{}),mutual:x.ph==='res'?x.mutual:null});
+  if(g==='fantasme'&&x.P)Object.assign(v,{round:x.round,holder:x.holder,guesser:x.guesser,theme:x.theme,qs:(x.qs||[]).map(q=>({q:q.q,a:q.a})),max:FMAX,bon:FBON,sug:x.ph==='ask'?x.sug:null,left:x.card&&x.ph==='ask'?fLeft(r,x):null,choices:x.ph==='final'?x.choices:null,guess:x.guess,found:x.found,bonus:x.bonus,winner:x.winner,gage:x.gage,gage2:x.gage2,card:['tente','res'].includes(x.ph)?{t:x.card.t}:null,tented:Object.keys(x.tente||{}),mutual:x.ph==='res'?x.mutual:null});
   if(g==='maitre'&&x.P)Object.assign(v,{ok:x.ok?Object.keys(x.ok):[],master:x.master,cons:x.cons,stops:x.stops||0,msg:x.msg||'',okd:x.okd||0,why:x.why||'',turns:x.turns||0,hist:x.hist||[]});
   if(g==='chaudfroid'&&x.P)Object.assign(v,{i:x.i,prop:x.prop,pgold:x.pgold,rated:Object.keys(x.rt||{}),rt:x.ph==='reveal'?x.rt:null,k:x.ph==='reveal'?x.k:null,res:x.res});
   if(g==='bluffeur'&&x.P){const sh=['debate','vote','res','end'].includes(x.ph);Object.assign(v,{m:x.m,lv:x.lv,answered:Object.keys(x.ans||{}),qa:sh?x.qa:null,ans:sh?x.ans:null,voted:Object.keys(x.votes||{}),sc:x.sc});if(x.ph==='res')Object.assign(v,{bl:x.bl,qb:x.qb,votes:x.votes,out:x.out,gage:x.gage})}
@@ -147,7 +165,7 @@ module.exports=function(X){// X={io,log(r,ev,o),nm(r,id),content(k)}
   return v}
  function priv(r,id){const x=r.x;if(!x||!x.P||!x.P.includes(id))return null;const o={me:id};
   if(r.game==='encheres')o.bid=x.bids&&id in x.bids?x.bids[id]:null;
-  if(r.game==='fantasme'){if(id===x.holder&&x.card)o.card=x.card;if(id===x.holder&&x.opts)o.opts=x.opts;o.tente=x.tente&&id in x.tente?x.tente[id]:null}
+  if(r.game==='fantasme'){if(id===x.holder&&x.card)o.card={t:x.card.t};if(id===x.holder&&x.opts)o.opts=x.opts.map(z=>({th:z.th,t:z.t}));if(id===x.holder&&x.card&&x.ph==='ask'){const q=x.qs[x.qs.length-1];if(q&&q.a==null&&q.k)o.hint=x.card.tg.includes(q.k)?'Oui':'Non'}o.tente=x.tente&&id in x.tente?x.tente[id]:null}
   if(r.game==='maitre'&&x.ph==='play'&&id===x.master)o.sugg=x.sugg;
   if(r.game==='bluffeur'&&x.qa&&['answer','debate','vote'].includes(x.ph)){o.q=id===x.bl?x.qb:x.qa;o.myAns=x.ans[id]||null;o.vote=x.votes[id]||null}
   if(r.game==='miroir'&&x.sel)o.sel=x.sel[id]||null;
