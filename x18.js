@@ -33,7 +33,7 @@ module.exports=function(X){// X={io,log(r,ev,o),nm(r,id),content(k)}
  function sArm(r){stopT(r)}
  // ---------- Fantasme ----------
  const THEMES=['Lieu','Tenue','Jeu de rôle','Ambiance'];
- const FMAX=8,FBON=5;const fP=t=>{const[a,b]=String(t).split('|');return{t:a,tg:(b||'').split(',').filter(Boolean)}};
+ const FMAX=10,FBON=5,FCH=6;const fP=t=>{const[a,b]=String(t).split('|');return{t:a,tg:(b||'').split(',').filter(Boolean)}};
  const fPool=(r,th)=>(G(r).levels[th]||[]).map(fP);
  const fQs=(r,th)=>((G(r).questions||{})[th]||[]).map(z=>{const[q,k]=z.split('|');return{q,k}});
  // pistes encore possibles : chaque réponse Oui/Non à une question liée à une étiquette élimine les fantasmes incompatibles
@@ -50,7 +50,7 @@ module.exports=function(X){// X={io,log(r,ev,o),nm(r,id),content(k)}
   for(let t=0;t<12;t++){let pick=shuf(top.filter(q=>!G||q.k!==G.k)).slice(0,G?N-1:N);if(G)pick.push(G);const same=pick.length===prev.size&&pick.every(q=>prev.has(q.k));best=pick;if(!same)break}
   if(best.length===prev.size&&best.every(q=>prev.has(q.k))){const out=L.find(q=>!prev.has(q.k));if(out){const k=best.findIndex(q=>!G||q.k!==G.k);if(k>=0)best[k]=out}}
   return shuf(best).map(q=>({q:q.q,k:q.k}))}
- function fChoices(r,x){const c=shuf(fCand(r,x).filter(z=>z.t!==x.card.t)),o=shuf(fPool(r,x.theme).filter(z=>z.t!==x.card.t&&!c.some(y=>y.t===z.t)));return shuf([x.card,...c,...o].slice(0,4)).map(z=>z.t)}
+ function fChoices(r,x){const A=x.qs.filter(q=>q.k&&(q.a==='Oui'||q.a==='Non')),T=new Set(x.card.tg||[]),seen=new Set([x.card.t]),L=[];for(const z of shuf(fPool(r,x.theme))){if(seen.has(z.t))continue;seen.add(z.t);const ok=A.filter(q=>(q.a==='Oui')===z.tg.includes(q.k)).length,sh=z.tg.filter(t=>T.has(t)).length;L.push({z,ok,sh,v:ok*10+Math.min(sh,5)})}L.sort((p,q)=>q.v-p.v);const nc=2+(Math.random()<.5?1:0),C2=L.slice(0,nc),R2=L.slice(nc),far=R2.filter(o=>o.ok<A.length||!o.sh),pool2=(far.length>=FCH-1-nc?far:R2).slice().sort((p,q)=>p.v-q.v),F=shuf(pool2.slice(0,Math.max(FCH-1-nc,Math.ceil(pool2.length/2)))).slice(0,FCH-1-nc);return shuf([x.card,...C2.map(o=>o.z),...F.map(o=>o.z)]).map(z=>z.t)}
  function fRound(r){const x=r.x;x.round=(x.round||0)+1;x.holder=x.round===1?rnd(x.P):other(x,x.holder);x.guesser=other(x,x.holder);x.opts=shuf(THEMES.flatMap(th=>[th,th])).slice(0,5).map(th=>({th,...fP(pick(r,th))}));x.theme=null;x.card=null;x.qs=[];x.sug=null;x.nT=0;x.choices=null;x.guess=null;x.found=null;x.bonus=false;x.gage2=null;x.tente={};x.ph='choose';x.gage=null;x.winner=null;x.mutual=null}
  // ---------- Maître ----------
  function mTurn(r){const x=r.x;x.ph='play';x.cons=null;x.stops=0;x.msg='';x.okd=0;x.sugg=mSug(r);arm(r,(r.x.dur||10)*60,()=>mEnd(r,'⏱️ Temps écoulé'))}
@@ -108,7 +108,7 @@ module.exports=function(X){// X={io,log(r,ev,o),nm(r,id),content(k)}
    const pend=x.qs&&x.qs.length&&x.qs[x.qs.length-1].a==null;
    if(a==='ask'&&x.ph==='ask'){if(me!==x.guesser)return "C'est l'autre qui devine.";if(pend)return 'Attends la réponse.';if(x.qs.length>=FMAX)return 'Plus de questions : fais ton choix !';let q,k=null;if(o.k){const s0=fQs(r,x.theme).find(z=>z.k===o.k);if(!s0)return 'Question inconnue.';if(x.qs.some(z=>z.k===o.k))return 'Déjà demandé.';q=s0.q;k=s0.k}else{q=clip(o.q,160);if(q.length<3)return 'Question trop courte.'}x.qs.push({q,k,a:null});jl(r,'question',me,q);return}
    if(a==='ans'&&x.ph==='ask'){if(me!==x.holder)return 'Seul le détenteur du fantasme répond.';if(!pend)return 'Pas de question en attente.';if(!['Oui','Non','Un peu'].includes(o.v))return 'Réponse invalide.';x.qs[x.qs.length-1].a=o.v;if(o.v==='Non')x.nT=(x.nT||0)+1;x.sug=fSug(r,x);return}
-   if(a==='guess'&&x.ph==='ask'){if(me!==x.guesser)return 'Non autorisé.';if(pend)return 'Attends la réponse.';x.choices=fChoices(r,x);x.ph='final';jl(r,'proposition',me,'choix final parmi 4');return}
+   if(a==='guess'&&x.ph==='ask'){if(me!==x.guesser)return 'Non autorisé.';if(pend)return 'Attends la réponse.';x.choices=fChoices(r,x);x.ph='final';jl(r,'proposition',me,'choix final parmi '+FCH+'');return}
    if(a==='pick'&&x.ph==='final'){if(me!==x.guesser)return "C'est l'autre qui choisit.";const t=x.choices[+o.i];if(t==null)return 'Choix invalide.';x.guess=t;x.found=t===x.card.t;x.bonus=x.found&&x.qs.length<=FBON;x.winner=x.found?x.guesser:x.holder;x.gage=pick(r,'Gages');x.gage2=x.bonus?pick(r,'Gages'):null;x.ph='tente';jl(r,'verdict',me,`${x.found?'trouvé':'pas trouvé'} en ${x.qs.length} question(s)${x.bonus?' · bonus':''} · gage pour ${nm(r,other(x,x.winner))}`);return}
    if(a==='tente'&&x.ph==='tente'){x.tente[me]=!!o.v;if(x.P.every(p=>p in x.tente)){x.mutual=x.P.every(p=>x.tente[p]);if(x.mutual&&!x.envies.includes(x.card.t))x.envies.push(x.card.t);x.ph='res';jl(r,'tente',null,x.mutual?'envie commune ajoutée':'pas d\'envie commune')}return}
    if(a==='next'&&x.ph==='res'){fRound(r);return}

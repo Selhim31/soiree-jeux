@@ -1,6 +1,6 @@
 {
  "name": "Devine mon fantasme",
- "desc": "🔮 L'un choisit en secret un fantasme court (lieu, tenue, jeu de rôle ou ambiance), l'autre pose jusqu'à 8 questions qui éliminent des pistes, puis le retrouve parmi 4 cartes. Trouvé en 5 questions ou moins : gage bonus. Puis chacun dit en secret si ça le tenterait.",
+ "desc": "🔮 L'un choisit en secret un fantasme court (lieu, tenue, jeu de rôle ou ambiance), l'autre pose jusqu'à 10 questions qui éliminent des pistes, puis le retrouve parmi 6 cartes. Trouvé en 5 questions ou moins : gage bonus. Puis chacun dit en secret si ça le tenterait.",
  "kind": "x18",
  "adult": true,
  "img": "/img/fantasme.webp",
