@@ -158,7 +158,8 @@
    "Quelle est ta commande fétiche au fast-food ?",
    "Si tu avais un an sabbatique demain, tu partirais où ?",
    "Quel est le petit plaisir qui peut sauver une journée ratée ?",
-   "Quel talent inutile es-tu secrètement fier ou fière de maîtriser ?"
+   "Quel talent inutile es-tu secrètement fier ou fière de maîtriser ?",
+   "Quel est le repas que tu pourrais manger toute ta vie sans jamais t'en lasser ?"
   ],
   "Profond": [
    "Qu'est-ce qui te fait te sentir vraiment vivant ?",
@@ -321,7 +322,9 @@
    "Quelle décision de ta vie referais-tu exactement pareil, même en connaissant la suite ?",
    "Qu'est-ce qui te fait te sentir vraiment chez toi, au-delà d'un lieu ?",
    "Quelle opinion as-tu complètement changée ces cinq dernières années ?",
-   "Qu'est-ce que tu aimerais qu'on dise de toi quand tu n'es pas dans la pièce ?"
+   "Qu'est-ce que tu aimerais qu'on dise de toi quand tu n'es pas dans la pièce ?",
+   "À quoi reconnais-tu, au fond de toi, que quelqu'un est fait pour durer dans ta vie ?",
+   "Quelle décision prise sur un coup de tête a le plus changé ta vie ?"
   ],
   "Intime": [
    "Qu'est-ce qui te met en confiance avec quelqu'un ?",
@@ -489,7 +492,9 @@
    "De quoi as-tu le plus peur qu'on découvre en te connaissant vraiment ?",
    "Quelle partie de ton histoire racontes-tu seulement aux personnes en qui tu as totalement confiance ?",
    "Quelle est la dernière fois où tu t'es senti(e) vraiment vulnérable devant quelqu'un ?",
-   "Quel besoin as-tu du mal à exprimer dans une relation ?"
+   "Quel besoin as-tu du mal à exprimer dans une relation ?",
+   "Quelle est la chose que tu n'as jamais réussi à pardonner, même si tu fais semblant ?",
+   "Quelle peur t'a déjà fait passer à côté de quelqu'un qui comptait ?"
   ],
   "Hot": [
    "Ce qui te fait craquer physiquement en premier ?",
@@ -649,7 +654,8 @@
    "Ta façon préférée de faire comprendre à quelqu'un que tu as envie de lui/elle ?",
    "Ton moment préféré de la journée pour flirter, et pourquoi ?",
    "Quel détail chez quelqu'un te fait passer d'un simple regard à une vraie envie de l'embrasser ?",
-   "Qu'est-ce qui te rend plus attirant(e) à tes propres yeux, un jour où tu te sens irrésistible ?"
+   "Qu'est-ce qui te rend plus attirant(e) à tes propres yeux, un jour où tu te sens irrésistible ?",
+   "Quel est le message le plus audacieux que tu as envoyé à quelqu'un qui te plaisait ?"
   ]
  },
  "img": "/img/connaitre.webp",

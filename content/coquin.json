@@ -206,7 +206,11 @@
    "{p}, quel est le pire moment où ton téléphone a affiché un message gênant devant tout le monde ?",
    "{p}, quel est le compliment le plus ambigu qu'on t'ait fait, celui qui t'a fait réfléchir toute la soirée ?",
    "{p}, avec qui ici te verrais-tu coincé(e) dans un ascenseur pendant une heure, et qu'est-ce que vous feriez pour passer le temps ?",
-   "{p}, quelle est la photo de toi que tu gardes pour les grandes occasions de drague ?"
+   "{p}, quelle est la photo de toi que tu gardes pour les grandes occasions de drague ?",
+   "{p}, plutôt culotte/caleçon assorti ou dépareillé quand tu pars en rendez-vous, et qu'est-ce que ça dit de tes intentions ?",
+   "{p}, quel compliment reçu par message t'a fait rougir tout(e) seul(e) devant ton téléphone ?",
+   "{p}, quel est le détail de ta tenue de ce soir qui est là uniquement pour plaire ?",
+   "{p}, à quel moment précis d'une soirée sais-tu que tu vas finir par embrasser quelqu'un ?"
   ],
   "Hot": [
    "{p}, quel moment de la journée te rend le plus câlin… ou plus ?",
@@ -368,7 +372,10 @@
    "{p}, quel est le premier endroit que tu effleures quand tu veux faire monter la tension ?",
    "{p}, quel est le mot qui, chuchoté au bon moment, te fait perdre tous tes moyens ?",
    "{p}, plutôt lumière éteinte, tamisée ou plein jour quand ça devient sérieux ?",
-   "{p}, quel est le vêtement que tu mets quand tu sais que la soirée va mal finir… dans le bon sens ?"
+   "{p}, quel est le vêtement que tu mets quand tu sais que la soirée va mal finir… dans le bon sens ?",
+   "{p}, les mots crus pendant l'acte : ça t'allume ou ça casse toute l'ambiance ?",
+   "{p}, quel est l'endroit de ton corps qu'on oublie toujours et qui mériterait plus d'attention ?",
+   "{p}, quel est le moment le plus gênant où ton corps a trahi ton envie devant tout le monde ?"
   ]
  },
  "img": "/img/coquin.webp",

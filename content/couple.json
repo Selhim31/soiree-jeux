@@ -336,7 +336,9 @@
    "{p}, imite la tête que fait {q} quand il/elle a une idée coquine derrière la tête.",
    "{p}, fais un compliment physique à {q} que tu ne lui as encore jamais fait.",
    "{p}, quelle tenue de {q} aimerais-tu lui voir porter juste pour toi lors de votre prochain appel vidéo ?",
-   "{p}, écris à {q} trois mots qui résument ce que tu as envie de lui faire, {q} doit deviner l'ordre (avec son accord)."
+   "{p}, écris à {q} trois mots qui résument ce que tu as envie de lui faire, {q} doit deviner l'ordre (avec son accord).",
+   "{p}, quelle photo de {q} gardes-tu dans un coin de ton téléphone juste pour les soirs où il/elle te manque ?",
+   "{p}, quel message de {q} as-tu relu plusieurs fois parce qu'il t'avait mis(e) dans tous tes états ?"
   ],
   "Hot": [
    "{p}, dis à {q} ce que tu aimerais qu'il/elle te fasse ce soir, en restant élégant.",
@@ -504,7 +506,10 @@
    "{p}, à ton avis, quelle zone de ton corps {q} connaît le moins bien ? {q} doit deviner avant que tu répondes.",
    "{p}, quel est le moment de votre histoire où tu as eu le plus envie de {q} sans pouvoir le montrer ?",
    "{p}, quelle est la réponse secrète que tu crois que {q} donnerait à « ce que je préfère chez toi au lit » ? {q} confirme ou corrige.",
-   "{p}, quel souvenir de {q} te revient quand tu es seul(e) le soir et que tu penses à lui/elle ?"
+   "{p}, quel souvenir de {q} te revient quand tu es seul(e) le soir et que tu penses à lui/elle ?",
+   "{p}, quel est l'endroit le plus inattendu où tu as pensé à {q} d'une façon pas très sage ?",
+   "{p}, si {q} pouvait te regarder en secret pendant cinq minutes ce soir, que voudrais-tu qu'il/elle te surprenne en train de faire ?",
+   "{p}, quelle est la première chose que tu feras à {q} la prochaine fois que vous serez enfin dans la même pièce ?"
   ],
   "Explicite": [
    "{p}, dis à {q} ta position préférée avec lui/elle.",
@@ -669,7 +674,9 @@
    "{p}, quelle chose aimerais-tu que {q} te demande de faire, sans que tu aies à la proposer ?",
    "{p}, décris à {q} l'endroit précis de son corps où tu voudrais poser ta bouche en premier ce soir.",
    "{p}, quelle est la chose que {q} fait au lit qui te rend complètement fou/folle, et comment voudrais-tu qu'il/elle la fasse encore mieux ?",
-   "{p}, raconte à {q} ce que tu ferais si tu pouvais te téléporter dans son lit maintenant, sans rien censurer."
+   "{p}, raconte à {q} ce que tu ferais si tu pouvais te téléporter dans son lit maintenant, sans rien censurer.",
+   "{p}, décris à {q}, étape par étape, comment tu le/la déshabillerais si tu étais derrière lui/elle maintenant.",
+   "{p}, quelle position as-tu le plus envie d'essayer avec {q} la prochaine fois, et qui mènerait la danse ?"
   ]
  },
  "img": "/img/couple.webp",
@@ -758,7 +765,8 @@
    "{p}, décris à {q} ton fantasme de cabine d'essayage",
    "{p}, décris à {q} un massage qui finit en sexe",
    "{p}, décris à {q} une nuit de sexe tantrique",
-   "{p}, raconte à {q} ce que tu ferais si tu pouvais te téléporter dans son lit maintenant, sans rien censurer."
+   "{p}, raconte à {q} ce que tu ferais si tu pouvais te téléporter dans son lit maintenant, sans rien censurer.",
+   "{p}, décris à {q}, étape par étape, comment tu le/la déshabillerais si tu étais derrière lui/elle maintenant."
   ]
  }
 }

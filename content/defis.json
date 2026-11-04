@@ -318,7 +318,9 @@
    "{p}, envoie à {q} un vocal où tu lis ta dernière note de téléphone d'une voix sensuelle (avec son accord).",
    "{p}, décris ton parfum préféré sur quelqu'un, enregistre-toi et envoie le vocal à {q} (par ta messagerie, avec son accord).",
    "{p}, envoie à {q} un selfie avec ton regard le plus charmeur, sans sourire (par ta messagerie, avec son accord).",
-   "{p}, envoie à {q} un vocal de 10 secondes où tu lui dis bonsoir avec ta voix la plus séduisante (par ta messagerie, avec son accord)."
+   "{p}, envoie à {q} un vocal de 10 secondes où tu lui dis bonsoir avec ta voix la plus séduisante (par ta messagerie, avec son accord).",
+   "{p}, envoie à {q} un vocal de 15 secondes où tu lui décris la tenue que tu portes en ce moment, comme si c'était de la lingerie (par ta messagerie, avec son accord).",
+   "{p}, mords-toi doucement la lèvre en fixant la caméra pendant 10 secondes, sans rire, pendant que {q} compte."
   ],
   "Hot": [
    "{p}, enlève un accessoire ou un vêtement (chaussette, montre, pull…), prends-toi en photo et envoie-la à {q} (avec son accord).",
@@ -480,7 +482,9 @@
    "{p}, décris ton fantasme numéro un comme une bande-annonce de film.",
    "{p}, mordille-toi la lèvre face caméra pendant 10 secondes en fixant {q} sans rire.",
    "{p}, enlève un vêtement de ton choix face caméra au ralenti, en musique.",
-   "{p}, fais glisser lentement une bretelle ou ton col face caméra en fixant {q}, pendant 10 secondes."
+   "{p}, fais glisser lentement une bretelle ou ton col face caméra en fixant {q}, pendant 10 secondes.",
+   "{p}, retire ton haut face caméra et garde-le à la main jusqu'au prochain tour.",
+   "{p}, chuchote face caméra à {q} ce que tu lui ferais si tu avais ses mains attachées, pendant 20 secondes."
   ],
   "Délirant": [
    "{p}, chante joyeux anniversaire de ta voix la plus dramatique, enregistre-toi et envoie le vocal à {q} (par ta messagerie, avec son accord).",
@@ -843,7 +847,9 @@
    "{p}, décris à {q}, dans un vocal de 20 secondes, ce que tu ferais avec tes mains s'il/elle était à côté de toi.",
    "{p}, envoie à {q} une photo suggestive de ton choix, sans visage, avec une légende qui annonce ce que tu lui ferais (avec son accord).",
    "{p}, envoie à {q} une photo de ta main posée sur ta cuisse nue, avec une légende qui lui dit où elle irait ensuite (avec son accord).",
-   "{p}, envoie à {q} une vidéo de 10 secondes où tu te caresses par-dessus tes vêtements en prononçant son prénom (avec son accord)."
+   "{p}, envoie à {q} une vidéo de 10 secondes où tu te caresses par-dessus tes vêtements en prononçant son prénom (avec son accord).",
+   "{p}, envoie à {q} une photo de toi en sous-vêtements prise dans le miroir, avec une légende qui lui dit ce qu'il/elle doit enlever en premier (avec son accord).",
+   "{p}, envoie à {q} un vocal de 20 secondes où tu gémis doucement en imaginant ses mains sur toi (par ta messagerie, avec son accord)."
   ]
  },
  "adult": false,
@@ -960,7 +966,9 @@
    "{p}, envoie à {q} une vidéo de 10 secondes où tu fais glisser lentement une bretelle ou ton t-shirt, sans montrer ton visage (avec son accord).",
    "{p}, envoie à {q} une photo suggestive de ton choix, sans visage, avec une légende qui annonce ce que tu lui ferais (avec son accord).",
    "{p}, envoie à {q} une photo de ta main posée sur ta cuisse nue, avec une légende qui lui dit où elle irait ensuite (avec son accord).",
-   "{p}, envoie à {q} une vidéo de 10 secondes où tu te caresses par-dessus tes vêtements en prononçant son prénom (avec son accord)."
+   "{p}, envoie à {q} une vidéo de 10 secondes où tu te caresses par-dessus tes vêtements en prononçant son prénom (avec son accord).",
+   "{p}, envoie à {q} une photo de toi en sous-vêtements prise dans le miroir, avec une légende qui lui dit ce qu'il/elle doit enlever en premier (avec son accord).",
+   "{p}, envoie à {q} un vocal de 20 secondes où tu gémis doucement en imaginant ses mains sur toi (par ta messagerie, avec son accord)."
   ]
  }
 }

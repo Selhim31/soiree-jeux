@@ -166,7 +166,11 @@
    "{p}, si tu revenais en fantôme, qui hanterais-tu en premier et pourquoi ?",
    "{p}, quelle est la pire farce d'Halloween que tu aies faite ou subie ?",
    "{p}, si tu devais passer une nuit seul(e) dans un manoir hanté, quel objet emporterais-tu pour survivre ?",
-   "{p}, quelle superstition respectes-tu encore sans oser l'avouer ?"
+   "{p}, quelle superstition respectes-tu encore sans oser l'avouer ?",
+   "{p}, quelle est la rumeur la plus terrifiante de ta ville ou de ton école que tu crois encore un peu ?",
+   "{p}, si un fantôme te suivait partout pendant une semaine, quelle habitude de ta vie aurais-tu le plus honte qu'il voie ?",
+   "{p}, si tu devais organiser la soirée la plus flippante possible pour le groupe, quelle serait l'attraction principale ?",
+   "{p}, quelle personne ici survivrait le plus longtemps dans un film d'horreur, et qui mourrait en premier ?"
   ],
   "Coquin": [
    "{p}, quel monstre sexy serais-tu ?",
@@ -330,7 +334,10 @@
    "{p}, quel monstre trouves-tu secrètement le plus sexy ?",
    "{p}, avec qui ici partagerais-tu un cercueil pour la nuit ?",
    "{p}, quel déguisement d'Halloween porterais-tu pour faire craquer quelqu'un ici ?",
-   "{p}, vampire qui mord dans le cou ou sorcière qui envoûte : quel est ton style de séduction ?"
+   "{p}, vampire qui mord dans le cou ou sorcière qui envoûte : quel est ton style de séduction ?",
+   "{p}, si tu étais un vampire, dans quel endroit du corps de ta proie préférée planterais-tu tes crocs ?",
+   "{p}, quel costume d'Halloween trop sexy as-tu déjà eu envie de porter sans jamais oser ?",
+   "{p}, une nuit d'Halloween, une maison vide et quelqu'un d'ici : qui choisis-tu pour avoir peur à deux ?"
   ]
  },
  "adult": false,

@@ -166,7 +166,10 @@
    "{p}, quelle tenue te donne envie d'arracher les vêtements de l'autre ?",
    "{p}, quel est le goût ou le parfum que tu associes à ta meilleure nuit ?",
    "{p}, quel est le geste le plus anodin qui te donne pourtant des frissons ?",
-   "{p}, est-ce que tu préfères deviner les envies de l'autre ou qu'on te les dise clairement ?"
+   "{p}, est-ce que tu préfères deviner les envies de l'autre ou qu'on te les dise clairement ?",
+   "{p}, quel est le premier vêtement que tu aimes qu'on t'enlève, et à quelle vitesse ?",
+   "{p}, réveil câlin qui dérape ou dernière folie avant de dormir : quel est ton moment préféré ?",
+   "{p}, quelle tenue chez l'autre te fait perdre le fil de la conversation ?"
   ],
   "Hard": [
    "{p}, avoue ton pire comportement après un date.",
@@ -338,7 +341,12 @@
    "{p}, quelle est la chose la plus audacieuse que tu aies faite juste pour impressionner quelqu'un au lit ?",
    "{p}, quel est l'endroit le plus improbable où tu aies eu envie de passer à l'acte sur-le-champ ?",
    "{p}, as-tu déjà simulé ? Raconte le contexte sans donner de nom.",
-   "{p}, quelle pratique as-tu découverte sur le tard et regrettes-tu de ne pas avoir essayée plus tôt ?"
+   "{p}, quelle pratique as-tu découverte sur le tard et regrettes-tu de ne pas avoir essayée plus tôt ?",
+   "{p}, as-tu déjà envoyé un nude que tu as regretté, ou au contraire dont tu es encore fier ou fière ?",
+   "{p}, quelle est la chose la plus osée que tu as faite en sachant que quelqu'un risquait d'entendre ?",
+   "{p}, as-tu déjà eu une aventure d'un soir dont tu n'as jamais su le prénom ?",
+   "{p}, quel est le jouet ou accessoire que tu n'as jamais osé acheter mais qui te tente vraiment ?",
+   "{p}, as-tu déjà dit oui à une pratique juste pour faire plaisir, et finalement adoré ?"
   ],
   "Explicite": [
    "{p}, quelle est ta position préférée, et pourquoi elle ?",
@@ -507,7 +515,11 @@
    "{p}, quel mot cru, chuchoté à ton oreille, te ferait annuler tous tes plans du lendemain ?",
    "{p}, quel est le goût de ton/ta partenaire idéal(e), décris-le en trois mots ?",
    "{p}, quelle position te fait jouir le plus vite, et pourquoi selon toi ?",
-   "{p}, quel bruit ou quel mot de l'autre pendant l'acte t'a le plus excité(e) ?"
+   "{p}, quel bruit ou quel mot de l'autre pendant l'acte t'a le plus excité(e) ?",
+   "{p}, décris la meilleure fellation ou le meilleur cunni que tu aies reçu, sans donner de nom.",
+   "{p}, combien de fois d'affilée as-tu déjà joui dans une même nuit, et qu'est-ce qui l'a rendu possible ?",
+   "{p}, quel est le mot cru que tu adores entendre au moment où tu vas jouir ?",
+   "{p}, qu'est-ce que tu fais exactement de tes mains quand tu te touches seul(e) et que tu veux aller vite ?"
   ]
  },
  "img": "/img/hot.webp",
@@ -576,7 +588,9 @@
    "{p}, raconte ton premier orgasme avec quelqu'un",
    "{p}, quel est ton rapport au bruit : discret ou sans retenue ?",
    "{p}, raconte le moment précis où tu as su qu'une nuit allait devenir inoubliable.",
-   "{p}, quel mot cru, chuchoté à ton oreille, te ferait annuler tous tes plans du lendemain ?"
+   "{p}, quel mot cru, chuchoté à ton oreille, te ferait annuler tous tes plans du lendemain ?",
+   "{p}, décris la meilleure fellation ou le meilleur cunni que tu aies reçu, sans donner de nom.",
+   "{p}, quel est le mot cru que tu adores entendre au moment où tu vas jouir ?"
   ]
  }
 }
