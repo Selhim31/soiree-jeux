@@ -6,7 +6,7 @@
  "levels": {
   "Duo": [
    "{p} et {q} : regardez-vous dans les yeux 30 secondes sans rire.",
-   "{p}, écris à {q} trois choses que tu aimes chez lui/elle.",
+   "{p}, écris à {q} trois choses que tu aimes chez lui/elle (avec son accord).",
    "{p} et {q} : chantez un duo d'amour en même temps.",
    "{p}, dis à {q} ce que tu ferais s'il/elle était là ce soir.",
    "{p} et {q} : mimez votre premier date imaginaire.",
@@ -166,7 +166,7 @@
   ],
   "Hot": [
    "{p}, décris à {q} la tenue que tu aimerais lui voir porter.",
-   "{p}, envoie à {q} un vocal murmuré (ou fais-le au micro).",
+   "{p}, envoie à {q} un vocal murmuré (ou fais-le au micro) (avec son accord).",
    "{p}, raconte à {q} ton rêve le plus chaud avec lui/elle (soft).",
    "{p} et {q} : chacun décrit le baiser parfait.",
    "{p}, dis à {q} où tu aimerais être embrassé.",
@@ -341,11 +341,11 @@
    "{p}, dis à {q} un mot doux dans une autre langue.",
    "{p}, décris à {q} la carte postale que tu lui écrirais de vacances.",
    "{p}, dis à {q} comment tu l'appellerais dans ton téléphone.",
-   "{p}, écris à {q} trois choses que tu aimes chez lui/elle."
+   "{p}, écris à {q} trois choses que tu aimes chez lui/elle (avec son accord)."
   ],
   "Hot": [
    "{p} et {q} : chacun décrit la tenue la plus sexy de l'autre.",
-   "{p}, envoie à {q} un vocal murmuré (ou fais-le au micro).",
+   "{p}, envoie à {q} un vocal murmuré (ou fais-le au micro) (avec son accord).",
    "{p}, montre à {q} ton épaule nue face caméra de la façon la plus sensuelle.",
    "{p}, avoue à {q} si tu l'as déjà trouvé(e) sexy dans une situation banale.",
    "{p}, avoue à {q} le détail chez lui/elle qui t'excite le plus.",

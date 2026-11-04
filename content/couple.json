@@ -336,7 +336,7 @@
    "{p}, imite la tête que fait {q} quand il/elle a une idée coquine derrière la tête.",
    "{p}, fais un compliment physique à {q} que tu ne lui as encore jamais fait.",
    "{p}, quelle tenue de {q} aimerais-tu lui voir porter juste pour toi lors de votre prochain appel vidéo ?",
-   "{p}, écris à {q} trois mots qui résument ce que tu as envie de lui faire, {q} doit deviner l'ordre."
+   "{p}, écris à {q} trois mots qui résument ce que tu as envie de lui faire, {q} doit deviner l'ordre (avec son accord)."
   ],
   "Hot": [
    "{p}, dis à {q} ce que tu aimerais qu'il/elle te fasse ce soir, en restant élégant.",
@@ -376,7 +376,7 @@
    "{p}, préférerais-tu que {q} te réveille par des baisers ou par des caresses ?",
    "{p}, quelle est la phrase que {q} pourrait te murmurer pour te rendre fou ou folle ?",
    "{p}, quelle est la chose nouvelle que vous avez testée et adorée ?",
-   "{p}, écris à {q} un sexto de trois mots maximum.",
+   "{p}, écris à {q} un sexto de trois mots maximum (avec son accord).",
    "{p}, quel est ton préliminaire préféré avec {q} ?",
    "{p}, quel moment de la journée préfères-tu pour un câlin torride avec {q} ?",
    "{p}, dis à {q} ce que tu aimes le plus qu'il/elle te fasse au lit",
@@ -724,7 +724,7 @@
    "{p}, dis à {q} quel est son geste le plus sexy au lit",
    "{p}, quel est le moment où {q} a été le plus sexy ?",
    "{p}, quel est le sexto le plus chaud que vous vous soyez envoyé ?",
-   "{p}, écris à {q} un sexto de trois mots maximum.",
+   "{p}, écris à {q} un sexto de trois mots maximum (avec son accord).",
    "{p}, qu'est-ce qui te fait craquer dans la façon dont {q} t'embrasse dans le cou ?",
    "{p}, qu'est-ce qui t'excite le plus chez {q} quand il/elle prend les commandes ?",
    "{p}, préférerais-tu que {q} te réveille par des baisers ou par des caresses ?",

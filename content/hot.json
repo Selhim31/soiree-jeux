@@ -66,7 +66,7 @@
    "{p}, qu'est-ce que tu aimes le plus juste après ?",
    "{p}, fais un mini strip-tease du pull ou de la veste devant la caméra.",
    "{p}, murmure une phrase torride à la caméra.",
-   "{p}, envoie un vocal sensuel de 10 secondes à {q}.",
+   "{p}, envoie un vocal sensuel de 10 secondes à {q} (avec son accord).",
    "{p}, mime ta position préférée avec tes mains (tout habillé).",
    "{p}, montre ton geste de séduction le plus efficace.",
    "{p}, fais deviner à {q} ton fantasme en 3 mots.",
@@ -513,7 +513,7 @@
  "img": "/img/hot.webp",
  "gold": {
   "Hot": [
-   "{p}, envoie un vocal sensuel de 10 secondes à {q}.",
+   "{p}, envoie un vocal sensuel de 10 secondes à {q} (avec son accord).",
    "{p}, prends une photo sexy (habillée) et montre-la au groupe.",
    "{p}, quelle est la tenue d'intérieur la plus séduisante ?",
    "{p}, masse ton propre cou de la façon la plus sensuelle possible.",
