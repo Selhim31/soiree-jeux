@@ -32,7 +32,7 @@ const G=JSON.parse(require('fs').readFileSync(__dirname+'/../content/defis.json'
  // 5) forcer seulement le joueur
  S[0].emit('crS',{p:ids[1]});await once(S[0],'crP');assert.strictEqual((await nxt()).target,ids[1]);
  // 6) jeu groupé (Défis = plusieurs jeux mélangés) : carte d'un sous-jeu forcée
- const X=[0,1].map(()=>{const s=io(U,{forceNew:true});s.on('state',x=>s.st=x);return s});await w(300);X[0].emit('create',{name:'H',game:'gdefis',levels:['Classique','Mime'],pid:'GH'+t});await w(400);X[1].emit('join',{code:X[0].st.code,name:'Z',pid:'GZ'+t});await w(300);
+ const X=[0,1].map(()=>{const s=io(U,{forceNew:true});s.on('state',x=>s.st=x);return s});await w(300);X[0].emit('create',{name:'H',game:'gdefis',levels:['Fun'],pid:'GH'+t});await w(400);X[1].emit('join',{code:X[0].st.code,name:'Z',pid:'GZ'+t});await w(300);
  X[0].emit('crA',{c:CODE});await once(X[0],'crOk');X[0].emit('crG');const GP=await once(X[0],'crP');const gs=[...new Set(GP.cards.map(c=>c.g))];assert(GP.multi&&gs.length>=2,'plusieurs sous-jeux : '+gs);
  for(const g0 of gs){const cc=GP.cards.filter(c=>c.g===g0)[3];X[0].emit('crS',{p:'GZ'+t,c:cc});await once(X[0],'crP');const id0=X[0].st.card&&X[0].st.card.id;X[0].emit('reveal');await w(100);X[0].emit('next');for(let k=0;k<30&&(!X[0].st.card||X[0].st.card.id===id0);k++)await w(50);const c=X[0].st.card;assert.strictEqual(c.game,g0,'sous-jeu forcé');assert.strictEqual(c.level,cc.l);if(c.kind!=='circle')assert.strictEqual(c.target,'GZ'+t)}
  X.forEach(s=>s.close());

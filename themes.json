@@ -1,0 +1,68 @@
+{
+ "themes": [
+  [
+   "Votes & estimations de groupe",
+   "^(qui |estimez|devinez|c.est un 10)|^[^ ]+\\|[^ ]+$"
+  ],
+  [
+   "Jouet",
+   "jouet|vibro|sextoy|gode|menottes"
+  ],
+  [
+   "Photo/vidéo à envoyer",
+   "photo|video|selfie|filme|camera|nude|snap|vue unique"
+  ],
+  [
+   "Réseaux sociaux/téléphone",
+   "telephone|messag|sms|texto|appel|insta|story|statut|reseau|application|tinder|galerie|historique|chat\\b|vocal|audio|emoji"
+  ],
+  [
+   "Domination/soumission douce",
+   "domin|soumi|ordre|obei|maitre|esclave|attach|bande les yeux|yeux bandes|bandeau|controle|autorite|mot de securite|interdit|permission|punition|fessee"
+  ],
+  [
+   "Jeux de rôle",
+   "role|jeu de role|deguis|incarne|personnage|scenario|infirmi|professeur|patron|policier|inconnu"
+  ],
+  [
+   "Caresses/plaisir solo",
+   "caress|masturb|plaisir|touche-toi|toucher|effleure|orgasm|jouir|excit|gemi|sensation|frisson|corps|massage|huile|peau|chantilly|chocolat"
+  ],
+  [
+   "Déshabillage",
+   "deshabill|enleve|retire (ton|ta|tes)|nu\\b|nue\\b|nus\\b|torse|strip|sans vetement|tout nu"
+  ],
+  [
+   "Sous-vêtements/tenue",
+   "sous-vet|lingerie|culotte|string|boxer|soutien|tenue|pyjama|talons|collant|bas resille|vetement"
+  ],
+  [
+   "Lieux insolites",
+   "\\blieu|endroit|plage|voiture|bureau|ascenseur|cinema|toilettes|piscine|douche|bain|exterieur|en public|cuisine|hotel|avion|foret|jacuzzi|canape|lit\\b|spa|nuit chaude|chandelles"
+  ],
+  [
+   "Expériences passées",
+   "deja|derniere fois|premiere fois|ex\\b|ex-|plus jeune|souvenir|jamais|as-tu|combien de|ton record|ta pire|ta meilleure|le plus|rupture|ex |rendez-vous|premiere nuit|decision|honteu|gena|rituel|rapport aux"
+  ],
+  [
+   "Fantasmes & confidences",
+   "fantasm|reve|secret|avoue|confie|confess|envie|aimerais|desir|tabou|kiff|prefer|craque|attir|love language|zone|sensible|penses-tu|qualites d.un|ideal|ton type"
+  ],
+  [
+   "Questions sur le partenaire",
+   "\\{q\\}.*\\?|partenaire|couple|ton chéri|ta cherie|chez \\{q\\}|de \\{q\\}|qui ici|parmi"
+  ],
+  [
+   "Sexe & positions",
+   "sex|position|levrette|missionnaire|preliminaire|oral|fellation|cunni|penetr|coquin|baiser|lecher|mordill|suc"
+  ],
+  [
+   "Drague & séduction",
+   "drag|seduis|seduct|charm|flirt|sexy|regard|clin|sensuel|braise|bisou|embrass|langue|date|attirant|beau|belle|seren|slow|craquant|trait"
+  ],
+  [
+   "Romantique/mignon",
+   "amour|romanti|doux|tendre|compliment|cœur|coeur|calin|declar|poeme|surnom|mignon"
+  ]
+ ]
+}

@@ -27,7 +27,7 @@ for(const k of['encheres','scenario','fantasme','maitre','chaudfroid']){const d=
   for(const p of[1,2,3,4])assert(per[p]>=150,`${k} palier ${p} : ${per[p]}`);near(a.map(t=>t.slice(2)),'roulette '+k,0.85)}
  cnt.bluffeur={paires:pairs.length,gages:B.levels.Gages.length};cnt.miroir={qualites:MQ.length,defauts:MD.length};cnt.roulette=Object.fromEntries(['Zones','Actions','Contraintes'].map(k=>[k,R.levels[k].length]))}
 const tot=(k,ls)=>ls.reduce((s,l)=>s+cnt[k][l],0);
-const NEED={encheres:['Coquin','Hot','Explicite'],maitre:['Séduction','Hot','Extrême','Dominant / Soumis','Jeu de rôle'],fantasme:['Lieu','Tenue','Jeu de rôle','Ambiance'],chaudfroid:['Coquin','Hot','Explicite'],scenario:['Décors','Rebondissements']};
+const NEED={encheres:['Coquin','Hot','Explicite'],maitre:['Séduction','Hot','Extrême','Dominant / Soumis','Jeu de rôle'],fantasme:['Lieu','Tenue','Jeu de rôle','Ambiance'],chaudfroid:['Coquin','Explicite'],scenario:['Décors','Rebondissements']};
 for(const[k,ls]of Object.entries(NEED))for(const l of ls)if(k!=='fantasme')assert(cnt[k][l]>=150,`${k}/${l} : ${cnt[k][l]} < 150`);assert(cnt.encheres.Final>=30&&cnt.fantasme.Gages>=60);
 // anti-doublons : identiques après normalisation, ou quasi identiques (Jaccard des mots ≥ 0,85) dans une même catégorie
 // Devine mon fantasme (a35) : fantasmes « idée + détail coquin » (5 à 12 mots) étiquetés, ≥3 étiquettes chacun, chaque étiquette liée à une question

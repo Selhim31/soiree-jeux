@@ -1,7 +1,7 @@
 const ME=localStorage.pid||(localStorage.pid=(self.crypto&&crypto.randomUUID?crypto.randomUUID():Math.random().toString(36).slice(2)+Date.now()));
 const MYVER=(document.querySelector('meta[name=app-version]')||{}).content;
 const so=io(),$=i=>document.getElementById(i);let GAMES=[],cur=null,selLv=[],selFmt='Groupe',selLen=30,S=null,pendingGate=null;
-const SAFE=['Classique','Halloween'];
+const SAFE=['Fun','Classique','Halloween','Mime','7 secondes','Culture G'];const LVE={Fun:'😄 Fun',Coquin:'🔥 Coquin',Explicite:'😈 Explicite'};const lvL=l=>LVE[l]||((SAFE.includes(l)?'':'🔥 ')+l);
 const esc=s=>String(s).replace(/[&<>"']/g,m=>'&#'+m.charCodeAt(0)+';');
 const adultOk=()=>localStorage.adult==='1';
 function gate(cb){if(adultOk())return cb();pendingGate=cb;$('gate').classList.remove('hide')}
@@ -15,7 +15,7 @@ function openFam(id){const f=FAMS.find(x=>x.id===id);const go=()=>{$('fam-back')
 function renderGames(g){$('games').innerHTML=g.map(x=>`<div class=gcard onclick="openGame('${x.id}')"><img src="${x.img}" loading=lazy alt=""><div class=lbl>${esc(x.name)}<small>${Object.values(x.levels).reduce((a,b)=>a+b,0)} cartes · ${Object.keys(x.levels).length} niveaux</small></div>${x.adult?'<span class=badge>18+</span>':''}</div>`).join('')}
 function openGame(id){const g=GAMES.find(x=>x.id===id);const go=()=>{cur=g;selLv=[Object.keys(g.levels)[0]];$('g-img').src=g.img;$('g-name').textContent=g.name;$('g-desc').textContent=g.desc;renderSel('g');show('game')};g.adult?gate(go):go()}
 function renderSel(p){const g=p==='g'?cur:GAMES.find(x=>x.id===S.game);const lv=p==='g'?selLv:S.levels,fm=p==='g'?selFmt:S.format;
-$(p+'-levels').innerHTML=Object.entries(g.levels).map(([l,n])=>`<button class="chip ${lv.includes(l)?'on':''}" onclick="tl('${p}','${l}')">${SAFE.includes(l)?'':'🔥 '}${l}<small>${n}</small></button>`).join('');
+$(p+'-levels').innerHTML=Object.entries(g.levels).map(([l,n])=>`<button class="chip ${lv.includes(l)?'on':''}" onclick="tl('${p}','${l}')">${esc(lvL(l))}<small>${n}</small></button>`).join('');
 if(p==='g'&&$('g-len'))$('g-len').innerHTML=[[15,'⚡ Rapide','15 cartes'],[30,'🎲 Normale','30 cartes'],[50,'🌙 Longue','50 cartes'],[0,'♾️ Sans fin','']].map(([v,l,n])=>`<button class="chip ${selLen===v?'on':''}" onclick="selLen=${v};renderSel('g')">${l}${n?`<small>${n}</small>`:''}</button>`).join('');
 }
 function tl(p,l){const doIt=()=>{let a=[...(p==='g'?selLv:S.levels)];a=a.includes(l)?a.filter(x=>x!==l):[...a,l];if(!a.length)return;if(p==='g'){selLv=a;renderSel('g')}else so.emit('settings',{levels:a})};SAFE.includes(l)?doIt():gate(doIt)}

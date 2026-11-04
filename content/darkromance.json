@@ -4,7 +4,7 @@
  "adult": true,
  "img": "/img/darkromance.webp",
  "levels": {
-  "Classique": [
+  "Fun": [
    "Vérité : {p}, avoue au groupe quel méchant de roman ou de série t'a fait craquer malgré toi",
    "Vérité : {p}, confie à {q} le personnage toxique dont tu es tombé(e) amoureux ou amoureuse en lisant",
    "Vérité : {p}, raconte au groupe le trope de dark romance qui te fait le plus d'effet (ennemis devenus amants, mafieux, prisonnier de son charme…)",
@@ -240,7 +240,6 @@
    "Vérité : {p}, raconte au groupe le geste autoritaire qui te ferait taire instantanément",
    "Vérité : {p}, avoue au groupe ce que tu ferais si {q} t'ordonnait de ne regarder que lui/elle toute la soirée",
    "Vérité : {p}, confie à {q} la frontière entre jeu de pouvoir et vraie jalousie pour toi",
-   "Vérité : {p}, raconte au groupe le défi de séduction que tu n'as jamais osé relever",
    "Vérité : {p}, avoue au groupe si tu aimes qu'on te prenne par la main pour quitter une soirée sans rien demander",
    "Vérité : {p}, confie à {q} le jeu de pouvoir que tu aimerais tester par messages",
    "Action : {p}, donne trois ordres coquins à {q} ; il/elle en choisit un à faire face caméra (ou refuse et boit).",
@@ -248,12 +247,10 @@
    "Action : {p}, pendant un tour, {q} décide de chacune de tes réponses par « oui » ou « non ».",
    "Action : {p}, joue 30 secondes le mafieux jaloux qui découvre que {q} a souri à quelqu'un d'autre.",
    "Action : {p}, mets-toi dans la peau d'un geôlier charmant et négocie avec {q} les conditions de sa « libération ».",
-   "Action : {p}, laisse {q} choisir la façon dont tu t'assieds jusqu'au prochain tour (dans les limites du raisonnable).",
    "Action : {p}, murmure à {q} trois règles qu'il/elle devra respecter jusqu'à la fin de la partie (il/elle peut refuser).",
    "Action : {p}, fais une démonstration de regard dominant puis de regard soumis face caméra, 5 secondes chacun.",
    "Action : {p}, écris un contrat de séduction à trois clauses pour {q} et lis-le.",
    "Action : {p}, dis à {q} ce que tu lui ferais faire si tu étais son maître ou sa maîtresse de jeu pour une soirée (version coquine).",
-   "Action : {p}, bande-toi les yeux avec un foulard pendant un tour et laisse {q} te guider à la voix.",
    "Action : {p}, joue une scène d'interrogatoire coquin avec {q} : il/elle t'accuse d'avoir volé son cœur.",
    "Action : {p}, enregistre-toi en train de dire « c'est moi qui décide ce soir » d'une voix basse et envoie le vocal à {q} (par ta messagerie, avec son accord).",
    "Action : {p}, prends une photo de ta main posée sur ta nuque de façon possessive et envoie-la à {q} (par ta messagerie, avec son accord).",
@@ -293,7 +290,6 @@
    "Action : {p}, demande à {q} de te donner un « ordre secret » par message que tu dois exécuter avant la fin.",
    "Action : {p}, pendant une minute, {q} t'interdit de sourire ; s'il/si elle te fait craquer, il/elle gagne un gage.",
    "Action : {p}, dis à {q} trois choses que tu lui ordonnerais de porter pour un rendez-vous.",
-   "Action : {p}, joue une enchère imaginaire où tu « achètes » une danse avec {q}.",
    "Action : {p}, fais la scène du chevalier noir qui se met au service de {q}.",
    "Action : {p}, regarde {q} et donne-lui une note de « loyauté » en justifiant.",
    "Action : {p}, improvise une scène de jalousie entre deux joueurs (avec leur accord) façon série dramatique.",
@@ -308,7 +304,7 @@
    "Action : {p}, pendant un tour, chaque phrase de {q} doit commencer par « Mon seigneur » ou « Ma reine ».",
    "Action : {p}, dis à {q} quelle punition coquine il/elle mérite pour l'avoir fait attendre."
   ],
-  "Hot": [
+  "Explicite": [
    "Vérité : {p}, quel est ton fantasme de domination le plus hard, sans censure ?",
    "Vérité : {p}, quel est ton fantasme de soumission le plus extrême que tu n'as jamais avoué ?",
    "Vérité : {p}, dans un jeu consenti, jusqu'où accepterais-tu d'être attaché(e) et à la merci de quelqu'un ?",
@@ -458,7 +454,6 @@
    "Action : {p}, laisse {q} choisir le mot que tu dois gémir face caméra, 5 secondes.",
    "Action : {p}, retire ton bas sous ta couverture sur ordre de {q} et reste cadré(e) au-dessus de la taille jusqu'au prochain tour (avec l'accord du groupe).",
    "Action : {p}, envoie à {q} une photo de toi les poignets croisés, comme attaché(e), en sous-vêtements (avec son accord).",
-   "Action : {p}, fais à {q} la liste de tes trois limites dures et de trois choses que tu le/la laisserais faire.",
    "Action : {p}, décris à {q} une nuit où tu es « sa propriété » de minuit à l'aube, dans un jeu consenti, sans censure.",
    "Action : {p}, joue avec {q} en vocal une scène de geôlier et de prisonnier(ère) consentant(e) : {q} donne les ordres, tu obéis en décrivant chaque geste sexuel, 1 minute (avec son accord).",
    "Action : {p}, incarne un chef mafieux qui retrouve sa captive consentante dans sa chambre, et décris à {q} au micro ce que tu lui fais, sans censure, 1 minute (avec son accord).",
@@ -486,7 +481,6 @@
    "Action : {p}, décris à {q} la position sexuelle où tu te laisserais complètement dominer, et ce que tu voudrais l'entendre dire.",
    "Action : {p}, joue avec {q} la scène du garde du corps et de son ou sa protégé(e) qui craquent enfin dans une chambre d'hôtel, en dirty talk, 1 minute.",
    "Action : {p}, joue avec {q} la scène du vampire qui séduit sa proie consentante : morsures douces dans le cou décrites, caresses, et ce qui suit, 1 minute en vocal.",
-   "Action : {p}, joue avec {q} la scène du prof et de son ancien(ne) étudiant(e), tous deux adultes, qui se retrouvent des années plus tard, en dirty talk, 45 secondes.",
    "Action : {p}, décris à {q} comment tu l'attacherais avec des rubans, puis ce que tu ferais à chaque partie de son corps, jusqu'à ce qu'il/elle te supplie, 1 minute.",
    "Action : {p}, laisse {q} décrire ce qu'il/elle te ferait les yeux bandés, et réponds uniquement par des gémissements et des « encore », 30 secondes.",
    "Action : {p}, envoie à {q} un vocal de dirty talk de 30 secondes où tu lui expliques ce que tu lui feras la prochaine fois que vous serez seuls (avec son accord).",
@@ -553,7 +547,7 @@
   ]
  },
  "gold": {
-  "Classique": [
+  "Fun": [
    "Action : {p}, enregistre-toi en train de dire « tu es à moi… pour ce jeu » de ta voix la plus grave et envoie le vocal à {q} (par ta messagerie, avec son accord).",
    "Vérité : {p}, avoue au groupe le jeu de regards le plus long que tu aies tenu avec quelqu'un",
    "Action : {p}, filme-toi en train d'allumer une bougie dans le noir avec un regard intense et envoie la vidéo à {q} (par ta messagerie, avec son accord).",
@@ -593,7 +587,7 @@
    "Vérité : {p}, confie à {q} ce qui te trouble le plus dans les scènes de soumission des romans",
    "Action : {p}, fais la voix d'un méchant qui chuchote les règles d'un jeu interdit à {q}."
   ],
-  "Hot": [
+  "Explicite": [
    "Action : {p}, prends-toi en photo dans ta pose la plus dominante (habillée ou en sous-vêtements, selon ton choix) et envoie-la à {q} (avec son accord).",
    "Action : {p}, {q} est ton ennemi(e) juré(e) : caresse-toi après la partie en pensant à votre pire dispute qui finit au lit, et envoie-lui un vocal où tu avoues qu'il/elle a gagné (avec son accord).",
    "Action : {p}, {q} est ton possessif favori : envoie-lui une vidéo de 10 secondes de tes doigts qui jouent avec l'élastique de tes sous-vêtements, en murmurant « tu as la permission de regarder » (avec son accord).",
@@ -623,6 +617,26 @@
    "Action : {p}, après la partie, caresse-toi en pensant à {q} et envoie-lui un vocal de 20 secondes comme preuve (avec son accord).",
    "Action : {p}, {q} est le mafieux qui te garde dans sa villa : envoie-lui un vocal décrivant la nuit où tu te caresses dans son lit en attendant son retour, puis fais-le pour de vrai après la partie (avec son accord).",
    "Action : {p}, {q} te marque comme sa propriété : dessine son initiale sur ta cuisse avec un feutre, puis caresse-toi autour après la partie et envoie-lui une photo de l'initiale et un vocal (avec son accord)."
+  ]
+ },
+ "orig": {
+  "Fun": [
+   [
+    "Classique",
+    150
+   ]
+  ],
+  "Coquin": [
+   [
+    "Coquin",
+    146
+   ]
+  ],
+  "Explicite": [
+   [
+    "Hot",
+    239
+   ]
   ]
  }
 }

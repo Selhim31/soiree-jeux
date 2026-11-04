@@ -3,7 +3,7 @@
  "desc": "Des questions pour se découvrir, des plus légères aux plus intimes.",
  "kind": "input",
  "levels": {
-  "Léger": [
+  "Fun": [
    "Quel est ton petit-déjeuner idéal ?",
    "Quelle appli ouvres-tu en premier le matin ?",
    "Ton son préféré au monde ?",
@@ -161,7 +161,7 @@
    "Quel talent inutile es-tu secrètement fier ou fière de maîtriser ?",
    "Quel est le repas que tu pourrais manger toute ta vie sans jamais t'en lasser ?"
   ],
-  "Profond": [
+  "Coquin": [
    "Qu'est-ce qui te fait te sentir vraiment vivant ?",
    "De quoi es-tu le plus fier ?",
    "Quelle peur aimerais-tu dépasser ?",
@@ -324,9 +324,7 @@
    "Quelle opinion as-tu complètement changée ces cinq dernières années ?",
    "Qu'est-ce que tu aimerais qu'on dise de toi quand tu n'es pas dans la pièce ?",
    "À quoi reconnais-tu, au fond de toi, que quelqu'un est fait pour durer dans ta vie ?",
-   "Quelle décision prise sur un coup de tête a le plus changé ta vie ?"
-  ],
-  "Intime": [
+   "Quelle décision prise sur un coup de tête a le plus changé ta vie ?",
    "Qu'est-ce qui te met en confiance avec quelqu'un ?",
    "Quelle est ton insécurité physique ?",
    "Ta plus grande blessure amoureuse ?",
@@ -417,7 +415,6 @@
    "Quel est ton plus grand complexe amoureux ?",
    "Comment réagis-tu quand tu es jaloux ou jalouse ?",
    "Qu'est-ce que tu as appris sur toi en amour ?",
-   "Quelle est ta plus grande peur dans l'intimité ?",
    "Qu'est-ce qui te fait dire « je suis bien avec cette personne » ?",
    "Quel est ton rapport au premier pas ?",
    "As-tu déjà eu peur de t'engager ? Pourquoi ?",
@@ -436,7 +433,6 @@
    "Quel est ton rapport au pardon en amour ?",
    "Quelle est la promesse la plus importante que tu aies faite ?",
    "Quelle est la chose que tu voudrais qu'un partenaire comprenne sans que tu l'expliques ?",
-   "Qu'est-ce qui te donne confiance dans l'intimité ?",
    "As-tu déjà menti pour protéger quelqu'un que tu aimais ?",
    "Qu'est-ce que tu cherches à combler en amour ?",
    "Comment vis-tu le manque de quelqu'un ?",
@@ -496,7 +492,7 @@
    "Quelle est la chose que tu n'as jamais réussi à pardonner, même si tu fais semblant ?",
    "Quelle peur t'a déjà fait passer à côté de quelqu'un qui comptait ?"
   ],
-  "Hot": [
+  "Explicite": [
    "Ce qui te fait craquer physiquement en premier ?",
    "Ton lieu rêvé pour une nuit inoubliable ?",
    "Le moment de la journée où tu es le plus d'humeur câline ?",
@@ -520,7 +516,6 @@
    "Le film qui t'a donné chaud ?",
    "Le sexto le plus osé que tu as envoyé ?",
    "Plutôt surprendre ou être surpris ?",
-   "Une limite claire pour toi ?",
    "Le rôle que tu aimerais jouer le temps d'une nuit ?",
    "Ton moment préféré : avant, pendant ou après ?",
    "Le lieu le plus risqué qui te tente ?",
@@ -549,17 +544,12 @@
    "Quelle tenue te fait te sentir le plus sexy ?",
    "Préfères-tu la tendresse ou l'intensité dans l'intimité ?",
    "Quelle est ta première fois la plus marquante (pas forcément la première) ?",
-   "Qu'est-ce qui te rend timide dans l'intimité ?",
    "Quel est le moment de la journée où tu as le plus envie ?",
    "Quel mot ou quelle phrase t'excite immédiatement ?",
    "As-tu déjà eu un coup de cœur purement physique ?",
-   "Quelle est ta limite que personne ne doit franchir ?",
    "Qu'est-ce que tu aimerais explorer avec la bonne personne ?",
    "Quel souvenir intime te fait encore sourire ?",
    "Plutôt séduction lente ou passion immédiate ?",
-   "Quel est ton plus grand complexe dans l'intimité ?",
-   "Qu'est-ce qui te fait sentir confiant(e) dans l'intimité ?",
-   "Qu'est-ce que tu as appris sur toi dans l'intimité ces dernières années ?",
    "Quel compliment physique te fait le plus d'effet ?",
    "Quel est ton fantasme le plus tendre ?",
    "Quel est le détail qui transforme un moment banal en moment sensuel ?",
@@ -589,7 +579,6 @@
    "Ce qui te met en confiance pour te lâcher ?",
    "Ton rapport à la lumière pendant l'acte ?",
    "Ton rapport aux bruits pendant l'acte ?",
-   "Ta limite absolue ?",
    "Ton plus long moment torride ?",
    "Ton rapport au plaisir solitaire ?",
    "Ton avis sur le sexe au téléphone ?",
@@ -601,7 +590,6 @@
    "Ton rapport au plan d'un soir ?",
    "Ce qui te fait craquer chez un(e) inconnu(e) ?",
    "Le plus beau corps selon toi : détails ?",
-   "Ce qui te fait rougir dans l'intimité ?",
    "Ce que tu préfères juste après l'amour ?",
    "Ton rapport au porno ?",
    "Le scénario de film qui t'a donné des idées ?",
@@ -611,7 +599,6 @@
    "Le mot coquin que tu adores ?",
    "Ce que tu aimes dans les préliminaires ?",
    "Ton rapport aux massages sensuels ?",
-   "Ce que tu ferais d'une nuit sans limites ?",
    "Ton fantasme de lieu public ?",
    "Le plus bel endroit où tu l'as fait ?",
    "Ton record de durée ?",
@@ -661,7 +648,7 @@
  "img": "/img/connaitre.webp",
  "adult": false,
  "gold": {
-  "Léger": [
+  "Fun": [
    "Ton émission honteuse préférée ?",
    "Quelle est ta tenue confort ?",
    "Quelle est ta boisson chaude préférée ?",
@@ -681,7 +668,7 @@
    "Quel est ton dessin animé d'enfance préféré ?",
    "Quelle appli ouvres-tu en premier le matin ?"
   ],
-  "Profond": [
+  "Coquin": [
    "Quelle est la plus belle chose qu'un inconnu a faite pour toi ?",
    "Quel est le plus beau geste que tu aies eu pour un inconnu ?",
    "Quel est le plus beau geste qu'un inconnu ait eu pour toi ?",
@@ -700,9 +687,7 @@
    "Quelle est la plus grande leçon que t'a apprise un voyage ?",
    "Quelle est la chose la plus courageuse que tu aies faite ?",
    "Quel est le plus beau compliment qu'on puisse te faire ?",
-   "De quoi es-tu le plus reconnaissant(e) envers tes amis ?"
-  ],
-  "Intime": [
+   "De quoi es-tu le plus reconnaissant(e) envers tes amis ?",
    "Quel est le premier signe que quelqu'un te plaît vraiment ?",
    "Qu'est-ce que tu n'as jamais dit à un ex et que tu regrettes ?",
    "Combien de fois as-tu été vraiment amoureux ou amoureuse ?",
@@ -723,7 +708,7 @@
    "Quelle est la chose qui te touche le plus chez quelqu'un qui t'aime ?",
    "Quel est le moment où tu t'es senti(e) le plus proche de quelqu'un ?"
   ],
-  "Hot": [
+  "Explicite": [
    "Quelle tenue te fait te sentir le plus sexy ?",
    "Qu'est-ce qui te fait te sentir sexy, vraiment ?",
    "La tenue qui te fait le plus d'effet ?",
@@ -742,6 +727,30 @@
    "Quelle est la chose la plus audacieuse que tu as faite par séduction ?",
    "Le souvenir le plus chaud avec un(e) ex que tu peux raconter ?",
    "Le meilleur baiser de ta vie, raconte (sans nom) ?"
+  ]
+ },
+ "orig": {
+  "Fun": [
+   [
+    "Léger",
+    156
+   ]
+  ],
+  "Coquin": [
+   [
+    "Profond",
+    163
+   ],
+   [
+    "Intime",
+    166
+   ]
+  ],
+  "Explicite": [
+   [
+    "Hot",
+    150
+   ]
   ]
  }
 }

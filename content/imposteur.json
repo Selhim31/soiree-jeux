@@ -3,7 +3,7 @@
  "desc": "Tout le monde reçoit le même mot sauf l'imposteur. On décrit son mot, puis on vote pour le démasquer.",
  "kind": "impostor",
  "levels": {
-  "Classique": [
+  "Fun": [
    "Plage|Piscine",
    "Pizza|Burger",
    "Chat|Chien",
@@ -307,7 +307,6 @@
    "Jeu de rôle|Déguisement",
    "Infirmière|Policière",
    "Pompier|Militaire",
-   "Prof|Élève",
    "Patron|Secrétaire",
    "Voisin|Colocataire",
    "Bisou esquimau|Bisou papillon",
@@ -317,7 +316,6 @@
    "Tatouage|Piercing",
    "Barbe|Moustache",
    "Cheveux longs|Cheveux courts",
-   "Voix grave|Voix suave",
    "Accent|Murmure",
    "Dirty talk|Mots doux",
    "Love bombing|Drague lourde",
@@ -372,7 +370,7 @@
  "img": "/img/imposteur.webp",
  "adult": false,
  "gold": {
-  "Classique": [
+  "Fun": [
    "WhatsApp|SMS",
    "Course|Marche",
    "Anniversaire|Mariage",
@@ -419,6 +417,20 @@
    "Tatouage|Piercing",
    "Bisou|Câlin",
    "Speed dating|Rencard à l'aveugle"
+  ]
+ },
+ "orig": {
+  "Fun": [
+   [
+    "Classique",
+    205
+   ]
+  ],
+  "Coquin": [
+   [
+    "Coquin",
+    154
+   ]
   ]
  }
 }

@@ -4,7 +4,7 @@
  "adult": false,
  "img": "/img/excrush.webp",
  "levels": {
-  "Classique": [
+  "Fun": [
    "Qui ici reste ami avec tous ses ex ?",
    "Qui ici a gardé une boîte à souvenirs d'un ex ?",
    "Qui ici a eu le crush le plus improbable au collège ?",
@@ -200,7 +200,6 @@
    "Qui ici a déjà eu un rencard avec un ex d'un ex ?",
    "Qui ici a déjà eu un coup de cœur en mariage ?",
    "Qui ici a déjà embrassé quelqu'un pour gagner un pari ?",
-   "Qui ici a déjà eu une histoire avec un prof de sport ?",
    "Qui ici a déjà embrassé dans un photomaton ?",
    "Qui ici a la liste de crushs la plus longue ?",
    "Qui ici a déjà eu un crush sur une voix au téléphone ?",
@@ -309,7 +308,7 @@
    "{p}, confie à {q} le crush qui t'a appris à danser.",
    "{p}, confie à {q} la soirée où un regard a tout changé."
   ],
-  "Hot": [
+  "Explicite": [
    "Qui ici a le meilleur souvenir au lit avec un ex ?",
    "Qui ici s'est déjà remis avec un ex juste pour une nuit ?",
    "Qui ici a déjà couché avec un ex après la rupture ?",
@@ -463,7 +462,7 @@
   ]
  },
  "gold": {
-  "Classique": [
+  "Fun": [
    "{p}, confie à {q} le pire date avec quelqu'un qui est devenu un ex.",
    "{p}, confie à {q} le moment où un crush est devenu un vrai date.",
    "{p}, raconte au groupe le pire date avec quelqu'un qui est devenu un ex.",
@@ -503,7 +502,7 @@
    "{p}, avoue au groupe le surnom coquin le plus gênant.",
    "{p}, avoue au groupe le meilleur baiser d'un ex."
   ],
-  "Hot": [
+  "Explicite": [
    "{p}, avoue au groupe le sexto le plus chaud envoyé à un ex.",
    "{p}, avoue au groupe ce que ton meilleur ex faisait avec sa bouche.",
    "{p}, avoue au groupe le sexto d'un crush qui t'a le plus excité(e).",
@@ -522,6 +521,26 @@
    "{p}, confie à {q} le crush qui t'a donné le plus chaud sans te toucher.",
    "{p}, avoue au groupe le moment le plus intense en vacances avec un ex.",
    "{p}, avoue au groupe la fois où un ex t'a déshabillé(e) le plus vite."
+  ]
+ },
+ "orig": {
+  "Fun": [
+   [
+    "Classique",
+    151
+   ]
+  ],
+  "Coquin": [
+   [
+    "Coquin",
+    149
+   ]
+  ],
+  "Explicite": [
+   [
+    "Hot",
+    150
+   ]
   ]
  }
 }

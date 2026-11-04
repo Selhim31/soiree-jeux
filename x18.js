@@ -9,7 +9,7 @@ const SP=()=>Math.max(0.01,Number(process.env.X18_SPEED)||1);
 const T={write:90,maitre:180};
 const rnd=a=>a[Math.random()*a.length|0],shuf=a=>a.map(x=>[Math.random(),x]).sort((a,b)=>a[0]-b[0]).map(x=>x[1]);
 const clip=(s,n)=>String(s==null?'':s).replace(/\s+/g,' ').trim().slice(0,n);
-const levelFor=(m,N)=>m<=Math.ceil(N/3)?'Coquin':m<=Math.ceil(2*N/3)?'Hot':'Explicite';
+const CCAT=['Progressif','Coquin','Explicite'];const levelForCF=(m,N)=>m<=Math.ceil(N*2/3)?'Coquin':'Explicite';const levelFor=(m,N)=>m<=Math.ceil(N/3)?'Coquin':m<=Math.ceil(2*N/3)?'Hot':'Explicite';
 const rateK=(a,b)=>a>=7&&b>=7?'fire':(Math.max(a,b)>=7&&Math.min(a,b)<=4)?'talk':(a<=4&&b<=4)?'cold':'mid';
 module.exports=function(X){// X={io,log(r,ev,o),nm(r,id),content(k)}
  const TM={};const nm=(r,id)=>X.nm(r,id);
@@ -57,7 +57,7 @@ module.exports=function(X){// X={io,log(r,ev,o),nm(r,id),content(k)}
  const mPool=r=>(r.x.cats||MCAT).flatMap(c=>(G(r).levels[c]||[]).map(t=>({t,c})));
  function mSug(r){return shuf(mPool(r)).slice(0,3).map(o=>o.t)}
  function mEnd(r,why){const x=r.x;stopT(r);x.turns=(x.turns||0)+1;x.hist.push({m:x.master,done:x.okd,why});x.master=other(x,x.master);x.ph='between';x.why=why;x.cons=null}
- const cfL=(x,i)=>x.cat&&x.cat!=='Progressif'?x.cat:levelFor(i,x.N);
+ const cfL=(x,i)=>x.cat&&x.cat!=='Progressif'&&CCAT.includes(x.cat)?x.cat:levelForCF(i,x.N);
  // ---------- Le Bluffeur ----------
  function bRound(r){const x=r.x;const l=bLv(x.m,x.N);const t=pick(r,l);let[a,b]=t.split('|');if(Math.random()<.5)[a,b]=[b,a];Object.assign(x,{lv:l,qa:a,qb:b,bl:rnd(x.P),ans:{},votes:{},ph:'answer',out:null,gage:null})}
  function bResolve(r){const x=r.x;const cnt={};for(const v of Object.values(x.votes))cnt[v]=(cnt[v]||0)+1;const mx=Math.max(0,...Object.values(cnt));const top=Object.keys(cnt).filter(k=>cnt[k]===mx);const caught=mx>0&&top.length===1&&top[0]===x.bl;
@@ -82,11 +82,11 @@ module.exports=function(X){// X={io,log(r,ev,o),nm(r,id),content(k)}
   if(r.game==='bluffeur'){const N=[5,8,10].includes(+o.N)?+o.N:([5,8,10].includes(+x.N)?+x.N:8);y.N=N;y.m=1;y.sc={};P.forEach(p=>y.sc[p]=0);bRound(r)}
   if(r.game==='miroir'){y.order=shuf(P);y.k=0;y.port={};mrRound(r)}
   if(r.game==='roulette'){Object.assign(y,{ph:'rules',ok:{},pal:1,sp:rnd(P),jok:Object.fromEntries(P.map(p=>[p,3])),up:{},jp:{},spins:0,res:null,msg:'',stops:0})}
-  if(r.game==='chaudfroid'){if(ECAT.includes(o.cat))y.cat=o.cat;const N=[10,15,20].includes(+o.N)?+o.N:(+x.N||15);y.N=N;y.i=1;const l0=cfL(y,1);y.prop=pick(r,l0);y.pgold=gold(r,l0,y.prop);y.rt={};y.ph='rate';y.res=[]}
+  if(r.game==='chaudfroid'){if(CCAT.includes(o.cat))y.cat=o.cat;const N=[10,15,20].includes(+o.N)?+o.N:(+x.N||15);y.N=N;y.i=1;const l0=cfL(y,1);y.prop=pick(r,l0);y.pgold=gold(r,l0,y.prop);y.rt={};y.ph='rate';y.res=[]}
   jl(r,'start',me,`${g.name} · ${P.map(p=>nm(r,p)).join(', ')}${y.N&&['encheres','chaudfroid'].includes(r.game)?' · '+y.N+' manches':''}`)}
  function act(r,me,o){if(!r)return 'Pas de salle.';const x=ensure(r);const a=o.a;const isH=r.host===me;
   if(a==='setDur'){if(!isH)return "Seul l'hôte choisit.";const d=+o.dur;if(![5,10,15,20,25,30].includes(d))return 'Durée invalide.';x.dur=d;return}
-  if(a==='setCat'){if(!isH)return "Seul l'hôte choisit.";if((r.game==='encheres'||r.game==='chaudfroid')&&ECAT.includes(o.cat))x.cat=o.cat;if(r.game==='maitre'&&Array.isArray(o.cats)){const c=o.cats.filter(k=>MCAT.includes(k));if(!c.length)return 'Choisis au moins une catégorie.';x.cats=c}return}
+  if(a==='setCat'){if(!isH)return "Seul l'hôte choisit.";if((r.game==='encheres'&&ECAT.includes(o.cat))||(r.game==='chaudfroid'&&CCAT.includes(o.cat)))x.cat=o.cat;if(r.game==='maitre'&&Array.isArray(o.cats)){const c=o.cats.filter(k=>MCAT.includes(k));if(!c.length)return 'Choisis au moins une catégorie.';x.cats=c}return}
   if(a==='setN'){if(!isH)return "Seul l'hôte choisit.";const v=+o.N;if(r.game==='encheres'&&[5,10,15].includes(v))x.N=v;if(r.game==='chaudfroid'&&[10,15,20].includes(v))x.N=v;if(r.game==='bluffeur'&&[5,8,10].includes(v))x.N=v;return}
   if(a==='start'){if(!isH)return "Seul l'hôte lance la partie.";if(x.ph&&!['lobby','end'].includes(x.ph))return 'Partie déjà en cours.';return start(r,me,o)}
   if(a==='stopgame'){if(!isH)return "Seul l'hôte peut terminer.";stopT(r);if(r.game==='encheres'&&x.P&&!['final','finaldo','end'].includes(x.ph)){x.m=x.N;eNext(r);jl(r,'end',me,'fin anticipée');return}x.ph='end';jl(r,'end',me,'fin demandée par l\'hôte');return}

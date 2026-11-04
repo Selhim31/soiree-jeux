@@ -2,7 +2,7 @@
  "name": "Halloween",
  "desc": "Questions et défis sur le thème des frissons et des monstres.",
  "levels": {
-  "Halloween": [
+  "Fun": [
    "{p}, raconte l'histoire la plus flippante que tu connaisses en 1 minute.",
    "{p}, fais ton meilleur cri de film d'horreur.",
    "{p}, quel monstre serais-tu et pourquoi ?",
@@ -247,7 +247,6 @@
    "{p}, vampire timide ou zombie romantique : qui choisis-tu ?",
    "{p}, que ferais-tu si un beau fantôme apparaissait dans ta chambre ?",
    "{p}, quel parfum aurait une sorcière séductrice ?",
-   "{p}, imite une sirène maléfique qui chante",
    "{p}, choisis entre une nuit avec Dracula ou avec la Momie",
    "{p}, quel bonbon décrit le mieux ta façon d'embrasser ?",
    "{p}, dis à {q} quel monstre il/elle serait en mode séduction",
@@ -327,7 +326,6 @@
    "{p}, quel monstre aurait les meilleurs câlins ?",
    "{p}, quel déguisement d'Halloween trouverais-tu irrésistible chez {q} ?",
    "{p}, sorcière envoûtante ou démon tentateur : qui ici joue quel rôle ?",
-   "{p}, prends ta voix de vampire et dis à {q} pourquoi tu as soif de lui/elle.",
    "{p}, laisserais-tu un vampire de ton choix te mordre ? Qui et où ?",
    "{p}, quel déguisement porterais-tu pour faire tourner toutes les têtes à une soirée d'Halloween ?",
    "{p}, quel est le costume d'Halloween que tu oserais porter seulement pour une personne ici ?",
@@ -343,7 +341,7 @@
  "adult": false,
  "img": "/img/halloween.webp",
  "gold": {
-  "Halloween": [
+  "Fun": [
    "{p}, quelle est la tenue d'Halloween la plus ratée que tu aies portée ?",
    "{p}, imite un agent secret version zombie.",
    "{p}, quel est le déguisement le plus effrayant que tu aies croisé ?",
@@ -384,6 +382,20 @@
    "{p}, un vampire te propose une morsure dans le cou : tu acceptes ?",
    "{p}, quel personnage d'horreur trouves-tu étrangement sexy ?",
    "{p}, décris un costume sexy avec 3 objets de chez toi"
+  ]
+ },
+ "orig": {
+  "Fun": [
+   [
+    "Halloween",
+    168
+   ]
+  ],
+  "Coquin": [
+   [
+    "Coquin",
+    163
+   ]
   ]
  }
 }

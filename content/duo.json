@@ -5,7 +5,7 @@
  "kind": "duo",
  "img": "/img/duo.webp",
  "levels": {
-  "Classique": [
+  "Fun": [
    "Destination de vacances idéale à deux : la plage ou la montagne ? ||| la plage ||| la montagne",
    "Destination de vacances idéale à deux : la plage ou une grande ville ? ||| la plage ||| une grande ville",
    "Destination de vacances idéale à deux : la plage ou la campagne ? ||| la plage ||| la campagne",
@@ -328,7 +328,7 @@
    "Qui rougit le plus vite : {p} ou égalité ? ||| {p} ||| égalité",
    "Qui rougit le plus vite : {q} ou égalité ? ||| {q} ||| égalité"
   ],
-  "Hot": [
+  "Explicite": [
    "Moment préféré pour un câlin coquin : le matin ou la sieste ? ||| le matin ||| la sieste",
    "Moment préféré pour un câlin coquin : le matin ou le soir ? ||| le matin ||| le soir",
    "Moment préféré pour un câlin coquin : le matin ou en pleine nuit ? ||| le matin ||| en pleine nuit",
@@ -482,7 +482,7 @@
   ]
  },
  "gold": {
-  "Classique": [
+  "Fun": [
    "Qui est le plus bordélique : {q} ou égalité ? ||| {q} ||| égalité",
    "Qui ronfle le plus : {q} ou personne ? ||| {q} ||| personne",
    "Qui ronfle le plus : {q} ou les deux ? ||| {q} ||| les deux",
@@ -524,7 +524,7 @@
    "Qui drague le mieux : {q} ou personne ? ||| {q} ||| personne",
    "Qui fait le premier pas : {p} ou {q} ? ||| {p} ||| {q}"
   ],
-  "Hot": [
+  "Explicite": [
    "Tenue qui fait craquer : lingerie ou boxer sexy ou une chemise ouverte ? ||| lingerie ou boxer sexy ||| une chemise ouverte",
    "Fantasme à réaliser en premier : un strip-tease ou une nuit sans dormir ? ||| un strip-tease ||| une nuit sans dormir",
    "Fantasme à réaliser en premier : un lieu insolite ou un strip-tease ? ||| un lieu insolite ||| un strip-tease",
@@ -543,6 +543,26 @@
    "Qui domine : {q} ou personne ? ||| {q} ||| personne",
    "Qui domine : {p} ou {q} ? ||| {p} ||| {q}",
    "Moment préféré pour un câlin coquin : la sieste ou en pleine nuit ? ||| la sieste ||| en pleine nuit"
+  ]
+ },
+ "orig": {
+  "Fun": [
+   [
+    "Classique",
+    167
+   ]
+  ],
+  "Coquin": [
+   [
+    "Coquin",
+    152
+   ]
+  ],
+  "Explicite": [
+   [
+    "Hot",
+    150
+   ]
   ]
  }
 }

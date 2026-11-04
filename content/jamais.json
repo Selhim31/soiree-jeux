@@ -2,7 +2,7 @@
  "name": "Je n'ai jamais",
  "desc": "Une affirmation s'affiche, et ceux qui l'ont déjà fait boivent.",
  "levels": {
-  "Classique": [
+  "Fun": [
    "Je n'ai jamais menti sur mon âge.",
    "Je n'ai jamais stalké un ex.",
    "Je n'ai jamais dormi au travail.",
@@ -162,7 +162,6 @@
    "Je n'ai jamais embrassé quelqu'un du groupe.",
    "Je n'ai jamais dragué un serveur ou une serveuse.",
    "Je n'ai jamais envoyé un message à un ex à 3h du matin.",
-   "Je n'ai jamais eu un crush sur un prof.",
    "Je n'ai jamais fait un date via une appli.",
    "Je n'ai jamais embrassé deux personnes la même soirée.",
    "Je n'ai jamais ghosté quelqu'un.",
@@ -272,7 +271,6 @@
    "Je n'ai jamais dragué en boîte avec une phrase toute faite.",
    "Je n'ai jamais fait de pique-nique romantique.",
    "Je n'ai jamais pleuré pour un crush qui ne savait même pas que j'existais.",
-   "Je n'ai jamais flirté avec un(e) prof de sport.",
    "Je n'ai jamais été en couple plus de trois ans.",
    "Je n'ai jamais été célibataire plus de deux ans.",
    "Je n'ai jamais fait de crise de jalousie en public.",
@@ -313,9 +311,7 @@
    "Je n'ai jamais accepté un rendez-vous juste pour le resto gratuit.",
    "Je n'ai jamais appelé un date par le prénom de mon ex.",
    "Je n'ai jamais relu de vieux messages d'un(e) ex à 2h du matin.",
-   "Je n'ai jamais fait semblant d'être heureux ou heureuse en croisant un(e) ex."
-  ],
-  "Hot": [
+   "Je n'ai jamais fait semblant d'être heureux ou heureuse en croisant un(e) ex.",
    "Je n'ai jamais fait l'amour dans une voiture.",
    "Je n'ai jamais envoyé une photo osée.",
    "Je n'ai jamais été surpris en plein câlin.",
@@ -401,7 +397,6 @@
    "Je n'ai jamais fait l'amour avec quelqu'un dont je ne connaissais pas l'âge.",
    "Je n'ai jamais eu un plan d'un soir avec un(e) touriste.",
    "Je n'ai jamais couché avec un(e) ami(e) d'ami(e) rencontré(e) le soir même.",
-   "Je n'ai jamais été attiré(e) par un(e) prof pendant mes études.",
    "Je n'ai jamais fait de sexto avec deux personnes la même semaine.",
    "Je n'ai jamais couché avec un ex d'un(e) ami(e).",
    "Je n'ai jamais quitté un date pour aller rejoindre quelqu'un d'autre au lit.",
@@ -576,7 +571,6 @@
    "Je n'ai jamais fait l'amour en étant attaché(e) au lit.",
    "Je n'ai jamais attaché quelqu'un au lit.",
    "Je n'ai jamais porté une tenue en latex ou en cuir.",
-   "Je n'ai jamais fait de jeu de rôle prof/élève.",
    "Je n'ai jamais fait de jeu de rôle infirmière/patient.",
    "Je n'ai jamais fait semblant d'être un(e) inconnu(e) avec mon/ma partenaire.",
    "Je n'ai jamais regardé un porno pour apprendre une technique.",
@@ -627,7 +621,7 @@
  "adult": false,
  "img": "/img/jamais.webp",
  "gold": {
-  "Classique": [
+  "Fun": [
    "Je n'ai jamais dit je t'aime en premier.",
    "Je n'ai jamais fait un selfie avec un inconnu célèbre sans le reconnaître.",
    "Je n'ai jamais fait un régime qui a tenu plus d'une semaine.",
@@ -666,9 +660,7 @@
    "Je n'ai jamais fait de crise de jalousie en public.",
    "Je n'ai jamais menti sur ma taille dans un profil.",
    "Je n'ai jamais dit « je t'aime » sans le penser.",
-   "Je n'ai jamais menti sur mon statut amoureux."
-  ],
-  "Hot": [
+   "Je n'ai jamais menti sur mon statut amoureux.",
    "Je n'ai jamais porté une tenue coquine sous des vêtements normaux.",
    "Je n'ai jamais porté un déguisement sexy pour quelqu'un.",
    "Je n'ai jamais envoyé une photo sexy pendant les heures de travail.",
@@ -707,6 +699,30 @@
    "Je n'ai jamais été privé(e) d'orgasme volontairement par un jeu.",
    "Je n'ai jamais donné de fessée au point de laisser une marque.",
    "Je n'ai jamais fait de fellation ou de cunnilingus en voiture."
+  ]
+ },
+ "orig": {
+  "Fun": [
+   [
+    "Classique",
+    154
+   ]
+  ],
+  "Coquin": [
+   [
+    "Coquin",
+    153
+   ],
+   [
+    "Hot",
+    150
+   ]
+  ],
+  "Explicite": [
+   [
+    "Explicite",
+    152
+   ]
   ]
  }
 }

@@ -2,7 +2,7 @@
  "name": "Classique & Entre amis",
  "desc": "Des questions faciles pour lancer la soirée entre potes.",
  "levels": {
-  "Classique": [
+  "Fun": [
    "{p}, quel est le plat que tu pourrais manger tous les jours sans te lasser ?",
    "{p}, raconte la fois où tu as le plus ri en public au mauvais moment.",
    "{p}, quel talent inutile as-tu perfectionné avec fierté ?",
@@ -155,9 +155,7 @@
    "{p}, quel métier de ton enfance a disparu ?",
    "{p}, quelle est la dernière chose qui t'a fait dire « c'était mieux avant » ?",
    "{p}, quel est l'objet inutile dont tu ne te sépareras jamais ?",
-   "{p}, quel est ton meilleur souvenir de neige ?"
-  ],
-  "Entre amis": [
+   "{p}, quel est ton meilleur souvenir de neige ?",
    "{p}, qui ici t'a le plus surpris depuis que tu le connais ?",
    "{p}, raconte ta première impression de {q}, sans filtre.",
    "{p}, quelle soirée du groupe mériterait un film ?",
@@ -310,7 +308,7 @@
    "{p}, quel serait le titre du film sur l'amitié du groupe ?",
    "{p}, qu'est-ce que {q} devrait faire plus souvent ?"
   ],
-  "Entre amis coquin": [
+  "Coquin": [
    "{p}, qui ici aurait le plus de succès en soirée selon toi ?",
    "{p}, as-tu déjà eu un crush sur quelqu'un du groupe ? Oui ou non suffit.",
    "{p}, quel ex de quelqu'un ici était le plus improbable ?",
@@ -471,7 +469,7 @@
  "adult": false,
  "img": "/img/soft.webp",
  "gold": {
-  "Classique": [
+  "Fun": [
    "{p}, quelle est la chose la plus gentille qu'un inconnu ait faite pour toi ?",
    "{p}, quelle est la pire coupe de cheveux de ta vie ? Photo bienvenue.",
    "{p}, ton pire souvenir de vacances qui est devenu ton meilleur ?",
@@ -489,9 +487,7 @@
    "{p}, quelle compétence de survie as-tu vraiment ?",
    "{p}, quel est le mensonge que tu disais enfant ?",
    "{p}, quelle mode as-tu suivie et regrettes-tu ?",
-   "{p}, quelle est l'odeur qui te rappelle ton enfance ?"
-  ],
-  "Entre amis": [
+   "{p}, quelle est l'odeur qui te rappelle ton enfance ?",
    "{p}, quel est le secret le plus mal gardé du groupe ?",
    "{p}, qui ici ferait le meilleur agent secret ?",
    "{p}, qui ici est le plus mauvais en secret ?",
@@ -511,7 +507,7 @@
    "{p}, quelle est la meilleure blague interne du groupe et son origine ?",
    "{p}, qui ici est le plus susceptible de faire un saut en parachute ?"
   ],
-  "Entre amis coquin": [
+  "Coquin": [
    "{p}, qui ici est le plus séduisant en tenue décontractée ?",
    "{p}, qui ici est le plus doué pour les bisous dans le cou à ton avis ?",
    "{p}, qui ici aime le plus flirter pour le plaisir ?",
@@ -531,6 +527,24 @@
    "{p}, qui ici serait le plus jaloux en couple ?",
    "{p}, qui ici enverrait le meilleur sexto ?",
    "{p}, qui ici a le plus de fantasmes ?"
+  ]
+ },
+ "orig": {
+  "Fun": [
+   [
+    "Classique",
+    153
+   ],
+   [
+    "Entre amis",
+    151
+   ]
+  ],
+  "Coquin": [
+   [
+    "Entre amis coquin",
+    155
+   ]
   ]
  }
 }

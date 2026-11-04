@@ -3,7 +3,7 @@
  "desc": "On vote pour le joueur qui correspond le mieux à la phrase.",
  "vote": "players",
  "levels": {
-  "Classique": [
+  "Fun": [
    "Qui pourrait finir célèbre ?",
    "Qui pourrait se perdre dans son quartier ?",
    "Qui pourrait survivre seul sur une île ?",
@@ -250,7 +250,6 @@
    "Qui pourrait offrir le cadeau le plus mignon ?",
    "Qui pourrait faire une crise de jalousie pour rien ?",
    "Qui pourrait tomber amoureux ou amoureuse d'un personnage de série ?",
-   "Qui pourrait avoir un crush sur un(e) prof ?",
    "Qui pourrait flirter avec tout le monde sans s'en rendre compte ?",
    "Qui pourrait faire un premier date au McDo ?",
    "Qui pourrait faire un premier date au restaurant étoilé ?",
@@ -296,7 +295,6 @@
    "Qui pourrait tomber pour un(e) ami(e) de son frère ou sa sœur ?",
    "Qui pourrait danser un tango avec un(e) inconnu(e) ?",
    "Qui pourrait sortir avec une célébrité ?",
-   "Qui pourrait se faire draguer par un(e) prof de sport ?",
    "Qui pourrait avoir un premier baiser au ski ?",
    "Qui pourrait connaître la date de tous ses premiers baisers ?",
    "Qui pourrait envoyer des fleurs anonymes ?",
@@ -315,7 +313,7 @@
    "Qui pourrait garder un dossier photo secret de ses ex ?",
    "Qui pourrait écrire un livre sur ses ruptures ?"
   ],
-  "Hot": [
+  "Explicite": [
    "Qui pourrait avoir le plus d'imagination au lit ?",
    "Qui pourrait avoir déjà fait un strip-tease ?",
    "Qui pourrait avoir un jouet caché ?",
@@ -474,7 +472,7 @@
  "adult": false,
  "img": "/img/qui.webp",
  "gold": {
-  "Classique": [
+  "Fun": [
    "Qui pourrait parler à des inconnus dans le métro ?",
    "Qui envoie les vocaux les plus longs ?",
    "Qui pourrait garder un secret pendant 10 ans ?",
@@ -515,7 +513,7 @@
    "Qui pourrait envoyer un message à son ex ce soir ?",
    "Qui pourrait envoyer un texto à son ex ce soir ?"
   ],
-  "Hot": [
+  "Explicite": [
    "Qui pourrait avoir une tenue sexy cachée ?",
    "Qui est le plus susceptible de draguer un(e) inconnu(e) ce soir ?",
    "Qui pourrait envoyer le sexto le plus long ?",
@@ -534,6 +532,26 @@
    "Qui pourrait avoir le plus de fantasmes ?",
    "Qui pourrait se balader sans sous-vêtements ce soir ?",
    "Qui pourrait craquer pour un inconnu ce soir ?"
+  ]
+ },
+ "orig": {
+  "Fun": [
+   [
+    "Classique",
+    155
+   ]
+  ],
+  "Coquin": [
+   [
+    "Coquin",
+    151
+   ]
+  ],
+  "Explicite": [
+   [
+    "Hot",
+    153
+   ]
   ]
  }
 }

@@ -5,7 +5,7 @@
   for(const x of['rnp','pmu','verite','ask','connaitre','coquin','soft','hot','flirts','defis','mime','7sec'])assert(!ids.includes(x),x+' ne doit plus apparaître');
   for(const x of['confessions','seduction','gdefis','defi18','darkromance','loupgarou','lghot','tupreferes','ouinon','cestun10','excrush','qui','av','jamais','purete','quiz','estim','imposteur','duo','ecrit','equipe','cercle','couple','halloween'])assert(ids.includes(x),x+' manquant');
   assert(fams.find(f=>f.id==='adulte').games.includes('defi18'));for(const f of fams)for(const g of f.games)assert(ids.includes(g),'famille '+f.id+' → '+g);
-  assert.deepStrictEqual(Object.keys(games.find(g=>g.id==='defi18').levels),['Coquin','Hot','Explicite']);assert.deepStrictEqual(Object.keys(games.find(g=>g.id==='gdefis').levels),['Classique','Délirant','Mime','7 secondes']);
+  assert.deepStrictEqual(Object.keys(games.find(g=>g.id==='defi18').levels),['Coquin','Explicite']);assert.deepStrictEqual(Object.keys(games.find(g=>g.id==='gdefis').levels),['Fun']);
   // couverture : toutes les cartes de content/*.json sont jouables via un jeu du lobby
   const src=fs.readFileSync(__dirname+'/../server.js','utf8');const GRP=eval('('+/const GRP=(\{[\s\S]*?\}\}\});\n/.exec(src)[1]+')');const cov=new Set();
   for(const k of ids)if(GRP[k])for(const L of Object.values(GRP[k].levels))for(const[f,l]of L)cov.add(f+'|'+l);else{const d=JSON.parse(fs.readFileSync(__dirname+`/../content/${k}.json`));for(const l in d.levels)cov.add(k+'|'+l)}

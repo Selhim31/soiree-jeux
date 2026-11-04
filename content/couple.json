@@ -3,7 +3,7 @@
  "desc": "Questions et défis à vivre à deux, de la complicité à l'explicite.",
  "adult": true,
  "levels": {
-  "Classique": [
+  "Fun": [
    "{p}, raconte à {q} le moment exact où tu as su que tu l'aimais bien.",
    "{p}, quel est votre premier souvenir ensemble selon toi ? {q} confirme ou corrige.",
    "{p}, quelle habitude de {q} trouves-tu adorable en secret ?",
@@ -338,9 +338,7 @@
    "{p}, quelle tenue de {q} aimerais-tu lui voir porter juste pour toi lors de votre prochain appel vidéo ?",
    "{p}, écris à {q} trois mots qui résument ce que tu as envie de lui faire, {q} doit deviner l'ordre (avec son accord).",
    "{p}, quelle photo de {q} gardes-tu dans un coin de ton téléphone juste pour les soirs où il/elle te manque ?",
-   "{p}, quel message de {q} as-tu relu plusieurs fois parce qu'il t'avait mis(e) dans tous tes états ?"
-  ],
-  "Hot": [
+   "{p}, quel message de {q} as-tu relu plusieurs fois parce qu'il t'avait mis(e) dans tous tes états ?",
    "{p}, dis à {q} ce que tu aimerais qu'il/elle te fasse ce soir, en restant élégant.",
    "{p}, quel est votre meilleur souvenir sous la couette ?",
    "{p}, quel fantasme aimerais-tu réaliser avec {q} cette année ?",
@@ -509,7 +507,22 @@
    "{p}, quel souvenir de {q} te revient quand tu es seul(e) le soir et que tu penses à lui/elle ?",
    "{p}, quel est l'endroit le plus inattendu où tu as pensé à {q} d'une façon pas très sage ?",
    "{p}, si {q} pouvait te regarder en secret pendant cinq minutes ce soir, que voudrais-tu qu'il/elle te surprenne en train de faire ?",
-   "{p}, quelle est la première chose que tu feras à {q} la prochaine fois que vous serez enfin dans la même pièce ?"
+   "{p}, quelle est la première chose que tu feras à {q} la prochaine fois que vous serez enfin dans la même pièce ?",
+   "{p}, sors votre jouet préféré (ou montre tes mains si vous n'en avez pas) et dis à {q} quel souvenir il te rappelle.",
+   "{p}, allume votre jouet au plus doux et promène-le sur l'avant-bras de {q} pendant 20 secondes (sans jouet : du bout des doigts).",
+   "{p}, laisse {q} choisir le jouet de ce soir parmi les vôtres, ou une caresse avec les mains si vous n'en avez pas.",
+   "{p}, pose le jouet allumé dans la main de {q} et laisse-le/la deviner où tu aimerais le sentir en premier.",
+   "{p}, raconte à {q} la fois où votre jouet vous a le plus surpris(e)s, en trois phrases (sans jouet : votre caresse la plus surprenante).",
+   "{p}, fais vibrer votre jouet contre la nuque de {q} pendant qu'il/elle te dit trois choses qu'il/elle aime chez toi (sans jouet : tes lèvres).",
+   "{p}, décris à {q} le prochain jouet que tu aimerais acheter à deux, et demande-lui son avis.",
+   "{p}, bande les yeux de {q} avec un foulard doux et fais-lui deviner si c'est le jouet ou tes doigts sur son épaule (avec son accord).",
+   "{p}, prends votre jouet éteint et dessine lentement le contour des lèvres de {q} avec, sans l'allumer (sans jouet : avec ton doigt).",
+   "{p}, si vous êtes à distance, envoie à {q} une photo de votre jouet posé sur ton lit avec un mot coquin en légende (avec son accord ; sans jouet : ta main sur le drap).",
+   "{p}, laisse {q} régler la vitesse du jouet pendant que tu le poses sur ton genou, et dis-lui « stop » quand tu frissonnes (sans jouet : sa main).",
+   "{p}, cache votre jouet dans la pièce ; {q} le cherche pendant que tu dis « chaud » ou « froid » (sans jouet : cache un foulard).",
+   "{p}, promène le jouet allumé le long du dos de {q}, de la nuque jusqu'aux reins, très lentement (sans jouet : tes doigts).",
+   "{p}, propose à {q} une règle du jeu pour ce soir avec votre jouet, et il/elle accepte ou la modifie.",
+   "{p}, tiens le jouet contre ton propre cou et décris à {q} ce que tu ressens, pour qu'il/elle sache où le poser ensuite (sans jouet : tes doigts)."
   ],
   "Explicite": [
    "{p}, dis à {q} ta position préférée avec lui/elle.",
@@ -572,7 +585,6 @@
    "{p}, décris à {q} une levrette idéale",
    "{p}, dis à {q} ce que tu veux qu'il/elle porte pendant l'acte",
    "{p}, qu'est-ce que tu aimerais que {q} te fasse avec un vibromasseur ?",
-   "{p}, décris à {q} votre prochaine nuit sans limites",
    "{p}, dis à {q} où tu aimerais le faire en public, avec quels risques",
    "{p}, décris à {q} ce que tu fais quand tu te masturbes en pensant à lui/elle",
    "{p}, dis à {q} ce que tu préfères : jouir ensemble ou l'un après l'autre",
@@ -581,7 +593,6 @@
    "{p}, dis à {q} la caresse qui te fait perdre le contrôle",
    "{p}, qu'est-ce que tu aimerais que {q} te fasse sous la douche ?",
    "{p}, décris à {q} ton orgasme idéal",
-   "{p}, dis à {q} une limite que tu serais prêt(e) à repousser avec lui/elle",
    "{p}, décris à {q} ce que tu ferais avec une plume et un glaçon",
    "{p}, quelle est la pratique que tu veux que {q} découvre ?",
    "{p}, dis à {q} quel bruit venant de lui/elle t'excite le plus",
@@ -665,7 +676,6 @@
    "{p}, dis à {q} ce que tu voudrais qu'il/elle te fasse juste après l'orgasme",
    "{p}, décris à {q} un jeu de « interdiction de jouir »",
    "{p}, dis à {q} ton plus gros fantasme avec de l'huile de massage",
-   "{p}, décris à {q} le scénario « prof et élève majeur(e) » à votre façon",
    "{p}, dis à {q} une chose qu'il/elle fait au lit et que tu aimerais qu'il/elle fasse plus souvent.",
    "{p}, plutôt tendresse lente ou passion brutale avec {q} ce soir ? {q} donne aussi sa réponse.",
    "{p}, quel fantasme rêves-tu de réaliser avec {q} mais n'as jamais osé lui proposer ?",
@@ -676,12 +686,27 @@
    "{p}, quelle est la chose que {q} fait au lit qui te rend complètement fou/folle, et comment voudrais-tu qu'il/elle la fasse encore mieux ?",
    "{p}, raconte à {q} ce que tu ferais si tu pouvais te téléporter dans son lit maintenant, sans rien censurer.",
    "{p}, décris à {q}, étape par étape, comment tu le/la déshabillerais si tu étais derrière lui/elle maintenant.",
-   "{p}, quelle position as-tu le plus envie d'essayer avec {q} la prochaine fois, et qui mènerait la danse ?"
+   "{p}, quelle position as-tu le plus envie d'essayer avec {q} la prochaine fois, et qui mènerait la danse ?",
+   "{p}, utilise votre jouet sur {q} là où il/elle te le demande, au rythme qu'il/elle choisit, pendant une minute (avec son accord ; sans jouet : avec tes mains).",
+   "{p}, laisse {q} utiliser le jouet sur toi pendant que tu n'as le droit de dire que « plus » ou « moins » (sans jouet : ses doigts).",
+   "{p}, utilise le jouet sur toi devant {q} pendant 30 secondes, en le/la regardant dans les yeux (pas de jouet ? ta main).",
+   "{p}, tiens le jouet pendant que {q} se caresse, et suis exactement son rythme (avec son accord ; sans jouet : guide sa main).",
+   "{p}, bande les yeux de {q} et alterne le jouet et ta bouche sur son corps ; il/elle devine lequel à chaque fois (avec son accord ; sans jouet : tes doigts et ta bouche).",
+   "{p}, utilise le jouet sur {q} en t'arrêtant juste avant qu'il/elle n'en puisse plus, trois fois de suite, puis laisse-le/la décider de la suite (avec son accord).",
+   "{p}, à distance, appelle {q} en audio et utilisez chacun votre jouet en vous décrivant ce que vous ressentez (avec son accord ; pas de jouet ? vos mains).",
+   "{p}, commence à utiliser ton jouet, puis envoie à {q} une photo suggestive de toi à ce moment-là, sans montrer ton visage (avec son accord ; sans jouet : avec ta main).",
+   "{p}, pose le jouet sur {q} pendant qu'il/elle te raconte son fantasme, et arrête-toi s'il/elle s'interrompt (avec son accord ; sans jouet : tes doigts).",
+   "{p}, demande à {q} de te montrer avec le jouet comment il/elle aime se faire plaisir seul(e), puis reproduis-le sur lui/elle (avec son accord).",
+   "{p}, utilisez le jouet à deux : l'un le tient, l'autre guide la main, en échangeant les rôles au bout d'une minute (sans jouet : vos mains l'une sur l'autre).",
+   "{p}, garde le jouet en marche sur toi pendant que {q} t'embrasse partout ailleurs, sans le laisser t'arrêter avant son signal (avec son accord).",
+   "{p}, laisse {q} choisir une zone, une vitesse et une durée pour le jouet sur toi, et accepte ou propose autre chose (sans jouet : sa main).",
+   "{p}, si vous êtes à distance, envoie à {q} un vocal de 30 secondes pendant que tu utilises le jouet en pensant à lui/elle (avec son accord ; sans jouet : avec tes doigts).",
+   "{p}, utilise le jouet sur {q} pendant qu'il/elle n'a pas le droit de bouger les mains, une minute, mot de sécurité « pause » (avec son accord ; sans jouet : tes mains)."
   ]
  },
  "img": "/img/couple.webp",
  "gold": {
-  "Classique": [
+  "Fun": [
    "{p}, quelle est la plus belle photo de vous deux ?",
    "{p}, qui de vous deux est le plus jaloux ?",
    "{p}, quelle habitude de {q} trouves-tu adorable en secret ?",
@@ -722,9 +747,7 @@
    "{p}, quel est le premier baiser avec {q} dont tu te souviens le mieux ?",
    "{p}, quel est le message le plus coquin que {q} t'ait envoyé (résumé) ?",
    "{p}, qu'est-ce qui te plaît le plus dans la façon dont {q} t'embrasse ?",
-   "{p}, dis à {q} où tu aimerais qu'il/elle t'embrasse en premier ce soir"
-  ],
-  "Hot": [
+   "{p}, dis à {q} où tu aimerais qu'il/elle t'embrasse en premier ce soir",
    "{p}, décris à {q} la tenue parfaite pour un dîner qui finira au lit",
    "{p}, quelle est la chose la plus sexy que {q} a faite sans s'en rendre compte ?",
    "{p}, décris à {q} un strip-tease que tu lui ferais",
@@ -767,6 +790,30 @@
    "{p}, décris à {q} une nuit de sexe tantrique",
    "{p}, raconte à {q} ce que tu ferais si tu pouvais te téléporter dans son lit maintenant, sans rien censurer.",
    "{p}, décris à {q}, étape par étape, comment tu le/la déshabillerais si tu étais derrière lui/elle maintenant."
+  ]
+ },
+ "orig": {
+  "Fun": [
+   [
+    "Classique",
+    162
+   ]
+  ],
+  "Coquin": [
+   [
+    "Coquin",
+    171
+   ],
+   [
+    "Hot",
+    184
+   ]
+  ],
+  "Explicite": [
+   [
+    "Explicite",
+    177
+   ]
   ]
  }
 }

@@ -1,0 +1,15 @@
+{p}, sors votre jouet préféré (ou montre tes mains si vous n'en avez pas) et dis à {q} quel souvenir il te rappelle.
+{p}, allume votre jouet au plus doux et promène-le sur l'avant-bras de {q} pendant 20 secondes (sans jouet : du bout des doigts).
+{p}, laisse {q} choisir le jouet de ce soir parmi les vôtres, ou une caresse avec les mains si vous n'en avez pas.
+{p}, pose le jouet allumé dans la main de {q} et laisse-le/la deviner où tu aimerais le sentir en premier.
+{p}, raconte à {q} la fois où votre jouet vous a le plus surpris(e)s, en trois phrases (sans jouet : votre caresse la plus surprenante).
+{p}, fais vibrer votre jouet contre la nuque de {q} pendant qu'il/elle te dit trois choses qu'il/elle aime chez toi (sans jouet : tes lèvres).
+{p}, décris à {q} le prochain jouet que tu aimerais acheter à deux, et demande-lui son avis.
+{p}, bande les yeux de {q} avec un foulard doux et fais-lui deviner si c'est le jouet ou tes doigts sur son épaule (avec son accord).
+{p}, prends votre jouet éteint et dessine lentement le contour des lèvres de {q} avec, sans l'allumer (sans jouet : avec ton doigt).
+{p}, si vous êtes à distance, envoie à {q} une photo de votre jouet posé sur ton lit avec un mot coquin en légende (avec son accord ; sans jouet : ta main sur le drap).
+{p}, laisse {q} régler la vitesse du jouet pendant que tu le poses sur ton genou, et dis-lui « stop » quand tu frissonnes (sans jouet : sa main).
+{p}, cache votre jouet dans la pièce ; {q} le cherche pendant que tu dis « chaud » ou « froid » (sans jouet : cache un foulard).
+{p}, promène le jouet allumé le long du dos de {q}, de la nuque jusqu'aux reins, très lentement (sans jouet : tes doigts).
+{p}, propose à {q} une règle du jeu pour ce soir avec votre jouet, et il/elle accepte ou la modifie.
+{p}, tiens le jouet contre ton propre cou et décris à {q} ce que tu ressens, pour qu'il/elle sache où le poser ensuite (sans jouet : tes doigts).

@@ -3,7 +3,7 @@
  "desc": "Un joueur doit citer 3 choses en 7 secondes, avec un chrono partagé sur tous les téléphones.",
  "kind": "timer",
  "levels": {
-  "Classique": [
+  "Fun": [
    "{p}, cite 3 fromages !",
    "{p}, cite 3 pays d'Afrique !",
    "{p}, cite 3 marques de voiture !",
@@ -322,7 +322,7 @@
  "img": "/img/7sec.webp",
  "adult": false,
  "gold": {
-  "Classique": [
+  "Fun": [
    "{p}, cite 3 jeux vidéo de foot !",
    "{p}, cite 3 jeux vidéo !",
    "{p}, cite 3 langues parlées en Europe !",
@@ -363,6 +363,20 @@
    "{p}, cite 3 types de sous-vêtements !",
    "{p}, cite 3 films érotiques connus !",
    "{p}, cite 3 couleurs de lingerie !"
+  ]
+ },
+ "orig": {
+  "Fun": [
+   [
+    "Classique",
+    155
+   ]
+  ],
+  "Coquin": [
+   [
+    "Coquin",
+    156
+   ]
   ]
  }
 }

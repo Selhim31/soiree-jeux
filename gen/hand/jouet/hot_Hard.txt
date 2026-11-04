@@ -1,0 +1,15 @@
+{p}, allume ton jouet et passe-le lentement le long de ton cou pendant 20 secondes en décrivant à {q} chaque frisson (sans jouet : tes doigts).
+{p}, laisse {q} régler à la voix la vitesse de ton jouet pendant 30 secondes : « plus doux », « plus fort », « stop » (sans jouet : il/elle règle le rythme de ta main).
+{p}, utilise ton jouet par-dessus tes sous-vêtements 20 secondes en gardant les yeux dans ceux de {q} (pas de jouet ? ta main à plat).
+{p}, décris à {q}, sans filtre, ta façon préférée d'utiliser ton jouet quand tu es seul(e) (sans jouet : ta façon préférée de te caresser).
+{p}, prends-toi en photo, cadré(e) sur ta main qui tient ton jouet contre ta peau, et envoie-la à {q} (avec son accord ; sans jouet : ta main seule).
+{p}, mets ton jouet en marche sous ta couverture et réponds à trois questions de {q} sans changer de voix (sans jouet : ta main sous la couverture).
+{p}, fais glisser ton jouet sur l'intérieur de tes cuisses pendant que {q} compte lentement jusqu'à 15 (sans jouet : du bout des doigts).
+{p}, demande à {q} de choisir un rythme en tapant dans ses mains, et suis-le avec ton jouet par-dessus tes vêtements (sans jouet : avec ta main).
+{p}, envoie à {q} un vocal où tu décris ce que ton jouet est en train de te faire, en 15 secondes (avec son accord ; sans jouet : ce que font tes doigts).
+{p}, garde ton jouet allumé au niveau 1 pendant toute la prochaine carte, sans que personne n'entende (sans jouet : garde une main posée sur ta cuisse).
+{p}, raconte à {q} le scénario dans lequel il/elle prendrait le contrôle de ton jouet à distance.
+{p}, utilise ton jouet 30 secondes en murmurant le prénom de {q} à chaque changement de vitesse (sans jouet : à chaque changement de rythme).
+{p}, montre à {q} comment tu tiens ton jouet, puis mime avec tes mains ce que tu en ferais ensuite.
+{p}, fais monter ton jouet d'une vitesse toutes les 5 secondes pendant que {q} te regarde, et arrête-toi au premier soupir (sans jouet : accélère ta main).
+{p}, propose à {q} un défi jouet pour après la partie, chacun chez soi, et fixez ensemble l'heure (pas de jouet ? même défi avec vos mains).

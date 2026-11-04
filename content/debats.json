@@ -2,7 +2,7 @@
  "name": "Débats",
  "desc": "Une question qui divise : chacun choisit son camp et défend son avis.",
  "levels": {
-  "Classique": [
+  "Fun": [
    "Ananas sur la pizza ? {p} pour, {q} contre : 30 secondes chacun.",
    "Ananas sur la pizza ? Tout le monde vote, puis {p} défend la minorité.",
    "Chocolatine ou pain au chocolat ? {p} pour, {q} contre : 30 secondes chacun.",
@@ -157,9 +157,7 @@
    "Faut-il interdire les trottinettes en ville ? Tout le monde vote, puis {p} défend la minorité.",
    "La fondue est meilleure que la raclette ? {p} pour, {q} contre : 30 secondes chacun.",
    "Les lunettes de soleil la nuit, c'est jamais ok ? {p} pour, {q} contre : 30 secondes chacun.",
-   "Les lunettes de soleil la nuit, c'est jamais ok ? Tout le monde vote, puis {p} défend la minorité."
-  ],
-  "Couple & société": [
+   "Les lunettes de soleil la nuit, c'est jamais ok ? Tout le monde vote, puis {p} défend la minorité.",
    "La jalousie est une preuve d'amour ? {p} donne son avis franc.",
    "La jalousie est une preuve d'amour ? {p} contre {q}, le groupe tranche.",
    "Le couple libre peut marcher ? {p} donne son avis franc.",
@@ -320,7 +318,7 @@
  "adult": false,
  "img": "/img/debats.webp",
  "gold": {
-  "Classique": [
+  "Fun": [
    "Les vocaux de 5 minutes devraient être interdits ? {p} pour, {q} contre : 30 secondes chacun.",
    "Le premier date doit être payé par celui qui invite ? {p} pour, {q} contre : 30 secondes chacun.",
    "Lire la fin d'un livre en premier, c'est un crime ? {p} pour, {q} contre : 30 secondes chacun.",
@@ -339,9 +337,7 @@
    "Les playlists partagées en voiture, c'est le chauffeur qui décide ? {p} pour, {q} contre : 30 secondes chacun.",
    "Faut-il dire « bonjour » en entrant dans un ascenseur ? {p} pour, {q} contre : 30 secondes chacun.",
    "Faut-il garder les boîtes des appareils électroniques ? {p} pour, {q} contre : 30 secondes chacun.",
-   "Les vacances à la neige valent les vacances au soleil ? {p} pour, {q} contre : 30 secondes chacun."
-  ],
-  "Couple & société": [
+   "Les vacances à la neige valent les vacances au soleil ? {p} pour, {q} contre : 30 secondes chacun.",
    "Les sextos avec un(e) inconnu(e) en couple, tromperie ou pas ? {p} tranche.",
    "Les sextos sont une forme de tromperie s'ils sont envoyés à un autre ? {p} contre {q}, le groupe tranche.",
    "Le sexe au premier rendez-vous, c'est ok ? {p} contre {q}, le groupe tranche.",
@@ -361,6 +357,18 @@
    "Les fantasmes doivent rester secrets ? {p} contre {q}, le groupe tranche.",
    "La jalousie est une preuve d'amour ? {p} contre {q}, le groupe tranche.",
    "On peut pardonner une tromperie ? {p} contre {q}, le groupe tranche."
+  ]
+ },
+ "orig": {
+  "Fun": [
+   [
+    "Classique",
+    155
+   ],
+   [
+    "Couple & société",
+    155
+   ]
   ]
  }
 }

@@ -5,7 +5,7 @@
  "kind": "whowrote",
  "img": "/img/ecrit.webp",
  "levels": {
-  "Classique": [
+  "Fun": [
    "Écris le pire slogan possible pour les lundis matins.",
    "Écris le pire slogan possible pour la machine à café du bureau.",
    "Écris le pire slogan possible pour les réunions qui auraient pu être un mail.",
@@ -339,7 +339,7 @@
    "Invente le pire souvenir possible avec une chanson d'amour.",
    "Invente le pire souvenir possible avec un plan drague."
   ],
-  "Hot": [
+  "Explicite": [
    "Ton fantasme lié à une nuit d'hôtel, en une phrase.",
    "Ton fantasme lié à une douche à deux, en une phrase.",
    "Ton fantasme lié à un massage à l'huile, en une phrase.",
@@ -493,7 +493,7 @@
   ]
  },
  "gold": {
-  "Classique": [
+  "Fun": [
    "Écris le pire slogan possible pour les réunions qui auraient pu être un mail.",
    "Écris le pire slogan possible pour le métro aux heures de pointe.",
    "Écris le pire slogan possible pour la machine à café du bureau.",
@@ -537,7 +537,7 @@
    "Complète en secret : « Pour moi, un rendez-vous à l'aveugle, c'est… »",
    "Complète en secret : « Pour moi, un mot doux sur un post-it, c'est… »"
   ],
-  "Hot": [
+  "Explicite": [
    "Complète en secret : « Un baiser dans le cou, ça me donne envie de… »",
    "Ton fantasme lié à un baiser dans le cou, en une phrase.",
    "Complète en secret : « Des menottes en fourrure, ça me donne envie de… »",
@@ -556,6 +556,26 @@
    "Ton fantasme lié à une chanson sensuelle, en une phrase.",
    "Ton fantasme lié à une sieste coquine, en une phrase.",
    "Le titre du film X inspiré par un baiser dans le cou."
+  ]
+ },
+ "orig": {
+  "Fun": [
+   [
+    "Classique",
+    180
+   ]
+  ],
+  "Coquin": [
+   [
+    "Coquin",
+    150
+   ]
+  ],
+  "Explicite": [
+   [
+    "Hot",
+    150
+   ]
   ]
  }
 }

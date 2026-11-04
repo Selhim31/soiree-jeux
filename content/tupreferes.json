@@ -3,7 +3,7 @@
  "desc": "Deux options, chacun choisit, puis on voit les résultats du groupe.",
  "vote": "ab",
  "levels": {
-  "Classique": [
+  "Fun": [
    "Tu préfères vivre sans musique ||| vivre sans films ?",
    "Tu préfères être invisible ||| savoir voler ?",
    "Tu préfères parler toutes les langues ||| parler aux animaux ?",
@@ -319,7 +319,7 @@
    "Tu préfères une rupture par SMS ||| une rupture en public ?",
    "Tu préfères garder les cadeaux de ton ex ||| les brûler symboliquement ?"
   ],
-  "Hot": [
+  "Explicite": [
    "Tu préfères une nuit torride sans lendemain ||| dix nuits sages ?",
    "Tu préfères les yeux bandés ||| les mains attachées ?",
    "Tu préfères une douche à deux ||| un bain moussant à deux ?",
@@ -480,7 +480,7 @@
  "adult": false,
  "img": "/img/tupreferes.webp",
  "gold": {
-  "Classique": [
+  "Fun": [
    "Tu préfères revivre ta meilleure journée ||| découvrir une journée parfaite inconnue ?",
    "Tu préfères être célèbre pour un scandale ||| inconnu pour toujours ?",
    "Tu préfères parler couramment 10 langues ||| jouer de 10 instruments ?",
@@ -521,7 +521,7 @@
    "Tu préfères danser avec ton crush ||| cuisiner avec ton crush ?",
    "Tu préfères un partenaire qui parle trois langues ||| qui joue de trois instruments ?"
   ],
-  "Hot": [
+  "Explicite": [
    "Tu préfères une tenue sexy ||| un pyjama doux ?",
    "Tu préfères retrouver ton meilleur ex au lit une nuit ||| une nuit avec un inconnu parfait ?",
    "Tu préfères des caresses sous la table ||| un baiser fougueux aux toilettes ?",
@@ -541,6 +541,26 @@
    "Tu préfères un massage tantrique ||| un strip-tease privé ?",
    "Tu préfères un strip-tease reçu ||| un strip-tease donné ?",
    "Tu préfères un strip-poker ||| un action ou vérité hot ?"
+  ]
+ },
+ "orig": {
+  "Fun": [
+   [
+    "Classique",
+    154
+   ]
+  ],
+  "Coquin": [
+   [
+    "Coquin",
+    158
+   ]
+  ],
+  "Explicite": [
+   [
+    "Hot",
+    155
+   ]
   ]
  }
 }

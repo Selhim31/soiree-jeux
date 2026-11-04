@@ -1,0 +1,15 @@
+{p}, montre à la caméra ton jouet préféré dans sa boîte ou sa pochette et donne-lui un surnom (sans jouet : montre ta main et donne-lui un surnom).
+{p}, envoie à {q} une photo de ton jouet préféré avec un émoji qui résume ce qu'il te fait (avec son accord ; sans jouet : une photo de ta main).
+{p}, allume ton jouet près du micro et fais deviner à {q} sa vitesse sur 5 (sans jouet : tape un rythme sur ta cuisse).
+{p}, décris ton jouet à {q} comme une publicité de luxe, en 20 secondes.
+{p}, pose ton jouet en marche contre ta clavicule 15 secondes sans grimacer ni rire (sans jouet : tes doigts).
+{p}, laisse {q} renommer ton jouet ; tu l'appelleras comme ça jusqu'à la fin de la partie (sans jouet : il/elle renomme ta main).
+{p}, raconte à {q} où tu caches ton jouet chez toi et pourquoi cet endroit (pas de jouet ? où tu en cacherais un).
+{p}, fais vibrer ton jouet contre tes lèvres fermées 5 secondes et décris la sensation à {q} (sans jouet : effleure-les du doigt).
+{p}, envoie à {q} un vocal de 5 secondes de ton jouet qui vibre, avec un « devine où » (avec son accord ; sans jouet : ton souffle).
+{p}, laisse {q} choisir une vitesse au hasard et tiens ton jouet contre ton genou le temps de dire l'alphabet jusqu'à J (sans jouet : ta main).
+{p}, imite un vendeur qui présente ton jouet à {q} en trois arguments irrésistibles.
+{p}, fais une note sur 10 de ton jouet préféré devant {q}, en détaillant trois critères (sans jouet : note ta main).
+{p}, pose ton jouet allumé sur ta poitrine par-dessus tes vêtements pendant que {q} te pose une question coquine (sans jouet : ta main à plat).
+{p}, dis à {q} le jouet que tu lui offrirais et ce que tu voudrais qu'il/elle en fasse en pensant à toi.
+{p}, prends-toi en photo avec ton jouet caché derrière ton dos et un regard de défi, et envoie-la à {q} (avec son accord ; sans jouet : mains dans le dos).

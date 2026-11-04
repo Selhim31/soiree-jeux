@@ -4,7 +4,7 @@
  "img": "/img/ask.webp",
  "kind": "ask",
  "levels": {
-  "Classique": [
+  "Fun": [
    "Quel est ton plus grand rêve que tu n'as encore jamais dit à personne ?",
    "Quelle est la chose la plus folle que tu aies faite pour quelqu'un ?",
    "Qu'est-ce que tu penses vraiment de moi, en une phrase ?",
@@ -116,7 +116,7 @@
    "Quel est ton date idéal en trois mots ?",
    "Qu'est-ce que tu n'avouerais jamais à un crush ?"
   ],
-  "Hot": [
+  "Explicite": [
    "Quel est ton fantasme que tu n'as jamais osé avouer ?",
    "Quel est l'endroit le plus insolite où tu l'aies fait ?",
    "Qu'est-ce qui t'excite le plus chez ton ou ta partenaire ?",
@@ -174,7 +174,7 @@
   ]
  },
  "gold": {
-  "Classique": [
+  "Fun": [
    "Quel est le mensonge que tu regrettes le plus ?",
    "Quelle est la chose la plus folle que tu aies faite pour quelqu'un ?",
    "Quel est ton plus grand rêve que tu n'as encore jamais dit à personne ?",
@@ -190,13 +190,33 @@
    "Quel est ton meilleur souvenir de premier baiser ?",
    "Quelle est ta pire technique de drague ?"
   ],
-  "Hot": [
+  "Explicite": [
    "Quel est ton fantasme avec un(e) inconnu(e) ?",
    "Quelle tenue te rend fou ou folle chez l'autre ?",
    "Qu'est-ce qui t'excite le plus chez ton ou ta partenaire ?",
    "Qu'est-ce qui rend un baiser vraiment torride ?",
    "Quel est le mot qui t'excite le plus ?",
    "Quel mot cru t'excite le plus ?"
+  ]
+ },
+ "orig": {
+  "Fun": [
+   [
+    "Classique",
+    54
+   ]
+  ],
+  "Coquin": [
+   [
+    "Coquin",
+    54
+   ]
+  ],
+  "Explicite": [
+   [
+    "Hot",
+    54
+   ]
   ]
  }
 }

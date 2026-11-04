@@ -36,7 +36,6 @@
    "{p}, quelle est la tenue que tu mets quand tu veux vraiment plaire ?",
    "{p}, as-tu déjà embrassé quelqu'un juste pour gagner un pari ?",
    "{p}, raconte ton plus long regard échangé avec un inconnu.",
-   "{p}, qui était ton crush secret au lycée, et le sait-il ?",
    "{p}, quel est ton date idéal un dimanche pluvieux ?",
    "{p}, quelle partie d'un rendez-vous préfères-tu : l'avant, le pendant ou le texto d'après ?",
    "{p}, as-tu déjà dragué quelqu'un dans les transports ?",
@@ -87,23 +86,17 @@
    "{p}, fais ton meilleur regard de séducteur à la caméra pendant 10 secondes.",
    "{p}, envoie un compliment charmeur à {q} en privé (avec son accord).",
    "{p}, lis ton dernier message à voix haute d'une voix sensuelle.",
-   "{p}, fais une déclaration d'amour à {q} façon film romantique.",
    "{p}, mets un rouge à lèvres ou un accessoire choisi par {q} jusqu'à la fin du tour.",
-   "{p}, fais un clin d'œil à chaque joueur.",
    "{p}, change ta photo de profil pour une photo choisie par {q} pendant 1 heure.",
-   "{p}, imite ta technique de drague.",
    "{p}, envoie un émoji ❤️‍🔥 à la 5e personne de tes conversations (avec son accord).",
    "{p}, fais un slow imaginaire avec ton coussin.",
    "{p}, décris {q} comme dans une annonce de rencontre.",
    "{p}, chante une chanson d'amour à {q}.",
    "{p}, montre ta meilleure pose de magazine.",
    "{p}, fais un bisou à la caméra.",
-   "{p}, appelle {q} « mon cœur » jusqu'à ton prochain tour.",
    "{p}, fais ton plus beau compliment à chaque joueur en 30 secondes.",
    "{p}, mime ton premier baiser avec ta main.",
-   "{p}, écris un poème de 4 vers pour {q} et lis-le.",
    "{p}, danse de façon sexy 15 secondes (habillé !).",
-   "{p}, choisis la personne la plus charmante ici et dis pourquoi.",
    "{p}, raconte ton date idéal en chuchotant.",
    "{p}, envoie « tu penses à moi ? » à un contact choisi par {q} (et explique après) (avec son accord).",
    "{p}, fais semblant de draguer {q} dans un bar pendant 30 secondes.",
@@ -113,7 +106,6 @@
    "{p}, laisse {q} choisir ton surnom coquin pour la soirée.",
    "{p}, raconte une anecdote coquine soft en 30 secondes.",
    "{p}, fais un défilé dans ta pièce comme sur un podium.",
-   "{p}, imite un ronronnement séducteur.",
    "{p}, quel détail chez quelqu'un te fait rougir instantanément ?",
    "{p}, quelle est la phrase de drague la plus nulle qui a pourtant marché sur toi ?",
    "{p}, à quel moment de la journée te sens-tu le plus charmeur ou charmeuse ?",
@@ -196,7 +188,6 @@
    "{p}, quelle chanson te met directement d'humeur câline ?",
    "{p}, as-tu déjà fait semblant de ne pas comprendre un sous-entendu pour faire durer le jeu ?",
    "{p}, quel prénom te fait craquer rien qu'à l'entendre ?",
-   "{p}, cite un film dont une scène t'a mis un peu trop chaud quand tu étais ado.",
    "{p}, quel est le geste anodin qui, fait par la bonne personne, te fait complètement perdre le fil ?",
    "{p}, as-tu déjà relu une conversation flirt plusieurs fois juste pour le plaisir ?",
    "{p}, avec qui ici partagerais-tu un slow sans hésiter, et pourquoi ?",
@@ -210,9 +201,7 @@
    "{p}, plutôt culotte/caleçon assorti ou dépareillé quand tu pars en rendez-vous, et qu'est-ce que ça dit de tes intentions ?",
    "{p}, quel compliment reçu par message t'a fait rougir tout(e) seul(e) devant ton téléphone ?",
    "{p}, quel est le détail de ta tenue de ce soir qui est là uniquement pour plaire ?",
-   "{p}, à quel moment précis d'une soirée sais-tu que tu vas finir par embrasser quelqu'un ?"
-  ],
-  "Hot": [
+   "{p}, à quel moment précis d'une soirée sais-tu que tu vas finir par embrasser quelqu'un ?",
    "{p}, quel moment de la journée te rend le plus câlin… ou plus ?",
    "{p}, raconte le baiser qui t'a coupé le souffle.",
    "{p}, quelle partie de ton corps préfères-tu qu'on embrasse ?",
@@ -241,7 +230,6 @@
    "{p}, douche à deux : romantique ou surcoté ?",
    "{p}, le lieu de vacances parfait pour une escapade chaude ?",
    "{p}, quel est ton petit signal pour dire « j'ai envie » ?",
-   "{p}, as-tu déjà eu un crush torride sur un prof ou un collègue ?",
    "{p}, qu'est-ce qui te refroidit instantanément au lit ?",
    "{p}, quel vêtement aimes-tu le plus retirer à quelqu'un ?",
    "{p}, tu préfères qu'on te chuchote des mots doux ou des mots osés ?",
@@ -390,7 +378,6 @@
    "{p}, as-tu déjà été jaloux d'un ami parce qu'il plaisait à ton crush ?",
    "{p}, quel est le rendez-vous le plus gênant que tu aies vécu ?",
    "{p}, qu'est-ce qui est plus sexy : l'humour ou l'assurance ?",
-   "{p}, qui était ton crush secret au lycée, et le sait-il ?",
    "{p}, qui ici te semble le plus romantique en secret ?",
    "{p}, fais ton meilleur regard de séducteur à la caméra pendant 10 secondes.",
    "{p}, raconte ton plus long regard échangé avec un inconnu.",
@@ -403,9 +390,7 @@
    "{p}, quel personnage de série a le flirt le plus efficace selon toi ?",
    "{p}, quelle est ta pire technique de drague qui a pourtant marché ?",
    "{p}, quelle est la photo de toi que tu trouves la plus séduisante ?",
-   "{p}, raconte ton premier baiser en mode bande-annonce de film."
-  ],
-  "Hot": [
+   "{p}, raconte ton premier baiser en mode bande-annonce de film.",
    "{p}, as-tu déjà eu un fantasme sur un inconnu croisé dans les transports ?",
    "{p}, quel est le lieu le plus excitant où tu aies embrassé quelqu'un ?",
    "{p}, quelle est la chose la plus sexy qu'on puisse faire en cuisine ?",
@@ -425,6 +410,18 @@
    "{p}, as-tu déjà dormi nu(e) chez quelqu'un dès la première nuit ?",
    "{p}, douceur ou fougue : qu'est-ce que tu préfères vraiment ?",
    "{p}, envoie à {q} un vocal de 10 secondes où tu décris ce que tu portes, de la voix la plus sensuelle possible (avec son accord)."
+  ]
+ },
+ "orig": {
+  "Coquin": [
+   [
+    "Coquin",
+    198
+   ],
+   [
+    "Hot",
+    162
+   ]
   ]
  }
 }

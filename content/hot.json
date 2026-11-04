@@ -3,7 +3,7 @@
  "desc": "Questions sexuelles sans tabou, réservées aux adultes.",
  "adult": true,
  "levels": {
-  "Hot": [
+  "Coquin": [
    "{p}, quel est le fantasme que tu n'as encore jamais dit à voix haute ?",
    "{p}, où est l'endroit le plus risqué où tu as eu envie de quelqu'un ?",
    "{p}, qu'est-ce qui te fait perdre tes moyens en deux secondes ?",
@@ -38,7 +38,6 @@
    "{p}, qu'est-ce que tu n'as jamais osé proposer au lit ?",
    "{p}, quel est le mot qui te fait de l'effet ?",
    "{p}, raconte ton plus beau strip-tease, reçu ou offert.",
-   "{p}, quelle est ta limite absolue ?",
    "{p}, qu'est-ce qui te fait rougir rien que d'y penser ?",
    "{p}, quelle est la chose la plus sensuelle que tu sais faire ?",
    "{p}, as-tu déjà embrassé quelqu'un du même sexe ?",
@@ -169,9 +168,24 @@
    "{p}, est-ce que tu préfères deviner les envies de l'autre ou qu'on te les dise clairement ?",
    "{p}, quel est le premier vêtement que tu aimes qu'on t'enlève, et à quelle vitesse ?",
    "{p}, réveil câlin qui dérape ou dernière folie avant de dormir : quel est ton moment préféré ?",
-   "{p}, quelle tenue chez l'autre te fait perdre le fil de la conversation ?"
+   "{p}, quelle tenue chez l'autre te fait perdre le fil de la conversation ?",
+   "{p}, montre à {q} le jouet que tu préfères (ou tes mains, si tu n'en as pas) et explique en une phrase pourquoi c'est ton favori.",
+   "{p}, allume ton jouet au niveau le plus doux, pose-le contre ton poignet et décris la sensation à {q} en trois mots (sans jouet : effleure ton poignet du bout des doigts).",
+   "{p}, raconte à {q} la première fois où tu as utilisé un jouet, en version élégante (pas de jouet ? raconte ta caresse préférée).",
+   "{p}, laisse {q} choisir la couleur ou la forme de ton prochain jouet et dis ce que ça t'inspire.",
+   "{p}, tiens ton jouet éteint comme un micro et chante deux lignes d'une chanson sensuelle à {q} (sans jouet : ta main fera le micro).",
+   "{p}, fais deviner à {q} le nombre de vitesses de ton jouet préféré ; s'il/elle se trompe, il/elle te fait un compliment (sans jouet : devine sa caresse préférée).",
+   "{p}, décris à {q} le jouet que tu aimerais essayer à deux, sans le nommer, jusqu'à ce qu'il/elle devine.",
+   "{p}, envoie à {q} une photo de ton jouet préféré posé sur ton oreiller, sans toi dessus (avec son accord ; sans jouet : une photo de ta main sur l'oreiller).",
+   "{p}, fais vibrer ton jouet contre ta paume 10 secondes en regardant {q} dans les yeux, sans rire (sans jouet : caresse ta paume lentement).",
+   "{p}, dis à {q} sur quelle partie de ton corps tu aimerais qu'il/elle pose ton jouet en premier (pas de jouet ? ses doigts feront l'affaire).",
+   "{p}, chuchote à {q} la vitesse que tu choisirais pour ton jouet s'il/elle était à côté de toi : lente, moyenne ou rapide, et pourquoi.",
+   "{p}, cache ton jouet quelque part dans ta pièce et fais deviner à {q} l'endroit en trois indices brûlants (sans jouet : cache un foulard).",
+   "{p}, envoie à {q} un vocal de 10 secondes où l'on entend seulement ton jouet vibrer et ton souffle (avec son accord ; sans jouet : ton souffle seul).",
+   "{p}, pose ton jouet allumé sur ta cuisse par-dessus tes vêtements et raconte à {q} ce que tu ressens (sans jouet : tes doigts en cercles lents).",
+   "{p}, propose à {q} un « menu » de trois façons d'utiliser ton jouet ce soir ; il/elle en choisit une pour plus tard (sans jouet : trois caresses)."
   ],
-  "Hard": [
+  "Explicite": [
    "{p}, avoue ton pire comportement après un date.",
    "{p}, révèle la chose la plus osée que tu as faite pour séduire.",
    "{p}, raconte la nuit que tu ne racontes jamais.",
@@ -216,7 +230,6 @@
    "{p}, as-tu déjà couché avec un(e) ex alors que tu étais passé(e) à autre chose ?",
    "{p}, as-tu déjà eu un plan cul avec quelqu'un de ton travail ?",
    "{p}, quel est le pire coup que tu aies eu ?",
-   "{p}, as-tu déjà eu une relation interdite (prof, chef, ami de la famille) ?",
    "{p}, quelle est la chose la plus intime que tu aies filmée ou photographiée ?",
    "{p}, as-tu déjà été dans un club libertin ou été curieux(se) d'y aller ?",
    "{p}, avoue le fantasme le plus tabou que tu acceptes de dire ici.",
@@ -293,7 +306,6 @@
    "{p}, as-tu déjà fait une sextape ?",
    "{p}, as-tu déjà été dans un sauna ou un hammam libertin ?",
    "{p}, as-tu déjà fait un strip-tease pour plusieurs personnes ?",
-   "{p}, as-tu déjà eu une liaison avec un(e) prof ou un(e) supérieur(e) ?",
    "{p}, quel est le secret sexuel que tu emporteras dans ta tombe (en résumé) ?",
    "{p}, as-tu déjà eu une aventure pendant un voyage de couple ?",
    "{p}, as-tu déjà eu un plan grâce à une appli en moins d'une heure ?",
@@ -346,9 +358,22 @@
    "{p}, quelle est la chose la plus osée que tu as faite en sachant que quelqu'un risquait d'entendre ?",
    "{p}, as-tu déjà eu une aventure d'un soir dont tu n'as jamais su le prénom ?",
    "{p}, quel est le jouet ou accessoire que tu n'as jamais osé acheter mais qui te tente vraiment ?",
-   "{p}, as-tu déjà dit oui à une pratique juste pour faire plaisir, et finalement adoré ?"
-  ],
-  "Explicite": [
+   "{p}, as-tu déjà dit oui à une pratique juste pour faire plaisir, et finalement adoré ?",
+   "{p}, allume ton jouet et passe-le lentement le long de ton cou pendant 20 secondes en décrivant à {q} chaque frisson (sans jouet : tes doigts).",
+   "{p}, laisse {q} régler à la voix la vitesse de ton jouet pendant 30 secondes : « plus doux », « plus fort », « stop » (sans jouet : il/elle règle le rythme de ta main).",
+   "{p}, utilise ton jouet par-dessus tes sous-vêtements 20 secondes en gardant les yeux dans ceux de {q} (pas de jouet ? ta main à plat).",
+   "{p}, décris à {q}, sans filtre, ta façon préférée d'utiliser ton jouet quand tu es seul(e) (sans jouet : ta façon préférée de te caresser).",
+   "{p}, prends-toi en photo, cadré(e) sur ta main qui tient ton jouet contre ta peau, et envoie-la à {q} (avec son accord ; sans jouet : ta main seule).",
+   "{p}, mets ton jouet en marche sous ta couverture et réponds à trois questions de {q} sans changer de voix (sans jouet : ta main sous la couverture).",
+   "{p}, fais glisser ton jouet sur l'intérieur de tes cuisses pendant que {q} compte lentement jusqu'à 15 (sans jouet : du bout des doigts).",
+   "{p}, demande à {q} de choisir un rythme en tapant dans ses mains, et suis-le avec ton jouet par-dessus tes vêtements (sans jouet : avec ta main).",
+   "{p}, envoie à {q} un vocal où tu décris ce que ton jouet est en train de te faire, en 15 secondes (avec son accord ; sans jouet : ce que font tes doigts).",
+   "{p}, garde ton jouet allumé au niveau 1 pendant toute la prochaine carte, sans que personne n'entende (sans jouet : garde une main posée sur ta cuisse).",
+   "{p}, raconte à {q} le scénario dans lequel il/elle prendrait le contrôle de ton jouet à distance.",
+   "{p}, utilise ton jouet 30 secondes en murmurant le prénom de {q} à chaque changement de vitesse (sans jouet : à chaque changement de rythme).",
+   "{p}, montre à {q} comment tu tiens ton jouet, puis mime avec tes mains ce que tu en ferais ensuite.",
+   "{p}, fais monter ton jouet d'une vitesse toutes les 5 secondes pendant que {q} te regarde, et arrête-toi au premier soupir (sans jouet : accélère ta main).",
+   "{p}, propose à {q} un défi jouet pour après la partie, chacun chez soi, et fixez ensemble l'heure (pas de jouet ? même défi avec vos mains).",
    "{p}, quelle est ta position préférée, et pourquoi elle ?",
    "{p}, quel âge avais-tu pour ta première fois, et c'était comment en un mot ?",
    "{p}, qu'est-ce qui te fait vraiment grimper aux rideaux ?",
@@ -413,7 +438,6 @@
    "{p}, as-tu déjà essayé le tantrisme ou le sexe lent ?",
    "{p}, quelle est ta plus grande expérience de lâcher-prise au lit ?",
    "{p}, quels sont tes trois ingrédients pour une nuit parfaite ?",
-   "{p}, quel rôle te ferait le plus d'effet : prof, docteur, inconnu(e) ou patron(ne) ?",
    "{p}, as-tu déjà eu des relations dans un lieu de travail ?",
    "{p}, ton orgasme le plus rapide : combien de temps, et comment ?",
    "{p}, quel est le jouet qui t'a le plus surpris(e) ?",
@@ -519,12 +543,27 @@
    "{p}, décris la meilleure fellation ou le meilleur cunni que tu aies reçu, sans donner de nom.",
    "{p}, combien de fois d'affilée as-tu déjà joui dans une même nuit, et qu'est-ce qui l'a rendu possible ?",
    "{p}, quel est le mot cru que tu adores entendre au moment où tu vas jouir ?",
-   "{p}, qu'est-ce que tu fais exactement de tes mains quand tu te touches seul(e) et que tu veux aller vite ?"
+   "{p}, qu'est-ce que tu fais exactement de tes mains quand tu te touches seul(e) et que tu veux aller vite ?",
+   "{p}, utilise ton jouet sur toi pendant 30 secondes au rythme que {q} annonce, sous ta couverture, cadré(e) au-dessus des épaules (sans jouet : tes doigts).",
+   "{p}, commence à utiliser ton jouet, puis envoie à {q} une photo suggestive de ton visage à ce moment-là (avec son accord ; sans jouet : avec ta main).",
+   "{p}, laisse {q} décider quand tu allumes, accélères et arrêtes ton jouet pendant une minute, en ne disant que « encore » ou « stop » (sans jouet : ta main).",
+   "{p}, utilise ton jouet là où tu préfères et décris à {q}, en temps réel, chaque sensation pendant 30 secondes (pas de jouet ? tes doigts).",
+   "{p}, envoie à {q} un vocal de 20 secondes pendant que tu utilises ton jouet, sans un seul mot, juste ta respiration (avec son accord ; sans jouet : avec ta main).",
+   "{p}, raconte à {q} ce que tu ferais avec ton jouet si vous étiez dans la même pièce, puis fais-en 20 secondes maintenant (sans jouet : avec tes doigts).",
+   "{p}, mets ton jouet à la vitesse maximale pendant 10 secondes en fixant {q}, puis dis-lui ce que ça t'a fait (sans jouet : ta caresse la plus intense).",
+   "{p}, utilise ton jouet en t'imaginant que c'est la main de {q}, et dis-lui à voix haute où elle se trouve (pas de jouet ? ta propre main).",
+   "{p}, fais trois « montées » avec ton jouet guidées par {q} : il/elle compte jusqu'à 10, tu accélères, puis tu ralentis (sans jouet : avec ta main).",
+   "{p}, garde ton jouet en marche jusqu'à ce que {q} te pose une question coquine à laquelle tu réponds sans t'arrêter (sans jouet : ta main ne s'arrête pas).",
+   "{p}, après la partie, utilise ton jouet en pensant à {q} et envoie-lui un message d'un seul mot quand c'est fini (par ta messagerie, avec son accord ; sans jouet : avec tes doigts).",
+   "{p}, décris à {q} ton orgasme idéal avec ton jouet, du début à la fin, en 30 secondes (sans jouet : avec tes mains).",
+   "{p}, utilise ton jouet pendant que {q} te décrit lentement ce qu'il/elle te ferait, et arrête-toi seulement à son signal (sans jouet : tes doigts).",
+   "{p}, appelle {q} en audio après la partie et utilisez chacun votre jouet chez vous au même rythme (avec son accord ; pas de jouet ? vos mains).",
+   "{p}, choisis avec {q} un mot de code : chaque fois qu'il/elle le dit pendant la prochaine carte, tu montes ton jouet d'une vitesse (sans jouet : ta main accélère)."
   ]
  },
  "img": "/img/hot.webp",
  "gold": {
-  "Hot": [
+  "Coquin": [
    "{p}, envoie un vocal sensuel de 10 secondes à {q} (avec son accord).",
    "{p}, prends une photo sexy (habillée) et montre-la au groupe.",
    "{p}, quelle est la tenue d'intérieur la plus séduisante ?",
@@ -545,7 +584,7 @@
    "{p}, raconte ton plus beau strip-tease, reçu ou offert.",
    "{p}, quelle est la tenue de nuit qui te fait craquer ?"
   ],
-  "Hard": [
+  "Explicite": [
    "{p}, quel est le secret de ta vie sexuelle que même tes meilleurs amis ignorent ?",
    "{p}, as-tu déjà envoyé une photo osée que tu as regrettée ?",
    "{p}, as-tu déjà embrassé quelqu'un juste devant ton ex pour le/la rendre jaloux ou jalouse ?",
@@ -565,11 +604,8 @@
    "{p}, quelle est la limite que tu as déjà franchie et que tu regrettes ?",
    "{p}, as-tu déjà eu un « plan » qui est devenu une histoire sérieuse ?",
    "{p}, as-tu déjà dormi chez un(e) inconnu(e) sans savoir où tu étais ?",
-   "{p}, raconte la fois où tu as le plus clairement fait le premier pas, sans aucune subtilité."
-  ],
-  "Explicite": [
+   "{p}, raconte la fois où tu as le plus clairement fait le premier pas, sans aucune subtilité.",
    "{p}, quel est ton fantasme de domination le plus précis ?",
-   "{p}, quel rôle te ferait le plus d'effet : prof, docteur, inconnu(e) ou patron(ne) ?",
    "{p}, quel est l'endroit le plus fou où tu as eu un orgasme ?",
    "{p}, décris au groupe ta technique de fellation ou de cunnilingus préférée",
    "{p}, as-tu déjà eu un orgasme rien qu'avec des baisers ou des caresses ?",
@@ -591,6 +627,24 @@
    "{p}, quel mot cru, chuchoté à ton oreille, te ferait annuler tous tes plans du lendemain ?",
    "{p}, décris la meilleure fellation ou le meilleur cunni que tu aies reçu, sans donner de nom.",
    "{p}, quel est le mot cru que tu adores entendre au moment où tu vas jouir ?"
+  ]
+ },
+ "orig": {
+  "Coquin": [
+   [
+    "Hot",
+    180
+   ]
+  ],
+  "Explicite": [
+   [
+    "Hard",
+    188
+   ],
+   [
+    "Explicite",
+    185
+   ]
   ]
  }
 }

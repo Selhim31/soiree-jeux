@@ -2,7 +2,7 @@
  "name": "Vérités & Confessions",
  "desc": "Uniquement des vérités et des aveux, adressés à un joueur ou à tout le groupe.",
  "levels": {
-  "Classique": [
+  "Fun": [
    "{p}, confesse au groupe le plus gros mensonge que tu as raconté à tes parents.",
    "{p}, avoue à {q} ce que tu as tapé de plus gênant dans un moteur de recherche cette semaine.",
    "{p}, confesse au groupe l'habitude bizarre que tu as quand tu es seul(e) chez toi.",
@@ -231,7 +231,6 @@
    "{p}, confie à {q} le parfum qui te rappelle quelqu'un.",
    "{p}, raconte au groupe ta pire jalousie amoureuse.",
    "{p}, avoue à {q} ton plus gros complexe en séduction.",
-   "{p}, confesse au groupe si tu as déjà eu un crush sur un(e) prof ou un(e) chef.",
    "{p}, confie à {q} la chanson qui te fait penser à ton dernier amour.",
    "{p}, raconte au groupe la rupture la plus bizarre de ta vie.",
    "{p}, avoue à {q} si tu aurais aimé l'embrasser un jour.",
@@ -322,7 +321,7 @@
    "{p}, raconte au groupe la fois où tu as croisé un(e) ex au pire moment.",
    "{p}, avoue à {q} si tu as déjà stalké le nouveau ou la nouvelle de ton ex."
   ],
-  "Hot": [
+  "Explicite": [
    "{p}, confesse au groupe un plan d'un soir que tu regrettes.",
    "{p}, avoue à {q} le fantasme que tu as eu sur quelqu'un d'interdit.",
    "{p}, avoue à {q} si tu as déjà envoyé une photo osée.",
@@ -484,7 +483,7 @@
  "adult": false,
  "img": "/img/verite.webp",
  "gold": {
-  "Classique": [
+  "Fun": [
    "{p}, confesse au groupe la chose la plus ridicule qui te fait peur.",
    "{p}, avoue à {q} ton plaisir coupable le plus inavouable.",
    "{p}, confesse au groupe la pire chose que tu aies faite pendant un repas de famille.",
@@ -526,7 +525,7 @@
    "{p}, confesse au groupe le premier amour que tu n'as jamais oublié.",
    "{p}, confesse au groupe le pire cadeau reçu d'un(e) partenaire."
   ],
-  "Hot": [
+  "Explicite": [
    "{p}, confesse au groupe le sous-vêtement dont tu es le plus fier ou la plus fière.",
    "{p}, confesse au groupe le plus long que tu aies tenu sans sexe.",
    "{p}, avoue à {q} la chose la plus sexy qu'il/elle a faite sans s'en rendre compte.",
@@ -546,6 +545,26 @@
    "{p}, raconte au groupe le moment le plus gênant de ta vie sexuelle.",
    "{p}, confesse au groupe la plus grosse folie faite pour une nuit.",
    "{p}, confesse au groupe ton pire réveil après une nuit torride."
+  ]
+ },
+ "orig": {
+  "Fun": [
+   [
+    "Classique",
+    158
+   ]
+  ],
+  "Coquin": [
+   [
+    "Coquin",
+    157
+   ]
+  ],
+  "Explicite": [
+   [
+    "Hot",
+    156
+   ]
   ]
  }
 }

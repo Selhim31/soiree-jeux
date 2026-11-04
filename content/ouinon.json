@@ -3,7 +3,7 @@
  "desc": "Tout le monde vote oui ou non en même temps, sans avoir le droit d'argumenter.",
  "kind": "ab",
  "levels": {
-  "Classique": [
+  "Fun": [
    "Tu pourrais vivre sans téléphone un mois ? ||| Oui ||| Non",
    "Tu crois aux fantômes ? ||| Oui ||| Non",
    "Tu mangerais un insecte pour 100 € ? ||| Oui ||| Non",
@@ -315,7 +315,7 @@
  "img": "/img/ouinon.webp",
  "adult": false,
  "gold": {
-  "Classique": [
+  "Fun": [
    "Tu parles plus de deux langues ? ||| Oui ||| Non",
    "Tu as un plaisir coupable musical ? ||| Oui ||| Non",
    "Tu as déjà menti aujourd'hui ? ||| Oui ||| Non",
@@ -354,6 +354,20 @@
    "Tu as déjà embrassé quelqu'un dès le premier soir ? ||| Oui ||| Non",
    "Tu as déjà été jaloux ou jalouse d'un ex de ton partenaire ? ||| Oui ||| Non",
    "Tu as déjà été amoureux ou amoureuse en secret ? ||| Oui ||| Non"
+  ]
+ },
+ "orig": {
+  "Fun": [
+   [
+    "Classique",
+    154
+   ]
+  ],
+  "Coquin": [
+   [
+    "Coquin",
+    150
+   ]
   ]
  }
 }

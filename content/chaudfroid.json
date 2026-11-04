@@ -25,7 +25,6 @@
    "Choisir ensemble un accessoire dans une boutique coquine",
    "Une nuit sous les étoiles en camping",
    "Des messages vocaux coquins",
-   "Jouer au professeur et à l'élève (entre adultes)",
    "Partager un fantasme jamais dit",
    "Un spa privatisé",
    "Un défi : 24 h sans se toucher, puis…",
@@ -63,7 +62,6 @@
    "Un rendez-vous déguisés, un soir de semaine",
    "Une balade main dans la main sous la pluie, avec une playlist choisie ensemble",
    "Une partie d'action ou vérité à deux, sans prévenir",
-   "Un cours de danse de salon, un soir de semaine",
    "Une soirée à se raconter nos premiers émois, à la lueur des bougies",
    "Un échange de lettres d'amour, à la lueur des bougies",
    "Un week-end surprise organisé par l'un des deux, en terminant par un fou rire",
@@ -86,7 +84,6 @@
    "Un dîner où l'on se fait des déclarations, pendant un week-end en amoureux",
    "Un rendez-vous déguisés, sans prévenir",
    "Une balade main dans la main sous la pluie, en vacances",
-   "Un cours de danse de salon, avec une playlist choisie ensemble",
    "Une soirée à se raconter nos premiers émois, en terminant par un fou rire",
    "Un échange de lettres d'amour, avec une playlist choisie ensemble",
    "Une séance de câlins devant un film, pendant un week-end en amoureux",
@@ -108,7 +105,6 @@
    "Un rendez-vous déguisés, à la lueur des bougies",
    "Une balade main dans la main sous la pluie, en terminant par un fou rire",
    "Une partie d'action ou vérité à deux, en terminant par un fou rire",
-   "Un cours de danse de salon, en terminant par un fou rire",
    "Une soirée à se raconter nos premiers émois, pendant un week-end en amoureux",
    "Un échange de lettres d'amour, pendant un week-end en amoureux",
    "Un week-end surprise organisé par l'un des deux, en se donnant rendez-vous comme des inconnus",
@@ -151,15 +147,12 @@
    "Un rendez-vous déguisés, le dimanche matin",
    "Une balade main dans la main sous la pluie, pendant un week-end en amoureux",
    "Une partie d'action ou vérité à deux, après un dîner au restaurant",
-   "Un cours de danse de salon, le dimanche matin",
    "Une soirée à se raconter nos premiers émois, le dimanche matin",
    "Un échange de lettres d'amour, en se donnant rendez-vous comme des inconnus",
    "Une séance de câlins devant un film, en vacances",
    "Un jeu de regards sans rire, en terminant par un fou rire",
    "Un concours de surnoms coquins, en se donnant rendez-vous comme des inconnus",
-   "Une soirée photo-souvenirs de nous deux, le dimanche matin"
-  ],
-  "Hot": [
+   "Une soirée photo-souvenirs de nous deux, le dimanche matin",
    "Un massage à l'huile chaude de la nuque jusqu'aux reins",
    "Un strip-tease complet sur notre chanson",
    "Prendre une douche brûlante à deux",
@@ -190,7 +183,6 @@
    "Chantilly ou chocolat sur la peau",
    "Un vocal coquin envoyé au milieu de la journée (avec son accord)",
    "Faire l'amour devant un miroir",
-   "Une danse lascive sur les genoux de l'autre",
    "Un jacuzzi privé à deux, la nuit",
    "S'embrasser partout sauf sur la bouche pendant dix minutes",
    "Un dîner où l'on se fait du pied sous la table",
@@ -272,7 +264,6 @@
    "Un réveil avec un petit-déjeuner servi nu(e)",
    "Des baisers sur la nuque pendant qu'on cuisine",
    "Rejouer notre premier baiser en version très chaude",
-   "Une danse érotique sur une chaise",
    "Écrire nos envies sur des papiers et en tirer un au hasard",
    "Faire l'amour dans la voiture garée dans un lieu isolé et privé",
    "Un massage avec des pierres chaudes et des caresses",
@@ -423,7 +414,6 @@
    "Une nuit à explorer le corps de l'autre avec la langue",
    "Se caresser intimement en écoutant la voix de l'autre au téléphone",
    "Faire l'amour au bord du lit, l'un debout",
-   "Un week-end « oui à tout » dans le cadre de nos limites fixées",
    "Se faire jouir mutuellement sous la table d'un dîner à deux à la maison",
    "Le sexe dans une chambre d'hôtel avec vue sur la ville, rideaux ouverts mais sans vis-à-vis",
    "Un rapport anal doux et préparé, si les deux le veulent",
@@ -465,6 +455,24 @@
    "Un sexe oral les yeux bandés à deviner les caresses",
    "Se caresser mutuellement dans un bain de minuit",
    "Faire l'amour en musique en suivant le rythme"
+  ]
+ },
+ "orig": {
+  "Coquin": [
+   [
+    "Coquin",
+    145
+   ],
+   [
+    "Hot",
+    149
+   ]
+  ],
+  "Explicite": [
+   [
+    "Explicite",
+    151
+   ]
   ]
  }
 }

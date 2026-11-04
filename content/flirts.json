@@ -4,7 +4,7 @@
  "adult": true,
  "kind": "dare",
  "levels": {
-  "Duo": [
+  "Coquin": [
    "{p} et {q} : regardez-vous dans les yeux 30 secondes sans rire.",
    "{p}, écris à {q} trois choses que tu aimes chez lui/elle (avec son accord).",
    "{p} et {q} : chantez un duo d'amour en même temps.",
@@ -98,7 +98,6 @@
    "{p}, dis à {q} pourquoi il/elle serait un bon date.",
    "{p}, fais à {q} une demande de rendez-vous très formelle.",
    "{p} et {q} : chacun décrit le pyjama idéal de l'autre.",
-   "{p}, chante « joyeux anniversaire » à {q} façon Marilyn.",
    "{p}, dis à {q} le geste romantique qui te ferait fondre de sa part.",
    "{p} et {q} : jouez une scène de demande en mariage ratée.",
    "{p}, fais un compliment à {q} sans utiliser le mot « beau » ni « belle ».",
@@ -110,7 +109,6 @@
    "{p}, dis à {q} quel animal mignon il/elle te rappelle.",
    "{p}, propose à {q} un jeu à deux pour une soirée en amoureux.",
    "{p} et {q} : chacun dit ce qu'il ferait pour impressionner l'autre.",
-   "{p}, mime à {q} ton cœur qui bat la chamade.",
    "{p}, raconte à {q} une rencontre parfaite dans une librairie.",
    "{p} et {q} : chacun choisit une étoile et la dédie à l'autre.",
    "{p}, dis à {q} quelle qualité chez lui/elle te rassure.",
@@ -164,7 +162,7 @@
    "{p}, dis à {q} ce que tu trouves charmant dans sa façon de parler.",
    "{p}, imite le premier regard que tu lancerais à {q} dans une soirée."
   ],
-  "Hot": [
+  "Explicite": [
    "{p}, décris à {q} la tenue que tu aimerais lui voir porter.",
    "{p}, envoie à {q} un vocal murmuré (ou fais-le au micro) (avec son accord).",
    "{p}, raconte à {q} ton rêve le plus chaud avec lui/elle (soft).",
@@ -322,7 +320,7 @@
  },
  "img": "/img/flirts.webp",
  "gold": {
-  "Duo": [
+  "Coquin": [
    "{p} et {q} : chacun dit ce qu'il trouverait sexy dans un message de l'autre.",
    "{p} et {q} : faites un selfie imaginaire en prenant la pose de couple.",
    "{p} et {q} : chacun décrit la tenue de l'autre pour un gala.",
@@ -343,7 +341,7 @@
    "{p}, dis à {q} comment tu l'appellerais dans ton téléphone.",
    "{p}, écris à {q} trois choses que tu aimes chez lui/elle (avec son accord)."
   ],
-  "Hot": [
+  "Explicite": [
    "{p} et {q} : chacun décrit la tenue la plus sexy de l'autre.",
    "{p}, envoie à {q} un vocal murmuré (ou fais-le au micro) (avec son accord).",
    "{p}, montre à {q} ton épaule nue face caméra de la façon la plus sensuelle.",
@@ -362,6 +360,20 @@
    "{p} et {q} : imaginez votre premier sexto et lisez-le à voix haute.",
    "{p} et {q} : chacun dit le mot qui l'excite le plus.",
    "{p}, fais un strip-tease d'un seul accessoire (montre, bijou, chaussette) face caméra pour {q}."
+  ]
+ },
+ "orig": {
+  "Coquin": [
+   [
+    "Duo",
+    156
+   ]
+  ],
+  "Explicite": [
+   [
+    "Hot",
+    153
+   ]
   ]
  }
 }

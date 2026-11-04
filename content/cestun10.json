@@ -3,7 +3,7 @@
  "desc": "On note sur 10 une personne parfaite qui a un gros défaut, et toutes les notes sont révélées en même temps.",
  "kind": "number",
  "levels": {
-  "Classique": [
+  "Fun": [
    "C'est un 10 mais il/elle mâche la bouche ouverte.",
    "C'est un 10 mais il/elle met des chaussettes avec des sandales.",
    "C'est un 10 mais il/elle répond « ok » à tous tes messages.",
@@ -315,7 +315,7 @@
  "img": "/img/cestun10.webp",
  "adult": false,
  "gold": {
-  "Classique": [
+  "Fun": [
    "C'est un 10 mais il/elle ne sait pas garder un secret.",
    "C'est un 10 mais il/elle mâche la bouche ouverte.",
    "C'est un 10 mais il/elle appelle au lieu d'envoyer un message.",
@@ -354,6 +354,20 @@
    "C'est un 10 mais il/elle lèche ton oreille sans prévenir.",
    "C'est un 10 mais il/elle écrit ses sextos en majuscules.",
    "C'est un 10 mais il/elle ne répond jamais aux sextos."
+  ]
+ },
+ "orig": {
+  "Fun": [
+   [
+    "Classique",
+    152
+   ]
+  ],
+  "Coquin": [
+   [
+    "Coquin",
+    152
+   ]
   ]
  }
 }

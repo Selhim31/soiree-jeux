@@ -1,0 +1,15 @@
+{p}, montre à {q} le jouet que tu préfères (ou tes mains, si tu n'en as pas) et explique en une phrase pourquoi c'est ton favori.
+{p}, allume ton jouet au niveau le plus doux, pose-le contre ton poignet et décris la sensation à {q} en trois mots (sans jouet : effleure ton poignet du bout des doigts).
+{p}, raconte à {q} la première fois où tu as utilisé un jouet, en version élégante (pas de jouet ? raconte ta caresse préférée).
+{p}, laisse {q} choisir la couleur ou la forme de ton prochain jouet et dis ce que ça t'inspire.
+{p}, tiens ton jouet éteint comme un micro et chante deux lignes d'une chanson sensuelle à {q} (sans jouet : ta main fera le micro).
+{p}, fais deviner à {q} le nombre de vitesses de ton jouet préféré ; s'il/elle se trompe, il/elle te fait un compliment (sans jouet : devine sa caresse préférée).
+{p}, décris à {q} le jouet que tu aimerais essayer à deux, sans le nommer, jusqu'à ce qu'il/elle devine.
+{p}, envoie à {q} une photo de ton jouet préféré posé sur ton oreiller, sans toi dessus (avec son accord ; sans jouet : une photo de ta main sur l'oreiller).
+{p}, fais vibrer ton jouet contre ta paume 10 secondes en regardant {q} dans les yeux, sans rire (sans jouet : caresse ta paume lentement).
+{p}, dis à {q} sur quelle partie de ton corps tu aimerais qu'il/elle pose ton jouet en premier (pas de jouet ? ses doigts feront l'affaire).
+{p}, chuchote à {q} la vitesse que tu choisirais pour ton jouet s'il/elle était à côté de toi : lente, moyenne ou rapide, et pourquoi.
+{p}, cache ton jouet quelque part dans ta pièce et fais deviner à {q} l'endroit en trois indices brûlants (sans jouet : cache un foulard).
+{p}, envoie à {q} un vocal de 10 secondes où l'on entend seulement ton jouet vibrer et ton souffle (avec son accord ; sans jouet : ton souffle seul).
+{p}, pose ton jouet allumé sur ta cuisse par-dessus tes vêtements et raconte à {q} ce que tu ressens (sans jouet : tes doigts en cercles lents).
+{p}, propose à {q} un « menu » de trois façons d'utiliser ton jouet ce soir ; il/elle en choisit une pour plus tard (sans jouet : trois caresses).
