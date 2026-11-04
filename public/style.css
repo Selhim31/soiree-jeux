@@ -95,3 +95,5 @@ textarea{width:100%;min-height:70px;padding:12px;border-radius:14px;border:1px s
 @media (prefers-reduced-motion:reduce){.card.gold,.card.gold-in{animation:none!important}.card.gold-in .gtag{animation:none!important}.gtag{animation:none}.gsweep,.gburst{display:none}}
 
 @media(max-width:480px){#emo{right:6px;bottom:150px}#emo-btn{width:40px;height:40px;font-size:1.2em;opacity:.55;box-shadow:0 0 10px #ff2e9a55}#emo-btn:active,#emo-btn:focus{opacity:1}}
+
+.turnb{margin:10px auto 6px;max-width:520px;text-align:center;font-size:1.25em;padding:10px 14px;border-radius:14px;background:linear-gradient(135deg,#ff4fa333,#b23cff33);border:1px solid #ff4fa377;box-shadow:0 0 18px #ff4fa333}.turnb b{color:#ffd1e8}.skipb{display:block;margin:6px auto 0;background:none;border:0;color:inherit;opacity:.55;font-size:.85em;text-decoration:underline;cursor:pointer}

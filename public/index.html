@@ -18,11 +18,12 @@
  <div id=invite class="glass hide"><img id=r-qr alt="QR"><div class=row><input id=r-link readonly><button class=btn2 onclick="copyLink()">Copier</button></div><button class=btn2 onclick="shareLink()" style="width:100%">Partager…</button></div>
  <div class=players id=r-players></div>
  <div class=meta id=r-meta></div>
+ <div id=r-turn class="turnb hide" aria-live=polite></div>
  <div class=stage><div id=r-card></div></div>
- <div class=actions><button class=btn2 id=r-joker title="Passer la carte : −10 pts" onclick="so.emit('joker')">🃏 Joker <small>(−10)</small></button><button class="btn" id=r-next onclick="so.emit('next')">Carte suivante ▶</button></div>
+ <div class=actions><button class=btn2 id=r-joker title="Passer la carte : −10 pts" onclick="so.emit('joker')">🃏 Joker <small>(−10)</small></button><button class="btn" id=r-next onclick="so.emit('next')">Carte suivante ▶</button></div><button id=r-skip class="skipb hide" onclick="S&&S.card&&so.emit('host',{act:'skip',id:S.card.target})">⏭️ Passer ce joueur</button>
  <p class=wait id=r-wait>L'hôte tire les cartes…</p>
  <div id=r-extra></div>
- <details id=r-settings class=glass><summary>⚙️ Réglages de la partie (hôte)</summary><p class=lbl2>Jeu</p><select id=s-game onchange="so.emit('settings',{game:this.value})"></select><p class=lbl2>Niveaux</p><div class=chips id=s-levels></div><p class=lbl2>Questions</p><div class="chips seg" id=s-mode></div><div id=s-pickbox><p class=lbl2>Joueur suivant choisi par</p><div class="chips seg" id=s-pick></div></div></details>
+ <details id=r-settings class=glass><summary>⚙️ Réglages de la partie (hôte)</summary><p class=lbl2>Jeu</p><select id=s-game onchange="so.emit('settings',{game:this.value})"></select><p class=lbl2>Niveaux</p><div class=chips id=s-levels></div></details>
 </section>
 </main>
 <div id=gate class="modal hide"><div class=glass><h2>🔞 Contenu adulte</h2><p>Ce niveau contient des contenus pour adultes consentants. Tous les joueurs ont-ils 18 ans ou plus ?</p><button class=btn onclick="gateOk()">Oui, on a tous 18+</button><button class=btn2 onclick="gateNo()">Non</button></div></div>
