@@ -160,7 +160,8 @@
    "{p}, propose à {q} un rendez-vous en trois emojis et explique-les.",
    "{p} et {q} : faites ensemble un compte à rebours puis un bisou à la caméra.",
    "{p}, dis à {q} ce que tu trouves charmant dans sa façon de parler.",
-   "{p}, imite le premier regard que tu lancerais à {q} dans une soirée."
+   "{p}, imite le premier regard que tu lancerais à {q} dans une soirée.",
+   "{p}, décris à {q} le moment précis où tu as su qu'il/elle te plaisait."
   ],
   "Explicite": [
    "{p}, décris à {q} la tenue que tu aimerais lui voir porter.",
@@ -315,7 +316,8 @@
    "{p} et {q} : chacun dit l'heure idéale pour un rendez-vous coquin.",
    "{p}, décris à {q} ce que tu ferais dans une piscine la nuit.",
    "{p}, dis à {q} ce qui te rend faible chez lui/elle.",
-   "{p} et {q} : chacun décrit un baiser volé dans un endroit public."
+   "{p} et {q} : chacun décrit un baiser volé dans un endroit public.",
+   "{p}, dis à {q} l'endroit de son corps que tu embrasserais en premier si vous étiez seuls."
   ]
  },
  "img": "/img/flirts.webp",

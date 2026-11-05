@@ -701,7 +701,8 @@
    "{p}, garde le jouet en marche sur toi pendant que {q} t'embrasse partout ailleurs, sans le laisser t'arrêter avant son signal (avec son accord).",
    "{p}, laisse {q} choisir une zone, une vitesse et une durée pour le jouet sur toi, et accepte ou propose autre chose (sans jouet : sa main).",
    "{p}, si vous êtes à distance, envoie à {q} un vocal de 30 secondes pendant que tu utilises le jouet en pensant à lui/elle (avec son accord ; sans jouet : avec tes doigts).",
-   "{p}, utilise le jouet sur {q} pendant qu'il/elle n'a pas le droit de bouger les mains, une minute, mot de sécurité « pause » (avec son accord ; sans jouet : tes mains)."
+   "{p}, utilise le jouet sur {q} pendant qu'il/elle n'a pas le droit de bouger les mains, une minute, mot de sécurité « pause » (avec son accord ; sans jouet : tes mains).",
+   "{p}, raconte à {q} la nuit ensemble que tu aimerais revivre et ce que tu changerais pour la rendre encore plus chaude."
   ]
  },
  "img": "/img/couple.webp",

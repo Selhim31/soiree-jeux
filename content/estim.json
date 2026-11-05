@@ -315,7 +315,9 @@
    "Devinez le nombre de câlins que {p} donne par jour.",
    "Devinez le nombre de fois où {p} a oublié le prénom d'un date.",
    "Devinez le nombre de lettres ou mots doux que {p} a gardés.",
-   "Devinez le nombre de fois où {p} a rougi aujourd'hui."
+   "Devinez le nombre de fois où {p} a rougi aujourd'hui.",
+   "Devinez le nombre de fois où {p} a changé de tenue avant un rendez-vous.",
+   "Devinez le nombre de messages que {p} a effacés avant de les envoyer ce mois-ci."
   ],
   "Explicite": [
    "Estimez le nombre de partenaires de {p} !",

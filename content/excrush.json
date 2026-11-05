@@ -306,7 +306,8 @@
    "{p}, confie à {q} le texto que tu regrettes d'avoir envoyé.",
    "{p}, confie à {q} la fois où tu as fait le premier pas et réussi.",
    "{p}, confie à {q} le crush qui t'a appris à danser.",
-   "{p}, confie à {q} la soirée où un regard a tout changé."
+   "{p}, confie à {q} la soirée où un regard a tout changé.",
+   "{p}, confie à {q} le message d'un crush que tu as relu en boucle."
   ],
   "Explicite": [
    "Qui ici a le meilleur souvenir au lit avec un ex ?",
@@ -458,7 +459,9 @@
    "{p}, confie à {q} le massage d'un ex qui a fini en nuit torride.",
    "{p}, confie à {q} la chose la plus osée faite pour un crush.",
    "{p}, confie à {q} le baiser d'un ex qui t'a coupé les jambes.",
-   "{p}, confie à {q} la nuit où un ex t'a surpris(e)."
+   "{p}, confie à {q} la nuit où un ex t'a surpris(e).",
+   "{p}, avoue à {q} le geste d'un(e) ex au lit que tu n'as jamais retrouvé ailleurs.",
+   "{p}, confie à {q} la tenue qu'un(e) ex portait et qui te revient encore en tête certains soirs."
   ]
  },
  "gold": {

@@ -309,7 +309,9 @@
    "Tu as déjà rêvé de ton mariage en détail ? ||| Oui ||| Non",
    "Tu as déjà dragué en utilisant un animal ? ||| Oui ||| Non",
    "Tu as déjà fait semblant de connaître un sujet pour plaire ? ||| Oui ||| Non",
-   "Tu as déjà dit oui à une demande en mariage ? ||| Oui ||| Non"
+   "Tu as déjà dit oui à une demande en mariage ? ||| Oui ||| Non",
+   "Tu as déjà été jaloux(se) d'une personne que tu n'avais jamais rencontrée ? ||| Oui ||| Non",
+   "Tu as déjà dragué quelqu'un uniquement par messages vocaux ? ||| Oui ||| Non"
   ]
  },
  "img": "/img/ouinon.webp",

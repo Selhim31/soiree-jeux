@@ -317,7 +317,9 @@
    "Tu préfères flirter avec les yeux ||| avec les mains ?",
    "Tu préfères que ton ex soit à ton mariage ||| ton date te présente le sien ?",
    "Tu préfères une rupture par SMS ||| une rupture en public ?",
-   "Tu préfères garder les cadeaux de ton ex ||| les brûler symboliquement ?"
+   "Tu préfères garder les cadeaux de ton ex ||| les brûler symboliquement ?",
+   "Tu préfères un regard appuyé à travers une pièce pleine ||| un message coquin reçu en plein dîner ?",
+   "Tu préfères qu'on te drague avec humour ||| qu'on te drague avec un silence qui en dit long ?"
   ],
   "Explicite": [
    "Tu préfères une nuit torride sans lendemain ||| dix nuits sages ?",
@@ -474,7 +476,9 @@
    "Tu préfères faire l'amour à la lumière du jour ||| sous les étoiles ?",
    "Tu préfères la douche froide ||| le bain chaud à deux ?",
    "Tu préfères retrouver ton meilleur ex au lit une nuit ||| une nuit avec un inconnu parfait ?",
-   "Tu préfères que ton ex raconte vos nuits ||| que tu lises ses notes sur toi ?"
+   "Tu préfères que ton ex raconte vos nuits ||| que tu lises ses notes sur toi ?",
+   "Tu préfères une nuit où tu donnes tous les ordres ||| une nuit où tu n'en donnes aucun ?",
+   "Tu préfères des préliminaires d'une heure ||| une étreinte improvisée contre la porte d'entrée ?"
   ]
  },
  "adult": false,
@@ -540,7 +544,8 @@
    "Tu préfères faire l'amour habillé(e) ||| complètement nu(e) ?",
    "Tu préfères un massage tantrique ||| un strip-tease privé ?",
    "Tu préfères un strip-tease reçu ||| un strip-tease donné ?",
-   "Tu préfères un strip-poker ||| un action ou vérité hot ?"
+   "Tu préfères un strip-poker ||| un action ou vérité hot ?",
+   "Tu préfères une nuit où tu donnes tous les ordres ||| une nuit où tu n'en donnes aucun ?"
   ]
  },
  "orig": {

@@ -620,7 +620,9 @@
    "{p}, fais une note sur 10 de ton jouet préféré devant {q}, en détaillant trois critères (sans jouet : note ta main).",
    "{p}, pose ton jouet allumé sur ta poitrine par-dessus tes vêtements pendant que {q} te pose une question coquine (sans jouet : ta main à plat).",
    "{p}, dis à {q} le jouet que tu lui offrirais et ce que tu voudrais qu'il/elle en fasse en pensant à toi.",
-   "{p}, prends-toi en photo avec ton jouet caché derrière ton dos et un regard de défi, et envoie-la à {q} (avec son accord ; sans jouet : mains dans le dos)."
+   "{p}, prends-toi en photo avec ton jouet caché derrière ton dos et un regard de défi, et envoie-la à {q} (avec son accord ; sans jouet : mains dans le dos).",
+   "{p}, envoie à {q} un selfie avec ton regard le plus provocant et une seule phrase : « devine à quoi je pense » (avec son accord).",
+   "{p}, enregistre pour {q} un vocal de 15 secondes où tu décris ce que tu portes, d'une voix lente (avec son accord)."
   ],
   "Explicite": [
    "{p}, enlève deux vêtements choisis par {q}, caméra on.",
@@ -844,7 +846,10 @@
    "{p}, laisse {q} te dicter trois positions pour utiliser ton jouet, et choisis celle que tu feras après la partie (sans jouet : avec tes mains).",
    "{p}, utilise ton jouet en t'arrêtant à chaque fois que {q} prononce ton prénom, pendant une minute (sans jouet : ta main s'arrête).",
    "{p}, raconte à {q}, pendant que tu utilises ton jouet, la dernière fois que tu as pensé à lui/elle seul(e) (sans jouet : tes doigts).",
-   "{p}, propose à {q} un défi jouet à distance pour demain soir et écrivez-en ensemble les trois règles (avec son accord)."
+   "{p}, propose à {q} un défi jouet à distance pour demain soir et écrivez-en ensemble les trois règles (avec son accord).",
+   "{p}, envoie à {q} une photo de ton épaule ou de ta nuque dénudée, éclairage tamisé, avec un message qui laisse deviner la suite (avec son accord).",
+   "{p}, écris à {q} en privé trois choses que tu lui ferais ce soir, de la plus douce à la plus osée, et laisse-le/la choisir (avec son accord).",
+   "{p}, envoie à {q} une courte vidéo de toi en train de retirer lentement un vêtement, sans montrer ton visage (avec son accord)."
   ]
  },
  "adult": false,
@@ -924,7 +929,8 @@
    "{p}, montre ton geste de séduction le plus efficace, prends-toi en photo et envoie-la à {q} (avec son accord).",
    "{p}, embrasse ta main comme si c'était ton crush, filme-toi et envoie la vidéo à {q} (avec son accord).",
    "{p}, soupire de façon sensuelle 5 secondes, enregistre-toi et envoie le vocal à {q} (avec son accord).",
-   "{p}, enlève un vêtement de ton choix face à {q} au ralenti, en musique."
+   "{p}, enlève un vêtement de ton choix face à {q} au ralenti, en musique.",
+   "{p}, enregistre pour {q} un vocal de 15 secondes où tu décris ce que tu portes, d'une voix lente (avec son accord)."
   ],
   "Explicite": [
    "{p}, montre-toi en lingerie ou caleçon dans ta pose la plus sexy 10 secondes, filme-toi et envoie la vidéo à {q} (avec son accord).",
@@ -956,7 +962,9 @@
    "{p}, envoie à {q} une photo de ta main posée sur ta cuisse nue, avec une légende qui lui dit où elle irait ensuite (avec son accord).",
    "{p}, envoie à {q} une vidéo de 10 secondes où tu te caresses par-dessus tes vêtements en prononçant son prénom (avec son accord).",
    "{p}, envoie à {q} une photo de toi en sous-vêtements prise dans le miroir, avec une légende qui lui dit ce qu'il/elle doit enlever en premier (avec son accord).",
-   "{p}, envoie à {q} un vocal de 20 secondes où tu gémis doucement en imaginant ses mains sur toi (par ta messagerie, avec son accord)."
+   "{p}, envoie à {q} un vocal de 20 secondes où tu gémis doucement en imaginant ses mains sur toi (par ta messagerie, avec son accord).",
+   "{p}, envoie à {q} une photo de ton épaule ou de ta nuque dénudée, éclairage tamisé, avec un message qui laisse deviner la suite (avec son accord).",
+   "{p}, envoie à {q} une courte vidéo de toi en train de retirer lentement un vêtement, sans montrer ton visage (avec son accord)."
   ]
  },
  "orig": {

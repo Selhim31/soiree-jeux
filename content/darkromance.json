@@ -302,7 +302,9 @@
    "Action : {p}, donne à {q} un gage coquin qu'il/elle peut accepter ou échanger contre un aveu.",
    "Action : {p}, improvise une scène de rivaux dans un ascenseur avec {q}, 30 secondes, en vocal.",
    "Action : {p}, pendant un tour, chaque phrase de {q} doit commencer par « Mon seigneur » ou « Ma reine ».",
-   "Action : {p}, dis à {q} quelle punition coquine il/elle mérite pour l'avoir fait attendre."
+   "Action : {p}, dis à {q} quelle punition coquine il/elle mérite pour l'avoir fait attendre.",
+   "Action : {p}, regarde {q} dans les yeux et annonce-lui d'une voix grave ce qu'il/elle te devra à la fin de la soirée.",
+   "Vérité : {p}, quel personnage de méchant séduisant t'a déjà fait plus d'effet que le héros ?"
   ],
   "Explicite": [
    "Vérité : {p}, quel est ton fantasme de domination le plus hard, sans censure ?",

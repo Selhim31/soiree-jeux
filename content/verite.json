@@ -160,7 +160,9 @@
    "{p}, avoue au groupe le cadeau d'un(e) ex que tu as gardé et pourquoi.",
    "{p}, confie à {q} la pire excuse qu'un(e) ex t'ait donnée.",
    "{p}, raconte au groupe ta rupture la plus absurde.",
-   "{p}, avoue à {q} si tu as déjà regretté une rupture."
+   "{p}, avoue à {q} si tu as déjà regretté une rupture.",
+   "{p}, avoue à {q} la chose que tu fais en secret quand tu es seul(e) chez toi et que personne ne soupçonne.",
+   "{p}, raconte à {q} le compliment reçu qui t'a fait sourire toute une semaine."
   ],
   "Coquin": [
    "{p}, confesse au groupe qui ici tu trouves le plus attirant, honnêtement.",
@@ -319,7 +321,9 @@
    "{p}, avoue au groupe si tu as déjà comparé un date à ton ex en plein rendez-vous.",
    "{p}, confie à {q} ce que ton ex faisait de mieux en séduction.",
    "{p}, raconte au groupe la fois où tu as croisé un(e) ex au pire moment.",
-   "{p}, avoue à {q} si tu as déjà stalké le nouveau ou la nouvelle de ton ex."
+   "{p}, avoue à {q} si tu as déjà stalké le nouveau ou la nouvelle de ton ex.",
+   "{p}, avoue à {q} ce qu'une personne a déjà fait, sans le savoir, qui t'a rendu(e) jaloux(se) sans que tu l'admettes.",
+   "{p}, confie à {q} le détail de ta tenue que tu choisis exprès quand tu veux plaire."
   ],
   "Explicite": [
    "{p}, confesse au groupe un plan d'un soir que tu regrettes.",
@@ -477,7 +481,9 @@
    "{p}, raconte au groupe ta pire tentative de séduction coquine par message.",
    "{p}, avoue au groupe si un(e) ex reste ta meilleure expérience au lit.",
    "{p}, confie à {q} la chose qu'un(e) ex t'a fait découvrir au lit.",
-   "{p}, raconte au groupe la remise ensemble d'un soir la plus mémorable."
+   "{p}, raconte au groupe la remise ensemble d'un soir la plus mémorable.",
+   "{p}, avoue à {q} la pensée la plus osée que tu as eue pendant un rendez-vous parfaitement sage.",
+   "{p}, confie à {q} ce que tu aimerais qu'on te murmure juste avant de passer à l'acte."
   ]
  },
  "adult": false,
@@ -544,7 +550,8 @@
    "{p}, confesse au groupe ton avis honnête sur le sexe le premier soir.",
    "{p}, raconte au groupe le moment le plus gênant de ta vie sexuelle.",
    "{p}, confesse au groupe la plus grosse folie faite pour une nuit.",
-   "{p}, confesse au groupe ton pire réveil après une nuit torride."
+   "{p}, confesse au groupe ton pire réveil après une nuit torride.",
+   "{p}, avoue à {q} la pensée la plus osée que tu as eue pendant un rendez-vous parfaitement sage."
   ]
  },
  "orig": {
