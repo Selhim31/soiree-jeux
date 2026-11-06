@@ -154,7 +154,9 @@
    "Action : {p}, décris le pacte de sang (symbolique, pas de vrai sang) que vous signeriez avec {q}.",
    "Action : {p}, mets un fond sombre derrière toi et joue le méchant d'une scène pendant 15 secondes.",
    "Action : {p}, déclame la réplique « tu aurais dû fuir quand il était encore temps » à {q}.",
-   "Action : {p}, choisis un joueur qui devient ton protégé jusqu'à la fin de la partie et présente-le."
+   "Action : {p}, choisis un joueur qui devient ton protégé jusqu'à la fin de la partie et présente-le.",
+   "Vérité : {p}, avoue au groupe quel anti-héros te ferait pardonner un crime purement fictionnel",
+   "Action : {p}, regarde {q} droit dans les yeux et murmure « je te garde à l'œil » d'une voix posée pendant cinq secondes."
   ],
   "Coquin": [
    "Vérité : {p}, avoue au groupe si tu préfères donner les ordres ou les recevoir dans un jeu de séduction",
@@ -304,7 +306,10 @@
    "Action : {p}, pendant un tour, chaque phrase de {q} doit commencer par « Mon seigneur » ou « Ma reine ».",
    "Action : {p}, dis à {q} quelle punition coquine il/elle mérite pour l'avoir fait attendre.",
    "Action : {p}, regarde {q} dans les yeux et annonce-lui d'une voix grave ce qu'il/elle te devra à la fin de la soirée.",
-   "Vérité : {p}, quel personnage de méchant séduisant t'a déjà fait plus d'effet que le héros ?"
+   "Vérité : {p}, quel personnage de méchant séduisant t'a déjà fait plus d'effet que le héros ?",
+   "Vérité : {p}, confie à {q} la règle secrète que tu imposerais dès le premier rendez-vous si tu avais tous les droits",
+   "Action : {p}, envoie à {q} un message d'une seule phrase possessive et laisse-le/la y répondre (avec son accord).",
+   "Vérité : {p}, avoue au groupe si la jalousie d'un partenaire t'a déjà excité(e) plus que tu ne veux l'admettre"
   ],
   "Explicite": [
    "Vérité : {p}, quel est ton fantasme de domination le plus hard, sans censure ?",
@@ -587,7 +592,8 @@
    "Vérité : {p}, avoue au groupe si tu aimerais être attaché(e) avec un ruban de soie pour un jeu sage",
    "Vérité : {p}, avoue au groupe le personnage dominant de roman qui te ferait obéir sans discuter",
    "Vérité : {p}, confie à {q} ce qui te trouble le plus dans les scènes de soumission des romans",
-   "Action : {p}, fais la voix d'un méchant qui chuchote les règles d'un jeu interdit à {q}."
+   "Action : {p}, fais la voix d'un méchant qui chuchote les règles d'un jeu interdit à {q}.",
+   "Action : {p}, envoie à {q} un message d'une seule phrase possessive et laisse-le/la y répondre (avec son accord)."
   ],
   "Explicite": [
    "Action : {p}, prends-toi en photo dans ta pose la plus dominante (habillée ou en sous-vêtements, selon ton choix) et envoie-la à {q} (avec son accord).",

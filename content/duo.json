@@ -478,7 +478,9 @@
    "Partie du corps préférée de l'autre : les mains ou le dos ? ||| les mains ||| le dos",
    "Partie du corps préférée de l'autre : les fesses ou les yeux ? ||| les fesses ||| les yeux",
    "Partie du corps préférée de l'autre : les fesses ou le dos ? ||| les fesses ||| le dos",
-   "Partie du corps préférée de l'autre : les yeux ou le dos ? ||| les yeux ||| le dos"
+   "Partie du corps préférée de l'autre : les yeux ou le dos ? ||| les yeux ||| le dos",
+   "Qui envoie le sexto le plus osé : {p} ou {q} ? ||| {p} ||| {q}",
+   "Accessoire à tester : plumes ou glaçons ? ||| plumes ||| glaçons"
   ]
  },
  "gold": {

@@ -162,7 +162,8 @@
    "{p}, raconte au groupe ta rupture la plus absurde.",
    "{p}, avoue à {q} si tu as déjà regretté une rupture.",
    "{p}, avoue à {q} la chose que tu fais en secret quand tu es seul(e) chez toi et que personne ne soupçonne.",
-   "{p}, raconte à {q} le compliment reçu qui t'a fait sourire toute une semaine."
+   "{p}, raconte à {q} le compliment reçu qui t'a fait sourire toute une semaine.",
+   "{p}, confesse au groupe la destination de voyage où tu as fait la plus grosse gaffe touristique."
   ],
   "Coquin": [
    "{p}, confesse au groupe qui ici tu trouves le plus attirant, honnêtement.",
@@ -323,7 +324,8 @@
    "{p}, raconte au groupe la fois où tu as croisé un(e) ex au pire moment.",
    "{p}, avoue à {q} si tu as déjà stalké le nouveau ou la nouvelle de ton ex.",
    "{p}, avoue à {q} ce qu'une personne a déjà fait, sans le savoir, qui t'a rendu(e) jaloux(se) sans que tu l'admettes.",
-   "{p}, confie à {q} le détail de ta tenue que tu choisis exprès quand tu veux plaire."
+   "{p}, confie à {q} le détail de ta tenue que tu choisis exprès quand tu veux plaire.",
+   "{p}, avoue à {q} le brouillon de message flirty que tu as effacé sans jamais l'envoyer."
   ],
   "Explicite": [
    "{p}, confesse au groupe un plan d'un soir que tu regrettes.",

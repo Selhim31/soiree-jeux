@@ -58,7 +58,11 @@
    "Quel est le dernier truc qui t'a fait rire aux larmes ?",
    "Quelle tradition familiale adores-tu ?",
    "Quel talent aimerais-tu avoir ?",
-   "Quelle est ta saison préférée et pourquoi ?"
+   "Quelle est ta saison préférée et pourquoi ?",
+   "Quelle est la dernière fois où tu as ri tellement fort que tu en as pleuré ?",
+   "Quel voyage as-tu déjà raté et que tu rêves encore de refaire ?",
+   "Quelle habitude bizarre as-tu en voyage que personne ne connaît ?",
+   "Quel plat refuses-tu catégoriquement de partager à table ?"
   ],
   "Coquin": [
    "Qui est la personne la plus attirante de ce groupe selon toi ?",
@@ -114,7 +118,11 @@
    "Quel geste tendre te fait fondre ?",
    "As-tu déjà rêvé de quelqu'un de cette soirée ?",
    "Quel est ton date idéal en trois mots ?",
-   "Qu'est-ce que tu n'avouerais jamais à un crush ?"
+   "Qu'est-ce que tu n'avouerais jamais à un crush ?",
+   "Quel type de message reçu te fait immédiatement sourire malgré toi ?",
+   "As-tu déjà feint d'être occupé(e) juste pour laisser un crush patienter ?",
+   "Quel détail vestimentaire remarques-tu en premier chez quelqu'un qui te plaît ?",
+   "As-tu déjà scruté les « vu » pendant des heures après un message audacieux ?"
   ],
   "Explicite": [
    "Quel est ton fantasme que tu n'as jamais osé avouer ?",
@@ -170,7 +178,13 @@
    "Quel est ton plus grand tabou que tu aimerais lever ?",
    "Quelle partie de mon corps préfères-tu ?",
    "Quel scénario te ferait craquer ce soir ?",
-   "Qu'est-ce qui rend un baiser vraiment torride ?"
+   "Qu'est-ce qui rend un baiser vraiment torride ?",
+   "Quelle voix (grave, murmurée, rauque…) te fait immédiatement frissonner ?",
+   "Quel endroit public te tente le plus pour un baiser que tu ne devrais pas donner ?",
+   "As-tu déjà gardé un jouet allumé sous les draps pendant un appel ?",
+   "Qu'est-ce que tu chuchoterais à l'oreille de quelqu'un pour le/la faire craquer en dix secondes ?",
+   "Quelle habitude de sexting te caractérise le mieux ?",
+   "Quel red flag te rend paradoxalement encore plus attiré(e) ?"
   ]
  },
  "gold": {
@@ -196,7 +210,9 @@
    "Qu'est-ce qui t'excite le plus chez ton ou ta partenaire ?",
    "Qu'est-ce qui rend un baiser vraiment torride ?",
    "Quel est le mot qui t'excite le plus ?",
-   "Quel mot cru t'excite le plus ?"
+   "Quel mot cru t'excite le plus ?",
+   "Quelle voix (grave, murmurée, rauque…) te fait immédiatement frissonner ?",
+   "Quel red flag te rend paradoxalement encore plus attiré(e) ?"
   ]
  },
  "orig": {
