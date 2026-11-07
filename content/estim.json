@@ -319,7 +319,9 @@
    "Devinez le nombre de fois où {p} a changé de tenue avant un rendez-vous.",
    "Devinez le nombre de messages que {p} a effacés avant de les envoyer ce mois-ci.",
    "Devinez le nombre de crushs non avoués que {p} a eus cette année !",
-   "Estimez le nombre de fois où {p} a relu un vieux message flirty cette semaine !"
+   "Estimez le nombre de fois où {p} a relu un vieux message flirty cette semaine !",
+   "Devinez le nombre de fois où {p} a changé de photo de profil pour attirer un crush !",
+   "Estimez combien de minutes {p} met à répondre à quelqu'un qui lui plaît."
   ],
   "Explicite": [
    "Estimez le nombre de partenaires de {p} !",

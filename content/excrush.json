@@ -307,7 +307,9 @@
    "{p}, confie à {q} la fois où tu as fait le premier pas et réussi.",
    "{p}, confie à {q} le crush qui t'a appris à danser.",
    "{p}, confie à {q} la soirée où un regard a tout changé.",
-   "{p}, confie à {q} le message d'un crush que tu as relu en boucle."
+   "{p}, confie à {q} le message d'un crush que tu as relu en boucle.",
+   "{p}, confie à {q} le surnom le plus mignon qu'un(e) ex t'ait donné.",
+   "{p}, confie à {q} le crush que tu as stalké le plus longtemps sur les réseaux."
   ],
   "Explicite": [
    "Qui ici a le meilleur souvenir au lit avec un ex ?",

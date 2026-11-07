@@ -279,7 +279,11 @@
    "{p}, mime un baiser à l'envers façon Spider-Man, les autres devinent.",
    "{p}, mime une danse de séduction de paon, les autres devinent.",
    "{p}, mime un flirt avec un mannequin de vitrine, les autres devinent.",
-   "{p}, mime un rendez-vous en tandem qui tourne mal, les autres devinent."
+   "{p}, mime un rendez-vous en tandem qui tourne mal, les autres devinent.",
+   "{p}, mime quelqu'un qui essaie d'enlever discrètement un vêtement sous son pull, les autres devinent.",
+   "{p}, mime un premier rendez-vous où tu renverses ton verre sur ton crush, les autres devinent.",
+   "{p}, mime quelqu'un qui réalise qu'il vient d'envoyer un sexto à la mauvaise personne, les autres devinent.",
+   "{p}, mime un slow collé-serré avec un partenaire invisible, les autres devinent."
   ]
  },
  "adult": false,

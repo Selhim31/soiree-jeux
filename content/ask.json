@@ -62,7 +62,13 @@
    "Quelle est la dernière fois où tu as ri tellement fort que tu en as pleuré ?",
    "Quel voyage as-tu déjà raté et que tu rêves encore de refaire ?",
    "Quelle habitude bizarre as-tu en voyage que personne ne connaît ?",
-   "Quel plat refuses-tu catégoriquement de partager à table ?"
+   "Quel plat refuses-tu catégoriquement de partager à table ?",
+   "Quelle chanson te met de bonne humeur en moins de dix secondes ?",
+   "Quel objet chez toi a l'histoire la plus improbable ?",
+   "Si tu ouvrais un petit restaurant, quel serait ton plat signature ?",
+   "Quelle appli de ton téléphone aurais-tu honte de montrer dans ton temps d'écran ?",
+   "Quel compliment reçu il y a longtemps te revient encore en tête ?",
+   "Quelle est la pire coupe de cheveux que tu aies jamais assumée ?"
   ],
   "Coquin": [
    "Qui est la personne la plus attirante de ce groupe selon toi ?",
@@ -122,7 +128,13 @@
    "Quel type de message reçu te fait immédiatement sourire malgré toi ?",
    "As-tu déjà feint d'être occupé(e) juste pour laisser un crush patienter ?",
    "Quel détail vestimentaire remarques-tu en premier chez quelqu'un qui te plaît ?",
-   "As-tu déjà scruté les « vu » pendant des heures après un message audacieux ?"
+   "As-tu déjà scruté les « vu » pendant des heures après un message audacieux ?",
+   "Où aimes-tu qu'on pose la main quand on est assis côte à côte ?",
+   "Quel type de baiser voudrais-tu recevoir plus souvent ?",
+   "Quel parfum sur quelqu'un te fait tourner la tête ?",
+   "As-tu déjà changé trois fois de tenue avant un rendez-vous ? Pour qui ?",
+   "Quelle phrase de drague maladroite a pourtant marché sur toi ?",
+   "Quel est le lieu le plus inattendu où tu as échangé un premier baiser ?"
   ],
   "Explicite": [
    "Quel est ton fantasme que tu n'as jamais osé avouer ?",
@@ -184,7 +196,12 @@
    "As-tu déjà gardé un jouet allumé sous les draps pendant un appel ?",
    "Qu'est-ce que tu chuchoterais à l'oreille de quelqu'un pour le/la faire craquer en dix secondes ?",
    "Quelle habitude de sexting te caractérise le mieux ?",
-   "Quel red flag te rend paradoxalement encore plus attiré(e) ?"
+   "Quel red flag te rend paradoxalement encore plus attiré(e) ?",
+   "Quel endroit encore inexploré rêves-tu de tester pour faire l'amour ?",
+   "Quelle caresse n'oses-tu jamais demander alors que tu l'adorerais ?",
+   "Préfères-tu qu'on te déshabille lentement ou avec impatience ?",
+   "Quel est le message le plus torride que tu aies reçu, en résumé ?",
+   "Quel jouet aimerais-tu qu'on t'offre, sans oser l'acheter toi-même ?"
   ]
  },
  "gold": {
@@ -212,7 +229,8 @@
    "Quel est le mot qui t'excite le plus ?",
    "Quel mot cru t'excite le plus ?",
    "Quelle voix (grave, murmurée, rauque…) te fait immédiatement frissonner ?",
-   "Quel red flag te rend paradoxalement encore plus attiré(e) ?"
+   "Quel red flag te rend paradoxalement encore plus attiré(e) ?",
+   "Quelle caresse n'oses-tu jamais demander alors que tu l'adorerais ?"
   ]
  },
  "orig": {

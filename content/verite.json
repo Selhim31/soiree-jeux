@@ -485,7 +485,9 @@
    "{p}, confie à {q} la chose qu'un(e) ex t'a fait découvrir au lit.",
    "{p}, raconte au groupe la remise ensemble d'un soir la plus mémorable.",
    "{p}, avoue à {q} la pensée la plus osée que tu as eue pendant un rendez-vous parfaitement sage.",
-   "{p}, confie à {q} ce que tu aimerais qu'on te murmure juste avant de passer à l'acte."
+   "{p}, confie à {q} ce que tu aimerais qu'on te murmure juste avant de passer à l'acte.",
+   "{p}, avoue à {q} l'endroit le plus risqué où tu as déjà fait l'amour.",
+   "{p}, confie à {q} le scénario que tu te repasses le plus souvent quand tu te fais plaisir."
   ]
  },
  "adult": false,
@@ -553,7 +555,8 @@
    "{p}, raconte au groupe le moment le plus gênant de ta vie sexuelle.",
    "{p}, confesse au groupe la plus grosse folie faite pour une nuit.",
    "{p}, confesse au groupe ton pire réveil après une nuit torride.",
-   "{p}, avoue à {q} la pensée la plus osée que tu as eue pendant un rendez-vous parfaitement sage."
+   "{p}, avoue à {q} la pensée la plus osée que tu as eue pendant un rendez-vous parfaitement sage.",
+   "{p}, confie à {q} le scénario que tu te repasses le plus souvent quand tu te fais plaisir."
   ]
  },
  "orig": {
