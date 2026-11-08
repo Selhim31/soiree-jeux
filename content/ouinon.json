@@ -157,7 +157,9 @@
    "Tu as déjà cuisiné un gâteau sans recette ? ||| Oui ||| Non",
    "Tu sais faire un nœud de cravate ? ||| Oui ||| Non",
    "Tu as déjà fait du roller en ville ? ||| Oui ||| Non",
-   "Tu as déjà fait un puzzle de 1000 pièces ? ||| Oui ||| Non"
+   "Tu as déjà fait un puzzle de 1000 pièces ? ||| Oui ||| Non",
+   "Tu as déjà voyagé seul(e) plus d'une semaine ? ||| Oui ||| Non",
+   "Tu as déjà improvisé un toast devant plus de dix personnes ? ||| Oui ||| Non"
   ],
   "Coquin": [
    "Tu as déjà embrassé quelqu'un dès le premier soir ? ||| Oui ||| Non",
@@ -311,7 +313,9 @@
    "Tu as déjà fait semblant de connaître un sujet pour plaire ? ||| Oui ||| Non",
    "Tu as déjà dit oui à une demande en mariage ? ||| Oui ||| Non",
    "Tu as déjà été jaloux(se) d'une personne que tu n'avais jamais rencontrée ? ||| Oui ||| Non",
-   "Tu as déjà dragué quelqu'un uniquement par messages vocaux ? ||| Oui ||| Non"
+   "Tu as déjà dragué quelqu'un uniquement par messages vocaux ? ||| Oui ||| Non",
+   "Tu as déjà envoyé un message puis prié pour que l'autre soit déjà endormi(e) ? ||| Oui ||| Non",
+   "Tu as déjà rêvé d'un baiser avec quelqu'un de ce groupe ? ||| Oui ||| Non"
   ]
  },
  "img": "/img/ouinon.webp",

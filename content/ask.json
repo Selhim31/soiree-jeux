@@ -68,7 +68,9 @@
    "Si tu ouvrais un petit restaurant, quel serait ton plat signature ?",
    "Quelle appli de ton téléphone aurais-tu honte de montrer dans ton temps d'écran ?",
    "Quel compliment reçu il y a longtemps te revient encore en tête ?",
-   "Quelle est la pire coupe de cheveux que tu aies jamais assumée ?"
+   "Quelle est la pire coupe de cheveux que tu aies jamais assumée ?",
+   "Quel livre ou podcast as-tu recommandé le plus souvent cette année ?",
+   "Si tu pouvais geler le temps pendant une heure, que ferais-tu en premier ?"
   ],
   "Coquin": [
    "Qui est la personne la plus attirante de ce groupe selon toi ?",
@@ -134,7 +136,9 @@
    "Quel parfum sur quelqu'un te fait tourner la tête ?",
    "As-tu déjà changé trois fois de tenue avant un rendez-vous ? Pour qui ?",
    "Quelle phrase de drague maladroite a pourtant marché sur toi ?",
-   "Quel est le lieu le plus inattendu où tu as échangé un premier baiser ?"
+   "Quel est le lieu le plus inattendu où tu as échangé un premier baiser ?",
+   "As-tu déjà inventé une excuse juste pour prolonger un appel avec quelqu'un qui te plaît ?",
+   "Qu'est-ce qui te fait craquer plus vite : une voix au téléphone tard le soir, ou un silence chargé juste à côté de toi ?"
   ],
   "Explicite": [
    "Quel est ton fantasme que tu n'as jamais osé avouer ?",
@@ -201,7 +205,9 @@
    "Quelle caresse n'oses-tu jamais demander alors que tu l'adorerais ?",
    "Préfères-tu qu'on te déshabille lentement ou avec impatience ?",
    "Quel est le message le plus torride que tu aies reçu, en résumé ?",
-   "Quel jouet aimerais-tu qu'on t'offre, sans oser l'acheter toi-même ?"
+   "Quel jouet aimerais-tu qu'on t'offre, sans oser l'acheter toi-même ?",
+   "Préfères-tu qu'on te dise exactement ce qu'on va te faire, ou que ça reste une surprise ?",
+   "Quel détail de tes sous-vêtements aimerais-tu qu'on remarque en premier ce soir ?"
   ]
  },
  "gold": {
@@ -230,7 +236,8 @@
    "Quel mot cru t'excite le plus ?",
    "Quelle voix (grave, murmurée, rauque…) te fait immédiatement frissonner ?",
    "Quel red flag te rend paradoxalement encore plus attiré(e) ?",
-   "Quelle caresse n'oses-tu jamais demander alors que tu l'adorerais ?"
+   "Quelle caresse n'oses-tu jamais demander alors que tu l'adorerais ?",
+   "Quel détail de tes sous-vêtements aimerais-tu qu'on remarque en premier ce soir ?"
   ]
  },
  "orig": {

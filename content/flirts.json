@@ -161,7 +161,9 @@
    "{p} et {q} : faites ensemble un compte à rebours puis un bisou à la caméra.",
    "{p}, dis à {q} ce que tu trouves charmant dans sa façon de parler.",
    "{p}, imite le premier regard que tu lancerais à {q} dans une soirée.",
-   "{p}, décris à {q} le moment précis où tu as su qu'il/elle te plaisait."
+   "{p}, décris à {q} le moment précis où tu as su qu'il/elle te plaisait.",
+   "{p}, dis à {q} le compliment que tu n'oserais jamais lui envoyer par écrit.",
+   "{p} et {q} : chacun décrit le premier matin après une soirée passée ensemble, en trois détails."
   ],
   "Explicite": [
    "{p}, décris à {q} la tenue que tu aimerais lui voir porter.",
@@ -318,7 +320,9 @@
    "{p}, dis à {q} ce qui te rend faible chez lui/elle.",
    "{p} et {q} : chacun décrit un baiser volé dans un endroit public.",
    "{p}, dis à {q} l'endroit de son corps que tu embrasserais en premier si vous étiez seuls.",
-   "{p} et {q} : chacun murmure à l'autre ce qu'il/elle ferait s'ils étaient seuls dans un ascenseur bloqué cinq minutes."
+   "{p} et {q} : chacun murmure à l'autre ce qu'il/elle ferait s'ils étaient seuls dans un ascenseur bloqué cinq minutes.",
+   "{p}, décris à {q} comment tu l'embrasserais s'il ne restait que deux minutes avant minuit.",
+   "{p} et {q} : chacun dit s'il/elle préfère qu'on le/la déshabille du regard ou des mains."
   ]
  },
  "img": "/img/flirts.webp",
@@ -362,7 +366,8 @@
    "{p}, dis à {q} l'endroit le plus fou où tu aimerais l'embrasser.",
    "{p} et {q} : imaginez votre premier sexto et lisez-le à voix haute.",
    "{p} et {q} : chacun dit le mot qui l'excite le plus.",
-   "{p}, fais un strip-tease d'un seul accessoire (montre, bijou, chaussette) face caméra pour {q}."
+   "{p}, fais un strip-tease d'un seul accessoire (montre, bijou, chaussette) face caméra pour {q}.",
+   "{p}, décris à {q} comment tu l'embrasserais s'il ne restait que deux minutes avant minuit."
   ]
  },
  "orig": {

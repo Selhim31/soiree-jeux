@@ -155,7 +155,8 @@
    "Équipe {t} : faites un défilé de mode express avec ce que vous portez.",
    "Équipe {t} : chantez une chanson en remplaçant toutes les voyelles par « i ».",
    "Équipe {t} : faites deviner un personnage historique en 5 indices.",
-   "Équipe {t} : recréez la pochette d'un album célèbre face caméra."
+   "Équipe {t} : recréez la pochette d'un album célèbre face caméra.",
+   "Équipe {t} : inventez un jingle publicitaire de 10 secondes pour un produit inventé."
   ]
  },
  "img": "/img/equipe.webp",

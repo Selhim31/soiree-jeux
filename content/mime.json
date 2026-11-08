@@ -283,7 +283,10 @@
    "{p}, mime quelqu'un qui essaie d'enlever discrètement un vêtement sous son pull, les autres devinent.",
    "{p}, mime un premier rendez-vous où tu renverses ton verre sur ton crush, les autres devinent.",
    "{p}, mime quelqu'un qui réalise qu'il vient d'envoyer un sexto à la mauvaise personne, les autres devinent.",
-   "{p}, mime un slow collé-serré avec un partenaire invisible, les autres devinent."
+   "{p}, mime un slow collé-serré avec un partenaire invisible, les autres devinent.",
+   "{p}, mime quelqu'un qui essaie de cacher un coup de foudre en pleine réunion, les autres devinent.",
+   "{p}, mime quelqu'un qui essaie de rattraper un compliment beaucoup trop direct, les autres devinent.",
+   "{p}, mime quelqu'un qui tente d'enlever son manteau de façon séductrice et reste coincé(e) dedans, les autres devinent."
   ]
  },
  "adult": false,

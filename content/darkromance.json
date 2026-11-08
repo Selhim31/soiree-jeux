@@ -156,7 +156,8 @@
    "Action : {p}, déclame la réplique « tu aurais dû fuir quand il était encore temps » à {q}.",
    "Action : {p}, choisis un joueur qui devient ton protégé jusqu'à la fin de la partie et présente-le.",
    "Vérité : {p}, avoue au groupe quel anti-héros te ferait pardonner un crime purement fictionnel",
-   "Action : {p}, regarde {q} droit dans les yeux et murmure « je te garde à l'œil » d'une voix posée pendant cinq secondes."
+   "Action : {p}, regarde {q} droit dans les yeux et murmure « je te garde à l'œil » d'une voix posée pendant cinq secondes.",
+   "Vérité : {p}, avoue au groupe quel antagoniste de série t'a déjà fait soutenir le mauvais camp"
   ],
   "Coquin": [
    "Vérité : {p}, avoue au groupe si tu préfères donner les ordres ou les recevoir dans un jeu de séduction",
@@ -309,7 +310,9 @@
    "Vérité : {p}, quel personnage de méchant séduisant t'a déjà fait plus d'effet que le héros ?",
    "Vérité : {p}, confie à {q} la règle secrète que tu imposerais dès le premier rendez-vous si tu avais tous les droits",
    "Action : {p}, envoie à {q} un message d'une seule phrase possessive et laisse-le/la y répondre (avec son accord).",
-   "Vérité : {p}, avoue au groupe si la jalousie d'un partenaire t'a déjà excité(e) plus que tu ne veux l'admettre"
+   "Vérité : {p}, avoue au groupe si la jalousie d'un partenaire t'a déjà excité(e) plus que tu ne veux l'admettre",
+   "Action : {p}, invente en dix secondes le surnom interdit que tu donnerais à {q} et dis-le comme un secret.",
+   "Vérité : {p}, avoue à {q} si tu as déjà espéré qu'on referme la porte à clé juste pour vous deux"
   ],
   "Explicite": [
    "Vérité : {p}, quel est ton fantasme de domination le plus hard, sans censure ?",
