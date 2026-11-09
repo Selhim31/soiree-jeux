@@ -312,7 +312,8 @@
    "{p}, dis à {q} l'alphabet à l'envers face caméra.",
    "{p}, présente à {q} le journal télévisé de ta cuisine pendant 30 secondes, face caméra.",
    "{p}, fais un défilé de mode avec trois objets de ta salle de bain comme accessoires, face à {q}.",
-   "{p}, imite une poule qui pond un œuf, face à {q}, pendant 10 secondes."
+   "{p}, imite une poule qui pond un œuf, face à {q}, pendant 10 secondes.",
+   "{p}, pour {q}, raconte une histoire de 30 secondes avec uniquement des mots commençant par la même lettre."
   ],
   "Coquin": [
    "{p}, fais ton meilleur regard de séducteur à {q} pendant 10 secondes.",
@@ -627,7 +628,9 @@
    "{p}, envoie à {q} une photo du bord de ton sous-vêtement qui dépasse sous ton haut, cadrage taille seulement (avec son accord).",
    "{p}, envoie à {q} une photo de tes lèvres en gros plan avec un seul mot : « devine » (avec son accord).",
    "{p}, enregistre pour {q} un vocal où tu lui murmures le compliment le plus osé que tu peux lui faire ce soir (avec son accord).",
-   "{p}, écris à {q} en privé deux versions du même compliment : une sage et une beaucoup moins sage (avec son accord)."
+   "{p}, écris à {q} en privé deux versions du même compliment : une sage et une beaucoup moins sage (avec son accord).",
+   "{p}, pour {q}, envoie à ton crush un message coquin de ton choix (avec son accord) et lis-le à voix haute avant.",
+   "{p}, en regardant {q}, fais ton regard le plus séducteur pendant 15 secondes sans rire."
   ],
   "Explicite": [
    "{p}, enlève deux vêtements choisis par {q}, caméra on.",
@@ -860,7 +863,9 @@
    "{p}, envoie à {q} une photo de toi en sous-vêtements prise dans le reflet d'un miroir, sans ton visage (avec son accord).",
    "{p}, pose ton jouet préféré sur ton lit, prends-le en photo et envoie-la à {q} avec la légende « ce soir, c'est lui ou toi ? » (avec son accord ; sans jouet : photo de ton oreiller défait).",
    "{p}, filme pour {q} quinze secondes de tes mains qui glissent lentement le long de ton corps par-dessus tes vêtements, sans ton visage, puis envoie la vidéo (avec son accord).",
-   "{p}, allume ton jouet à côté de toi, filme uniquement tes mains qui l'allument puis l'éteignent, et envoie la vidéo à {q} (avec son accord ; sans jouet : filme tes mains qui dénouent lentement un lacet ou une ceinture)."
+   "{p}, allume ton jouet à côté de toi, filme uniquement tes mains qui l'allument puis l'éteignent, et envoie la vidéo à {q} (avec son accord ; sans jouet : filme tes mains qui dénouent lentement un lacet ou une ceinture).",
+   "{p}, pour {q}, chuchote à voix haute la phrase la plus osée que tu aimes entendre dans l'intimité.",
+   "{p}, envoie une photo de ta tenue la plus sexy à la personne de ton choix (avec son accord)."
   ]
  },
  "adult": false,
@@ -944,7 +949,8 @@
    "{p}, enregistre pour {q} un vocal de 15 secondes où tu décris ce que tu portes, d'une voix lente (avec son accord).",
    "{p}, prends-toi en photo en tenant ton jouet préféré comme un trophée et envoie-la à {q} (avec son accord ; sans jouet : pose avec tes deux mains formant un cœur).",
    "{p}, envoie à {q} une photo de tes lèvres en gros plan avec un seul mot : « devine » (avec son accord).",
-   "{p}, écris à {q} en privé deux versions du même compliment : une sage et une beaucoup moins sage (avec son accord)."
+   "{p}, écris à {q} en privé deux versions du même compliment : une sage et une beaucoup moins sage (avec son accord).",
+   "{p}, pour {q}, envoie à ton crush un message coquin de ton choix (avec son accord) et lis-le à voix haute avant."
   ],
   "Explicite": [
    "{p}, montre-toi en lingerie ou caleçon dans ta pose la plus sexy 10 secondes, filme-toi et envoie la vidéo à {q} (avec son accord).",
@@ -982,7 +988,8 @@
    "{p}, allume ton jouet près du micro pendant dix secondes puis envoie le vocal à {q} en murmurant « tu imagines la suite ? » (avec son accord ; sans jouet : froisse un tissu près du micro).",
    "{p}, envoie à {q} une photo de toi en sous-vêtements prise dans le reflet d'un miroir, sans ton visage (avec son accord).",
    "{p}, pose ton jouet préféré sur ton lit, prends-le en photo et envoie-la à {q} avec la légende « ce soir, c'est lui ou toi ? » (avec son accord ; sans jouet : photo de ton oreiller défait).",
-   "{p}, allume ton jouet à côté de toi, filme uniquement tes mains qui l'allument puis l'éteignent, et envoie la vidéo à {q} (avec son accord ; sans jouet : filme tes mains qui dénouent lentement un lacet ou une ceinture)."
+   "{p}, allume ton jouet à côté de toi, filme uniquement tes mains qui l'allument puis l'éteignent, et envoie la vidéo à {q} (avec son accord ; sans jouet : filme tes mains qui dénouent lentement un lacet ou une ceinture).",
+   "{p}, envoie une photo de ta tenue la plus sexy à la personne de ton choix (avec son accord)."
   ]
  },
  "orig": {

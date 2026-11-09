@@ -155,7 +155,8 @@
    "{p}, confie à {q} le film que tu regardais avec un ex.",
    "{p}, confie à {q} la phrase d'un ex qui t'a marqué.",
    "{p}, confie à {q} ton crush le plus court de l'histoire.",
-   "{p}, confie à {q} le pire endroit où tu as rompu."
+   "{p}, confie à {q} le pire endroit où tu as rompu.",
+   "Qui ici a déjà dit « on reste amis » en le pensant vraiment ?"
   ],
   "Coquin": [
    "Qui ici embrassait le mieux selon ses ex ?",
@@ -309,7 +310,8 @@
    "{p}, confie à {q} la soirée où un regard a tout changé.",
    "{p}, confie à {q} le message d'un crush que tu as relu en boucle.",
    "{p}, confie à {q} le surnom le plus mignon qu'un(e) ex t'ait donné.",
-   "{p}, confie à {q} le crush que tu as stalké le plus longtemps sur les réseaux."
+   "{p}, confie à {q} le crush que tu as stalké le plus longtemps sur les réseaux.",
+   "Qui ici a déjà revu un ex juste pour le plaisir de se faire désirer ?"
   ],
   "Explicite": [
    "Qui ici a le meilleur souvenir au lit avec un ex ?",
@@ -463,7 +465,8 @@
    "{p}, confie à {q} le baiser d'un ex qui t'a coupé les jambes.",
    "{p}, confie à {q} la nuit où un ex t'a surpris(e).",
    "{p}, avoue à {q} le geste d'un(e) ex au lit que tu n'as jamais retrouvé ailleurs.",
-   "{p}, confie à {q} la tenue qu'un(e) ex portait et qui te revient encore en tête certains soirs."
+   "{p}, confie à {q} la tenue qu'un(e) ex portait et qui te revient encore en tête certains soirs.",
+   "Qui ici a déjà repensé à une nuit avec un ex au pire moment ?"
   ]
  },
  "gold": {

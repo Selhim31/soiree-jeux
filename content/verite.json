@@ -163,7 +163,9 @@
    "{p}, avoue à {q} si tu as déjà regretté une rupture.",
    "{p}, avoue à {q} la chose que tu fais en secret quand tu es seul(e) chez toi et que personne ne soupçonne.",
    "{p}, raconte à {q} le compliment reçu qui t'a fait sourire toute une semaine.",
-   "{p}, confesse au groupe la destination de voyage où tu as fait la plus grosse gaffe touristique."
+   "{p}, confesse au groupe la destination de voyage où tu as fait la plus grosse gaffe touristique.",
+   "{p}, avoue à {q} la dernière chose que tu as faite en cachette au travail.",
+   "{p}, raconte au groupe la pire excuse bidon que tu as sortie pour éviter une soirée."
   ],
   "Coquin": [
    "{p}, confesse au groupe qui ici tu trouves le plus attirant, honnêtement.",
@@ -325,7 +327,9 @@
    "{p}, avoue à {q} si tu as déjà stalké le nouveau ou la nouvelle de ton ex.",
    "{p}, avoue à {q} ce qu'une personne a déjà fait, sans le savoir, qui t'a rendu(e) jaloux(se) sans que tu l'admettes.",
    "{p}, confie à {q} le détail de ta tenue que tu choisis exprès quand tu veux plaire.",
-   "{p}, avoue à {q} le brouillon de message flirty que tu as effacé sans jamais l'envoyer."
+   "{p}, avoue à {q} le brouillon de message flirty que tu as effacé sans jamais l'envoyer.",
+   "{p}, dis à {q} ce qui t'a plu en premier chez lui ou elle.",
+   "{p}, confie au groupe le message le plus audacieux que tu aies déjà envoyé à un crush."
   ],
   "Explicite": [
    "{p}, confesse au groupe un plan d'un soir que tu regrettes.",
@@ -487,7 +491,9 @@
    "{p}, avoue à {q} la pensée la plus osée que tu as eue pendant un rendez-vous parfaitement sage.",
    "{p}, confie à {q} ce que tu aimerais qu'on te murmure juste avant de passer à l'acte.",
    "{p}, avoue à {q} l'endroit le plus risqué où tu as déjà fait l'amour.",
-   "{p}, confie à {q} le scénario que tu te repasses le plus souvent quand tu te fais plaisir."
+   "{p}, confie à {q} le scénario que tu te repasses le plus souvent quand tu te fais plaisir.",
+   "{p}, décris à {q} le lieu le plus excitant où tu aies envie de faire l'amour.",
+   "{p}, avoue au groupe ce qui t'excite le plus dans un début de soirée à deux."
   ]
  },
  "adult": false,
@@ -556,7 +562,8 @@
    "{p}, confesse au groupe la plus grosse folie faite pour une nuit.",
    "{p}, confesse au groupe ton pire réveil après une nuit torride.",
    "{p}, avoue à {q} la pensée la plus osée que tu as eue pendant un rendez-vous parfaitement sage.",
-   "{p}, confie à {q} le scénario que tu te repasses le plus souvent quand tu te fais plaisir."
+   "{p}, confie à {q} le scénario que tu te repasses le plus souvent quand tu te fais plaisir.",
+   "{p}, décris à {q} le lieu le plus excitant où tu aies envie de faire l'amour."
   ]
  },
  "orig": {

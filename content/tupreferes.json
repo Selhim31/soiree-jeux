@@ -157,7 +157,9 @@
    "Tu préfères avoir une queue de chat ||| des moustaches de chat ?",
    "Tu préfères vivre dans un phare ||| dans un moulin ?",
    "Tu préfères que ton ex devienne ton boss ||| ton voisin de palier ?",
-   "Tu préfères croiser ton ex en pyjama ||| sous la pluie sans parapluie ?"
+   "Tu préfères croiser ton ex en pyjama ||| sous la pluie sans parapluie ?",
+   "Tu préfères ne plus jamais pouvoir mentir ||| toujours savoir quand on te ment ?",
+   "Tu préfères tout oublier chaque matin ||| tout répéter deux fois ?"
   ],
   "Coquin": [
    "Tu préfères embrasser ton crush devant tout le monde ||| ne jamais l'embrasser ?",
@@ -323,7 +325,9 @@
    "Tu préfères un vocal murmuré à minuit ||| un regard soutenu en plein jour ?",
    "Tu préfères un baiser volé dans un ascenseur ||| un baiser attendu toute la soirée ?",
    "Tu préfères qu'on te complimente sur ton regard ||| sur ta voix ?",
-   "Tu préfères un date improvisé à minuit ||| un date préparé au millimètre ?"
+   "Tu préfères un date improvisé à minuit ||| un date préparé au millimètre ?",
+   "Tu préfères un baiser surprise en public ||| un message coquin en pleine réunion ?",
+   "Tu préfères des préliminaires de deux heures ||| une nuit de séduction par messages ?"
   ],
   "Explicite": [
    "Tu préfères une nuit torride sans lendemain ||| dix nuits sages ?",
@@ -482,7 +486,9 @@
    "Tu préfères retrouver ton meilleur ex au lit une nuit ||| une nuit avec un inconnu parfait ?",
    "Tu préfères que ton ex raconte vos nuits ||| que tu lises ses notes sur toi ?",
    "Tu préfères une nuit où tu donnes tous les ordres ||| une nuit où tu n'en donnes aucun ?",
-   "Tu préfères des préliminaires d'une heure ||| une étreinte improvisée contre la porte d'entrée ?"
+   "Tu préfères des préliminaires d'une heure ||| une étreinte improvisée contre la porte d'entrée ?",
+   "Tu préfères tout dire à ton partenaire dans l'intimité ||| tout deviner de ses désirs sans un mot ?",
+   "Tu préfères une nuit sans rien dire ||| une nuit où l'on n'arrête pas de se parler tout bas ?"
   ]
  },
  "adult": false,
