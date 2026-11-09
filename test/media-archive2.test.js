@@ -13,10 +13,10 @@ async function run(ack){const media=[],rows=[];const fake=http.createServer((q,r
  async function force(g,l,i){S[0].emit('crS',{p:pid,c:{g,l,i}});await w(150);return nxt()}
  async function shoot(t){const b=jpg(t);sent.push(b);S[0].emit('photo','data:image/jpeg;base64,'+b.toString('base64'));await w(150)}
  try{
-  await room('defis',['Fun']);let c=await force('defis','Fun',ok);assert.strictEqual(c.target,pid);assert(c.photo&&c.arch,'Défis Fun non intime : photo + mention archivage');await shoot(1);
-  c=await force('defis','Fun',bad);assert(!c.photo&&!c.arch,'carte Défis intime : pas de photo');await shoot(2);
-  for(const l of['Coquin','Explicite']){await room('defis',[l]);for(let k=0;k<6;k++){c=await force('defis',l,k*7);assert(!c.photo&&!c.arch,'Défis '+l+' : jamais archivable');await shoot(3)}}
-  for(const g of['av','hot']){const L=g==='av'?['Coquin','Explicite']:['Coquin','Explicite'];await room(g,L);for(let k=0;k<10;k++){c=await nxt();assert(!c.photo&&!c.arch,g+' '+c.level+' : jamais archivable');if(c.target===pid)await shoot(4)}}
+  await room('defis',['Fun']);let c=await force('defis','Fun',ok);assert.strictEqual(c.target,pid);assert(c.photo,"Défis Fun non intime : photo autorisée");await shoot(1);
+  c=await force('defis','Fun',bad);assert(!c.photo,'carte Défis intime : pas de photo');await shoot(2);
+  for(const l of['Coquin','Explicite']){await room('defis',[l]);for(let k=0;k<6;k++){c=await force('defis',l,k*7);assert(!c.photo,'Défis '+l+' : jamais archivable');await shoot(3)}}
+  for(const g of['av','hot']){const L=g==='av'?['Coquin','Explicite']:['Coquin','Explicite'];await room(g,L);for(let k=0;k<10;k++){c=await nxt();assert(!c.photo,g+' '+c.level+' : jamais archivable');if(c.target===pid)await shoot(4)}}
   await w(3000);S.forEach(s=>s.close())}finally{srv.kill();fake.close()}
  return{media,rows,sent}}
 (async()=>{
