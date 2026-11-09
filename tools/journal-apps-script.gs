@@ -54,11 +54,12 @@ function dossier_() {
   return it.hasNext() ? it.next() : DriveApp.createFolder(DOSSIER);   // dossier privé (jamais partagé)
 }
 
-/** Archive un média AoV Classique (le serveur n'envoie jamais les médias « vue unique » ni Hot/Explicite/Hard). */
+/** Archive un média d'un défi Fun non intime (AoV ex-Classique, Défis ex-Classique/Délirant). Le serveur n'envoie jamais les médias « vue unique » ni Coquin/Hot/Explicite/Hard/18+. */
 function archiverMedia_(m) {
   var types = { 'image/jpeg': 1, 'video/mp4': 1, 'video/webm': 1, 'video/quicktime': 1 };
   if (!m || !types[m.mime] || !m.base64) return reponse_({ ok: false, err: 'media invalide' });
-  if (m.game !== 'av' || m.level !== 'Classique') return reponse_({ ok: false, err: 'hors périmètre' });
+  var PERIM = { av: ['Classique'], defis: ['Classique', 'Délirant'] };   // défis Fun non intimes uniquement
+  if (!PERIM[m.game] || PERIM[m.game].indexOf(m.level) < 0) return reponse_({ ok: false, err: 'hors périmètre' });
   var nom = String(m.name || ('media_' + Date.now())).replace(/[^\w.\-]/g, '_').slice(0, 120);
   var blob = Utilities.newBlob(Utilities.base64Decode(m.base64), m.mime, nom);
   var f = dossier_().createFile(blob);
@@ -98,6 +99,13 @@ function purgerMedias_(limite) {
 }
 
 /** Test manuel depuis l'éditeur : ajoute une ligne factice. */
+/** Test manuel depuis l'éditeur : vérifie l'accès au dossier Drive (autorise Drive au premier lancement). */
+function testerDrive() {
+  var f = dossier_().createFile(Utilities.newBlob('test', 'text/plain', 'test_' + Date.now() + '.txt'));
+  f.setTrashed(true);
+  Logger.log('Dossier OK : ' + DOSSIER);
+}
+
 function testerAjout() {
   feuille_().appendRow([new Date().toISOString(), 'test', 'TEST', 'Testeur', '', '', '', '', '', 'ligne de test', '', '']);
 }
