@@ -286,7 +286,12 @@
    "{p}, mime un slow collé-serré avec un partenaire invisible, les autres devinent.",
    "{p}, mime quelqu'un qui essaie de cacher un coup de foudre en pleine réunion, les autres devinent.",
    "{p}, mime quelqu'un qui essaie de rattraper un compliment beaucoup trop direct, les autres devinent.",
-   "{p}, mime quelqu'un qui tente d'enlever son manteau de façon séductrice et reste coincé(e) dedans, les autres devinent."
+   "{p}, mime quelqu'un qui tente d'enlever son manteau de façon séductrice et reste coincé(e) dedans, les autres devinent.",
+   "{p}, mime quelqu'un qui se prépare en urgence pour un rendez-vous galant qui sonne déjà à la porte, les autres devinent.",
+   "{p}, mime quelqu'un qui essaie d'avoir l'air détendu(e) en recevant un clin d'œil appuyé, les autres devinent.",
+   "{p}, mime un massage des épaules qui dérape doucement vers un câlin, les autres devinent.",
+   "{p}, mime quelqu'un qui reçoit une photo coquine en plein repas de famille, les autres devinent.",
+   "{p}, mime un baiser de cinéma sous la pluie avec un partenaire invisible, les autres devinent."
   ]
  },
  "adult": false,

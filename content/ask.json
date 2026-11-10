@@ -74,7 +74,13 @@
    "Quelle petite manie des autres te rend fou sans que tu l'aies jamais dit ?",
    "Quel talent caché aimerais-tu que quelqu'un ici découvre chez toi ?",
    "Quelle décision rapide as-tu le plus regrettée dans ta vie ?",
-   "Quel souvenir de vacances te fait encore rire aujourd'hui ?"
+   "Quel souvenir de vacances te fait encore rire aujourd'hui ?",
+   "Quel objet inutile gardes-tu précieusement depuis des années, et pourquoi ?",
+   "Quelle appli de ton téléphone serait la plus gênante à montrer ici ?",
+   "Quel plat de ton enfance referais-tu pour impressionner quelqu'un ici ?",
+   "Quelle est la dernière chose qui t'a fait rire au point de pleurer ?",
+   "Si tu devais changer de métier demain, lequel choisirais-tu sans hésiter ?",
+   "Quelle qualité admires-tu chez la personne qui t'a posé cette question ?"
   ],
   "Coquin": [
    "Qui est la personne la plus attirante de ce groupe selon toi ?",
@@ -146,7 +152,12 @@
    "Quel est le geste de séduction qui te fait craquer à coup sûr ?",
    "Quel endroit inattendu t'a déjà donné envie d'embrasser quelqu'un ?",
    "Quelle phrase murmurée à l'oreille te ferait totalement fondre ?",
-   "Quel premier message reçu t'a le plus fait sourire de façon trop gourmande ?"
+   "Quel premier message reçu t'a le plus fait sourire de façon trop gourmande ?",
+   "Quel message aimerais-tu recevoir de quelqu'un ici juste avant de t'endormir ce soir ?",
+   "Quel détail physique remarques-tu en premier chez une personne qui te plaît ?",
+   "As-tu déjà relu une conversation plusieurs fois juste pour le plaisir d'un flirt ?",
+   "Quel est le compliment le plus troublant qu'on t'ait fait par écrit ?",
+   "Quel parfum ou quelle odeur te fait immédiatement penser à quelqu'un qui t'a plu ?"
   ],
   "Explicite": [
    "Quel est ton fantasme que tu n'as jamais osé avouer ?",
@@ -219,7 +230,13 @@
    "Quelle fantaisie n'as-tu jamais osé proposer à un partenaire, et pourquoi ?",
    "Quel moment de plaisir garde chez toi le souvenir le plus intense ?",
    "Quelle tenue ou quel accessoire te donne le plus confiance au lit ?",
-   "Quelle chose précise aimes-tu qu'on te dise pendant un moment intime ?"
+   "Quelle chose précise aimes-tu qu'on te dise pendant un moment intime ?",
+   "Quelle partie de ton corps aimerais-tu qu'on embrasse plus souvent ?",
+   "Quel est le moment le plus long où tu as fait durer le plaisir, et comment ?",
+   "Préfères-tu être réveillé(e) par des caresses ou être celui ou celle qui réveille l'autre ?",
+   "Quelle position te fait le plus perdre la notion du temps ?",
+   "Quel jouet ou accessoire aimerais-tu essayer pour la première fois, et avec qui ?",
+   "Qu'est-ce qui t'excite le plus : entendre l'autre, le regarder ou le sentir ?"
   ]
  },
  "gold": {
@@ -250,7 +267,8 @@
    "Quel red flag te rend paradoxalement encore plus attiré(e) ?",
    "Quelle caresse n'oses-tu jamais demander alors que tu l'adorerais ?",
    "Quel détail de tes sous-vêtements aimerais-tu qu'on remarque en premier ce soir ?",
-   "Quelle fantaisie n'as-tu jamais osé proposer à un partenaire, et pourquoi ?"
+   "Quelle fantaisie n'as-tu jamais osé proposer à un partenaire, et pourquoi ?",
+   "Quel jouet ou accessoire aimerais-tu essayer pour la première fois, et avec qui ?"
   ]
  },
  "orig": {

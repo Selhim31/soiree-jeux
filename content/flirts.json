@@ -163,7 +163,9 @@
    "{p}, imite le premier regard que tu lancerais à {q} dans une soirée.",
    "{p}, décris à {q} le moment précis où tu as su qu'il/elle te plaisait.",
    "{p}, dis à {q} le compliment que tu n'oserais jamais lui envoyer par écrit.",
-   "{p} et {q} : chacun décrit le premier matin après une soirée passée ensemble, en trois détails."
+   "{p} et {q} : chacun décrit le premier matin après une soirée passée ensemble, en trois détails.",
+   "{p}, dis à voix haute à {q} la phrase d'accroche que tu aimerais vraiment qu'on te dise.",
+   "{p}, décris à {q} le rendez-vous parfait que tu lui organiserais s'il ou elle te plaisait."
   ],
   "Explicite": [
    "{p}, décris à {q} la tenue que tu aimerais lui voir porter.",
@@ -322,7 +324,9 @@
    "{p}, dis à {q} l'endroit de son corps que tu embrasserais en premier si vous étiez seuls.",
    "{p} et {q} : chacun murmure à l'autre ce qu'il/elle ferait s'ils étaient seuls dans un ascenseur bloqué cinq minutes.",
    "{p}, décris à {q} comment tu l'embrasserais s'il ne restait que deux minutes avant minuit.",
-   "{p} et {q} : chacun dit s'il/elle préfère qu'on le/la déshabille du regard ou des mains."
+   "{p} et {q} : chacun dit s'il/elle préfère qu'on le/la déshabille du regard ou des mains.",
+   "{p}, raconte à {q} en trois phrases comment commencerait votre nuit idéale.",
+   "{p}, avoue à {q} le baiser le plus torride que tu aies donné, et où."
   ]
  },
  "img": "/img/flirts.webp",

@@ -184,7 +184,10 @@
    "{p}, envoie à {q} un vocal de 10 secondes où l'on entend seulement ton jouet vibrer et ton souffle (avec son accord ; sans jouet : ton souffle seul).",
    "{p}, pose ton jouet allumé sur ta cuisse par-dessus tes vêtements et raconte à {q} ce que tu ressens (sans jouet : tes doigts en cercles lents).",
    "{p}, propose à {q} un « menu » de trois façons d'utiliser ton jouet ce soir ; il/elle en choisit une pour plus tard (sans jouet : trois caresses).",
-   "{p}, décris à {q} la tenue dans laquelle tu te sens le plus irrésistible, sans rien oublier."
+   "{p}, décris à {q} la tenue dans laquelle tu te sens le plus irrésistible, sans rien oublier.",
+   "{p}, avoue à {q} la dernière fois que tu as rougi à cause d'un regard.",
+   "{p}, confie à {q} ce qui te donne envie de te rapprocher de quelqu'un en fin de soirée.",
+   "{p}, dis à {q} ce qu'il ou elle devrait faire pour te donner envie de l'embrasser là, maintenant."
   ],
   "Explicite": [
    "{p}, avoue ton pire comportement après un date.",
