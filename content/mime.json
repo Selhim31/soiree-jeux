@@ -291,7 +291,12 @@
    "{p}, mime quelqu'un qui essaie d'avoir l'air détendu(e) en recevant un clin d'œil appuyé, les autres devinent.",
    "{p}, mime un massage des épaules qui dérape doucement vers un câlin, les autres devinent.",
    "{p}, mime quelqu'un qui reçoit une photo coquine en plein repas de famille, les autres devinent.",
-   "{p}, mime un baiser de cinéma sous la pluie avec un partenaire invisible, les autres devinent."
+   "{p}, mime un baiser de cinéma sous la pluie avec un partenaire invisible, les autres devinent.",
+   "{p}, mime quelqu'un qui essaie d'enlever discrètement une tenue trop serrée, les autres devinent.",
+   "{p}, mime un premier rendez-vous où tu n'oses pas prendre la main de l'autre, les autres devinent.",
+   "{p}, mime quelqu'un qui écrit un message coquin puis panique en voyant qu'il est parti au mauvais destinataire, les autres devinent.",
+   "{p}, mime un slow langoureux avec un partenaire imaginaire, les autres devinent.",
+   "{p}, mime quelqu'un qui découvre un suçon dans le miroir le lendemain matin, les autres devinent."
   ]
  },
  "adult": false,

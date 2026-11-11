@@ -80,7 +80,13 @@
    "Quel plat de ton enfance referais-tu pour impressionner quelqu'un ici ?",
    "Quelle est la dernière chose qui t'a fait rire au point de pleurer ?",
    "Si tu devais changer de métier demain, lequel choisirais-tu sans hésiter ?",
-   "Quelle qualité admires-tu chez la personne qui t'a posé cette question ?"
+   "Quelle qualité admires-tu chez la personne qui t'a posé cette question ?",
+   "Quelle chanson as-tu honte d'écouter en boucle en secret ?",
+   "Quel surnom ridicule t'a-t-on donné et que tu aimes quand même ?",
+   "Quel est le dernier message que tu as regretté d'avoir envoyé trop vite ?",
+   "Quelle célébrité aimerais-tu avoir comme colocataire pendant un mois ?",
+   "Quel est le petit plaisir coupable qui illumine ta semaine ?",
+   "Quel mot ou expression utilises-tu beaucoup trop sans t'en rendre compte ?"
   ],
   "Coquin": [
    "Qui est la personne la plus attirante de ce groupe selon toi ?",
@@ -157,7 +163,14 @@
    "Quel détail physique remarques-tu en premier chez une personne qui te plaît ?",
    "As-tu déjà relu une conversation plusieurs fois juste pour le plaisir d'un flirt ?",
    "Quel est le compliment le plus troublant qu'on t'ait fait par écrit ?",
-   "Quel parfum ou quelle odeur te fait immédiatement penser à quelqu'un qui t'a plu ?"
+   "Quel parfum ou quelle odeur te fait immédiatement penser à quelqu'un qui t'a plu ?",
+   "Quel est le message le plus osé que tu aies écrit puis effacé avant de l'envoyer ?",
+   "Quelle tenue portée par quelqu'un t'a déjà fait perdre le fil d'une conversation ?",
+   "Quel est ton meilleur souvenir de baiser inattendu ?",
+   "Avec qui ici aimerais-tu passer une soirée en tête-à-tête, sans dire pourquoi ?",
+   "Quelle partie de ton corps reçoit le plus de compliments, selon toi ?",
+   "Quelle chanson mettrais-tu pour créer une ambiance sensuelle ce soir ?",
+   "Préfères-tu qu'on te séduise avec des mots ou avec des gestes ?"
   ],
   "Explicite": [
    "Quel est ton fantasme que tu n'as jamais osé avouer ?",
@@ -236,7 +249,13 @@
    "Préfères-tu être réveillé(e) par des caresses ou être celui ou celle qui réveille l'autre ?",
    "Quelle position te fait le plus perdre la notion du temps ?",
    "Quel jouet ou accessoire aimerais-tu essayer pour la première fois, et avec qui ?",
-   "Qu'est-ce qui t'excite le plus : entendre l'autre, le regarder ou le sentir ?"
+   "Qu'est-ce qui t'excite le plus : entendre l'autre, le regarder ou le sentir ?",
+   "Quel est l'endroit le plus risqué où tu as déjà eu envie de passer à l'acte ?",
+   "Quelle est la chose la plus audacieuse que tu aies demandée au lit ?",
+   "Quel mot prononcé au bon moment te fait complètement craquer ?",
+   "Quelle partie de ton corps aimes-tu qu'on embrasse le plus longtemps ?",
+   "Préfères-tu mener la danse ou te laisser complètement guider, et pourquoi ?",
+   "Quel est le scénario qui revient le plus souvent dans tes pensées les plus chaudes ?"
   ]
  },
  "gold": {
@@ -254,7 +273,8 @@
    "Quelle tenue te rend irrésistible selon toi ?",
    "Quelle tenue te fait te sentir irrésistible ?",
    "Quel est ton meilleur souvenir de premier baiser ?",
-   "Quelle est ta pire technique de drague ?"
+   "Quelle est ta pire technique de drague ?",
+   "Quel est le message le plus osé que tu aies écrit puis effacé avant de l'envoyer ?"
   ],
   "Explicite": [
    "Quel est ton fantasme avec un(e) inconnu(e) ?",
@@ -268,7 +288,8 @@
    "Quelle caresse n'oses-tu jamais demander alors que tu l'adorerais ?",
    "Quel détail de tes sous-vêtements aimerais-tu qu'on remarque en premier ce soir ?",
    "Quelle fantaisie n'as-tu jamais osé proposer à un partenaire, et pourquoi ?",
-   "Quel jouet ou accessoire aimerais-tu essayer pour la première fois, et avec qui ?"
+   "Quel jouet ou accessoire aimerais-tu essayer pour la première fois, et avec qui ?",
+   "Quelle est la chose la plus audacieuse que tu aies demandée au lit ?"
   ]
  },
  "orig": {

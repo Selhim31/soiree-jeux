@@ -187,7 +187,10 @@
    "{p}, décris à {q} la tenue dans laquelle tu te sens le plus irrésistible, sans rien oublier.",
    "{p}, avoue à {q} la dernière fois que tu as rougi à cause d'un regard.",
    "{p}, confie à {q} ce qui te donne envie de te rapprocher de quelqu'un en fin de soirée.",
-   "{p}, dis à {q} ce qu'il ou elle devrait faire pour te donner envie de l'embrasser là, maintenant."
+   "{p}, dis à {q} ce qu'il ou elle devrait faire pour te donner envie de l'embrasser là, maintenant.",
+   "{p}, avoue à {q} quelle tenue tu aimerais lui voir porter lors d'un rendez-vous.",
+   "{p}, confie à {q} le moment de la soirée où tu l'as trouvé(e) le plus séduisant(e).",
+   "{p}, dis à {q} quel geste tendre te ferait fondre instantanément venant de lui ou d'elle."
   ],
   "Explicite": [
    "{p}, avoue ton pire comportement après un date.",

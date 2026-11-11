@@ -633,7 +633,10 @@
    "{p}, en regardant {q}, fais ton regard le plus séducteur pendant 15 secondes sans rire.",
    "{p}, envoie à {q} un message vocal de dix secondes où tu dis son prénom de la façon la plus séduisante possible (avec son accord).",
    "{p}, en regardant {q} dans la caméra, mords-toi lentement la lèvre pendant cinq secondes sans rire.",
-   "{p}, envoie à {q} une photo de ton cou ou de ta clavicule, sans ton visage (avec son accord)."
+   "{p}, envoie à {q} une photo de ton cou ou de ta clavicule, sans ton visage (avec son accord).",
+   "{p}, envoie à {q} une photo de ta main posée sur ta cuisse, sans ton visage (avec son accord).",
+   "{p}, en regardant {q} dans la caméra, murmure-lui un compliment sur sa voix sans détourner les yeux.",
+   "{p}, envoie à {q} un message écrit qui commence par « Si tu étais là ce soir… » et termine-le de façon taquine (avec son accord)."
   ],
   "Explicite": [
    "{p}, enlève deux vêtements choisis par {q}, caméra on.",
@@ -871,7 +874,10 @@
    "{p}, envoie une photo de ta tenue la plus sexy à la personne de ton choix (avec son accord).",
    "{p}, envoie à {q} une photo de ton jouet préféré posé sur tes draps avec la légende « devine où il va ce soir » (avec son accord ; sans jouet : photo de tes draps défaits).",
    "{p}, filme pour {q} dix secondes de toi qui enlèves lentement un vêtement, sans ton visage, puis envoie la vidéo (avec son accord).",
-   "{p}, envoie à {q} un message vocal où tu décris à voix basse ce que tu lui ferais s'il ou elle était à côté de toi (avec son accord)."
+   "{p}, envoie à {q} un message vocal où tu décris à voix basse ce que tu lui ferais s'il ou elle était à côté de toi (avec son accord).",
+   "{p}, envoie à {q} une photo de ton jouet préféré en main avec la légende « on commence quand tu veux » (avec son accord ; sans jouet : photo de ta main sur tes draps).",
+   "{p}, enregistre pour {q} un vocal de quinze secondes où tu décris lentement la première chose que tu lui enlèverais (avec son accord).",
+   "{p}, allume ton jouet préféré près du micro pendant cinq secondes pour que {q} l'entende, puis raconte-lui où tu l'utiliserais (sans jouet : décris-lui ton geste préféré à la place)."
   ]
  },
  "adult": false,
@@ -957,7 +963,8 @@
    "{p}, envoie à {q} une photo de tes lèvres en gros plan avec un seul mot : « devine » (avec son accord).",
    "{p}, écris à {q} en privé deux versions du même compliment : une sage et une beaucoup moins sage (avec son accord).",
    "{p}, pour {q}, envoie à ton crush un message coquin de ton choix (avec son accord) et lis-le à voix haute avant.",
-   "{p}, envoie à {q} une photo de ton cou ou de ta clavicule, sans ton visage (avec son accord)."
+   "{p}, envoie à {q} une photo de ton cou ou de ta clavicule, sans ton visage (avec son accord).",
+   "{p}, envoie à {q} une photo de ta main posée sur ta cuisse, sans ton visage (avec son accord)."
   ],
   "Explicite": [
    "{p}, montre-toi en lingerie ou caleçon dans ta pose la plus sexy 10 secondes, filme-toi et envoie la vidéo à {q} (avec son accord).",
@@ -998,7 +1005,9 @@
    "{p}, allume ton jouet à côté de toi, filme uniquement tes mains qui l'allument puis l'éteignent, et envoie la vidéo à {q} (avec son accord ; sans jouet : filme tes mains qui dénouent lentement un lacet ou une ceinture).",
    "{p}, envoie une photo de ta tenue la plus sexy à la personne de ton choix (avec son accord).",
    "{p}, filme pour {q} dix secondes de toi qui enlèves lentement un vêtement, sans ton visage, puis envoie la vidéo (avec son accord).",
-   "{p}, envoie à {q} une photo de ton jouet préféré posé sur tes draps avec la légende « devine où il va ce soir » (avec son accord ; sans jouet : photo de tes draps défaits)."
+   "{p}, envoie à {q} une photo de ton jouet préféré posé sur tes draps avec la légende « devine où il va ce soir » (avec son accord ; sans jouet : photo de tes draps défaits).",
+   "{p}, envoie à {q} une photo de ton jouet préféré en main avec la légende « on commence quand tu veux » (avec son accord ; sans jouet : photo de ta main sur tes draps).",
+   "{p}, enregistre pour {q} un vocal de quinze secondes où tu décris lentement la première chose que tu lui enlèverais (avec son accord)."
   ]
  },
  "orig": {
