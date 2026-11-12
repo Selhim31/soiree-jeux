@@ -255,7 +255,7 @@
    "Je n'ai jamais changé ma photo de profil pour attirer l'attention d'une personne.",
    "Je n'ai jamais fait une playlist pour quelqu'un.",
    "Je n'ai jamais rougi en croisant un ex.",
-   "Je n'ai jamais embrassé quelqu'un plus jeune de 10 ans.",
+   "Je n'ai jamais embrassé quelqu'un de dix ans de plus que moi.",
    "Je n'ai jamais fait de rencard à l'aveugle.",
    "Je n'ai jamais été le/la « wingman » de quelqu'un qui a fini avec ma cible.",
    "Je n'ai jamais quitté une soirée avec quelqu'un que je venais de rencontrer.",
@@ -353,7 +353,7 @@
    "Je n'ai jamais eu une nuit avec quelqu'un que j'avais rencontré le jour même.",
    "Je n'ai jamais fait un jeu coquin avec des glaçons.",
    "Je n'ai jamais porté une tenue coquine sous des vêtements normaux.",
-   "Je n'ai jamais laissé une marque visible le lendemain.",
+   "Je n'ai jamais dû inventer une excuse le lendemain pour expliquer mon sourire.",
    "Je n'ai jamais fait l'amour avec la musique à fond pour couvrir le bruit.",
    "Je n'ai jamais fait un suçon visible au travail.",
    "Je n'ai jamais dragué quelqu'un sur une appli pendant un date.",
@@ -479,7 +479,7 @@
    "Je n'ai jamais fait une sextape effacée depuis.",
    "Je n'ai jamais pratiqué le sexe par visio.",
    "Je n'ai jamais été en relation libre.",
-   "Je n'ai jamais joué au maître et à l'esclave.",
+   "Je n'ai jamais joué à un jeu de rôle dominant / dominé.",
    "Je n'ai jamais dit oui à un fantasme qui me faisait peur.",
    "Je n'ai jamais fait l'amour chez mes parents.",
    "Je n'ai jamais été surpris par un colocataire.",
@@ -535,7 +535,6 @@
    "Je n'ai jamais fait de doigté dans un lieu public.",
    "Je n'ai jamais fait l'amour dans une voiture garée en ville.",
    "Je n'ai jamais eu de rapport anal.",
-   "Je n'ai jamais donné de fessée au point de laisser une marque.",
    "Je n'ai jamais reçu de fessée qui m'a fait jouir.",
    "Je n'ai jamais utilisé de lubrifiant aromatisé.",
    "Je n'ai jamais utilisé d'huile de massage au lit.",
@@ -553,8 +552,7 @@
    "Je n'ai jamais été tiré(e) par les cheveux au lit.",
    "Je n'ai jamais dominé complètement mon/ma partenaire.",
    "Je n'ai jamais été totalement soumis(e).",
-   "Je n'ai jamais porté de collier ou de laisse pendant un jeu.",
-   "Je n'ai jamais fait de jeu avec de la cire de bougie.",
+   "Je n'ai jamais fait de jeu avec une plume au lit.",
    "Je n'ai jamais fait de jeu avec des glaçons sur le corps.",
    "Je n'ai jamais joui sur le corps de quelqu'un.",
    "Je n'ai jamais reçu de sperme sur le corps.",
@@ -699,8 +697,8 @@
    "Je n'ai jamais pensé à quelqu'un de cette partie en me caressant.",
    "Je n'ai jamais eu de relation sexuelle avec un(e) ami(e) proche.",
    "Je n'ai jamais été privé(e) d'orgasme volontairement par un jeu.",
-   "Je n'ai jamais donné de fessée au point de laisser une marque.",
-   "Je n'ai jamais fait de fellation ou de cunnilingus en voiture."
+   "Je n'ai jamais fait de fellation ou de cunnilingus en voiture.",
+   "Je n'ai jamais joué à un jeu de rôle dominant / dominé."
   ]
  },
  "orig": {
@@ -723,7 +721,7 @@
   "Explicite": [
    [
     "Explicite",
-    152
+    150
    ]
   ]
  }
