@@ -497,7 +497,9 @@
    "{p}, avoue à {q} le fantasme que tu n'as raconté à personne jusqu'à ce soir.",
    "{p}, confie à {q} le moment de la journée où tu as le plus envie de faire l'amour.",
    "{p}, avoue au groupe la promesse coquine que tu as faite par message sans jamais la tenir.",
-   "{p}, décris à {q} le baiser qui t'a le plus donné envie d'aller plus loin."
+   "{p}, décris à {q} le baiser qui t'a le plus donné envie d'aller plus loin.",
+   "{p}, avoue à {q} la pensée coquine qui t'a traversé l'esprit pendant cette soirée.",
+   "{p}, raconte au groupe le moment où tu as réalisé qu'un simple message t'avait complètement allumé(e)."
   ]
  },
  "adult": false,

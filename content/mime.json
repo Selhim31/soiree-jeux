@@ -296,7 +296,11 @@
    "{p}, mime un premier rendez-vous où tu n'oses pas prendre la main de l'autre, les autres devinent.",
    "{p}, mime quelqu'un qui écrit un message coquin puis panique en voyant qu'il est parti au mauvais destinataire, les autres devinent.",
    "{p}, mime un slow langoureux avec un partenaire imaginaire, les autres devinent.",
-   "{p}, mime quelqu'un qui découvre un suçon dans le miroir le lendemain matin, les autres devinent."
+   "{p}, mime quelqu'un qui découvre un suçon dans le miroir le lendemain matin, les autres devinent.",
+   "{p}, mime un premier rendez-vous où tout le monde attend le premier baiser, les autres devinent.",
+   "{p}, mime quelqu'un qui tente de défaire une robe à fermeture éclair coincée, les autres devinent.",
+   "{p}, mime quelqu'un qui découvre qu'il a liké une vieille photo de son crush, les autres devinent.",
+   "{p}, mime quelqu'un qui essaie de faire un strip-tease mais se coince dans son pull, les autres devinent."
   ]
  },
  "adult": false,

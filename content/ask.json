@@ -86,7 +86,13 @@
    "Quel est le dernier message que tu as regretté d'avoir envoyé trop vite ?",
    "Quelle célébrité aimerais-tu avoir comme colocataire pendant un mois ?",
    "Quel est le petit plaisir coupable qui illumine ta semaine ?",
-   "Quel mot ou expression utilises-tu beaucoup trop sans t'en rendre compte ?"
+   "Quel mot ou expression utilises-tu beaucoup trop sans t'en rendre compte ?",
+   "Si quelqu'un avait un crush secret sur toi en ce moment, voudrais-tu vraiment le savoir ?",
+   "Sortirais-tu avec toi-même ? Quelle est la première chose qui te ferait hésiter ?",
+   "Quel est le détail physique qu'on te complimente le plus et auquel tu ne crois pas ?",
+   "Quelle est la qualité que tu caches au début et que les gens découvrent tard ?",
+   "Quelle est la chose que tu fais pour impressionner et qui rate à chaque fois ?",
+   "Quelle est la première impression que tu donnes et qui est complètement fausse ?"
   ],
   "Coquin": [
    "Qui est la personne la plus attirante de ce groupe selon toi ?",
@@ -170,7 +176,13 @@
    "Avec qui ici aimerais-tu passer une soirée en tête-à-tête, sans dire pourquoi ?",
    "Quelle partie de ton corps reçoit le plus de compliments, selon toi ?",
    "Quelle chanson mettrais-tu pour créer une ambiance sensuelle ce soir ?",
-   "Préfères-tu qu'on te séduise avec des mots ou avec des gestes ?"
+   "Préfères-tu qu'on te séduise avec des mots ou avec des gestes ?",
+   "Quel ex reste, malgré tout, ton meilleur souvenir de tendresse ?",
+   "Quel signal discret envoies-tu quand quelqu'un te plaît vraiment ?",
+   "As-tu déjà eu un crush sur quelqu'un de cette soirée, même un tout petit peu ?",
+   "Quel est le texto le plus troublant que tu aies reçu tard le soir ?",
+   "Quelle tenue portes-tu quand tu veux être sûr(e) de faire de l'effet ?",
+   "Qu'est-ce qui te fait passer d'« ami(e) » à « envie de plus » chez quelqu'un ?"
   ],
   "Explicite": [
    "Quel est ton fantasme que tu n'as jamais osé avouer ?",
@@ -255,7 +267,13 @@
    "Quel mot prononcé au bon moment te fait complètement craquer ?",
    "Quelle partie de ton corps aimes-tu qu'on embrasse le plus longtemps ?",
    "Préfères-tu mener la danse ou te laisser complètement guider, et pourquoi ?",
-   "Quel est le scénario qui revient le plus souvent dans tes pensées les plus chaudes ?"
+   "Quel est le scénario qui revient le plus souvent dans tes pensées les plus chaudes ?",
+   "Quelle est la pensée la plus chaude que tu aies eue pendant une journée parfaitement normale ?",
+   "Quel geste précis te fait perdre toute retenue en quelques secondes ?",
+   "Préfères-tu une nuit improvisée ou un rendez-vous coquin planifié dans les moindres détails ?",
+   "Quel est le fantasme que tu n'as jamais osé proposer de peur de la réaction ?",
+   "Quel moment de la journée te donne le plus envie, et pourquoi ?",
+   "Quelle est la chose la plus audacieuse que tu aies faite pendant un appel vidéo ?"
   ]
  },
  "gold": {
@@ -274,7 +292,8 @@
    "Quelle tenue te fait te sentir irrésistible ?",
    "Quel est ton meilleur souvenir de premier baiser ?",
    "Quelle est ta pire technique de drague ?",
-   "Quel est le message le plus osé que tu aies écrit puis effacé avant de l'envoyer ?"
+   "Quel est le message le plus osé que tu aies écrit puis effacé avant de l'envoyer ?",
+   "As-tu déjà eu un crush sur quelqu'un de cette soirée, même un tout petit peu ?"
   ],
   "Explicite": [
    "Quel est ton fantasme avec un(e) inconnu(e) ?",
@@ -289,7 +308,8 @@
    "Quel détail de tes sous-vêtements aimerais-tu qu'on remarque en premier ce soir ?",
    "Quelle fantaisie n'as-tu jamais osé proposer à un partenaire, et pourquoi ?",
    "Quel jouet ou accessoire aimerais-tu essayer pour la première fois, et avec qui ?",
-   "Quelle est la chose la plus audacieuse que tu aies demandée au lit ?"
+   "Quelle est la chose la plus audacieuse que tu aies demandée au lit ?",
+   "Quelle est la chose la plus audacieuse que tu aies faite pendant un appel vidéo ?"
   ]
  },
  "orig": {
