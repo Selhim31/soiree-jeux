@@ -165,7 +165,9 @@
    "{p}, raconte à {q} le compliment reçu qui t'a fait sourire toute une semaine.",
    "{p}, confesse au groupe la destination de voyage où tu as fait la plus grosse gaffe touristique.",
    "{p}, avoue à {q} la dernière chose que tu as faite en cachette au travail.",
-   "{p}, raconte au groupe la pire excuse bidon que tu as sortie pour éviter une soirée."
+   "{p}, raconte au groupe la pire excuse bidon que tu as sortie pour éviter une soirée.",
+   "Quelle est la plus grosse excuse bidon que tu aies inventée pour annuler une soirée ?",
+   "Quel est le surnom le plus gênant qu'on t'ait déjà donné ?"
   ],
   "Coquin": [
    "{p}, confesse au groupe qui ici tu trouves le plus attirant, honnêtement.",

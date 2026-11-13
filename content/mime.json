@@ -300,7 +300,12 @@
    "{p}, mime un premier rendez-vous où tout le monde attend le premier baiser, les autres devinent.",
    "{p}, mime quelqu'un qui tente de défaire une robe à fermeture éclair coincée, les autres devinent.",
    "{p}, mime quelqu'un qui découvre qu'il a liké une vieille photo de son crush, les autres devinent.",
-   "{p}, mime quelqu'un qui essaie de faire un strip-tease mais se coince dans son pull, les autres devinent."
+   "{p}, mime quelqu'un qui essaie de faire un strip-tease mais se coince dans son pull, les autres devinent.",
+   "{p}, mime quelqu'un qui essaie de dégrafer un soutien-gorge d'une seule main et n'y arrive pas, les autres devinent.",
+   "{p}, mime un premier slow très gênant dans une soirée, les autres devinent.",
+   "{p}, mime quelqu'un qui reçoit un message osé en plein dîner de famille, les autres devinent.",
+   "{p}, mime quelqu'un qui tente de se rhabiller en silence pour ne réveiller personne, les autres devinent.",
+   "{p}, mime quelqu'un qui fait semblant de ne pas regarder un(e) beau/belle inconnu(e) à la plage, les autres devinent."
   ]
  },
  "adult": false,

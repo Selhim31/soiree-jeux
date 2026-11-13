@@ -640,7 +640,10 @@
    "{p}, envoie à {q} un message qui décrit en trois mots l'effet qu'il ou elle te fait (avec son accord).",
    "{p}, en regardant {q} dans la caméra, dis-lui lentement ce que tu remarques en premier chez lui ou elle.",
    "{p}, prends un selfie avec ton regard le plus séducteur et envoie-le à {q} (avec son accord).",
-   "{p}, pour {q}, choisis une chanson sensuelle et chante-en le refrain les yeux dans la caméra."
+   "{p}, pour {q}, choisis une chanson sensuelle et chante-en le refrain les yeux dans la caméra.",
+   "{p}, envoie à {q} un emoji qui résume ce que tu penses de lui ou d'elle ce soir, puis explique-le à voix haute (avec son accord).",
+   "{p}, pour {q}, fais glisser lentement une manche ou une bretelle devant la caméra pendant cinq secondes.",
+   "{p}, regarde {q} dans la caméra et complète à voix basse : « Si tu étais là, je commencerais par… »."
   ],
   "Explicite": [
    "{p}, enlève deux vêtements choisis par {q}, caméra on.",
@@ -884,7 +887,10 @@
    "{p}, allume ton jouet préféré près du micro pendant cinq secondes pour que {q} l'entende, puis raconte-lui où tu l'utiliserais (sans jouet : décris-lui ton geste préféré à la place).",
    "{p}, enregistre pour {q} un vocal de vingt secondes où tu racontes ce que tu ferais si vous étiez seuls ce soir, puis envoie-le (avec son accord).",
    "{p}, prends une photo suggestive de ton épaule ou de ta nuque et envoie-la à {q} (avec son accord).",
-   "{p}, décris à {q}, sans le nommer, l'objet de ta table de nuit que tu préfères, jusqu'à ce qu'il ou elle devine."
+   "{p}, décris à {q}, sans le nommer, l'objet de ta table de nuit que tu préfères, jusqu'à ce qu'il ou elle devine.",
+   "{p}, envoie à {q} une photo de la tenue que tu porterais pour l'attendre ce soir, posée sur ton lit (avec son accord).",
+   "{p}, enregistre pour {q} un vocal de quinze secondes où tu ne fais que respirer et murmurer son prénom, puis envoie-le (avec son accord).",
+   "{p}, filme pour {q} une vidéo de cinq secondes où tu enlèves lentement un vêtement de ton choix, puis envoie-la (avec son accord)."
   ]
  },
  "adult": false,
@@ -972,7 +978,8 @@
    "{p}, pour {q}, envoie à ton crush un message coquin de ton choix (avec son accord) et lis-le à voix haute avant.",
    "{p}, envoie à {q} une photo de ton cou ou de ta clavicule, sans ton visage (avec son accord).",
    "{p}, envoie à {q} une photo de ta main posée sur ta cuisse, sans ton visage (avec son accord).",
-   "{p}, prends un selfie avec ton regard le plus séducteur et envoie-le à {q} (avec son accord)."
+   "{p}, prends un selfie avec ton regard le plus séducteur et envoie-le à {q} (avec son accord).",
+   "{p}, pour {q}, fais glisser lentement une manche ou une bretelle devant la caméra pendant cinq secondes."
   ],
   "Explicite": [
    "{p}, montre-toi en lingerie ou caleçon dans ta pose la plus sexy 10 secondes, filme-toi et envoie la vidéo à {q} (avec son accord).",
@@ -1017,7 +1024,9 @@
    "{p}, envoie à {q} une photo de ton jouet préféré en main avec la légende « on commence quand tu veux » (avec son accord ; sans jouet : photo de ta main sur tes draps).",
    "{p}, enregistre pour {q} un vocal de quinze secondes où tu décris lentement la première chose que tu lui enlèverais (avec son accord).",
    "{p}, enregistre pour {q} un vocal de vingt secondes où tu racontes ce que tu ferais si vous étiez seuls ce soir, puis envoie-le (avec son accord).",
-   "{p}, prends une photo suggestive de ton épaule ou de ta nuque et envoie-la à {q} (avec son accord)."
+   "{p}, prends une photo suggestive de ton épaule ou de ta nuque et envoie-la à {q} (avec son accord).",
+   "{p}, filme pour {q} une vidéo de cinq secondes où tu enlèves lentement un vêtement de ton choix, puis envoie-la (avec son accord).",
+   "{p}, enregistre pour {q} un vocal de quinze secondes où tu ne fais que respirer et murmurer son prénom, puis envoie-le (avec son accord)."
   ]
  },
  "orig": {

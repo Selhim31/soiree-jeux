@@ -92,7 +92,12 @@
    "Quel est le détail physique qu'on te complimente le plus et auquel tu ne crois pas ?",
    "Quelle est la qualité que tu caches au début et que les gens découvrent tard ?",
    "Quelle est la chose que tu fais pour impressionner et qui rate à chaque fois ?",
-   "Quelle est la première impression que tu donnes et qui est complètement fausse ?"
+   "Quelle est la première impression que tu donnes et qui est complètement fausse ?",
+   "Quelle est l'habitude d'enfance que tu as gardée et que personne ne soupçonne ?",
+   "Quel est le compliment le plus inattendu qu'un inconnu t'ait fait ?",
+   "Quelle est la dispute la plus absurde que tu aies eue pour un détail ?",
+   "Quel talent inutile aimerais-tu maîtriser à la perfection ?",
+   "Quelle est la dernière chose qui t'a fait rire au point de ne plus pouvoir respirer ?"
   ],
   "Coquin": [
    "Qui est la personne la plus attirante de ce groupe selon toi ?",
@@ -182,7 +187,12 @@
    "As-tu déjà eu un crush sur quelqu'un de cette soirée, même un tout petit peu ?",
    "Quel est le texto le plus troublant que tu aies reçu tard le soir ?",
    "Quelle tenue portes-tu quand tu veux être sûr(e) de faire de l'effet ?",
-   "Qu'est-ce qui te fait passer d'« ami(e) » à « envie de plus » chez quelqu'un ?"
+   "Qu'est-ce qui te fait passer d'« ami(e) » à « envie de plus » chez quelqu'un ?",
+   "Quel est le détail physique chez quelqu'un qui te fait perdre le fil de la conversation ?",
+   "Quel est le rendez-vous où tu as su dès les cinq premières minutes que ça finirait en baiser ?",
+   "Quelle est la phrase la plus simple qui t'ait déjà fait rougir ?",
+   "Tu es plutôt du genre à faire le premier pas ou à tout faire pour qu'on le fasse à ta place ?",
+   "Quel parfum ou quelle odeur te rend instantanément plus tactile ?"
   ],
   "Explicite": [
    "Quel est ton fantasme que tu n'as jamais osé avouer ?",
@@ -273,7 +283,11 @@
    "Préfères-tu une nuit improvisée ou un rendez-vous coquin planifié dans les moindres détails ?",
    "Quel est le fantasme que tu n'as jamais osé proposer de peur de la réaction ?",
    "Quel moment de la journée te donne le plus envie, et pourquoi ?",
-   "Quelle est la chose la plus audacieuse que tu aies faite pendant un appel vidéo ?"
+   "Quelle est la chose la plus audacieuse que tu aies faite pendant un appel vidéo ?",
+   "Quelle est la chose qu'on t'a faite une seule fois et que tu redemanderais sans hésiter ?",
+   "Quel est l'endroit le plus improbable où tu as eu envie de quelqu'un au point d'avoir du mal à te concentrer ?",
+   "Qu'est-ce qui te fait le plus craquer au lit : les mots, les gestes ou les silences ?",
+   "Quelle est la consigne que tu aimerais qu'on te donne à l'oreille au début d'une nuit ?"
   ]
  },
  "gold": {
@@ -309,7 +323,8 @@
    "Quelle fantaisie n'as-tu jamais osé proposer à un partenaire, et pourquoi ?",
    "Quel jouet ou accessoire aimerais-tu essayer pour la première fois, et avec qui ?",
    "Quelle est la chose la plus audacieuse que tu aies demandée au lit ?",
-   "Quelle est la chose la plus audacieuse que tu aies faite pendant un appel vidéo ?"
+   "Quelle est la chose la plus audacieuse que tu aies faite pendant un appel vidéo ?",
+   "Quelle est la consigne que tu aimerais qu'on te donne à l'oreille au début d'une nuit ?"
   ]
  },
  "orig": {
