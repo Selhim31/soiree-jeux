@@ -305,7 +305,13 @@
    "{p}, mime un premier slow très gênant dans une soirée, les autres devinent.",
    "{p}, mime quelqu'un qui reçoit un message osé en plein dîner de famille, les autres devinent.",
    "{p}, mime quelqu'un qui tente de se rhabiller en silence pour ne réveiller personne, les autres devinent.",
-   "{p}, mime quelqu'un qui fait semblant de ne pas regarder un(e) beau/belle inconnu(e) à la plage, les autres devinent."
+   "{p}, mime quelqu'un qui fait semblant de ne pas regarder un(e) beau/belle inconnu(e) à la plage, les autres devinent.",
+   "{p}, mime quelqu'un qui se fait surprendre en train de répéter une phrase de drague devant le miroir, les autres devinent.",
+   "{p}, mime un premier rendez-vous où les deux veulent payer l'addition en même temps, les autres devinent.",
+   "{p}, mime quelqu'un qui envoie un message coquin au mauvais groupe WhatsApp, les autres devinent.",
+   "{p}, mime quelqu'un qui tente un massage romantique mais qui a les mains gelées, les autres devinent.",
+   "{p}, mime quelqu'un qui cherche discrètement ses sous-vêtements le lendemain matin, les autres devinent.",
+   "{p}, mime quelqu'un qui découvre que la chambre d'hôtel n'a qu'un seul lit minuscule, les autres devinent."
   ]
  },
  "adult": false,

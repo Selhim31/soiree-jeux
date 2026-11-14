@@ -97,7 +97,14 @@
    "Quel est le compliment le plus inattendu qu'un inconnu t'ait fait ?",
    "Quelle est la dispute la plus absurde que tu aies eue pour un détail ?",
    "Quel talent inutile aimerais-tu maîtriser à la perfection ?",
-   "Quelle est la dernière chose qui t'a fait rire au point de ne plus pouvoir respirer ?"
+   "Quelle est la dernière chose qui t'a fait rire au point de ne plus pouvoir respirer ?",
+   "Quelle est la chanson que tu connais par cœur sans jamais l'avoir voulu ?",
+   "Quel est le plat que tu cuisines pour impressionner, et est-ce que ça marche vraiment ?",
+   "Si tu devais vivre une semaine dans une série télé, laquelle choisirais-tu ?",
+   "Quel objet de ton appartement raconte le mieux qui tu es ?",
+   "Quelle est la plus grosse bêtise que tu as faite en voulant rendre service ?",
+   "Quelle appli supprimerais-tu de ton téléphone si tu voulais vraiment changer de vie ?",
+   "Quel est le souvenir de vacances que tu racontes toujours en l'embellissant un peu ?"
   ],
   "Coquin": [
    "Qui est la personne la plus attirante de ce groupe selon toi ?",
@@ -192,7 +199,15 @@
    "Quel est le rendez-vous où tu as su dès les cinq premières minutes que ça finirait en baiser ?",
    "Quelle est la phrase la plus simple qui t'ait déjà fait rougir ?",
    "Tu es plutôt du genre à faire le premier pas ou à tout faire pour qu'on le fasse à ta place ?",
-   "Quel parfum ou quelle odeur te rend instantanément plus tactile ?"
+   "Quel parfum ou quelle odeur te rend instantanément plus tactile ?",
+   "Quel détail chez quelqu'un te fait changer d'avis en une seconde, dans le bon sens ?",
+   "Tu préfères qu'on te séduise avec de l'humour ou avec un regard qui insiste ?",
+   "Quelle chanson te met dans une humeur un peu trop tactile ?",
+   "Quel est le lieu public où tu as déjà volé un baiser en espérant que personne ne voie ?",
+   "Quelle est la tenue que tu portes quand tu veux qu'on te remarque sans le dire ?",
+   "Quel est le compliment physique qu'on ne t'a jamais fait et que tu aimerais entendre ?",
+   "Quel est le geste anodin qui, venant de la bonne personne, te trouble complètement ?",
+   "Quelle est la photo de toi que tu trouves la plus séduisante, et où a-t-elle été prise ?"
   ],
   "Explicite": [
    "Quel est ton fantasme que tu n'as jamais osé avouer ?",
@@ -287,7 +302,14 @@
    "Quelle est la chose qu'on t'a faite une seule fois et que tu redemanderais sans hésiter ?",
    "Quel est l'endroit le plus improbable où tu as eu envie de quelqu'un au point d'avoir du mal à te concentrer ?",
    "Qu'est-ce qui te fait le plus craquer au lit : les mots, les gestes ou les silences ?",
-   "Quelle est la consigne que tu aimerais qu'on te donne à l'oreille au début d'une nuit ?"
+   "Quelle est la consigne que tu aimerais qu'on te donne à l'oreille au début d'une nuit ?",
+   "Quelle est la première chose que tu fais quand tu te retrouves enfin seul(e) avec quelqu'un qui te plaît ?",
+   "Quel est le moment de la journée où ton envie est la plus forte, et pourquoi ?",
+   "Quelle est la chose que tu n'as jamais osé demander au lit mais que tu aimerais qu'on te propose ?",
+   "Tu es plutôt lumière tamisée, plein jour ou noir complet, et qu'est-ce que ça change pour toi ?",
+   "Quel est le souvenir intime qui te revient le plus souvent quand tu t'ennuies ?",
+   "Quel jouet ou accessoire aimerais-tu essayer à deux, sans jamais avoir osé le proposer ?",
+   "Quelle est la phrase qu'on t'a murmurée et qui t'a fait perdre le fil sur-le-champ ?"
   ]
  },
  "gold": {
@@ -324,7 +346,9 @@
    "Quel jouet ou accessoire aimerais-tu essayer pour la première fois, et avec qui ?",
    "Quelle est la chose la plus audacieuse que tu aies demandée au lit ?",
    "Quelle est la chose la plus audacieuse que tu aies faite pendant un appel vidéo ?",
-   "Quelle est la consigne que tu aimerais qu'on te donne à l'oreille au début d'une nuit ?"
+   "Quelle est la consigne que tu aimerais qu'on te donne à l'oreille au début d'une nuit ?",
+   "Quelle est la première chose que tu fais quand tu te retrouves enfin seul(e) avec quelqu'un qui te plaît ?",
+   "Quel jouet ou accessoire aimerais-tu essayer à deux, sans jamais avoir osé le proposer ?"
   ]
  },
  "orig": {

@@ -890,7 +890,11 @@
    "{p}, décris à {q}, sans le nommer, l'objet de ta table de nuit que tu préfères, jusqu'à ce qu'il ou elle devine.",
    "{p}, envoie à {q} une photo de la tenue que tu porterais pour l'attendre ce soir, posée sur ton lit (avec son accord).",
    "{p}, enregistre pour {q} un vocal de quinze secondes où tu ne fais que respirer et murmurer son prénom, puis envoie-le (avec son accord).",
-   "{p}, filme pour {q} une vidéo de cinq secondes où tu enlèves lentement un vêtement de ton choix, puis envoie-la (avec son accord)."
+   "{p}, filme pour {q} une vidéo de cinq secondes où tu enlèves lentement un vêtement de ton choix, puis envoie-la (avec son accord).",
+   "{p}, envoie à {q} une photo de ta main posée sur l'endroit de ton corps que tu aimerais qu'il ou elle embrasse en premier (avec son accord).",
+   "{p}, envoie à {q} une photo de toi allongé(e), prise du point de vue de quelqu'un qui te rejoindrait (avec son accord).",
+   "{p}, écris à {q} la liste des trois choses que tu as envie d'essayer avec lui ou elle, puis envoie-la (avec son accord).",
+   "{p}, envoie à {q} une photo de ton cou et de ta clavicule, comme une invitation à venir y poser les lèvres (avec son accord)."
   ]
  },
  "adult": false,
@@ -1026,7 +1030,10 @@
    "{p}, enregistre pour {q} un vocal de vingt secondes où tu racontes ce que tu ferais si vous étiez seuls ce soir, puis envoie-le (avec son accord).",
    "{p}, prends une photo suggestive de ton épaule ou de ta nuque et envoie-la à {q} (avec son accord).",
    "{p}, filme pour {q} une vidéo de cinq secondes où tu enlèves lentement un vêtement de ton choix, puis envoie-la (avec son accord).",
-   "{p}, enregistre pour {q} un vocal de quinze secondes où tu ne fais que respirer et murmurer son prénom, puis envoie-le (avec son accord)."
+   "{p}, enregistre pour {q} un vocal de quinze secondes où tu ne fais que respirer et murmurer son prénom, puis envoie-le (avec son accord).",
+   "{p}, envoie à {q} une photo de ta main posée sur l'endroit de ton corps que tu aimerais qu'il ou elle embrasse en premier (avec son accord).",
+   "{p}, envoie à {q} une photo de toi allongé(e), prise du point de vue de quelqu'un qui te rejoindrait (avec son accord).",
+   "{p}, envoie à {q} une photo de ton cou et de ta clavicule, comme une invitation à venir y poser les lèvres (avec son accord)."
   ]
  },
  "orig": {
