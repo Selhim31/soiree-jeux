@@ -2,6 +2,7 @@
  * Soirée Jeux — journal de sécurité (Google Apps Script lié à une Google Sheet).
  * Reçoit des lots d'événements du serveur (POST JSON {token, rows}) et les ajoute à l'onglet « Journal ».
  * Conservation : 90 jours (fonction purgerAnciennesLignes à déclencher chaque jour).
+ * Onglet « État » : sauvegarde des classements de groupe et des salles (clé/valeur, découpée en morceaux), relue au redémarrage du serveur.
  * Le jeton secret est stocké dans Propriétés du script → JOURNAL_TOKEN (jamais dans ce code).
  */
 var ONGLET = 'Journal';
@@ -26,6 +27,7 @@ function doPost(e) {
     var corps = JSON.parse((e && e.postData && e.postData.contents) || '{}');
     if (!attendu || corps.token !== attendu) return reponse_({ ok: false, err: 'forbidden' });
     if (corps.media) return archiverMedia_(corps.media);
+    if (corps.kv) return etat_(corps.kv);
     var lignes = Array.isArray(corps.rows) ? corps.rows : [];
     if (!lignes.length) return reponse_({ ok: true, n: 0 });
     var propres = lignes.slice(0, 1000).map(function (l) {
@@ -47,6 +49,44 @@ function doPost(e) {
   } catch (err) {
     return reponse_({ ok: false, err: String(err) });
   }
+}
+
+var ONGLET_ETAT = 'État';
+var MORCEAU = 45000;   // une cellule Google Sheets accepte 50 000 caractères au maximum
+
+/** Sauvegarde clé/valeur (classements de groupe, salles) : {op:'get'|'set', key, value}. Aucune donnée média ici. */
+function etat_(o) {
+  var cle = String((o && o.key) || '');
+  if (!/^[a-z0-9_-]{1,40}$/.test(cle)) return reponse_({ ok: false, err: 'clé invalide' });
+  var ss = SpreadsheetApp.getActiveSpreadsheet();
+  var sh = ss.getSheetByName(ONGLET_ETAT) || ss.insertSheet(ONGLET_ETAT);
+  if (sh.getLastRow() === 0) { sh.appendRow(['Clé', 'Morceau', 'Valeur', 'Mis à jour (UTC)']); sh.setFrozenRows(1); }
+  var n = sh.getLastRow() - 1;
+  if (o.op === 'get') {
+    if (n <= 0) return reponse_({ ok: true, value: null });
+    var lignes = sh.getRange(2, 1, n, 3).getValues().filter(function (l) { return l[0] === cle; });
+    if (!lignes.length) return reponse_({ ok: true, value: null });
+    lignes.sort(function (a, b) { return a[1] - b[1]; });
+    return reponse_({ ok: true, value: lignes.map(function (l) { return String(l[2]); }).join('') });
+  }
+  if (o.op === 'set') {
+    var v = String(o.value || '');
+    if (v.length > 5000000) return reponse_({ ok: false, err: 'trop gros' });
+    var verrou = LockService.getScriptLock();
+    verrou.waitLock(20000);
+    try {
+      n = sh.getLastRow() - 1;
+      if (n > 0) {
+        var cles = sh.getRange(2, 1, n, 1).getValues();
+        for (var i = cles.length - 1; i >= 0; i--) if (cles[i][0] === cle) sh.deleteRow(i + 2);
+      }
+      var t = new Date().toISOString(), lot = [];
+      for (var k = 0, j = 0; k < v.length || j === 0; k += MORCEAU, j++) lot.push([cle, j, "'" + v.slice(k, k + MORCEAU), t]);
+      sh.getRange(sh.getLastRow() + 1, 1, lot.length, 4).setValues(lot);
+    } finally { verrou.releaseLock(); }
+    return reponse_({ ok: true, key: cle, n: lot.length });
+  }
+  return reponse_({ ok: false, err: 'op inconnue' });
 }
 
 function dossier_() {
