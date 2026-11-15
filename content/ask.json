@@ -104,7 +104,10 @@
    "Quel objet de ton appartement raconte le mieux qui tu es ?",
    "Quelle est la plus grosse bêtise que tu as faite en voulant rendre service ?",
    "Quelle appli supprimerais-tu de ton téléphone si tu voulais vraiment changer de vie ?",
-   "Quel est le souvenir de vacances que tu racontes toujours en l'embellissant un peu ?"
+   "Quel est le souvenir de vacances que tu racontes toujours en l'embellissant un peu ?",
+   "Quelle est la recette de famille que tu refuses catégoriquement de partager ?",
+   "Quel est le message vocal le plus long que tu aies jamais laissé, et à qui ?",
+   "Quelle habitude d'un de tes parents as-tu reprise sans t'en rendre compte ?"
   ],
   "Coquin": [
    "Qui est la personne la plus attirante de ce groupe selon toi ?",
@@ -207,7 +210,10 @@
    "Quelle est la tenue que tu portes quand tu veux qu'on te remarque sans le dire ?",
    "Quel est le compliment physique qu'on ne t'a jamais fait et que tu aimerais entendre ?",
    "Quel est le geste anodin qui, venant de la bonne personne, te trouble complètement ?",
-   "Quelle est la photo de toi que tu trouves la plus séduisante, et où a-t-elle été prise ?"
+   "Quelle est la photo de toi que tu trouves la plus séduisante, et où a-t-elle été prise ?",
+   "Quelle est la dernière personne qui t'a fait rougir sans même te toucher ?",
+   "Quel emoji utilises-tu quand tu veux faire comprendre que tu flirtes ?",
+   "Quelle est la première chose que tu regardes sur le profil de quelqu'un qui te plaît ?"
   ],
   "Explicite": [
    "Quel est ton fantasme que tu n'as jamais osé avouer ?",
@@ -309,7 +315,10 @@
    "Tu es plutôt lumière tamisée, plein jour ou noir complet, et qu'est-ce que ça change pour toi ?",
    "Quel est le souvenir intime qui te revient le plus souvent quand tu t'ennuies ?",
    "Quel jouet ou accessoire aimerais-tu essayer à deux, sans jamais avoir osé le proposer ?",
-   "Quelle est la phrase qu'on t'a murmurée et qui t'a fait perdre le fil sur-le-champ ?"
+   "Quelle est la phrase qu'on t'a murmurée et qui t'a fait perdre le fil sur-le-champ ?",
+   "Quel est le scénario que tu te repasses le plus souvent quand tu es seul(e) le soir ?",
+   "Quelle partie de ton corps aimerais-tu qu'on prenne enfin le temps d'explorer ?",
+   "Quelle est la tenue qu'on t'a demandé de porter et qui t'a fait bien plus d'effet que prévu ?"
   ]
  },
  "gold": {
@@ -348,7 +357,8 @@
    "Quelle est la chose la plus audacieuse que tu aies faite pendant un appel vidéo ?",
    "Quelle est la consigne que tu aimerais qu'on te donne à l'oreille au début d'une nuit ?",
    "Quelle est la première chose que tu fais quand tu te retrouves enfin seul(e) avec quelqu'un qui te plaît ?",
-   "Quel jouet ou accessoire aimerais-tu essayer à deux, sans jamais avoir osé le proposer ?"
+   "Quel jouet ou accessoire aimerais-tu essayer à deux, sans jamais avoir osé le proposer ?",
+   "Quel est le scénario que tu te repasses le plus souvent quand tu es seul(e) le soir ?"
   ]
  },
  "orig": {

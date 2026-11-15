@@ -85,7 +85,11 @@
    "Estimez le nombre de bougies parfumées chez {p} !",
    "Estimez le nombre de podcasts que {p} écoute !",
    "Estimez le nombre de fois où {p} a été témoin à un mariage !",
-   "Estimez le nombre de mètres du plus long plongeon de {p} !"
+   "Estimez le nombre de mètres du plus long plongeon de {p} !",
+   "Estimez le nombre d'onglets ouverts en ce moment sur le téléphone de {p} !",
+   "Estimez combien de fois {p} a appuyé sur « répéter » sur son réveil cette semaine !",
+   "Devinez le nombre de groupes de discussion que {p} a mis en sourdine !",
+   "Estimez le nombre de mugs entassés dans le placard de {p} !"
   ],
   "Coquin": [
    "Estimez l'âge de {p} à son premier baiser !",
@@ -167,7 +171,11 @@
    "Devinez le nombre de crushs non avoués que {p} a eus cette année !",
    "Estimez le nombre de fois où {p} a relu un vieux message flirty cette semaine !",
    "Devinez le nombre de fois où {p} a changé de photo de profil pour attirer un crush !",
-   "Estimez combien de minutes {p} met à répondre à quelqu'un qui lui plaît."
+   "Estimez combien de minutes {p} met à répondre à quelqu'un qui lui plaît.",
+   "Estimez le nombre de profils que {p} fait défiler sur une appli de rencontre avant d'en trouver un qui lui plaise vraiment !",
+   "Devinez combien de secondes {p} peut soutenir le regard de quelqu'un qui lui plaît sans sourire !",
+   "Estimez le nombre de fois où {p} a relu une conversation avec son crush pour analyser chaque mot !",
+   "Estimez le nombre de personnes que {p} a complimentées pour draguer cette année !"
   ],
   "Explicite": [
    "Estimez le nombre de partenaires de {p} !",
@@ -246,7 +254,12 @@
    "Estimez le nombre de fois où {p} a craqué pour un massage sensuel !",
    "Estimez le nombre de nuits où {p} a dormi nu(e) ce mois-ci !",
    "Devinez le nombre de nuits où {p} a pensé à quelqu'un de ce groupe en s'endormant ce mois-ci !",
-   "Estimez le nombre de fois où {p} a déjà utilisé un jouet en pensant à quelqu'un de précis !"
+   "Estimez le nombre de fois où {p} a déjà utilisé un jouet en pensant à quelqu'un de précis !",
+   "Devinez combien de messages coquins {p} a effacés au dernier moment cette année !",
+   "Devinez le nombre de lieux insolites où {p} s'est déjà retrouvé(e) en situation intime !",
+   "Estimez combien de photos osées {p} a déjà envoyées dans sa vie !",
+   "Estimez le nombre de fois où {p} a gardé un sous-vêtement de quelqu'un en souvenir !",
+   "Devinez combien de fois par mois {p} aimerait idéalement faire l'amour !"
   ]
  },
  "gold": {
@@ -308,7 +321,8 @@
    "Estimez le nombre de jouets coquins de {p} !",
    "Estimez l'âge de {p} à sa première fois !",
    "Estimez le nombre de personnes avec qui {p} a eu un plan d'un soir en vacances !",
-   "Estimez le nombre de partenaires de {p} rencontrés sur une appli !"
+   "Estimez le nombre de partenaires de {p} rencontrés sur une appli !",
+   "Estimez combien de photos osées {p} a déjà envoyées dans sa vie !"
   ]
  },
  "orig": {

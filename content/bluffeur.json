@@ -62,7 +62,9 @@
    "Quel est le meilleur âge de la vie ?|À quel âge tu as arrêté de croire au père Noël ?",
    "Quelle est ta boisson de soirée ?|Quelle boisson tu commandes pour avoir l'air classe ?",
    "Quel est le pire endroit pour avoir le hoquet ?|Quel est le pire endroit pour avoir un fou rire ?",
-   "Quel est ton jeu de société préféré ?|À quel jeu de société tu triches le plus ?"
+   "Quel est ton jeu de société préféré ?|À quel jeu de société tu triches le plus ?",
+   "Quel animal aimerais-tu avoir chez toi ?|Quel animal te fait le plus peur ?",
+   "Quelle couleur domine dans ta garde-robe ?|Quelle couleur tu ne porterais pour rien au monde ?"
   ],
   "Proches": [
    "Combien de temps tu pourrais rester sous la douche ?|Combien de temps tu pourrais rester dans un bain ?",
@@ -119,7 +121,9 @@
    "Quel est ton premier souvenir de vacances ?|Quel est ton premier souvenir d'anniversaire ?",
    "Quel est le pire temps pour sortir ?|Quel temps te donne envie de rester sous la couette ?",
    "Combien de temps tu tiens une conversation avec un inconnu ?|Combien de temps tu tiens au téléphone avec ta famille ?",
-   "Quel est le meilleur cocktail ?|Quel cocktail tu commandes en vacances ?"
+   "Quel est le meilleur cocktail ?|Quel cocktail tu commandes en vacances ?",
+   "Combien d'heures tu dors le week-end ?|Combien d'heures tu dors la veille d'un grand départ ?",
+   "Quel est le meilleur plat pour un premier date ?|Quel plat tu commandes quand tu veux impressionner ?"
   ],
   "Très proches": [
    "Combien de cafés tu bois par jour ?|Combien de verres d'eau tu bois par jour ?",
@@ -176,7 +180,8 @@
    "Quel est le meilleur son au réveil ?|Quelle est la sonnerie de ton réveil ?",
    "Combien de temps tu restes fâché(e) en moyenne ?|Combien de temps tu boudes après une dispute ?",
    "Quel est le meilleur jeu à faire en voiture ?|À quoi tu joues pendant les longs trajets ?",
-   "Quelle est la meilleure partie du week-end ?|Quel moment du week-end tu préfères ?"
+   "Quelle est la meilleure partie du week-end ?|Quel moment du week-end tu préfères ?",
+   "Combien de minutes tu mets à choisir un film ?|Combien de minutes tu mets à choisir un plat au restaurant ?"
   ],
   "Gages": [
    "Imite le Bluffeur démasqué d'un film policier pendant 15 secondes.",
@@ -219,7 +224,8 @@
    "Commente la manche suivante comme un journaliste sportif surexcité.",
    "Parle en chuchotant jusqu'à ton prochain tour.",
    "Termine chacune de tes phrases par « mon capitaine » jusqu'à ton prochain tour.",
-   "Raconte ta journée d'hier comme une bande-annonce de film d'action."
+   "Raconte ta journée d'hier comme une bande-annonce de film d'action.",
+   "Fais rimer chacune de tes réponses jusqu'à ton prochain tour."
   ]
  }
 }

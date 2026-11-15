@@ -106,7 +106,10 @@
    "Sait écouter sans juger",
    "Courageux(se) face aux imprévus",
    "Esprit vif",
-   "Cœur sur la main"
+   "Cœur sur la main",
+   "Sait écouter sans couper la parole",
+   "Rit de bon cœur de ses propres bêtises",
+   "Se souvient des petits détails qu'on lui confie"
   ],
   "Défauts": [
    "Têtu(e)",
@@ -207,7 +210,10 @@
    "Laisse un fond de café dans chaque tasse de la maison",
    "Promet de ne prendre qu'une bouchée de ton dessert",
    "Annonce « dernière partie » et en lance encore trois",
-   "Montre vos conversations privées à ses amis pour avoir un avis"
+   "Montre vos conversations privées à ses amis pour avoir un avis",
+   "Répond « j'arrive » alors qu'il ou elle n'est pas encore habillé(e)",
+   "Laisse toujours une gorgée au fond de la bouteille pour ne pas avoir à la jeter",
+   "Écoute ses vidéos sans écouteurs dans les transports"
   ]
  }
 }
