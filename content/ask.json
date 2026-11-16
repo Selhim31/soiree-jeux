@@ -107,7 +107,9 @@
    "Quel est le souvenir de vacances que tu racontes toujours en l'embellissant un peu ?",
    "Quelle est la recette de famille que tu refuses catégoriquement de partager ?",
    "Quel est le message vocal le plus long que tu aies jamais laissé, et à qui ?",
-   "Quelle habitude d'un de tes parents as-tu reprise sans t'en rendre compte ?"
+   "Quelle habitude d'un de tes parents as-tu reprise sans t'en rendre compte ?",
+   "Quel est le compliment le plus bizarre qu'on t'ait fait et qui t'a pourtant fait plaisir ?",
+   "Quel est le trajet le plus long que tu aies fait juste pour manger quelque chose ?"
   ],
   "Coquin": [
    "Qui est la personne la plus attirante de ce groupe selon toi ?",
@@ -213,7 +215,10 @@
    "Quelle est la photo de toi que tu trouves la plus séduisante, et où a-t-elle été prise ?",
    "Quelle est la dernière personne qui t'a fait rougir sans même te toucher ?",
    "Quel emoji utilises-tu quand tu veux faire comprendre que tu flirtes ?",
-   "Quelle est la première chose que tu regardes sur le profil de quelqu'un qui te plaît ?"
+   "Quelle est la première chose que tu regardes sur le profil de quelqu'un qui te plaît ?",
+   "Préférerais-tu connaître la vérité sur ce que ton crush pense de toi, même si ça fait mal, ou rester dans le doute ?",
+   "Quelle est la phrase qu'on t'a dite un jour et qui t'a fait craquer instantanément ?",
+   "Quel est le message que tu as tapé à ton crush puis effacé au dernier moment ?"
   ],
   "Explicite": [
    "Quel est ton fantasme que tu n'as jamais osé avouer ?",
@@ -318,7 +323,10 @@
    "Quelle est la phrase qu'on t'a murmurée et qui t'a fait perdre le fil sur-le-champ ?",
    "Quel est le scénario que tu te repasses le plus souvent quand tu es seul(e) le soir ?",
    "Quelle partie de ton corps aimerais-tu qu'on prenne enfin le temps d'explorer ?",
-   "Quelle est la tenue qu'on t'a demandé de porter et qui t'a fait bien plus d'effet que prévu ?"
+   "Quelle est la tenue qu'on t'a demandé de porter et qui t'a fait bien plus d'effet que prévu ?",
+   "Quel est le moment de la journée où ton envie est la plus forte, et qu'est-ce que tu fais pour la calmer ?",
+   "Quel est le geste précis qui te fait passer de « peut-être » à « tout de suite » ?",
+   "Quelle est l'envie que tu n'as jamais osé proposer de peur de choquer, et à qui l'aurais-tu proposée ?"
   ]
  },
  "gold": {
@@ -358,7 +366,8 @@
    "Quelle est la consigne que tu aimerais qu'on te donne à l'oreille au début d'une nuit ?",
    "Quelle est la première chose que tu fais quand tu te retrouves enfin seul(e) avec quelqu'un qui te plaît ?",
    "Quel jouet ou accessoire aimerais-tu essayer à deux, sans jamais avoir osé le proposer ?",
-   "Quel est le scénario que tu te repasses le plus souvent quand tu es seul(e) le soir ?"
+   "Quel est le scénario que tu te repasses le plus souvent quand tu es seul(e) le soir ?",
+   "Quelle est l'envie que tu n'as jamais osé proposer de peur de choquer, et à qui l'aurais-tu proposée ?"
   ]
  },
  "orig": {

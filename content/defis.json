@@ -646,7 +646,9 @@
    "{p}, regarde {q} dans la caméra et complète à voix basse : « Si tu étais là, je commencerais par… ».",
    "{p}, envoie à {q} une photo de ta tenue du moment avec une légende qui donne envie d'en voir plus (avec son accord).",
    "{p}, regarde {q} dans la caméra et décris-lui en une phrase la tenue dans laquelle tu aimerais le ou la voir arriver.",
-   "{p}, mordille ta lèvre en regardant {q} dans la caméra pendant cinq secondes sans détourner les yeux."
+   "{p}, mordille ta lèvre en regardant {q} dans la caméra pendant cinq secondes sans détourner les yeux.",
+   "{p}, chuchote à {q} dans le micro le prénom de la dernière personne qui t'a fait de l'effet, sans rien ajouter.",
+   "{p}, fais glisser lentement une bretelle ou ouvre un bouton de ta chemise face à {q} dans la caméra."
   ],
   "Explicite": [
    "{p}, enlève deux vêtements choisis par {q}, caméra on.",
@@ -900,7 +902,10 @@
    "{p}, envoie à {q} une photo de ton cou et de ta clavicule, comme une invitation à venir y poser les lèvres (avec son accord).",
    "{p}, enregistre un message vocal de dix secondes où tu murmures à {q} ce que tu lui ferais en premier, puis envoie-le (avec son accord).",
    "{p}, envoie à {q} une photo de ton jouet préféré posé sur ton lit, sans un mot d'explication (avec son accord).",
-   "{p}, envoie à {q} une photo de toi en sous-vêtements, cadrée seulement du nombril aux genoux (avec son accord)."
+   "{p}, envoie à {q} une photo de toi en sous-vêtements, cadrée seulement du nombril aux genoux (avec son accord).",
+   "{p}, envoie à {q} une photo de ta main posée là où tu aimerais sentir la sienne (avec son accord).",
+   "{p}, allume ton jouet préféré hors caméra et laisse {q} n'entendre que le bruit pendant cinq secondes.",
+   "{p}, décris à {q} à voix basse, dans le micro, la première chose que tu lui retirerais, puis montre le vêtement en question à la caméra."
   ]
  },
  "adult": false,
@@ -1042,7 +1047,9 @@
    "{p}, envoie à {q} une photo de toi allongé(e), prise du point de vue de quelqu'un qui te rejoindrait (avec son accord).",
    "{p}, envoie à {q} une photo de ton cou et de ta clavicule, comme une invitation à venir y poser les lèvres (avec son accord).",
    "{p}, enregistre un message vocal de dix secondes où tu murmures à {q} ce que tu lui ferais en premier, puis envoie-le (avec son accord).",
-   "{p}, envoie à {q} une photo de ton jouet préféré posé sur ton lit, sans un mot d'explication (avec son accord)."
+   "{p}, envoie à {q} une photo de ton jouet préféré posé sur ton lit, sans un mot d'explication (avec son accord).",
+   "{p}, envoie à {q} une photo de ta main posée là où tu aimerais sentir la sienne (avec son accord).",
+   "{p}, décris à {q} à voix basse, dans le micro, la première chose que tu lui retirerais, puis montre le vêtement en question à la caméra."
   ]
  },
  "orig": {

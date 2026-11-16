@@ -159,7 +159,10 @@
    "Tu as déjà fait du roller en ville ? ||| Oui ||| Non",
    "Tu as déjà fait un puzzle de 1000 pièces ? ||| Oui ||| Non",
    "Tu as déjà voyagé seul(e) plus d'une semaine ? ||| Oui ||| Non",
-   "Tu as déjà improvisé un toast devant plus de dix personnes ? ||| Oui ||| Non"
+   "Tu as déjà improvisé un toast devant plus de dix personnes ? ||| Oui ||| Non",
+   "Tu as déjà fait semblant de connaître une chanson en chantant à moitié ? ||| Oui ||| Non",
+   "Tu as déjà mangé le dessert de quelqu'un en prétendant que ce n'était pas toi ? ||| Oui ||| Non",
+   "Tu as déjà raté ton arrêt parce que tu étais absorbé(e) par ton téléphone ? ||| Oui ||| Non"
   ],
   "Coquin": [
    "Tu as déjà embrassé quelqu'un dès le premier soir ? ||| Oui ||| Non",
@@ -318,7 +321,10 @@
    "Tu as déjà rêvé d'un baiser avec quelqu'un de ce groupe ? ||| Oui ||| Non",
    "Tu as déjà relu une conversation de drague plusieurs fois avant de dormir ? ||| Oui ||| Non",
    "Tu as déjà fait semblant d'avoir froid pour qu'on se rapproche de toi ? ||| Oui ||| Non",
-   "Tu as déjà gardé un vêtement de quelqu'un pour son odeur ? ||| Oui ||| Non"
+   "Tu as déjà gardé un vêtement de quelqu'un pour son odeur ? ||| Oui ||| Non",
+   "Tu as déjà choisi une tenue uniquement pour qu'une personne précise te remarque ? ||| Oui ||| Non",
+   "Tu as déjà eu un coup de cœur pour quelqu'un rencontré en voyage ? ||| Oui ||| Non",
+   "Tu as déjà accepté un deuxième rendez-vous uniquement parce que la personne embrassait trop bien ? ||| Oui ||| Non"
   ]
  },
  "img": "/img/ouinon.webp",
