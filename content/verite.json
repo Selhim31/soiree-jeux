@@ -333,7 +333,9 @@
    "{p}, avoue à {q} le brouillon de message flirty que tu as effacé sans jamais l'envoyer.",
    "{p}, dis à {q} ce qui t'a plu en premier chez lui ou elle.",
    "{p}, confie au groupe le message le plus audacieux que tu aies déjà envoyé à un crush.",
-   "Quelle est la personne de ton passé à qui tu penses encore quand tu entends une certaine chanson ?"
+   "Quelle est la personne de ton passé à qui tu penses encore quand tu entends une certaine chanson ?",
+   "{p}, avoue à {q} la tenue de lui ou d'elle dont tu te souviens encore.",
+   "Quel est le rêve un peu trop agréable que tu as fait sur quelqu'un de ton entourage ?"
   ],
   "Explicite": [
    "{p}, confesse au groupe un plan d'un soir que tu regrettes.",
@@ -504,7 +506,9 @@
    "{p}, décris à {q} le baiser qui t'a le plus donné envie d'aller plus loin.",
    "{p}, avoue à {q} la pensée coquine qui t'a traversé l'esprit pendant cette soirée.",
    "{p}, raconte au groupe le moment où tu as réalisé qu'un simple message t'avait complètement allumé(e).",
-   "Quelle est la tenue de quelqu'un qui t'a déjà fait perdre le fil d'une conversation, et comment ça s'est terminé ?"
+   "Quelle est la tenue de quelqu'un qui t'a déjà fait perdre le fil d'une conversation, et comment ça s'est terminé ?",
+   "{p}, dis à {q} quel endroit de son corps tu embrasserais en premier si tu en avais le droit.",
+   "Quel est le moment le plus chaud que tu aies vécu alors que tu devais rester silencieux(se) ?"
   ]
  },
  "adult": false,
