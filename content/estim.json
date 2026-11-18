@@ -96,7 +96,10 @@
    "Estimez le nombre d'applications que {p} n'a pas ouvertes depuis plus d'un an !",
    "Devinez combien de fois {p} appuie sur « répéter » avant de vraiment se lever !",
    "Devinez combien de photos de nourriture dorment dans la galerie de {p} !",
-   "Devinez combien d'onglets sont ouverts en ce moment sur le navigateur du téléphone de {p} !"
+   "Devinez combien d'onglets sont ouverts en ce moment sur le navigateur du téléphone de {p} !",
+   "Estimez combien de mots de passe différents {p} a dû réinitialiser cette année !",
+   "Devinez combien de chaussettes orphelines traînent en ce moment chez {p} !",
+   "Estimez combien de vocaux de plus d'une minute {p} envoie chaque semaine !"
   ],
   "Coquin": [
    "Estimez l'âge de {p} à son premier baiser !",
@@ -189,7 +192,10 @@
    "Estimez combien de fois {p} a relu une conversation avec son crush juste pour le plaisir !",
    "Devinez combien de personnes {p} a déjà stalkées jusqu'aux photos d'il y a cinq ans !",
    "Estimez le nombre de fois où {p} a fait semblant de croiser quelqu'un « par hasard » !",
-   "Devinez combien de minutes {p} met à choisir sa tenue avant un rencard !"
+   "Devinez combien de minutes {p} met à choisir sa tenue avant un rencard !",
+   "Estimez combien de fois {p} a changé de photo de profil pour plaire à une personne en particulier !",
+   "Devinez combien de secondes {p} tient un regard appuyé avant de détourner les yeux !",
+   "Estimez combien de messages à son crush {p} a écrits puis effacés sans jamais les envoyer !"
   ],
   "Explicite": [
    "Estimez le nombre de partenaires de {p} !",
@@ -281,7 +287,10 @@
    "Estimez combien de fois {p} a déjà été interrompu(e) en plein moment chaud !",
    "Devinez combien de positions différentes {p} a testées dans sa vie !",
    "Estimez combien de sextos {p} a envoyés au cours du dernier mois !",
-   "Devinez combien de fois {p} a fait l'amour en une seule nuit, record personnel !"
+   "Devinez combien de fois {p} a fait l'amour en une seule nuit, record personnel !",
+   "Devinez combien de minutes devraient durer les préliminaires idéaux selon {p} !",
+   "Estimez combien de sex-toys {p} a possédés au total dans sa vie !",
+   "Devinez combien de fois par mois {p} s'offre un moment de plaisir en solo !"
   ]
  },
  "gold": {
@@ -347,7 +356,8 @@
    "Estimez combien de photos osées {p} a déjà envoyées dans sa vie !",
    "Devinez combien de fois {p} a fait l'amour ailleurs que dans une chambre !",
    "Estimez le nombre de partenaires avec qui {p} a déjà partagé une douche coquine !",
-   "Devinez combien de positions différentes {p} a testées dans sa vie !"
+   "Devinez combien de positions différentes {p} a testées dans sa vie !",
+   "Estimez combien de sex-toys {p} a possédés au total dans sa vie !"
   ]
  },
  "orig": {

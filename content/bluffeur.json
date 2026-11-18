@@ -64,7 +64,8 @@
    "Quel est le pire endroit pour avoir le hoquet ?|Quel est le pire endroit pour avoir un fou rire ?",
    "Quel est ton jeu de société préféré ?|À quel jeu de société tu triches le plus ?",
    "Quel animal aimerais-tu avoir chez toi ?|Quel animal te fait le plus peur ?",
-   "Quelle couleur domine dans ta garde-robe ?|Quelle couleur tu ne porterais pour rien au monde ?"
+   "Quelle couleur domine dans ta garde-robe ?|Quelle couleur tu ne porterais pour rien au monde ?",
+   "Quel objet emportes-tu toujours en week-end ?|Quel objet oublies-tu systématiquement en partant ?"
   ],
   "Proches": [
    "Combien de temps tu pourrais rester sous la douche ?|Combien de temps tu pourrais rester dans un bain ?",
@@ -123,7 +124,8 @@
    "Combien de temps tu tiens une conversation avec un inconnu ?|Combien de temps tu tiens au téléphone avec ta famille ?",
    "Quel est le meilleur cocktail ?|Quel cocktail tu commandes en vacances ?",
    "Combien d'heures tu dors le week-end ?|Combien d'heures tu dors la veille d'un grand départ ?",
-   "Quel est le meilleur plat pour un premier date ?|Quel plat tu commandes quand tu veux impressionner ?"
+   "Quel est le meilleur plat pour un premier date ?|Quel plat tu commandes quand tu veux impressionner ?",
+   "Combien de messages non lus as-tu en ce moment ?|Combien de notifications ignores-tu par jour ?"
   ],
   "Très proches": [
    "Combien de cafés tu bois par jour ?|Combien de verres d'eau tu bois par jour ?",
@@ -181,7 +183,8 @@
    "Combien de temps tu restes fâché(e) en moyenne ?|Combien de temps tu boudes après une dispute ?",
    "Quel est le meilleur jeu à faire en voiture ?|À quoi tu joues pendant les longs trajets ?",
    "Quelle est la meilleure partie du week-end ?|Quel moment du week-end tu préfères ?",
-   "Combien de minutes tu mets à choisir un film ?|Combien de minutes tu mets à choisir un plat au restaurant ?"
+   "Combien de minutes tu mets à choisir un film ?|Combien de minutes tu mets à choisir un plat au restaurant ?",
+   "Combien de temps mets-tu à te préparer pour sortir entre amis ?|Combien de temps mets-tu à te préparer pour un rendez-vous ?"
   ],
   "Gages": [
    "Imite le Bluffeur démasqué d'un film policier pendant 15 secondes.",
@@ -230,7 +233,8 @@
    "Présente le joueur à ta gauche comme si c'était une star invitée sur un plateau télé.",
    "Raconte ton dernier repas comme un critique gastronomique très exigeant.",
    "Décris ta journée comme si c'était la bande-annonce d'un film d'action.",
-   "Commente tout ce que fait le joueur suivant comme un journaliste sportif jusqu'à ton prochain tour."
+   "Commente tout ce que fait le joueur suivant comme un journaliste sportif jusqu'à ton prochain tour.",
+   "Ne parle plus qu'en posant des questions jusqu'à ton prochain tour."
   ]
  }
 }

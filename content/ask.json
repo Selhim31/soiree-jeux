@@ -112,7 +112,9 @@
    "Quel est le trajet le plus long que tu aies fait juste pour manger quelque chose ?",
    "Quelle est la chose la plus inutile que tu aies achetée à trois heures du matin ?",
    "Quel est le talent caché que personne ici ne te soupçonne ?",
-   "Quelle est la série que tu as regardée en entier en mentant à tout le monde que tu ne la regardais pas ?"
+   "Quelle est la série que tu as regardée en entier en mentant à tout le monde que tu ne la regardais pas ?",
+   "Quelle est la petite manie d'un(e) ami(e) que tu as fini par adopter sans t'en rendre compte ?",
+   "Quel est le mot que tu prononces de travers depuis toujours et que tu refuses de corriger ?"
   ],
   "Coquin": [
    "Qui est la personne la plus attirante de ce groupe selon toi ?",
@@ -224,7 +226,9 @@
    "Quel est le message que tu as tapé à ton crush puis effacé au dernier moment ?",
    "Quel est le détail chez quelqu'un qui te fait oublier tous tes critères d'un coup ?",
    "Quelle est la notification qui te fait le plus sourire quand tu la vois s'afficher ?",
-   "Quel est le compliment que tu rêverais d'entendre de la bouche de ton crush, mot pour mot ?"
+   "Quel est le compliment que tu rêverais d'entendre de la bouche de ton crush, mot pour mot ?",
+   "Quel est le message le plus ambigu que tu aies reçu, et comment l'as-tu interprété ?",
+   "Quelle est la tenue que tu gardes « pour une occasion spéciale » qui n'est jamais arrivée ?"
   ],
   "Explicite": [
    "Quel est ton fantasme que tu n'as jamais osé avouer ?",
@@ -335,7 +339,9 @@
    "Quelle est l'envie que tu n'as jamais osé proposer de peur de choquer, et à qui l'aurais-tu proposée ?",
    "Quel est le scénario qui te revient le plus souvent quand tu te fais plaisir en solo ?",
    "Quel est le mot qu'on t'a murmuré au lit et qui t'a fait complètement perdre pied ?",
-   "Quel est l'endroit le plus inattendu où l'envie t'a pris d'un coup, et qu'en as-tu fait ?"
+   "Quel est l'endroit le plus inattendu où l'envie t'a pris d'un coup, et qu'en as-tu fait ?",
+   "Quelle est la phrase que tu aimes entendre juste avant, et celle que tu aimes entendre juste après ?",
+   "Quel est le jouet ou l'accessoire que tu rêves de tester mais que tu n'as jamais osé commander ?"
   ]
  },
  "gold": {
@@ -378,7 +384,8 @@
    "Quel est le scénario que tu te repasses le plus souvent quand tu es seul(e) le soir ?",
    "Quelle est l'envie que tu n'as jamais osé proposer de peur de choquer, et à qui l'aurais-tu proposée ?",
    "Quel est le scénario qui te revient le plus souvent quand tu te fais plaisir en solo ?",
-   "Quel est l'endroit le plus inattendu où l'envie t'a pris d'un coup, et qu'en as-tu fait ?"
+   "Quel est l'endroit le plus inattendu où l'envie t'a pris d'un coup, et qu'en as-tu fait ?",
+   "Quel est le jouet ou l'accessoire que tu rêves de tester mais que tu n'as jamais osé commander ?"
   ]
  },
  "orig": {

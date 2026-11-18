@@ -651,7 +651,9 @@
    "{p}, fais glisser lentement une bretelle ou ouvre un bouton de ta chemise face à {q} dans la caméra.",
    "{p}, lis à voix haute et d'un ton sensuel le dernier message que tu as reçu, en regardant {q} dans la caméra.",
    "{p}, montre à {q} dans la caméra le parfum que tu portes pour un rencard et décris l'effet qu'il est censé faire.",
-   "{p}, envoie à {q} une photo de ton regard le plus intense, cadrée uniquement sur tes yeux (avec son accord)."
+   "{p}, envoie à {q} une photo de ton regard le plus intense, cadrée uniquement sur tes yeux (avec son accord).",
+   "{p}, envoie à {q} un selfie pris sous la couette avec ton sourire le plus en coin (avec son accord).",
+   "{p}, montre à {q} dans la caméra ton sous-vêtement préféré, sans le porter, et explique ce qu'il a de spécial."
   ],
   "Explicite": [
    "{p}, enlève deux vêtements choisis par {q}, caméra on.",
@@ -911,7 +913,10 @@
    "{p}, décris à {q} à voix basse, dans le micro, la première chose que tu lui retirerais, puis montre le vêtement en question à la caméra.",
    "{p}, envoie à {q} une photo de ton tiroir à surprises entrouvert, sans tout dévoiler (avec son accord).",
    "{p}, envoie à {q} une vidéo de cinq secondes où tu fais lentement glisser un vêtement de ton épaule (avec son accord).",
-   "{p}, décris à {q} dans le micro, en trois phrases, ce que tu lui ferais s'il ou elle était à côté de toi ce soir."
+   "{p}, décris à {q} dans le micro, en trois phrases, ce que tu lui ferais s'il ou elle était à côté de toi ce soir.",
+   "{p}, montre ton sex-toy préféré à {q} dans la caméra et décris en une phrase la dernière fois que tu l'as utilisé.",
+   "{p}, allume ton jouet préféré hors champ, laisse {q} l'entendre vibrer dans le micro pendant dix secondes et dis-lui à quoi tu penses.",
+   "{p}, envoie à {q} une vidéo de dix secondes où, les yeux dans l'objectif, tu annonces la tenue que tu porterais pour l'accueillir ce soir (avec son accord)."
   ]
  },
  "adult": false,
@@ -1002,7 +1007,8 @@
    "{p}, prends un selfie avec ton regard le plus séducteur et envoie-le à {q} (avec son accord).",
    "{p}, pour {q}, fais glisser lentement une manche ou une bretelle devant la caméra pendant cinq secondes.",
    "{p}, envoie à {q} une photo de ta tenue du moment avec une légende qui donne envie d'en voir plus (avec son accord).",
-   "{p}, envoie à {q} une photo de ton regard le plus intense, cadrée uniquement sur tes yeux (avec son accord)."
+   "{p}, envoie à {q} une photo de ton regard le plus intense, cadrée uniquement sur tes yeux (avec son accord).",
+   "{p}, envoie à {q} un selfie pris sous la couette avec ton sourire le plus en coin (avec son accord)."
   ],
   "Explicite": [
    "{p}, montre-toi en lingerie ou caleçon dans ta pose la plus sexy 10 secondes, filme-toi et envoie la vidéo à {q} (avec son accord).",
@@ -1058,7 +1064,9 @@
    "{p}, envoie à {q} une photo de ta main posée là où tu aimerais sentir la sienne (avec son accord).",
    "{p}, décris à {q} à voix basse, dans le micro, la première chose que tu lui retirerais, puis montre le vêtement en question à la caméra.",
    "{p}, envoie à {q} une vidéo de cinq secondes où tu fais lentement glisser un vêtement de ton épaule (avec son accord).",
-   "{p}, envoie à {q} une photo de ton tiroir à surprises entrouvert, sans tout dévoiler (avec son accord)."
+   "{p}, envoie à {q} une photo de ton tiroir à surprises entrouvert, sans tout dévoiler (avec son accord).",
+   "{p}, montre ton sex-toy préféré à {q} dans la caméra et décris en une phrase la dernière fois que tu l'as utilisé.",
+   "{p}, envoie à {q} une vidéo de dix secondes où, les yeux dans l'objectif, tu annonces la tenue que tu porterais pour l'accueillir ce soir (avec son accord)."
   ]
  },
  "orig": {
