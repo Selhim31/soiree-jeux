@@ -99,7 +99,11 @@
    "Devinez combien d'onglets sont ouverts en ce moment sur le navigateur du téléphone de {p} !",
    "Estimez combien de mots de passe différents {p} a dû réinitialiser cette année !",
    "Devinez combien de chaussettes orphelines traînent en ce moment chez {p} !",
-   "Estimez combien de vocaux de plus d'une minute {p} envoie chaque semaine !"
+   "Estimez combien de vocaux de plus d'une minute {p} envoie chaque semaine !",
+   "Devinez combien de fois par jour {p} vérifie la météo sans jamais sortir !",
+   "Estimez combien de recettes {p} a enregistrées sans jamais en cuisiner une seule !",
+   "Devinez combien de groupes de discussion {p} a mis en sourdine !",
+   "Estimez combien de minutes {p} passe chaque matin à fixer le plafond avant de se lever !"
   ],
   "Coquin": [
    "Estimez l'âge de {p} à son premier baiser !",
@@ -195,7 +199,11 @@
    "Devinez combien de minutes {p} met à choisir sa tenue avant un rencard !",
    "Estimez combien de fois {p} a changé de photo de profil pour plaire à une personne en particulier !",
    "Devinez combien de secondes {p} tient un regard appuyé avant de détourner les yeux !",
-   "Estimez combien de messages à son crush {p} a écrits puis effacés sans jamais les envoyer !"
+   "Estimez combien de messages à son crush {p} a écrits puis effacés sans jamais les envoyer !",
+   "Devinez combien de fois {p} a relu un message de son crush avant d'y répondre !",
+   "Estimez combien de personnes {p} a déjà draguées en se disant « c'est juste pour rire » !",
+   "Devinez combien de captures d'écran de conversations amoureuses {p} a envoyées à ses potes !",
+   "Estimez combien de rencards {p} a eus en une seule année record !"
   ],
   "Explicite": [
    "Estimez le nombre de partenaires de {p} !",
@@ -290,7 +298,11 @@
    "Devinez combien de fois {p} a fait l'amour en une seule nuit, record personnel !",
    "Devinez combien de minutes devraient durer les préliminaires idéaux selon {p} !",
    "Estimez combien de sex-toys {p} a possédés au total dans sa vie !",
-   "Devinez combien de fois par mois {p} s'offre un moment de plaisir en solo !"
+   "Devinez combien de fois par mois {p} s'offre un moment de plaisir en solo !",
+   "Devinez combien de nuits blanches {p} a passées pour de très bonnes raisons cette année !",
+   "Estimez combien de pièces différentes de son logement {p} a déjà « inaugurées » !",
+   "Devinez combien de minutes {p} peut tenir en se retenant de craquer face à quelqu'un qui le/la chauffe !",
+   "Estimez combien de photos osées dorment dans le dossier caché de {p} !"
   ]
  },
  "gold": {

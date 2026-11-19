@@ -65,7 +65,9 @@
    "Quel est ton jeu de société préféré ?|À quel jeu de société tu triches le plus ?",
    "Quel animal aimerais-tu avoir chez toi ?|Quel animal te fait le plus peur ?",
    "Quelle couleur domine dans ta garde-robe ?|Quelle couleur tu ne porterais pour rien au monde ?",
-   "Quel objet emportes-tu toujours en week-end ?|Quel objet oublies-tu systématiquement en partant ?"
+   "Quel objet emportes-tu toujours en week-end ?|Quel objet oublies-tu systématiquement en partant ?",
+   "Quel légume détestais-tu le plus enfant ?|Quel légume as-tu fini par adorer en grandissant ?",
+   "Dans quelle ville rêves-tu de vivre ?|Dans quelle ville refuserais-tu de vivre ?"
   ],
   "Proches": [
    "Combien de temps tu pourrais rester sous la douche ?|Combien de temps tu pourrais rester dans un bain ?",
@@ -234,7 +236,10 @@
    "Raconte ton dernier repas comme un critique gastronomique très exigeant.",
    "Décris ta journée comme si c'était la bande-annonce d'un film d'action.",
    "Commente tout ce que fait le joueur suivant comme un journaliste sportif jusqu'à ton prochain tour.",
-   "Ne parle plus qu'en posant des questions jusqu'à ton prochain tour."
+   "Ne parle plus qu'en posant des questions jusqu'à ton prochain tour.",
+   "Réponds à toutes les questions par un proverbe inventé jusqu'à ton prochain tour.",
+   "Fais la bande-son de ta propre arrivée en soirée, bruitages compris.",
+   "Présente ton plat préféré comme si tu essayais de le vendre au téléshopping."
   ]
  }
 }
