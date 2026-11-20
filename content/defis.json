@@ -655,7 +655,8 @@
    "{p}, envoie à {q} un selfie pris sous la couette avec ton sourire le plus en coin (avec son accord).",
    "{p}, montre à {q} dans la caméra ton sous-vêtement préféré, sans le porter, et explique ce qu'il a de spécial.",
    "{p}, envoie à {q} une photo de ta nuque ou de ton épaule nue, rien de plus (avec son accord).",
-   "{p}, mords-toi la lèvre en regardant {q} dans la caméra et dis-lui la première chose que tu lui chuchoterais à l'oreille."
+   "{p}, mords-toi la lèvre en regardant {q} dans la caméra et dis-lui la première chose que tu lui chuchoterais à l'oreille.",
+   "{p}, en regardant {q} dans la caméra, fais glisser lentement une bretelle ou ton col sur ton épaule, puis remets-le comme si de rien n'était."
   ],
   "Explicite": [
    "{p}, enlève deux vêtements choisis par {q}, caméra on.",
@@ -920,7 +921,9 @@
    "{p}, allume ton jouet préféré hors champ, laisse {q} l'entendre vibrer dans le micro pendant dix secondes et dis-lui à quoi tu penses.",
    "{p}, envoie à {q} une vidéo de dix secondes où, les yeux dans l'objectif, tu annonces la tenue que tu porterais pour l'accueillir ce soir (avec son accord).",
    "{p}, envoie à {q} une photo de toi en sous-vêtements, cadrée du cou à la taille (avec son accord).",
-   "{p}, envoie à {q} un vocal de quinze secondes où tu lui décris ce que tu portes en ce moment, de la façon la plus torride possible (avec son accord)."
+   "{p}, envoie à {q} un vocal de quinze secondes où tu lui décris ce que tu portes en ce moment, de la façon la plus torride possible (avec son accord).",
+   "{p}, envoie à {q} une photo de ton jouet préféré à côté d'un objet du quotidien, et laisse-le/la deviner en un message ce que tu vas en faire ce soir (avec son accord).",
+   "{p}, allume ton jouet au plus doux, pose-le contre ta cuisse par-dessus tes vêtements et, en regardant {q} dans la caméra, décris-lui en trois mots ce que tu ressens."
   ]
  },
  "adult": false,
@@ -1073,7 +1076,9 @@
    "{p}, montre ton sex-toy préféré à {q} dans la caméra et décris en une phrase la dernière fois que tu l'as utilisé.",
    "{p}, envoie à {q} une vidéo de dix secondes où, les yeux dans l'objectif, tu annonces la tenue que tu porterais pour l'accueillir ce soir (avec son accord).",
    "{p}, envoie à {q} une photo de toi en sous-vêtements, cadrée du cou à la taille (avec son accord).",
-   "{p}, envoie à {q} un vocal de quinze secondes où tu lui décris ce que tu portes en ce moment, de la façon la plus torride possible (avec son accord)."
+   "{p}, envoie à {q} un vocal de quinze secondes où tu lui décris ce que tu portes en ce moment, de la façon la plus torride possible (avec son accord).",
+   "{p}, envoie à {q} une photo de ton jouet préféré à côté d'un objet du quotidien, et laisse-le/la deviner en un message ce que tu vas en faire ce soir (avec son accord).",
+   "{p}, allume ton jouet au plus doux, pose-le contre ta cuisse par-dessus tes vêtements et, en regardant {q} dans la caméra, décris-lui en trois mots ce que tu ressens."
   ]
  },
  "orig": {

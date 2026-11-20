@@ -154,7 +154,10 @@
    "Bonus — {p} propose un défi de 10 pompes ; qui refuse boit.",
    "Bonus — {p} dit trois mots sur lui/elle, dont un faux ; qui se trompe boit.",
    "Bonus — {p} rejoue le dernier tour en sens inverse : la personne précédente boit.",
-   "Bonus — {p} décrète une minute sans téléphone ; qui y touche boit."
+   "Bonus — {p} décrète une minute sans téléphone ; qui y touche boit.",
+   "Bonus — {p} commence une histoire avec un mot ; chacun ajoute un mot à son tour, celui qui casse la phrase boit.",
+   "Bonus — {p} imite un joueur sans le nommer ; si personne ne trouve en 20 secondes, {p} boit, sinon la personne imitée boit.",
+   "Bonus — {p} pose une question à laquelle on répond par « oui » ou « non » en même temps ; la minorité boit."
   ]
  },
  "img": "/img/cercle.webp",

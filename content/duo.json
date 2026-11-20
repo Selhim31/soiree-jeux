@@ -326,7 +326,10 @@
    "Ce qui fait craquer en premier : le parfum ou le style ? ||| le parfum ||| le style",
    "Qui rougit le plus vite : {p} ou {q} ? ||| {p} ||| {q}",
    "Qui rougit le plus vite : {p} ou égalité ? ||| {p} ||| égalité",
-   "Qui rougit le plus vite : {q} ou égalité ? ||| {q} ||| égalité"
+   "Qui rougit le plus vite : {q} ou égalité ? ||| {q} ||| égalité",
+   "Premier rendez-vous idéal : dîner en tête-à-tête ou balade de nuit ? ||| dîner en tête-à-tête ||| balade de nuit",
+   "Qui fait le plus durer les regards : {p} ou {q} ? ||| {p} ||| {q}",
+   "Ce qui trouble le plus : une voix grave au téléphone ou un regard qui insiste ? ||| une voix grave ||| un regard qui insiste"
   ],
   "Explicite": [
    "Moment préféré pour un câlin coquin : le matin ou la sieste ? ||| le matin ||| la sieste",
@@ -482,7 +485,9 @@
    "Qui envoie le sexto le plus osé : {p} ou {q} ? ||| {p} ||| {q}",
    "Accessoire à tester : plumes ou glaçons ? ||| plumes ||| glaçons",
    "Qui prend le plus souvent l'initiative au lit : {p} ou {q} ? ||| {p} ||| {q}",
-   "Préliminaire préféré : massage à l'huile ou baisers dans le cou ? ||| massage à l'huile ||| baisers dans le cou"
+   "Préliminaire préféré : massage à l'huile ou baisers dans le cou ? ||| massage à l'huile ||| baisers dans le cou",
+   "Qui craquerait le premier sous une caresse lente : {p} ou {q} ? ||| {p} ||| {q}",
+   "Plaisir en solo : avec un jouet ou juste avec les mains ? ||| avec un jouet ||| juste avec les mains"
   ]
  },
  "gold": {
