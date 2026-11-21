@@ -117,7 +117,10 @@
    "Quel est le mot que tu prononces de travers depuis toujours et que tu refuses de corriger ?",
    "Quelle est l'habitude de ta famille que tu as découverte bizarre seulement en allant chez les autres ?",
    "Quel est le surnom le plus improbable qu'on t'ait donné, et d'où vient-il ?",
-   "Quelle est la compétence complètement inutile dont tu es secrètement fier ou fière ?"
+   "Quelle est la compétence complètement inutile dont tu es secrètement fier ou fière ?",
+   "Quel est le petit rituel du dimanche sans lequel ta semaine commence mal ?",
+   "Quelle est la phrase que tu dis tellement souvent que tes proches l'imitent ?",
+   "Quelle est la chanson que tu chantes à tue-tête seul·e en voiture sans jamais l'avouer ?"
   ],
   "Coquin": [
    "Qui est la personne la plus attirante de ce groupe selon toi ?",
@@ -234,7 +237,10 @@
    "Quelle est la tenue que tu gardes « pour une occasion spéciale » qui n'est jamais arrivée ?",
    "Quelle est la première chose que tu regardes sur le profil de quelqu'un qui t'a plu ?",
    "Quel est le geste discret qui, chez quelqu'un, te fait comprendre qu'il ou elle a envie de toi ?",
-   "Quel est le rencard que tu as fait durer juste parce que tu n'osais pas faire le premier pas ?"
+   "Quel est le rencard que tu as fait durer juste parce que tu n'osais pas faire le premier pas ?",
+   "Quel est le moment exact où tu as compris qu'un simple ami était devenu bien plus qu'un ami ?",
+   "Quel est le message reçu tard le soir qui t'a le plus troublé·e ?",
+   "Quelle est la tenue que tu mets quand tu veux qu'on ne regarde que toi ?"
   ],
   "Explicite": [
    "Quel est ton fantasme que tu n'as jamais osé avouer ?",
@@ -350,7 +356,10 @@
    "Quel est le jouet ou l'accessoire que tu rêves de tester mais que tu n'as jamais osé commander ?",
    "Quelle est la chose qu'on t'a faite une seule fois et que tu rêves qu'on te refasse ?",
    "Quel est le moment où tu t'es dit « je ne pensais pas aimer ça autant » ?",
-   "Quelle est la limite que tu avais avant et que tu as joyeusement franchie depuis ?"
+   "Quelle est la limite que tu avais avant et que tu as joyeusement franchie depuis ?",
+   "Quel est le murmure à l'oreille qui suffit à te faire perdre toute retenue ?",
+   "Quelle est la chose que tu n'oses pas demander au lit mais que tu adorerais qu'on devine ?",
+   "Quel est ton souvenir le plus torride d'une nuit où vous n'aviez pas fermé l'œil ?"
   ]
  },
  "gold": {
@@ -395,7 +404,8 @@
    "Quel est le scénario qui te revient le plus souvent quand tu te fais plaisir en solo ?",
    "Quel est l'endroit le plus inattendu où l'envie t'a pris d'un coup, et qu'en as-tu fait ?",
    "Quel est le jouet ou l'accessoire que tu rêves de tester mais que tu n'as jamais osé commander ?",
-   "Quelle est la chose qu'on t'a faite une seule fois et que tu rêves qu'on te refasse ?"
+   "Quelle est la chose qu'on t'a faite une seule fois et que tu rêves qu'on te refasse ?",
+   "Quelle est la chose que tu n'oses pas demander au lit mais que tu adorerais qu'on devine ?"
   ]
  },
  "orig": {

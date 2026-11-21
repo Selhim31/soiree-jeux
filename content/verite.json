@@ -336,7 +336,9 @@
    "{p}, confie au groupe le message le plus audacieux que tu aies déjà envoyé à un crush.",
    "Quelle est la personne de ton passé à qui tu penses encore quand tu entends une certaine chanson ?",
    "{p}, avoue à {q} la tenue de lui ou d'elle dont tu te souviens encore.",
-   "Quel est le rêve un peu trop agréable que tu as fait sur quelqu'un de ton entourage ?"
+   "Quel est le rêve un peu trop agréable que tu as fait sur quelqu'un de ton entourage ?",
+   "{p}, avoue à {q} le détail chez lui ou elle qui t'a fait sourire sans raison.",
+   "Quel est le prénom qui, prononcé par une certaine personne, te fait encore un petit effet ?"
   ],
   "Explicite": [
    "{p}, confesse au groupe un plan d'un soir que tu regrettes.",
@@ -509,7 +511,9 @@
    "{p}, raconte au groupe le moment où tu as réalisé qu'un simple message t'avait complètement allumé(e).",
    "Quelle est la tenue de quelqu'un qui t'a déjà fait perdre le fil d'une conversation, et comment ça s'est terminé ?",
    "{p}, dis à {q} quel endroit de son corps tu embrasserais en premier si tu en avais le droit.",
-   "Quel est le moment le plus chaud que tu aies vécu alors que tu devais rester silencieux(se) ?"
+   "Quel est le moment le plus chaud que tu aies vécu alors que tu devais rester silencieux(se) ?",
+   "{p}, avoue à {q} la scène torride que tu as déjà imaginée avec lui ou elle, même une seconde.",
+   "Quelle est la chose la plus osée que tu aies faite en sachant que quelqu'un pouvait vous entendre ?"
   ]
  },
  "adult": false,
@@ -580,7 +584,8 @@
    "{p}, avoue à {q} la pensée la plus osée que tu as eue pendant un rendez-vous parfaitement sage.",
    "{p}, confie à {q} le scénario que tu te repasses le plus souvent quand tu te fais plaisir.",
    "{p}, décris à {q} le lieu le plus excitant où tu aies envie de faire l'amour.",
-   "{p}, avoue à {q} le fantasme que tu n'as raconté à personne jusqu'à ce soir."
+   "{p}, avoue à {q} le fantasme que tu n'as raconté à personne jusqu'à ce soir.",
+   "{p}, avoue à {q} la scène torride que tu as déjà imaginée avec lui ou elle, même une seconde."
   ]
  },
  "orig": {

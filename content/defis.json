@@ -656,7 +656,9 @@
    "{p}, montre à {q} dans la caméra ton sous-vêtement préféré, sans le porter, et explique ce qu'il a de spécial.",
    "{p}, envoie à {q} une photo de ta nuque ou de ton épaule nue, rien de plus (avec son accord).",
    "{p}, mords-toi la lèvre en regardant {q} dans la caméra et dis-lui la première chose que tu lui chuchoterais à l'oreille.",
-   "{p}, en regardant {q} dans la caméra, fais glisser lentement une bretelle ou ton col sur ton épaule, puis remets-le comme si de rien n'était."
+   "{p}, en regardant {q} dans la caméra, fais glisser lentement une bretelle ou ton col sur ton épaule, puis remets-le comme si de rien n'était.",
+   "{p}, pour {q}, retire lentement un accessoire (montre, bague, collier, élastique) en le/la regardant dans la caméra, sans dire un mot.",
+   "{p}, envoie à {q} une photo de tes lèvres juste après les avoir mordillées, rien d'autre dans le cadre (avec son accord)."
   ],
   "Explicite": [
    "{p}, enlève deux vêtements choisis par {q}, caméra on.",
@@ -923,7 +925,9 @@
    "{p}, envoie à {q} une photo de toi en sous-vêtements, cadrée du cou à la taille (avec son accord).",
    "{p}, envoie à {q} un vocal de quinze secondes où tu lui décris ce que tu portes en ce moment, de la façon la plus torride possible (avec son accord).",
    "{p}, envoie à {q} une photo de ton jouet préféré à côté d'un objet du quotidien, et laisse-le/la deviner en un message ce que tu vas en faire ce soir (avec son accord).",
-   "{p}, allume ton jouet au plus doux, pose-le contre ta cuisse par-dessus tes vêtements et, en regardant {q} dans la caméra, décris-lui en trois mots ce que tu ressens."
+   "{p}, allume ton jouet au plus doux, pose-le contre ta cuisse par-dessus tes vêtements et, en regardant {q} dans la caméra, décris-lui en trois mots ce que tu ressens.",
+   "{p}, envoie à {q} un message décrivant, en trois phrases, ce que tu ferais avec ton jouet préféré si il ou elle te regardait (avec son accord).",
+   "{p}, en regardant {q} dans la caméra, fais glisser lentement ta main de ton cou jusqu'à ta ceinture, puis dis-lui où tu aurais voulu continuer."
   ]
  },
  "adult": false,
@@ -1078,7 +1082,8 @@
    "{p}, envoie à {q} une photo de toi en sous-vêtements, cadrée du cou à la taille (avec son accord).",
    "{p}, envoie à {q} un vocal de quinze secondes où tu lui décris ce que tu portes en ce moment, de la façon la plus torride possible (avec son accord).",
    "{p}, envoie à {q} une photo de ton jouet préféré à côté d'un objet du quotidien, et laisse-le/la deviner en un message ce que tu vas en faire ce soir (avec son accord).",
-   "{p}, allume ton jouet au plus doux, pose-le contre ta cuisse par-dessus tes vêtements et, en regardant {q} dans la caméra, décris-lui en trois mots ce que tu ressens."
+   "{p}, allume ton jouet au plus doux, pose-le contre ta cuisse par-dessus tes vêtements et, en regardant {q} dans la caméra, décris-lui en trois mots ce que tu ressens.",
+   "{p}, envoie à {q} un message décrivant, en trois phrases, ce que tu ferais avec ton jouet préféré si il ou elle te regardait (avec son accord)."
   ]
  },
  "orig": {

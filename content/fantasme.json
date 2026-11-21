@@ -67,7 +67,8 @@
    "Dans le lit, un dimanche matin, sans sortir de la journée|maison,chaud,luxe",
    "Sur la table à manger, à la place du dessert|maison,insolite,nuit",
    "Dans le jardin la nuit, nus dans l'herbe|maison,dehors,nature,nuit,risque",
-   "Dans une cabine de téléphérique, seuls au-dessus du vide|transport,hauteur,risque,public"
+   "Dans une cabine de téléphérique, seuls au-dessus du vide|transport,hauteur,risque,public",
+   "Dans un chalet isolé, devant la cheminée pendant la tempête de neige|nuit,chaud,insolite,voyage"
   ],
   "Tenue": [
    "De la lingerie en dentelle, à retirer avec les dents|lingerie,doux,minimal",
@@ -129,7 +130,8 @@
    "Une tenue de boxeur(se), short et torse luisant|sport,accessoire,couleur",
    "Une tenue de gladiateur, cuir et peau huilée|deguisement,cuir,accessoire,chaussures",
    "Un voile transparent pour une danse des sept voiles|transparent,doux,minimal",
-   "Une veste de costume sur la peau nue, torse offert|chic,minimal,noir"
+   "Une veste de costume sur la peau nue, torse offert|chic,minimal,noir",
+   "Une chemise blanche trop grande, empruntée et à moitié boutonnée|quotidien,minimal,doux"
   ],
   "Jeu de rôle": [
    "Le patron et l'assistant(e) qui reste tard pour lui plaire|autorite,metier,travail,interdit",
@@ -191,7 +193,8 @@
    "Le militaire en permission, impatient de retrouver son lit|uniforme,epoque,connus",
    "L'artiste de cabaret et le spectateur invité en coulisses|celebrite,nuit,seduction,inconnus",
    "Le guide touristique et le voyageur, visite privée à l'hôtel|metier,voyage,inconnus",
-   "Le chef cuisinier et le commis, dégustation après le service|metier,autorite,travail"
+   "Le chef cuisinier et le commis, dégustation après le service|metier,autorite,travail",
+   "Le sculpteur et son modèle, séance de pose qui dérape|metier,seduction,inconnus"
   ],
   "Ambiance": [
    "Les yeux bandés, à deviner chaque caresse|sens,attente,controle",
@@ -253,7 +256,8 @@
    "Une soirée karaoké coquine, chaque chanson un gage|musique,voix,jeu",
    "Un réveil par des baisers qui descendent|matin,douceur,surprise",
    "Un bain chaud dans la pénombre, peau contre peau|bain,lumiere,douceur",
-   "Se confier nos envies les plus folles, puis en réaliser une|voix,duree,douceur"
+   "Se confier nos envies les plus folles, puis en réaliser une|voix,duree,douceur",
+   "Un dîner où chaque bouchée se donne à la main, yeux bandés|nourriture,sens,jeu,attente"
   ],
   "Gages": [
    "Fais un massage de 3 minutes au gagnant.",
@@ -322,7 +326,8 @@
    "Confie au gagnant le moment de la journée où tu le ou la trouverais le plus irrésistible.",
    "Choisis avec le gagnant la chanson de votre premier slow et fredonne-lui le refrain.",
    "Dis au gagnant, les yeux dans les yeux, la première pensée osée que tu as eue à son sujet.",
-   "Décris au gagnant, très lentement, comment tu lui enlèverais son premier vêtement."
+   "Décris au gagnant, très lentement, comment tu lui enlèverais son premier vêtement.",
+   "Choisis pour le gagnant le parfum que tu voudrais sentir sur sa peau pendant ce fantasme, et décris-le-lui en trois mots."
   ]
  },
  "questions": {
