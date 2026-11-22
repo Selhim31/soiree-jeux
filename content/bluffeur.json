@@ -67,7 +67,8 @@
    "Quelle couleur domine dans ta garde-robe ?|Quelle couleur tu ne porterais pour rien au monde ?",
    "Quel objet emportes-tu toujours en week-end ?|Quel objet oublies-tu systématiquement en partant ?",
    "Quel légume détestais-tu le plus enfant ?|Quel légume as-tu fini par adorer en grandissant ?",
-   "Dans quelle ville rêves-tu de vivre ?|Dans quelle ville refuserais-tu de vivre ?"
+   "Dans quelle ville rêves-tu de vivre ?|Dans quelle ville refuserais-tu de vivre ?",
+   "Quel sport regardes-tu à la télé ?|Quel sport aimerais-tu pratiquer si tu avais le temps ?"
   ],
   "Proches": [
    "Combien de temps tu pourrais rester sous la douche ?|Combien de temps tu pourrais rester dans un bain ?",
@@ -128,7 +129,8 @@
    "Combien d'heures tu dors le week-end ?|Combien d'heures tu dors la veille d'un grand départ ?",
    "Quel est le meilleur plat pour un premier date ?|Quel plat tu commandes quand tu veux impressionner ?",
    "Combien de messages non lus as-tu en ce moment ?|Combien de notifications ignores-tu par jour ?",
-   "Combien de playlists as-tu créées ?|Combien de ces playlists écoutes-tu encore vraiment ?"
+   "Combien de playlists as-tu créées ?|Combien de ces playlists écoutes-tu encore vraiment ?",
+   "Combien de coussins y a-t-il sur ton canapé ?|Combien de coussins finissent par terre pendant une soirée film ?"
   ],
   "Très proches": [
    "Combien de cafés tu bois par jour ?|Combien de verres d'eau tu bois par jour ?",
@@ -189,7 +191,8 @@
    "Combien de minutes tu mets à choisir un film ?|Combien de minutes tu mets à choisir un plat au restaurant ?",
    "Combien de temps mets-tu à te préparer pour sortir entre amis ?|Combien de temps mets-tu à te préparer pour un rendez-vous ?",
    "Combien de minutes passes-tu sous la douche le matin ?|Combien de minutes passes-tu sous la douche le soir ?",
-   "Combien de photos prends-tu pendant un voyage ?|Combien de photos de ces voyages regardes-tu vraiment ensuite ?"
+   "Combien de photos prends-tu pendant un voyage ?|Combien de photos de ces voyages regardes-tu vraiment ensuite ?",
+   "Combien de minutes mets-tu à t'endormir un soir normal ?|Combien de minutes mets-tu à t'endormir la veille d'un truc important ?"
   ],
   "Gages": [
    "Imite le Bluffeur démasqué d'un film policier pendant 15 secondes.",
@@ -243,7 +246,8 @@
    "Réponds à toutes les questions par un proverbe inventé jusqu'à ton prochain tour.",
    "Fais la bande-son de ta propre arrivée en soirée, bruitages compris.",
    "Présente ton plat préféré comme si tu essayais de le vendre au téléshopping.",
-   "Raconte ta journée d'hier comme un commentateur sportif en plein match décisif."
+   "Raconte ta journée d'hier comme un commentateur sportif en plein match décisif.",
+   "Fais la météo de ton humeur du jour comme une présentatrice télé, carte imaginaire comprise."
   ]
  }
 }

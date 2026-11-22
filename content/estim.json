@@ -105,7 +105,9 @@
    "Devinez combien de groupes de discussion {p} a mis en sourdine !",
    "Estimez combien de minutes {p} passe chaque matin à fixer le plafond avant de se lever !",
    "Estimez combien de plantes {p} a laissées mourir depuis qu'il ou elle vit seul·e !",
-   "Devinez combien de fois {p} a changé de coupe de cheveux en cinq ans !"
+   "Devinez combien de fois {p} a changé de coupe de cheveux en cinq ans !",
+   "Estimez combien de fois {p} a déjà dit « je pars dans cinq minutes » avant de vraiment quitter une soirée !",
+   "Devinez combien de fois {p} a fait demi-tour ce mois-ci pour vérifier que sa porte était bien fermée !"
   ],
   "Coquin": [
    "Estimez l'âge de {p} à son premier baiser !",
@@ -207,7 +209,9 @@
    "Devinez combien de captures d'écran de conversations amoureuses {p} a envoyées à ses potes !",
    "Estimez combien de rencards {p} a eus en une seule année record !",
    "Estimez combien de surnoms affectueux {p} a déjà donnés à ses ex !",
-   "Devinez combien de secondes {p} met à répondre quand la personne qui lui plaît lui écrit !"
+   "Devinez combien de secondes {p} met à répondre quand la personne qui lui plaît lui écrit !",
+   "Estimez combien d'emojis cœur {p} a envoyés la semaine dernière, toutes conversations confondues !",
+   "Devinez combien de profils {p} a fait défiler lors de sa session d'appli de rencontre la plus longue !"
   ],
   "Explicite": [
    "Estimez le nombre de partenaires de {p} !",
@@ -308,7 +312,10 @@
    "Devinez combien de minutes {p} peut tenir en se retenant de craquer face à quelqu'un qui le/la chauffe !",
    "Estimez combien de photos osées dorment dans le dossier caché de {p} !",
    "Estimez combien de fois {p} a dû faire semblant de dormir après une nuit très agitée avec un·e partenaire !",
-   "Devinez combien de minutes dure le plus long préliminaire de toute la vie de {p} !"
+   "Devinez combien de minutes dure le plus long préliminaire de toute la vie de {p} !",
+   "Estimez combien de minutes {p} met à passer de « juste un câlin » à complètement déshabillé·e !",
+   "Devinez combien de jouets coquins {p} a possédés au total depuis le premier !",
+   "Estimez combien de minutes {p} a déjà tenu en visio coquine avant que quelqu'un raccroche, épuisé !"
   ]
  },
  "gold": {
@@ -376,7 +383,8 @@
    "Estimez le nombre de partenaires avec qui {p} a déjà partagé une douche coquine !",
    "Devinez combien de positions différentes {p} a testées dans sa vie !",
    "Estimez combien de sex-toys {p} a possédés au total dans sa vie !",
-   "Estimez combien de fois {p} a dû faire semblant de dormir après une nuit très agitée avec un·e partenaire !"
+   "Estimez combien de fois {p} a dû faire semblant de dormir après une nuit très agitée avec un·e partenaire !",
+   "Devinez combien de jouets coquins {p} a possédés au total depuis le premier !"
   ]
  },
  "orig": {

@@ -120,7 +120,9 @@
    "Quelle est la compétence complètement inutile dont tu es secrètement fier ou fière ?",
    "Quel est le petit rituel du dimanche sans lequel ta semaine commence mal ?",
    "Quelle est la phrase que tu dis tellement souvent que tes proches l'imitent ?",
-   "Quelle est la chanson que tu chantes à tue-tête seul·e en voiture sans jamais l'avouer ?"
+   "Quelle est la chanson que tu chantes à tue-tête seul·e en voiture sans jamais l'avouer ?",
+   "Quel est l'objet le plus absurde que tu refuses de jeter par pure nostalgie ?",
+   "Quel est le plat que tu rates à chaque fois mais que tu continues à cuisiner pour les invités ?"
   ],
   "Coquin": [
    "Qui est la personne la plus attirante de ce groupe selon toi ?",
@@ -240,7 +242,9 @@
    "Quel est le rencard que tu as fait durer juste parce que tu n'osais pas faire le premier pas ?",
    "Quel est le moment exact où tu as compris qu'un simple ami était devenu bien plus qu'un ami ?",
    "Quel est le message reçu tard le soir qui t'a le plus troublé·e ?",
-   "Quelle est la tenue que tu mets quand tu veux qu'on ne regarde que toi ?"
+   "Quelle est la tenue que tu mets quand tu veux qu'on ne regarde que toi ?",
+   "Quel est le compliment reçu d'un inconnu qui t'a fait de l'effet toute la journée ?",
+   "Quel est le détail d'une tenue qui te fait tourner la tête quand quelqu'un passe devant toi ?"
   ],
   "Explicite": [
    "Quel est ton fantasme que tu n'as jamais osé avouer ?",
@@ -359,7 +363,9 @@
    "Quelle est la limite que tu avais avant et que tu as joyeusement franchie depuis ?",
    "Quel est le murmure à l'oreille qui suffit à te faire perdre toute retenue ?",
    "Quelle est la chose que tu n'oses pas demander au lit mais que tu adorerais qu'on devine ?",
-   "Quel est ton souvenir le plus torride d'une nuit où vous n'aviez pas fermé l'œil ?"
+   "Quel est ton souvenir le plus torride d'une nuit où vous n'aviez pas fermé l'œil ?",
+   "Quel est le scénario que tu te joues dans la tête quand tu veux te faire plaisir vite ?",
+   "Quelle est la position que tu réclames dès que tu as eu une journée difficile ?"
   ]
  },
  "gold": {
@@ -405,7 +411,8 @@
    "Quel est l'endroit le plus inattendu où l'envie t'a pris d'un coup, et qu'en as-tu fait ?",
    "Quel est le jouet ou l'accessoire que tu rêves de tester mais que tu n'as jamais osé commander ?",
    "Quelle est la chose qu'on t'a faite une seule fois et que tu rêves qu'on te refasse ?",
-   "Quelle est la chose que tu n'oses pas demander au lit mais que tu adorerais qu'on devine ?"
+   "Quelle est la chose que tu n'oses pas demander au lit mais que tu adorerais qu'on devine ?",
+   "Quel est le scénario que tu te joues dans la tête quand tu veux te faire plaisir vite ?"
   ]
  },
  "orig": {

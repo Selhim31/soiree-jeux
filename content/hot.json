@@ -190,7 +190,9 @@
    "{p}, dis à {q} ce qu'il ou elle devrait faire pour te donner envie de l'embrasser là, maintenant.",
    "{p}, avoue à {q} quelle tenue tu aimerais lui voir porter lors d'un rendez-vous.",
    "{p}, confie à {q} le moment de la soirée où tu l'as trouvé(e) le plus séduisant(e).",
-   "{p}, dis à {q} quel geste tendre te ferait fondre instantanément venant de lui ou d'elle."
+   "{p}, dis à {q} quel geste tendre te ferait fondre instantanément venant de lui ou d'elle.",
+   "{p}, avoue à {q} le surnom que tu lui donnerais en secret si vous sortiez ensemble.",
+   "{p}, quel est le mot doux que tu détestes entendre et celui qui te fait fondre ?"
   ],
   "Explicite": [
    "{p}, avoue ton pire comportement après un date.",
