@@ -167,7 +167,8 @@
    "{p}, dis à voix haute à {q} la phrase d'accroche que tu aimerais vraiment qu'on te dise.",
    "{p}, décris à {q} le rendez-vous parfait que tu lui organiserais s'il ou elle te plaisait.",
    "{p}, dis à {q} la chanson sur laquelle tu aimerais danser collé·e à lui ou elle, et pourquoi celle-là.",
-   "{p} et {q} : chacun dit le premier détail qu'il a remarqué chez l'autre ce soir."
+   "{p} et {q} : chacun dit le premier détail qu'il a remarqué chez l'autre ce soir.",
+   "{p}, dis à {q} le compliment que tu n'as pas osé lui faire depuis le début de la soirée."
   ],
   "Explicite": [
    "{p}, décris à {q} la tenue que tu aimerais lui voir porter.",
@@ -332,7 +333,9 @@
    "{p}, dis à {q} quelle partie de son corps tu embrasserais en dernier pour le faire attendre.",
    "{p} et {q} : chacun avoue le geste qui lui fait perdre tous ses moyens pendant un câlin.",
    "{p}, décris à {q}, à voix basse, comment tu le/la réveillerais un matin si vous aviez la journée devant vous.",
-   "{p} et {q} : chacun avoue l'endroit où il rêverait d'être embrassé lentement, très lentement."
+   "{p} et {q} : chacun avoue l'endroit où il rêverait d'être embrassé lentement, très lentement.",
+   "{p}, décris à {q}, sans le/la quitter des yeux, le premier vêtement que tu lui retirerais et comment tu t'y prendrais.",
+   "{p} et {q} : chacun avoue la pensée la plus chaude qu'il a eue sur l'autre ce soir."
   ]
  },
  "img": "/img/flirts.webp",
@@ -379,7 +382,8 @@
    "{p}, fais un strip-tease d'un seul accessoire (montre, bijou, chaussette) face caméra pour {q}.",
    "{p}, décris à {q} comment tu l'embrasserais s'il ne restait que deux minutes avant minuit.",
    "{p}, dis à {q} quelle partie de son corps tu embrasserais en dernier pour le faire attendre.",
-   "{p}, décris à {q}, à voix basse, comment tu le/la réveillerais un matin si vous aviez la journée devant vous."
+   "{p}, décris à {q}, à voix basse, comment tu le/la réveillerais un matin si vous aviez la journée devant vous.",
+   "{p}, décris à {q}, sans le/la quitter des yeux, le premier vêtement que tu lui retirerais et comment tu t'y prendrais."
   ]
  },
  "orig": {

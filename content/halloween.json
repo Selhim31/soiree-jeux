@@ -335,7 +335,8 @@
    "{p}, vampire qui mord dans le cou ou sorcière qui envoûte : quel est ton style de séduction ?",
    "{p}, si tu étais un vampire, dans quel endroit du corps de ta proie préférée planterais-tu tes crocs ?",
    "{p}, quel costume d'Halloween trop sexy as-tu déjà eu envie de porter sans jamais oser ?",
-   "{p}, une nuit d'Halloween, une maison vide et quelqu'un d'ici : qui choisis-tu pour avoir peur à deux ?"
+   "{p}, une nuit d'Halloween, une maison vide et quelqu'un d'ici : qui choisis-tu pour avoir peur à deux ?",
+   "{p}, si tu pouvais hanter la chambre de quelqu'un ici pendant une nuit, qui choisirais-tu et que ferais-tu pour le/la faire frissonner ?"
   ]
  },
  "adult": false,

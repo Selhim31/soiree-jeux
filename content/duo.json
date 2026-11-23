@@ -329,7 +329,9 @@
    "Qui rougit le plus vite : {q} ou égalité ? ||| {q} ||| égalité",
    "Premier rendez-vous idéal : dîner en tête-à-tête ou balade de nuit ? ||| dîner en tête-à-tête ||| balade de nuit",
    "Qui fait le plus durer les regards : {p} ou {q} ? ||| {p} ||| {q}",
-   "Ce qui trouble le plus : une voix grave au téléphone ou un regard qui insiste ? ||| une voix grave ||| un regard qui insiste"
+   "Ce qui trouble le plus : une voix grave au téléphone ou un regard qui insiste ? ||| une voix grave ||| un regard qui insiste",
+   "Qui envoie les messages les plus ambigus : {p} ou {q} ? ||| {p} ||| {q}",
+   "Ce qui fait le plus craquer : un mot doux chuchoté ou un regard en coin ? ||| un mot doux chuchoté ||| un regard en coin"
   ],
   "Explicite": [
    "Moment préféré pour un câlin coquin : le matin ou la sieste ? ||| le matin ||| la sieste",
