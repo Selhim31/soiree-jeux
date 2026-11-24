@@ -68,7 +68,8 @@
    "Quel objet emportes-tu toujours en week-end ?|Quel objet oublies-tu systématiquement en partant ?",
    "Quel légume détestais-tu le plus enfant ?|Quel légume as-tu fini par adorer en grandissant ?",
    "Dans quelle ville rêves-tu de vivre ?|Dans quelle ville refuserais-tu de vivre ?",
-   "Quel sport regardes-tu à la télé ?|Quel sport aimerais-tu pratiquer si tu avais le temps ?"
+   "Quel sport regardes-tu à la télé ?|Quel sport aimerais-tu pratiquer si tu avais le temps ?",
+   "Quel plat cuisines-tu le mieux ?|Quel plat as-tu le plus souvent raté ?"
   ],
   "Proches": [
    "Combien de temps tu pourrais rester sous la douche ?|Combien de temps tu pourrais rester dans un bain ?",
@@ -247,7 +248,9 @@
    "Fais la bande-son de ta propre arrivée en soirée, bruitages compris.",
    "Présente ton plat préféré comme si tu essayais de le vendre au téléshopping.",
    "Raconte ta journée d'hier comme un commentateur sportif en plein match décisif.",
-   "Fais la météo de ton humeur du jour comme une présentatrice télé, carte imaginaire comprise."
+   "Fais la météo de ton humeur du jour comme une présentatrice télé, carte imaginaire comprise.",
+   "Présente ton petit-déjeuner de ce matin comme un chef étoilé à la télévision.",
+   "Fais une déclaration d'amour passionnée à ton canapé, face à la caméra."
   ]
  }
 }

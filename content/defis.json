@@ -662,7 +662,9 @@
    "{p}, laisse une trace de bisou sur un verre ou un miroir, prends-la en photo et envoie-la à {q} sans légende (avec son accord).",
    "{p}, en regardant {q} dans la caméra, défais lentement un bouton ou une fermeture de ta tenue, puis souris sans rien dire.",
    "{p}, prends en photo ton reflet flou dans un miroir embué et envoie-la à {q} avec pour seule légende « devine » (avec son accord).",
-   "{p}, envoie à {q} un vocal de 10 secondes où tu lui dis tout bas ce que tu as remarqué chez lui ou elle ce soir (avec son accord)."
+   "{p}, envoie à {q} un vocal de 10 secondes où tu lui dis tout bas ce que tu as remarqué chez lui ou elle ce soir (avec son accord).",
+   "{p}, prends une photo de ta tenue de ce soir sans montrer ton visage et envoie-la à {q} avec la légende « sage ou pas sage ? » (avec son accord).",
+   "{p}, regarde {q} droit dans la caméra et dis en trois mots ce que tu aimerais qu'il ou elle te murmure."
   ],
   "Explicite": [
    "{p}, enlève deux vêtements choisis par {q}, caméra on.",
@@ -936,7 +938,10 @@
    "{p}, choisis trois emojis qui résument ta dernière séance avec ton jouet et envoie-les à {q}, qui doit raconter l'histoire en une phrase (avec son accord).",
    "{p}, allume ton jouet hors caméra et laisse {q} choisir la vitesse par message pendant la prochaine carte, en restant impassible.",
    "{p}, envoie à {q} une photo de ta main posée sur ta cuisse nue, cadrée serrée, avec pour légende « la suite ce soir » (avec son accord).",
-   "{p}, enregistre un vocal de 15 secondes où tu décris à {q} ce que tu ressens quand tu allumes ton jouet, et envoie-le-lui (avec son accord)."
+   "{p}, enregistre un vocal de 15 secondes où tu décris à {q} ce que tu ressens quand tu allumes ton jouet, et envoie-le-lui (avec son accord).",
+   "{p}, retire un vêtement de ton choix hors caméra, prends en photo uniquement ce vêtement posé sur ton lit et envoie-la à {q} (avec son accord).",
+   "{p}, enregistre un vocal de 10 secondes où tu respires lentement en pensant à {q}, puis envoie-le-lui (avec son accord).",
+   "{p}, prends en photo ton épaule dénudée, cadrée serrée, et envoie-la à {q} avec un seul emoji pour légende (avec son accord)."
   ]
  },
  "adult": false,
@@ -1029,7 +1034,8 @@
    "{p}, envoie à {q} une photo de ta tenue du moment avec une légende qui donne envie d'en voir plus (avec son accord).",
    "{p}, envoie à {q} une photo de ton regard le plus intense, cadrée uniquement sur tes yeux (avec son accord).",
    "{p}, envoie à {q} un selfie pris sous la couette avec ton sourire le plus en coin (avec son accord).",
-   "{p}, envoie à {q} une photo de ta nuque ou de ton épaule nue, rien de plus (avec son accord)."
+   "{p}, envoie à {q} une photo de ta nuque ou de ton épaule nue, rien de plus (avec son accord).",
+   "{p}, prends une photo de ta tenue de ce soir sans montrer ton visage et envoie-la à {q} avec la légende « sage ou pas sage ? » (avec son accord)."
   ],
   "Explicite": [
    "{p}, montre-toi en lingerie ou caleçon dans ta pose la plus sexy 10 secondes, filme-toi et envoie la vidéo à {q} (avec son accord).",
@@ -1095,7 +1101,9 @@
    "{p}, envoie à {q} un message décrivant, en trois phrases, ce que tu ferais avec ton jouet préféré si il ou elle te regardait (avec son accord).",
    "{p}, filme 5 secondes de ton jouet qui vibre sur ta table de nuit, rien d'autre que l'objet et le son, et envoie la vidéo à {q} (avec son accord).",
    "{p}, choisis trois emojis qui résument ta dernière séance avec ton jouet et envoie-les à {q}, qui doit raconter l'histoire en une phrase (avec son accord).",
-   "{p}, envoie à {q} une photo de ta main posée sur ta cuisse nue, cadrée serrée, avec pour légende « la suite ce soir » (avec son accord)."
+   "{p}, envoie à {q} une photo de ta main posée sur ta cuisse nue, cadrée serrée, avec pour légende « la suite ce soir » (avec son accord).",
+   "{p}, retire un vêtement de ton choix hors caméra, prends en photo uniquement ce vêtement posé sur ton lit et envoie-la à {q} (avec son accord).",
+   "{p}, enregistre un vocal de 10 secondes où tu respires lentement en pensant à {q}, puis envoie-le-lui (avec son accord)."
   ]
  },
  "orig": {

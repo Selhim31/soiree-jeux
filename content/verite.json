@@ -169,7 +169,8 @@
    "Quelle est la plus grosse excuse bidon que tu aies inventée pour annuler une soirée ?",
    "Quel est le surnom le plus gênant qu'on t'ait déjà donné ?",
    "Quel est le mensonge le plus ridicule que tu aies raconté pour éviter une soirée ?",
-   "Quelle est l'excuse la plus improbable que tu aies inventée pour ne pas aller à une soirée ?"
+   "Quelle est l'excuse la plus improbable que tu aies inventée pour ne pas aller à une soirée ?",
+   "Quelle est la recherche internet la plus bizarre de ton historique récent ?"
   ],
   "Coquin": [
    "{p}, confesse au groupe qui ici tu trouves le plus attirant, honnêtement.",
@@ -339,7 +340,9 @@
    "Quel est le rêve un peu trop agréable que tu as fait sur quelqu'un de ton entourage ?",
    "{p}, avoue à {q} le détail chez lui ou elle qui t'a fait sourire sans raison.",
    "Quel est le prénom qui, prononcé par une certaine personne, te fait encore un petit effet ?",
-   "Quelle est la personne de ton entourage dont la voix au téléphone te trouble plus que de raison ?"
+   "Quelle est la personne de ton entourage dont la voix au téléphone te trouble plus que de raison ?",
+   "{p}, avoue à {q} la première chose que tu remarques chez quelqu'un qui te plaît.",
+   "{p}, avoue à {q} le moment de la soirée où tu l'as trouvé·e le plus attirant·e."
   ],
   "Explicite": [
    "{p}, confesse au groupe un plan d'un soir que tu regrettes.",
@@ -516,7 +519,9 @@
    "{p}, avoue à {q} la scène torride que tu as déjà imaginée avec lui ou elle, même une seconde.",
    "Quelle est la chose la plus osée que tu aies faite en sachant que quelqu'un pouvait vous entendre ?",
    "Quelle est la pensée coquine que tu as eue au pire moment possible, en pleine réunion ou en plein repas de famille ?",
-   "{p}, avoue à {q} le fantasme que tu as déjà réalisé et que tu referais demain sans hésiter."
+   "{p}, avoue à {q} le fantasme que tu as déjà réalisé et que tu referais demain sans hésiter.",
+   "{p}, avoue à {q} le lieu le plus insolite où tu rêverais de faire l'amour un jour.",
+   "Quelle est la chose la plus coquine que tu aies faite pendant un appel vidéo ?"
   ]
  },
  "adult": false,
@@ -589,7 +594,8 @@
    "{p}, décris à {q} le lieu le plus excitant où tu aies envie de faire l'amour.",
    "{p}, avoue à {q} le fantasme que tu n'as raconté à personne jusqu'à ce soir.",
    "{p}, avoue à {q} la scène torride que tu as déjà imaginée avec lui ou elle, même une seconde.",
-   "{p}, avoue à {q} le fantasme que tu as déjà réalisé et que tu referais demain sans hésiter."
+   "{p}, avoue à {q} le fantasme que tu as déjà réalisé et que tu referais demain sans hésiter.",
+   "{p}, avoue à {q} le lieu le plus insolite où tu rêverais de faire l'amour un jour."
   ]
  },
  "orig": {

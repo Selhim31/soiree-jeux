@@ -332,7 +332,9 @@
    "Tu préfères recevoir un baiser surprise dans le cou ou un message très suggestif au milieu de ta journée ?",
    "Tu préfères un slow collé-serré devant tout le monde ||| un baiser volé en cachette dans la cuisine ?",
    "Tu préfères recevoir une lettre manuscrite d'un admirateur secret ||| un message vocal anonyme au milieu de la nuit ?",
-   "Tu préfères un premier baiser maladroit mais sincère ||| un premier baiser parfait mais sans lendemain ?"
+   "Tu préfères un premier baiser maladroit mais sincère ||| un premier baiser parfait mais sans lendemain ?",
+   "Tu préfères recevoir un message très coquin ||| une photo sans aucune légende ?",
+   "Tu préfères qu'on te croie toujours sage ||| qu'on devine ton côté joueur dès le premier regard ?"
   ],
   "Explicite": [
    "Tu préfères une nuit torride sans lendemain ||| dix nuits sages ?",
@@ -496,7 +498,8 @@
    "Tu préfères une nuit sans rien dire ||| une nuit où l'on n'arrête pas de se parler tout bas ?",
    "Tu préfères être déshabillé(e) très lentement ||| arracher toi-même les vêtements de l'autre ?",
    "Tu préfères qu'on te décrive en détail ce qu'on va te faire ||| qu'on te laisse la surprise totale ?",
-   "Tu préfères une nuit entière à prendre ton temps ||| trois rendez-vous éclair dans la même journée ?"
+   "Tu préfères une nuit entière à prendre ton temps ||| trois rendez-vous éclair dans la même journée ?",
+   "Tu préfères qu'on te bande les yeux ||| bander les yeux de l'autre ?"
   ]
  },
  "adult": false,

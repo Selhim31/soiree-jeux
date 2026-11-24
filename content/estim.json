@@ -107,7 +107,10 @@
    "Estimez combien de plantes {p} a laissées mourir depuis qu'il ou elle vit seul·e !",
    "Devinez combien de fois {p} a changé de coupe de cheveux en cinq ans !",
    "Estimez combien de fois {p} a déjà dit « je pars dans cinq minutes » avant de vraiment quitter une soirée !",
-   "Devinez combien de fois {p} a fait demi-tour ce mois-ci pour vérifier que sa porte était bien fermée !"
+   "Devinez combien de fois {p} a fait demi-tour ce mois-ci pour vérifier que sa porte était bien fermée !",
+   "Devinez combien de paires de chaussures {p} possède en ce moment !",
+   "Devinez combien de réveils {p} programme pour se lever un lundi matin !",
+   "Estimez combien de fois {p} a regardé son film préféré !"
   ],
   "Coquin": [
    "Estimez l'âge de {p} à son premier baiser !",
@@ -211,7 +214,10 @@
    "Estimez combien de surnoms affectueux {p} a déjà donnés à ses ex !",
    "Devinez combien de secondes {p} met à répondre quand la personne qui lui plaît lui écrit !",
    "Estimez combien d'emojis cœur {p} a envoyés la semaine dernière, toutes conversations confondues !",
-   "Devinez combien de profils {p} a fait défiler lors de sa session d'appli de rencontre la plus longue !"
+   "Devinez combien de profils {p} a fait défiler lors de sa session d'appli de rencontre la plus longue !",
+   "Estimez combien de fois {p} relit le dernier message de son crush avant d'y répondre !",
+   "Devinez combien de selfies {p} prend avant d'en garder un pour la personne qui lui plaît !",
+   "Estimez combien de rendez-vous {p} attend en général avant le premier baiser !"
   ],
   "Explicite": [
    "Estimez le nombre de partenaires de {p} !",
@@ -315,7 +321,10 @@
    "Devinez combien de minutes dure le plus long préliminaire de toute la vie de {p} !",
    "Estimez combien de minutes {p} met à passer de « juste un câlin » à complètement déshabillé·e !",
    "Devinez combien de jouets coquins {p} a possédés au total depuis le premier !",
-   "Estimez combien de minutes {p} a déjà tenu en visio coquine avant que quelqu'un raccroche, épuisé !"
+   "Estimez combien de minutes {p} a déjà tenu en visio coquine avant que quelqu'un raccroche, épuisé !",
+   "Estimez combien de minutes dure la plus longue séance de préliminaires de {p} !",
+   "Devinez dans combien de pièces de son logement {p} a déjà fait l'amour !",
+   "Estimez combien de messages torrides {p} a échangés dans sa conversation la plus chaude !"
   ]
  },
  "gold": {
