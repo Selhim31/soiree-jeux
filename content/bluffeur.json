@@ -131,7 +131,9 @@
    "Quel est le meilleur plat pour un premier date ?|Quel plat tu commandes quand tu veux impressionner ?",
    "Combien de messages non lus as-tu en ce moment ?|Combien de notifications ignores-tu par jour ?",
    "Combien de playlists as-tu créées ?|Combien de ces playlists écoutes-tu encore vraiment ?",
-   "Combien de coussins y a-t-il sur ton canapé ?|Combien de coussins finissent par terre pendant une soirée film ?"
+   "Combien de coussins y a-t-il sur ton canapé ?|Combien de coussins finissent par terre pendant une soirée film ?",
+   "Combien de plantes vertes ont survécu chez toi cette année ?|Combien de plantes vertes as-tu achetées cette année ?",
+   "Combien d'applis ouvres-tu avant de sortir du lit ?|Combien d'applis ouvres-tu avant de t'endormir ?"
   ],
   "Très proches": [
    "Combien de cafés tu bois par jour ?|Combien de verres d'eau tu bois par jour ?",
@@ -193,7 +195,9 @@
    "Combien de temps mets-tu à te préparer pour sortir entre amis ?|Combien de temps mets-tu à te préparer pour un rendez-vous ?",
    "Combien de minutes passes-tu sous la douche le matin ?|Combien de minutes passes-tu sous la douche le soir ?",
    "Combien de photos prends-tu pendant un voyage ?|Combien de photos de ces voyages regardes-tu vraiment ensuite ?",
-   "Combien de minutes mets-tu à t'endormir un soir normal ?|Combien de minutes mets-tu à t'endormir la veille d'un truc important ?"
+   "Combien de minutes mets-tu à t'endormir un soir normal ?|Combien de minutes mets-tu à t'endormir la veille d'un truc important ?",
+   "À quelle heure te couches-tu un vendredi soir ?|À quelle heure te couches-tu un samedi soir ?",
+   "Combien de minutes mets-tu à répondre à un message de ta mère ?|Combien de minutes mets-tu à répondre à un message de ton père ?"
   ],
   "Gages": [
    "Imite le Bluffeur démasqué d'un film policier pendant 15 secondes.",
@@ -250,7 +254,8 @@
    "Raconte ta journée d'hier comme un commentateur sportif en plein match décisif.",
    "Fais la météo de ton humeur du jour comme une présentatrice télé, carte imaginaire comprise.",
    "Présente ton petit-déjeuner de ce matin comme un chef étoilé à la télévision.",
-   "Fais une déclaration d'amour passionnée à ton canapé, face à la caméra."
+   "Fais une déclaration d'amour passionnée à ton canapé, face à la caméra.",
+   "Commente ton propre visage dans la caméra comme un match de foot en direct pendant 20 secondes."
   ]
  }
 }

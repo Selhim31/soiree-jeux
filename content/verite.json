@@ -170,7 +170,9 @@
    "Quel est le surnom le plus gênant qu'on t'ait déjà donné ?",
    "Quel est le mensonge le plus ridicule que tu aies raconté pour éviter une soirée ?",
    "Quelle est l'excuse la plus improbable que tu aies inventée pour ne pas aller à une soirée ?",
-   "Quelle est la recherche internet la plus bizarre de ton historique récent ?"
+   "Quelle est la recherche internet la plus bizarre de ton historique récent ?",
+   "Quelle est la chose la plus enfantine que tu fais encore en cachette, à ton âge ?",
+   "Quel est le surnom qu'on te donnait autrefois et que tu espères ne plus jamais entendre ?"
   ],
   "Coquin": [
    "{p}, confesse au groupe qui ici tu trouves le plus attirant, honnêtement.",
@@ -342,7 +344,8 @@
    "Quel est le prénom qui, prononcé par une certaine personne, te fait encore un petit effet ?",
    "Quelle est la personne de ton entourage dont la voix au téléphone te trouble plus que de raison ?",
    "{p}, avoue à {q} la première chose que tu remarques chez quelqu'un qui te plaît.",
-   "{p}, avoue à {q} le moment de la soirée où tu l'as trouvé·e le plus attirant·e."
+   "{p}, avoue à {q} le moment de la soirée où tu l'as trouvé·e le plus attirant·e.",
+   "Quelle est la photo de toi que tu as gardée uniquement parce que tu t'y trouves irrésistible ?"
   ],
   "Explicite": [
    "{p}, confesse au groupe un plan d'un soir que tu regrettes.",

@@ -69,7 +69,9 @@
    "Dans le jardin la nuit, nus dans l'herbe|maison,dehors,nature,nuit,risque",
    "Dans une cabine de téléphérique, seuls au-dessus du vide|transport,hauteur,risque,public",
    "Dans un chalet isolé, devant la cheminée pendant la tempête de neige|nuit,chaud,insolite,voyage",
-   "Dans un sauna privé, juste avant de plonger dans la neige|chaud,insolite,eau,risque"
+   "Dans un sauna privé, juste avant de plonger dans la neige|chaud,insolite,eau,risque",
+   "Sur le toit-terrasse d'un hôtel de luxe, sous les étoiles|hotel,luxe,hauteur,nuit,dehors",
+   "Dans une cabane de pêcheur au bord d'un lac, à l'aube|nature,eau,dehors,insolite"
   ],
   "Tenue": [
    "De la lingerie en dentelle, à retirer avec les dents|lingerie,doux,minimal",

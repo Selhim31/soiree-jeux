@@ -124,7 +124,9 @@
    "Quel est l'objet le plus absurde que tu refuses de jeter par pure nostalgie ?",
    "Quel est le plat que tu rates à chaque fois mais que tu continues à cuisiner pour les invités ?",
    "Quelle est la petite manie que tu caches soigneusement à ta famille ?",
-   "Quel est le compliment le plus étrange qu'on t'ait jamais fait ?"
+   "Quel est le compliment le plus étrange qu'on t'ait jamais fait ?",
+   "Quelle est la manie de tes parents que tu te surprends à reproduire aujourd'hui ?",
+   "Quelle est la tendance de mode que tu as adorée et dont tu as honte aujourd'hui ?"
   ],
   "Coquin": [
    "Qui est la personne la plus attirante de ce groupe selon toi ?",
@@ -248,7 +250,9 @@
    "Quel est le compliment reçu d'un inconnu qui t'a fait de l'effet toute la journée ?",
    "Quel est le détail d'une tenue qui te fait tourner la tête quand quelqu'un passe devant toi ?",
    "Quel côté de toi montres-tu en premier à quelqu'un qui te plaît : le sage ou le joueur ?",
-   "Quel est le surnom affectueux qui te fait fondre à tous les coups ?"
+   "Quel est le surnom affectueux qui te fait fondre à tous les coups ?",
+   "Quelle est la tenue que tu gardes pour séduire et que personne n'a encore jamais vue sur toi ?",
+   "Quelle est la qualité qui te fait craquer chez quelqu'un alors que tu ne l'avoues jamais ?"
   ],
   "Explicite": [
    "Quel est ton fantasme que tu n'as jamais osé avouer ?",
@@ -371,7 +375,9 @@
    "Quel est le scénario que tu te joues dans la tête quand tu veux te faire plaisir vite ?",
    "Quelle est la position que tu réclames dès que tu as eu une journée difficile ?",
    "Quelle est la phrase qu'on t'a murmurée au lit et qui te revient encore en tête ?",
-   "Quel est l'endroit de ton corps où un simple baiser te fait perdre tous tes moyens ?"
+   "Quel est l'endroit de ton corps où un simple baiser te fait perdre tous tes moyens ?",
+   "Quelle est la scène d'un film qui t'a donné une idée précise pour ta prochaine nuit à deux ?",
+   "Quel est le souvenir le plus torride qui te revient quand tu entends une certaine chanson ?"
   ]
  },
  "gold": {
@@ -419,7 +425,8 @@
    "Quelle est la chose qu'on t'a faite une seule fois et que tu rêves qu'on te refasse ?",
    "Quelle est la chose que tu n'oses pas demander au lit mais que tu adorerais qu'on devine ?",
    "Quel est le scénario que tu te joues dans la tête quand tu veux te faire plaisir vite ?",
-   "Quelle est la phrase qu'on t'a murmurée au lit et qui te revient encore en tête ?"
+   "Quelle est la phrase qu'on t'a murmurée au lit et qui te revient encore en tête ?",
+   "Quelle est la scène d'un film qui t'a donné une idée précise pour ta prochaine nuit à deux ?"
   ]
  },
  "orig": {

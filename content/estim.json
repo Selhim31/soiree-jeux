@@ -110,7 +110,10 @@
    "Devinez combien de fois {p} a fait demi-tour ce mois-ci pour vérifier que sa porte était bien fermée !",
    "Devinez combien de paires de chaussures {p} possède en ce moment !",
    "Devinez combien de réveils {p} programme pour se lever un lundi matin !",
-   "Estimez combien de fois {p} a regardé son film préféré !"
+   "Estimez combien de fois {p} a regardé son film préféré !",
+   "Estimez combien de pays {p} a déjà traversés en train !",
+   "Devinez combien de plats différents {p} sait cuisiner sans regarder de recette !",
+   "Devinez combien de livres {p} a commencés sans jamais les finir !"
   ],
   "Coquin": [
    "Estimez l'âge de {p} à son premier baiser !",
@@ -217,7 +220,10 @@
    "Devinez combien de profils {p} a fait défiler lors de sa session d'appli de rencontre la plus longue !",
    "Estimez combien de fois {p} relit le dernier message de son crush avant d'y répondre !",
    "Devinez combien de selfies {p} prend avant d'en garder un pour la personne qui lui plaît !",
-   "Estimez combien de rendez-vous {p} attend en général avant le premier baiser !"
+   "Estimez combien de rendez-vous {p} attend en général avant le premier baiser !",
+   "Estimez combien de fois {p} a refait son brushing avant un premier rendez-vous !",
+   "Devinez combien de brouillons {p} a écrits avant d'envoyer son message de drague le plus osé !",
+   "Estimez combien de minutes {p} passe à choisir sa tenue quand il ou elle sait qu'il y aura son crush !"
   ],
   "Explicite": [
    "Estimez le nombre de partenaires de {p} !",
@@ -324,7 +330,10 @@
    "Estimez combien de minutes {p} a déjà tenu en visio coquine avant que quelqu'un raccroche, épuisé !",
    "Estimez combien de minutes dure la plus longue séance de préliminaires de {p} !",
    "Devinez dans combien de pièces de son logement {p} a déjà fait l'amour !",
-   "Estimez combien de messages torrides {p} a échangés dans sa conversation la plus chaude !"
+   "Estimez combien de messages torrides {p} a échangés dans sa conversation la plus chaude !",
+   "Estimez combien de fois {p} a fait l'amour lors de son week-end le plus intense !",
+   "Devinez combien de minutes {p} a déjà tenu à se retenir, juste pour faire durer le plaisir !",
+   "Estimez combien de nuits blanches coquines {p} a passées depuis le début de l'année !"
   ]
  },
  "gold": {
@@ -393,7 +402,8 @@
    "Devinez combien de positions différentes {p} a testées dans sa vie !",
    "Estimez combien de sex-toys {p} a possédés au total dans sa vie !",
    "Estimez combien de fois {p} a dû faire semblant de dormir après une nuit très agitée avec un·e partenaire !",
-   "Devinez combien de jouets coquins {p} a possédés au total depuis le premier !"
+   "Devinez combien de jouets coquins {p} a possédés au total depuis le premier !",
+   "Devinez combien de minutes {p} a déjà tenu à se retenir, juste pour faire durer le plaisir !"
   ]
  },
  "orig": {
