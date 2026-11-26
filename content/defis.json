@@ -313,7 +313,8 @@
    "{p}, présente à {q} le journal télévisé de ta cuisine pendant 30 secondes, face caméra.",
    "{p}, fais un défilé de mode avec trois objets de ta salle de bain comme accessoires, face à {q}.",
    "{p}, imite une poule qui pond un œuf, face à {q}, pendant 10 secondes.",
-   "{p}, pour {q}, raconte une histoire de 30 secondes avec uniquement des mots commençant par la même lettre."
+   "{p}, pour {q}, raconte une histoire de 30 secondes avec uniquement des mots commençant par la même lettre.",
+   "{p}, présente à {q} l'objet le plus inutile de ta pièce comme si tu voulais le lui vendre 1000 euros."
   ],
   "Coquin": [
    "{p}, fais ton meilleur regard de séducteur à {q} pendant 10 secondes.",
@@ -666,7 +667,10 @@
    "{p}, prends une photo de ta tenue de ce soir sans montrer ton visage et envoie-la à {q} avec la légende « sage ou pas sage ? » (avec son accord).",
    "{p}, regarde {q} droit dans la caméra et dis en trois mots ce que tu aimerais qu'il ou elle te murmure.",
    "{p}, choisis la chanson qui te met d'humeur câline et fais-la écouter à {q} pendant 20 secondes en le ou la regardant dans les yeux.",
-   "{p}, prends en photo ton reflet dans un miroir, visage caché par ton téléphone, dans ta pose la plus assurée, et envoie-la à {q} (avec son accord)."
+   "{p}, prends en photo ton reflet dans un miroir, visage caché par ton téléphone, dans ta pose la plus assurée, et envoie-la à {q} (avec son accord).",
+   "{p}, envoie à {q} une photo de ton parfum préféré posé sur ton oreiller, sans aucune légende (avec son accord).",
+   "{p}, fais à {q} ton clin d'œil le plus charmeur au ralenti face caméra, puis souffle-lui un compliment.",
+   "{p}, écris à {q} en message privé un compliment coquin de trois mots, sans aucun emoji (avec son accord)."
   ],
   "Explicite": [
    "{p}, enlève deux vêtements choisis par {q}, caméra on.",
@@ -946,7 +950,9 @@
    "{p}, prends en photo ton épaule dénudée, cadrée serrée, et envoie-la à {q} avec un seul emoji pour légende (avec son accord).",
    "{p}, montre à {q} face caméra le jouet coquin que tu préfères, et dis-lui en une phrase comment tu l'utilises.",
    "{p}, allume ton jouet préféré hors champ pendant 10 secondes en regardant {q} dans la caméra, sans rien dire.",
-   "{p}, filme 5 secondes de ta main qui glisse lentement le long de ta cuisse et envoie la vidéo à {q} (avec son accord)."
+   "{p}, filme 5 secondes de ta main qui glisse lentement le long de ta cuisse et envoie la vidéo à {q} (avec son accord).",
+   "{p}, prends une photo de tes sous-vêtements du jour, visage hors champ, et envoie-la à {q} (avec son accord).",
+   "{p}, décris à {q} en chuchotant face caméra comment tu utiliserais ton jouet préféré sur lui ou elle."
   ]
  },
  "adult": false,
@@ -1041,7 +1047,8 @@
    "{p}, envoie à {q} un selfie pris sous la couette avec ton sourire le plus en coin (avec son accord).",
    "{p}, envoie à {q} une photo de ta nuque ou de ton épaule nue, rien de plus (avec son accord).",
    "{p}, prends une photo de ta tenue de ce soir sans montrer ton visage et envoie-la à {q} avec la légende « sage ou pas sage ? » (avec son accord).",
-   "{p}, prends en photo ton reflet dans un miroir, visage caché par ton téléphone, dans ta pose la plus assurée, et envoie-la à {q} (avec son accord)."
+   "{p}, prends en photo ton reflet dans un miroir, visage caché par ton téléphone, dans ta pose la plus assurée, et envoie-la à {q} (avec son accord).",
+   "{p}, écris à {q} en message privé un compliment coquin de trois mots, sans aucun emoji (avec son accord)."
   ],
   "Explicite": [
    "{p}, montre-toi en lingerie ou caleçon dans ta pose la plus sexy 10 secondes, filme-toi et envoie la vidéo à {q} (avec son accord).",
@@ -1111,7 +1118,9 @@
    "{p}, retire un vêtement de ton choix hors caméra, prends en photo uniquement ce vêtement posé sur ton lit et envoie-la à {q} (avec son accord).",
    "{p}, enregistre un vocal de 10 secondes où tu respires lentement en pensant à {q}, puis envoie-le-lui (avec son accord).",
    "{p}, filme 5 secondes de ta main qui glisse lentement le long de ta cuisse et envoie la vidéo à {q} (avec son accord).",
-   "{p}, allume ton jouet préféré hors champ pendant 10 secondes en regardant {q} dans la caméra, sans rien dire."
+   "{p}, allume ton jouet préféré hors champ pendant 10 secondes en regardant {q} dans la caméra, sans rien dire.",
+   "{p}, prends une photo de tes sous-vêtements du jour, visage hors champ, et envoie-la à {q} (avec son accord).",
+   "{p}, décris à {q} en chuchotant face caméra comment tu utiliserais ton jouet préféré sur lui ou elle."
   ]
  },
  "orig": {

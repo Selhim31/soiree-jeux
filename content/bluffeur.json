@@ -69,7 +69,8 @@
    "Quel légume détestais-tu le plus enfant ?|Quel légume as-tu fini par adorer en grandissant ?",
    "Dans quelle ville rêves-tu de vivre ?|Dans quelle ville refuserais-tu de vivre ?",
    "Quel sport regardes-tu à la télé ?|Quel sport aimerais-tu pratiquer si tu avais le temps ?",
-   "Quel plat cuisines-tu le mieux ?|Quel plat as-tu le plus souvent raté ?"
+   "Quel plat cuisines-tu le mieux ?|Quel plat as-tu le plus souvent raté ?",
+   "Quel super-pouvoir aimerais-tu avoir ?|Quel super-pouvoir serait le pire à avoir ?"
   ],
   "Proches": [
    "Combien de temps tu pourrais rester sous la douche ?|Combien de temps tu pourrais rester dans un bain ?",
@@ -133,7 +134,8 @@
    "Combien de playlists as-tu créées ?|Combien de ces playlists écoutes-tu encore vraiment ?",
    "Combien de coussins y a-t-il sur ton canapé ?|Combien de coussins finissent par terre pendant une soirée film ?",
    "Combien de plantes vertes ont survécu chez toi cette année ?|Combien de plantes vertes as-tu achetées cette année ?",
-   "Combien d'applis ouvres-tu avant de sortir du lit ?|Combien d'applis ouvres-tu avant de t'endormir ?"
+   "Combien d'applis ouvres-tu avant de sortir du lit ?|Combien d'applis ouvres-tu avant de t'endormir ?",
+   "Combien de mugs as-tu dans tes placards ?|Combien de mugs utilises-tu vraiment ?"
   ],
   "Très proches": [
    "Combien de cafés tu bois par jour ?|Combien de verres d'eau tu bois par jour ?",
@@ -197,7 +199,8 @@
    "Combien de photos prends-tu pendant un voyage ?|Combien de photos de ces voyages regardes-tu vraiment ensuite ?",
    "Combien de minutes mets-tu à t'endormir un soir normal ?|Combien de minutes mets-tu à t'endormir la veille d'un truc important ?",
    "À quelle heure te couches-tu un vendredi soir ?|À quelle heure te couches-tu un samedi soir ?",
-   "Combien de minutes mets-tu à répondre à un message de ta mère ?|Combien de minutes mets-tu à répondre à un message de ton père ?"
+   "Combien de minutes mets-tu à répondre à un message de ta mère ?|Combien de minutes mets-tu à répondre à un message de ton père ?",
+   "Combien de tasses de café bois-tu un jour de semaine ?|Combien de tasses de café bois-tu un jour de week-end ?"
   ],
   "Gages": [
    "Imite le Bluffeur démasqué d'un film policier pendant 15 secondes.",
@@ -255,7 +258,8 @@
    "Fais la météo de ton humeur du jour comme une présentatrice télé, carte imaginaire comprise.",
    "Présente ton petit-déjeuner de ce matin comme un chef étoilé à la télévision.",
    "Fais une déclaration d'amour passionnée à ton canapé, face à la caméra.",
-   "Commente ton propre visage dans la caméra comme un match de foot en direct pendant 20 secondes."
+   "Commente ton propre visage dans la caméra comme un match de foot en direct pendant 20 secondes.",
+   "Présente la météo de la pièce où tu te trouves face à la caméra, comme au journal de 20 h."
   ]
  }
 }
