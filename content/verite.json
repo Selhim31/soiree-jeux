@@ -174,7 +174,8 @@
    "Quelle est la chose la plus enfantine que tu fais encore en cachette, à ton âge ?",
    "Quel est le surnom qu'on te donnait autrefois et que tu espères ne plus jamais entendre ?",
    "Quel est le mensonge le plus inutile que tu aies dit cette semaine ?",
-   "Quel est le talent que tu prétends avoir sans l'avoir jamais vraiment testé ?"
+   "Quel est le talent que tu prétends avoir sans l'avoir jamais vraiment testé ?",
+   "Quelle est la promesse que tu t'es faite enfant et que tu n'as jamais tenue ?"
   ],
   "Coquin": [
    "{p}, confesse au groupe qui ici tu trouves le plus attirant, honnêtement.",
@@ -348,7 +349,8 @@
    "{p}, avoue à {q} la première chose que tu remarques chez quelqu'un qui te plaît.",
    "{p}, avoue à {q} le moment de la soirée où tu l'as trouvé·e le plus attirant·e.",
    "Quelle est la photo de toi que tu as gardée uniquement parce que tu t'y trouves irrésistible ?",
-   "{p}, avoue à {q} le message que tu as déjà failli écrire à quelqu'un de ce groupe sans jamais oser."
+   "{p}, avoue à {q} le message que tu as déjà failli écrire à quelqu'un de ce groupe sans jamais oser.",
+   "{p}, avoue à {q} la tenue dans laquelle tu le ou la trouves le plus attirant·e."
   ],
   "Explicite": [
    "{p}, confesse au groupe un plan d'un soir que tu regrettes.",
@@ -528,7 +530,9 @@
    "{p}, avoue à {q} le fantasme que tu as déjà réalisé et que tu referais demain sans hésiter.",
    "{p}, avoue à {q} le lieu le plus insolite où tu rêverais de faire l'amour un jour.",
    "Quelle est la chose la plus coquine que tu aies faite pendant un appel vidéo ?",
-   "{p}, avoue à {q} la partie de ton corps que tu préfères qu'on regarde pendant un moment intime."
+   "{p}, avoue à {q} la partie de ton corps que tu préfères qu'on regarde pendant un moment intime.",
+   "{p}, avoue à {q} le scénario coquin que tu t'es déjà imaginé avec quelqu'un de cette partie.",
+   "{p}, avoue à {q} le moment de la soirée où tu as eu une pensée pas très sage à son sujet."
   ]
  },
  "adult": false,
@@ -602,7 +606,8 @@
    "{p}, avoue à {q} le fantasme que tu n'as raconté à personne jusqu'à ce soir.",
    "{p}, avoue à {q} la scène torride que tu as déjà imaginée avec lui ou elle, même une seconde.",
    "{p}, avoue à {q} le fantasme que tu as déjà réalisé et que tu referais demain sans hésiter.",
-   "{p}, avoue à {q} le lieu le plus insolite où tu rêverais de faire l'amour un jour."
+   "{p}, avoue à {q} le lieu le plus insolite où tu rêverais de faire l'amour un jour.",
+   "{p}, avoue à {q} le scénario coquin que tu t'es déjà imaginé avec quelqu'un de cette partie."
   ]
  },
  "orig": {

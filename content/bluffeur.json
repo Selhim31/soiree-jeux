@@ -70,7 +70,9 @@
    "Dans quelle ville rêves-tu de vivre ?|Dans quelle ville refuserais-tu de vivre ?",
    "Quel sport regardes-tu à la télé ?|Quel sport aimerais-tu pratiquer si tu avais le temps ?",
    "Quel plat cuisines-tu le mieux ?|Quel plat as-tu le plus souvent raté ?",
-   "Quel super-pouvoir aimerais-tu avoir ?|Quel super-pouvoir serait le pire à avoir ?"
+   "Quel super-pouvoir aimerais-tu avoir ?|Quel super-pouvoir serait le pire à avoir ?",
+   "Quelle série as-tu le plus regardée ?|Quelle série as-tu abandonnée au premier épisode ?",
+   "Quel pays visiterais-tu demain ?|Quel pays ne visiterais-tu pour rien au monde ?"
   ],
   "Proches": [
    "Combien de temps tu pourrais rester sous la douche ?|Combien de temps tu pourrais rester dans un bain ?",
@@ -135,7 +137,9 @@
    "Combien de coussins y a-t-il sur ton canapé ?|Combien de coussins finissent par terre pendant une soirée film ?",
    "Combien de plantes vertes ont survécu chez toi cette année ?|Combien de plantes vertes as-tu achetées cette année ?",
    "Combien d'applis ouvres-tu avant de sortir du lit ?|Combien d'applis ouvres-tu avant de t'endormir ?",
-   "Combien de mugs as-tu dans tes placards ?|Combien de mugs utilises-tu vraiment ?"
+   "Combien de mugs as-tu dans tes placards ?|Combien de mugs utilises-tu vraiment ?",
+   "Combien de groupes de discussion as-tu sur ton téléphone ?|Combien de groupes de discussion as-tu mis en sourdine ?",
+   "Combien de photos prends-tu pendant des vacances ?|Combien de photos de vacances as-tu vraiment regardées ensuite ?"
   ],
   "Très proches": [
    "Combien de cafés tu bois par jour ?|Combien de verres d'eau tu bois par jour ?",
@@ -200,7 +204,9 @@
    "Combien de minutes mets-tu à t'endormir un soir normal ?|Combien de minutes mets-tu à t'endormir la veille d'un truc important ?",
    "À quelle heure te couches-tu un vendredi soir ?|À quelle heure te couches-tu un samedi soir ?",
    "Combien de minutes mets-tu à répondre à un message de ta mère ?|Combien de minutes mets-tu à répondre à un message de ton père ?",
-   "Combien de tasses de café bois-tu un jour de semaine ?|Combien de tasses de café bois-tu un jour de week-end ?"
+   "Combien de tasses de café bois-tu un jour de semaine ?|Combien de tasses de café bois-tu un jour de week-end ?",
+   "Combien de fois appuies-tu sur « rappel » de ton réveil en semaine ?|Combien de fois appuies-tu sur « rappel » de ton réveil le week-end ?",
+   "Combien de minutes mets-tu à te préparer pour un rendez-vous ?|Combien de minutes mets-tu à te préparer pour un dîner entre amis ?"
   ],
   "Gages": [
    "Imite le Bluffeur démasqué d'un film policier pendant 15 secondes.",
@@ -259,7 +265,8 @@
    "Présente ton petit-déjeuner de ce matin comme un chef étoilé à la télévision.",
    "Fais une déclaration d'amour passionnée à ton canapé, face à la caméra.",
    "Commente ton propre visage dans la caméra comme un match de foot en direct pendant 20 secondes.",
-   "Présente la météo de la pièce où tu te trouves face à la caméra, comme au journal de 20 h."
+   "Présente la météo de la pièce où tu te trouves face à la caméra, comme au journal de 20 h.",
+   "Fais la publicité d'un objet au hasard de ta pièce, face à la caméra, comme dans un télé-achat."
   ]
  }
 }
