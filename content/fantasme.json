@@ -72,7 +72,8 @@
    "Dans un sauna privé, juste avant de plonger dans la neige|chaud,insolite,eau,risque",
    "Sur le toit-terrasse d'un hôtel de luxe, sous les étoiles|hotel,luxe,hauteur,nuit,dehors",
    "Dans une cabane de pêcheur au bord d'un lac, à l'aube|nature,eau,dehors,insolite",
-   "Dans une piscine privée éclairée à la bougie, en pleine nuit|eau,nuit,luxe,chaud"
+   "Dans une piscine privée éclairée à la bougie, en pleine nuit|eau,nuit,luxe,chaud",
+   "Dans un chalet isolé, devant la cheminée, pendant une tempête de neige|voyage,nuit,chaud,insolite"
   ],
   "Tenue": [
    "De la lingerie en dentelle, à retirer avec les dents|lingerie,doux,minimal",
@@ -137,7 +138,8 @@
    "Une veste de costume sur la peau nue, torse offert|chic,minimal,noir",
    "Une chemise blanche trop grande, empruntée et à moitié boutonnée|quotidien,minimal,doux",
    "Un peignoir en soie à peine noué, rien en dessous|doux,minimal,lingerie",
-   "Une chemise en satin noir à même la peau, rien d'autre|chic,noir,lingerie,minimal"
+   "Une chemise en satin noir à même la peau, rien d'autre|chic,noir,lingerie,minimal",
+   "Un body en dentelle caché sous un long manteau fermé|lingerie,chic,accessoire"
   ],
   "Jeu de rôle": [
    "Le patron et l'assistant(e) qui reste tard pour lui plaire|autorite,metier,travail,interdit",
@@ -202,7 +204,8 @@
    "Le chef cuisinier et le commis, dégustation après le service|metier,autorite,travail",
    "Le sculpteur et son modèle, séance de pose qui dérape|metier,seduction,inconnus",
    "Le parfumeur et sa cliente, essai sur la peau en boutique fermée|metier,seduction,inconnus,interdit",
-   "Le guide de musée et le dernier visiteur, salle fermée|metier,inconnus,interdit,seduction"
+   "Le guide de musée et le dernier visiteur, salle fermée|metier,inconnus,interdit,seduction",
+   "Le barman et le dernier client, bar fermé à clé|service,inconnus,nuit,seduction"
   ],
   "Ambiance": [
    "Les yeux bandés, à deviner chaque caresse|sens,attente,controle",
@@ -267,7 +270,8 @@
    "Se confier nos envies les plus folles, puis en réaliser une|voix,duree,douceur",
    "Un dîner où chaque bouchée se donne à la main, yeux bandés|nourriture,sens,jeu,attente",
    "Une playlist choisie à deux, un vêtement en moins à chaque chanson|musique,jeu,attente,duree",
-   "Un massage à l'huile chaude, sans droit de toucher en retour|sens,attente,douceur,jeu"
+   "Un massage à l'huile chaude, sans droit de toucher en retour|sens,attente,douceur,jeu",
+   "Une douche à deux, lumière tamisée et gel parfumé|bain,lumiere,sens,douceur"
   ],
   "Gages": [
    "Fais un massage de 3 minutes au gagnant.",

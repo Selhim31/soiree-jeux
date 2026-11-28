@@ -175,7 +175,8 @@
    "Quel est le surnom qu'on te donnait autrefois et que tu espères ne plus jamais entendre ?",
    "Quel est le mensonge le plus inutile que tu aies dit cette semaine ?",
    "Quel est le talent que tu prétends avoir sans l'avoir jamais vraiment testé ?",
-   "Quelle est la promesse que tu t'es faite enfant et que tu n'as jamais tenue ?"
+   "Quelle est la promesse que tu t'es faite enfant et que tu n'as jamais tenue ?",
+   "Quel est le message que tu as envoyé à la mauvaise personne et qui t'a fait le plus paniquer ?"
   ],
   "Coquin": [
    "{p}, confesse au groupe qui ici tu trouves le plus attirant, honnêtement.",
@@ -350,7 +351,8 @@
    "{p}, avoue à {q} le moment de la soirée où tu l'as trouvé·e le plus attirant·e.",
    "Quelle est la photo de toi que tu as gardée uniquement parce que tu t'y trouves irrésistible ?",
    "{p}, avoue à {q} le message que tu as déjà failli écrire à quelqu'un de ce groupe sans jamais oser.",
-   "{p}, avoue à {q} la tenue dans laquelle tu le ou la trouves le plus attirant·e."
+   "{p}, avoue à {q} la tenue dans laquelle tu le ou la trouves le plus attirant·e.",
+   "{p}, avoue à {q} le détail de sa voix ou de son rire qui te fait de l'effet."
   ],
   "Explicite": [
    "{p}, confesse au groupe un plan d'un soir que tu regrettes.",
@@ -578,7 +580,8 @@
    "{p}, confesse au groupe le pire nom de contact que tu as donné à un ex.",
    "{p}, confesse au groupe l'endroit le plus étrange où tu aies dragué.",
    "{p}, confesse au groupe le premier amour que tu n'as jamais oublié.",
-   "{p}, confesse au groupe le pire cadeau reçu d'un(e) partenaire."
+   "{p}, confesse au groupe le pire cadeau reçu d'un(e) partenaire.",
+   "{p}, avoue à {q} le détail de sa voix ou de son rire qui te fait de l'effet."
   ],
   "Explicite": [
    "{p}, confesse au groupe le sous-vêtement dont tu es le plus fier ou la plus fière.",

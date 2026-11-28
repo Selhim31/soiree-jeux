@@ -672,7 +672,10 @@
    "{p}, fais à {q} ton clin d'œil le plus charmeur au ralenti face caméra, puis souffle-lui un compliment.",
    "{p}, écris à {q} en message privé un compliment coquin de trois mots, sans aucun emoji (avec son accord).",
    "{p}, fais deviner à {q} ton parfum en le décrivant face caméra en trois adjectifs sensuels.",
-   "{p}, envoie à {q} un vocal de 5 secondes où tu prononces son prénom de ta voix la plus douce (avec son accord)."
+   "{p}, envoie à {q} un vocal de 5 secondes où tu prononces son prénom de ta voix la plus douce (avec son accord).",
+   "{p}, envoie à {q} une photo de tes lèvres juste après avoir mis ton baume préféré (avec son accord).",
+   "{p}, mime à {q} face caméra, sans un mot, ce que tu ferais si vous étiez seuls dans un ascenseur.",
+   "{p}, écris à {q} en privé le début d'un message coquin qui s'arrête au meilleur moment (avec son accord)."
   ],
   "Explicite": [
    "{p}, enlève deux vêtements choisis par {q}, caméra on.",
@@ -957,7 +960,10 @@
    "{p}, décris à {q} en chuchotant face caméra comment tu utiliserais ton jouet préféré sur lui ou elle.",
    "{p}, envoie à {q} une photo du sous-vêtement que tu porterais pour une nuit avec lui ou elle (avec son accord).",
    "{p}, envoie à {q} une photo de ta chute de reins, visage hors champ (avec son accord).",
-   "{p}, envoie à {q} un vocal de 10 secondes où tu décris ce que tu lui ferais en premier si vous étiez seuls (avec son accord)."
+   "{p}, envoie à {q} un vocal de 10 secondes où tu décris ce que tu lui ferais en premier si vous étiez seuls (avec son accord).",
+   "{p}, envoie à {q} une photo suggestive de toi sous les draps, visage hors champ (avec son accord).",
+   "{p}, envoie à {q} une vidéo de 5 secondes où tu fais glisser lentement une bretelle (avec son accord).",
+   "{p}, allume ton jouet préféré hors champ et laisse {q} l'entendre 10 secondes en appel (avec son accord)."
   ]
  },
  "adult": false,
@@ -1128,7 +1134,9 @@
    "{p}, décris à {q} en chuchotant face caméra comment tu utiliserais ton jouet préféré sur lui ou elle.",
    "{p}, envoie à {q} une photo du sous-vêtement que tu porterais pour une nuit avec lui ou elle (avec son accord).",
    "{p}, envoie à {q} une photo de ta chute de reins, visage hors champ (avec son accord).",
-   "{p}, envoie à {q} un vocal de 10 secondes où tu décris ce que tu lui ferais en premier si vous étiez seuls (avec son accord)."
+   "{p}, envoie à {q} un vocal de 10 secondes où tu décris ce que tu lui ferais en premier si vous étiez seuls (avec son accord).",
+   "{p}, envoie à {q} une photo suggestive de toi sous les draps, visage hors champ (avec son accord).",
+   "{p}, envoie à {q} une vidéo de 5 secondes où tu fais glisser lentement une bretelle (avec son accord)."
   ]
  },
  "orig": {

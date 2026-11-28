@@ -72,7 +72,8 @@
    "Quel plat cuisines-tu le mieux ?|Quel plat as-tu le plus souvent raté ?",
    "Quel super-pouvoir aimerais-tu avoir ?|Quel super-pouvoir serait le pire à avoir ?",
    "Quelle série as-tu le plus regardée ?|Quelle série as-tu abandonnée au premier épisode ?",
-   "Quel pays visiterais-tu demain ?|Quel pays ne visiterais-tu pour rien au monde ?"
+   "Quel pays visiterais-tu demain ?|Quel pays ne visiterais-tu pour rien au monde ?",
+   "Quel animal aimerais-tu être ?|Quel animal te fait le plus peur ?"
   ],
   "Proches": [
    "Combien de temps tu pourrais rester sous la douche ?|Combien de temps tu pourrais rester dans un bain ?",
@@ -139,7 +140,9 @@
    "Combien d'applis ouvres-tu avant de sortir du lit ?|Combien d'applis ouvres-tu avant de t'endormir ?",
    "Combien de mugs as-tu dans tes placards ?|Combien de mugs utilises-tu vraiment ?",
    "Combien de groupes de discussion as-tu sur ton téléphone ?|Combien de groupes de discussion as-tu mis en sourdine ?",
-   "Combien de photos prends-tu pendant des vacances ?|Combien de photos de vacances as-tu vraiment regardées ensuite ?"
+   "Combien de photos prends-tu pendant des vacances ?|Combien de photos de vacances as-tu vraiment regardées ensuite ?",
+   "Combien de paires de chaussures possèdes-tu ?|Combien de paires de chaussures portes-tu vraiment ?",
+   "Combien d'applications as-tu sur ton téléphone ?|Combien d'applications ouvres-tu chaque jour ?"
   ],
   "Très proches": [
    "Combien de cafés tu bois par jour ?|Combien de verres d'eau tu bois par jour ?",
@@ -206,7 +209,8 @@
    "Combien de minutes mets-tu à répondre à un message de ta mère ?|Combien de minutes mets-tu à répondre à un message de ton père ?",
    "Combien de tasses de café bois-tu un jour de semaine ?|Combien de tasses de café bois-tu un jour de week-end ?",
    "Combien de fois appuies-tu sur « rappel » de ton réveil en semaine ?|Combien de fois appuies-tu sur « rappel » de ton réveil le week-end ?",
-   "Combien de minutes mets-tu à te préparer pour un rendez-vous ?|Combien de minutes mets-tu à te préparer pour un dîner entre amis ?"
+   "Combien de minutes mets-tu à te préparer pour un rendez-vous ?|Combien de minutes mets-tu à te préparer pour un dîner entre amis ?",
+   "À quelle heure te couches-tu en semaine ?|À quelle heure te couches-tu le week-end ?"
   ],
   "Gages": [
    "Imite le Bluffeur démasqué d'un film policier pendant 15 secondes.",
@@ -266,7 +270,9 @@
    "Fais une déclaration d'amour passionnée à ton canapé, face à la caméra.",
    "Commente ton propre visage dans la caméra comme un match de foot en direct pendant 20 secondes.",
    "Présente la météo de la pièce où tu te trouves face à la caméra, comme au journal de 20 h.",
-   "Fais la publicité d'un objet au hasard de ta pièce, face à la caméra, comme dans un télé-achat."
+   "Fais la publicité d'un objet au hasard de ta pièce, face à la caméra, comme dans un télé-achat.",
+   "Imite face caméra un influenceur qui déballe l'objet le plus banal de ta pièce.",
+   "Chante le refrain de ta chanson préférée en remplaçant toutes les paroles par « miaou »."
   ]
  }
 }

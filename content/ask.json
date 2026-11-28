@@ -130,7 +130,9 @@
    "Quel est l'objet que tu gardes depuis des années sans vraiment savoir pourquoi ?",
    "Quelle est la règle absurde que tu t'imposes sans que personne ne le sache ?",
    "Quel est le métier que tu aurais adoré faire si l'argent ne comptait pas du tout ?",
-   "Quelle est la dispute la plus ridicule que tu aies eue avec quelqu'un que tu aimes ?"
+   "Quelle est la dispute la plus ridicule que tu aies eue avec quelqu'un que tu aimes ?",
+   "Quelle est la petite victoire du quotidien qui te rend fier·e de façon totalement disproportionnée ?",
+   "Quel est le plat que tu commandes toujours alors que tu te promets à chaque fois d'essayer autre chose ?"
   ],
   "Coquin": [
    "Qui est la personne la plus attirante de ce groupe selon toi ?",
@@ -261,7 +263,10 @@
    "Quel est le détail de ton physique dont tu sais très bien qu'il fait de l'effet ?",
    "Quelle est la personne que tu as failli embrasser mais avec qui il ne s'est finalement rien passé ?",
    "Quel est le geste anodin d'une personne qui t'a déjà complètement troublé·e ?",
-   "Quelle est la ligne de drague la plus maladroite que tu aies réellement utilisée ?"
+   "Quelle est la ligne de drague la plus maladroite que tu aies réellement utilisée ?",
+   "Quel est le message le plus ambigu que tu aies reçu et que tu relis encore ?",
+   "Quel est le parfum que tu portes quand tu veux vraiment plaire à quelqu'un ?",
+   "Quelle est la phrase qu'on t'a dite un soir et qui t'a fait rougir instantanément ?"
   ],
   "Explicite": [
    "Quel est ton fantasme que tu n'as jamais osé avouer ?",
@@ -392,7 +397,10 @@
    "Quelle est la matière qui te donne le plus de frissons contre ta peau ?",
    "Quelle est la position que tu préfères mais que tu ne proposes jamais en premier ?",
    "Quel est le mot qu'on t'a murmuré au lit et qui te fait encore frissonner ?",
-   "Quelle est la chose la plus audacieuse que tu aies proposée par message à quelqu'un ?"
+   "Quelle est la chose la plus audacieuse que tu aies proposée par message à quelqu'un ?",
+   "Quelle est la pièce de la maison, hors chambre, où tu as le plus envie de te laisser aller ?",
+   "Quel est le message coquin que tu as déjà écrit puis effacé avant de l'envoyer ?",
+   "Quelle est la chose que tu aimes qu'on te fasse mais que tu n'oses jamais demander à voix haute ?"
   ]
  },
  "gold": {
@@ -443,7 +451,8 @@
    "Quelle est la phrase qu'on t'a murmurée au lit et qui te revient encore en tête ?",
    "Quelle est la scène d'un film qui t'a donné une idée précise pour ta prochaine nuit à deux ?",
    "Quel est le jouet coquin que tu n'as jamais essayé mais qui te fait de l'œil ?",
-   "Quelle est la chose la plus audacieuse que tu aies proposée par message à quelqu'un ?"
+   "Quelle est la chose la plus audacieuse que tu aies proposée par message à quelqu'un ?",
+   "Quelle est la chose que tu aimes qu'on te fasse mais que tu n'oses jamais demander à voix haute ?"
   ]
  },
  "orig": {
